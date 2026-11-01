@@ -288209,5 +288209,1058 @@
     "explanation": "满足条件的整数：-3、-2、-1、0、1，共 5 个。",
     "source": "llm",
     "verify": "5"
+  },
+  {
+    "id": "cnm_011_q5",
+    "topicId": "cnm_011",
+    "type": "numeric",
+    "prompt": "简便计算 (-9)+15+(-1)+5。",
+    "answer": "10",
+    "difficulty": "basic",
+    "explanation": "负数与正数分别结合：(-10)+20=10。",
+    "source": "llm",
+    "verify": "(-9+(-1))+(15+5)"
+  },
+  {
+    "id": "cnm_011_q6",
+    "topicId": "cnm_011",
+    "type": "choice",
+    "prompt": "计算 1/4+(-2/3)+3/4+(-1/3) 的简便结果是哪一个？",
+    "answer": "B",
+    "difficulty": "standard",
+    "explanation": "(1/4+3/4)+(-2/3-1/3)=1-1=0。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "-1/3"
+      },
+      {
+        "key": "B",
+        "text": "0"
+      },
+      {
+        "key": "C",
+        "text": "1/3"
+      },
+      {
+        "key": "D",
+        "text": "2/3"
+      }
+    ]
+  },
+  {
+    "id": "cnm_011_q7",
+    "topicId": "cnm_011",
+    "type": "numeric",
+    "prompt": "简便计算 23+(-15)+(-23)+15。",
+    "answer": "0",
+    "difficulty": "standard",
+    "explanation": "互为相反数的两数结合：0+0=0。",
+    "source": "llm",
+    "verify": "23-23+(-15+15)"
+  },
+  {
+    "id": "cnm_011_q8",
+    "topicId": "cnm_011",
+    "type": "numeric",
+    "prompt": "某只股票连续五天涨跌（单位：元）：+3，-2，+5，-6，+1，求五天净变化多少元？",
+    "answer": "1",
+    "difficulty": "challenge",
+    "explanation": "净变化=各日代数和：3-2+5-6+1=1。",
+    "source": "llm",
+    "verify": "3-2+5-6+1"
+  },
+  {
+    "id": "cnm_011_q9",
+    "topicId": "cnm_011",
+    "type": "choice",
+    "prompt": "等式 (-2)+3=3+(-2) 主要运用了哪条运算律？",
+    "answer": "B",
+    "difficulty": "basic",
+    "explanation": "加数交换位置，是加法交换律。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "结合律"
+      },
+      {
+        "key": "B",
+        "text": "交换律"
+      },
+      {
+        "key": "C",
+        "text": "分配律"
+      },
+      {
+        "key": "D",
+        "text": "恒等式"
+      }
+    ]
+  },
+  {
+    "id": "cnm_011_q10",
+    "topicId": "cnm_011",
+    "type": "numeric",
+    "prompt": "简便计算 (-0.25)+0.4+(-0.75)+0.6。",
+    "answer": "0",
+    "difficulty": "challenge",
+    "explanation": "(-1)+1=0。",
+    "source": "llm",
+    "verify": "(-0.25-0.75)+(0.4+0.6)"
+  },
+  {
+    "id": "cnm_012_q6",
+    "topicId": "cnm_012",
+    "type": "numeric",
+    "prompt": "计算 0-(-7)。",
+    "answer": "7",
+    "difficulty": "basic",
+    "explanation": "减去-7等于加7：0+7=7。",
+    "source": "llm",
+    "verify": "0+7"
+  },
+  {
+    "id": "cnm_012_q7",
+    "topicId": "cnm_012",
+    "type": "choice",
+    "prompt": "下列各式中，结果为负数的是哪一个？",
+    "answer": "C",
+    "difficulty": "standard",
+    "explanation": "A=5，B=4，C=0-4=-4，D=0，只有C为负。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2-(-3)"
+      },
+      {
+        "key": "B",
+        "text": "(-1)-(-5)"
+      },
+      {
+        "key": "C",
+        "text": "0-4"
+      },
+      {
+        "key": "D",
+        "text": "(-2)-(-2)"
+      }
+    ]
+  },
+  {
+    "id": "cnm_012_q8",
+    "topicId": "cnm_012",
+    "type": "numeric",
+    "prompt": "计算 2/3-(-1/2)，结果写成最简分数。",
+    "answer": "7/6",
+    "difficulty": "standard",
+    "explanation": "减负等于加正：2/3+1/2=4/6+3/6=7/6。",
+    "source": "llm",
+    "verify": "2/3+1/2"
+  },
+  {
+    "id": "cnm_012_q9",
+    "topicId": "cnm_012",
+    "type": "numeric",
+    "prompt": "甲地海拔 -155 m，乙地海拔 300 m，两地的高度差是多少米？",
+    "answer": "455",
+    "difficulty": "challenge",
+    "explanation": "高度差=高-低=300-(-155)=455。",
+    "source": "llm",
+    "verify": "300-(-155)"
+  },
+  {
+    "id": "cnm_012_q10",
+    "topicId": "cnm_012",
+    "type": "numeric",
+    "prompt": "计算 (-8)-3。",
+    "answer": "-11",
+    "difficulty": "basic",
+    "explanation": "同号相加：-8-3=-11。",
+    "source": "llm",
+    "verify": "-8-3"
+  },
+  {
+    "id": "cnm_013_q6",
+    "topicId": "cnm_013",
+    "type": "numeric",
+    "prompt": "计算 7-(-3)+(-5)-4。",
+    "answer": "1",
+    "difficulty": "basic",
+    "explanation": "去括号：7+3-5-4=1。",
+    "source": "llm",
+    "verify": "7+3-5-4"
+  },
+  {
+    "id": "cnm_013_q7",
+    "topicId": "cnm_013",
+    "type": "choice",
+    "prompt": "把 (-2)+3-(-5) 写成省略加号和括号的和的形式，正确的是哪一个？",
+    "answer": "A",
+    "difficulty": "standard",
+    "explanation": "减负变加正：-2+3+5。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "-2+3+5"
+      },
+      {
+        "key": "B",
+        "text": "-2+3-5"
+      },
+      {
+        "key": "C",
+        "text": "2+3+5"
+      },
+      {
+        "key": "D",
+        "text": "-2-3+5"
+      }
+    ]
+  },
+  {
+    "id": "cnm_013_q8",
+    "topicId": "cnm_013",
+    "type": "numeric",
+    "prompt": "计算 -1/3+2/5-(-1/3)-3/5，结果写成最简分数。",
+    "answer": "-1/5",
+    "difficulty": "standard",
+    "explanation": "-1/3与+1/3抵消，2/5-3/5=-1/5。",
+    "source": "llm",
+    "verify": "-1/3+1/3+2/5-3/5"
+  },
+  {
+    "id": "cnm_013_q9",
+    "topicId": "cnm_013",
+    "type": "numeric",
+    "prompt": "计算 1-3+5-7+9-11。",
+    "answer": "-6",
+    "difficulty": "challenge",
+    "explanation": "两两一组：(1-3)+(5-7)+(9-11)=-2-2-2=-6。",
+    "source": "llm",
+    "verify": "1-3+5-7+9-11"
+  },
+  {
+    "id": "cnm_013_q10",
+    "topicId": "cnm_013",
+    "type": "numeric",
+    "prompt": "计算 (-10)-(-4)+(-6)。",
+    "answer": "-12",
+    "difficulty": "basic",
+    "explanation": "-10+4=-6，-6-6=-12。",
+    "source": "llm",
+    "verify": "-10+4-6"
+  },
+  {
+    "id": "cnm_014_q6",
+    "topicId": "cnm_014",
+    "type": "numeric",
+    "prompt": "计算 (-6)×0。",
+    "answer": "0",
+    "difficulty": "basic",
+    "explanation": "任何数与0相乘都得0。",
+    "source": "llm",
+    "verify": "-6*0"
+  },
+  {
+    "id": "cnm_014_q7",
+    "topicId": "cnm_014",
+    "type": "choice",
+    "prompt": "若 a<0，b>0，则 ab 的符号是哪一个？",
+    "answer": "B",
+    "difficulty": "standard",
+    "explanation": "异号两数相乘得负。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "正"
+      },
+      {
+        "key": "B",
+        "text": "负"
+      },
+      {
+        "key": "C",
+        "text": "0"
+      },
+      {
+        "key": "D",
+        "text": "无法确定"
+      }
+    ]
+  },
+  {
+    "id": "cnm_014_q8",
+    "topicId": "cnm_014",
+    "type": "numeric",
+    "prompt": "计算 (-2/5)×(-10)。",
+    "answer": "4",
+    "difficulty": "standard",
+    "explanation": "负负得正：2/5×10=4。",
+    "source": "llm",
+    "verify": "(-2/5)*(-10)"
+  },
+  {
+    "id": "cnm_014_q9",
+    "topicId": "cnm_014",
+    "type": "numeric",
+    "prompt": "计算 (-1)×(-1)×(-1)×(-1)。",
+    "answer": "1",
+    "difficulty": "challenge",
+    "explanation": "两个-1相乘得1，再两个1相乘仍为1。",
+    "source": "llm",
+    "verify": "(-1)*(-1)*(-1)*(-1)"
+  },
+  {
+    "id": "cnm_014_q10",
+    "topicId": "cnm_014",
+    "type": "numeric",
+    "prompt": "计算 9×(-3)。",
+    "answer": "-27",
+    "difficulty": "basic",
+    "explanation": "异号得负：9×3=27，结果为-27。",
+    "source": "llm",
+    "verify": "9*(-3)"
+  },
+  {
+    "id": "cnm_015_q6",
+    "topicId": "cnm_015",
+    "type": "numeric",
+    "prompt": "计算 (-3)×(-4)×(-5)。",
+    "answer": "-60",
+    "difficulty": "basic",
+    "explanation": "前两个得12，12×(-5)=-60（三负得负）。",
+    "source": "llm",
+    "verify": "(-3)*(-4)*(-5)"
+  },
+  {
+    "id": "cnm_015_q7",
+    "topicId": "cnm_015",
+    "type": "choice",
+    "prompt": "几个都不等于0的数相乘，积的符号由什么决定？",
+    "answer": "B",
+    "difficulty": "standard",
+    "explanation": "积的符号由负因数的个数决定（奇负偶正）。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "正因数个数"
+      },
+      {
+        "key": "B",
+        "text": "负因数个数"
+      },
+      {
+        "key": "C",
+        "text": "因数总个数"
+      },
+      {
+        "key": "D",
+        "text": "绝对值大小"
+      }
+    ]
+  },
+  {
+    "id": "cnm_015_q8",
+    "topicId": "cnm_015",
+    "type": "numeric",
+    "prompt": "用分配律计算 (-8)×(1/4-3/8)。",
+    "answer": "1",
+    "difficulty": "standard",
+    "explanation": "-8×1/4=-2，(-8)×(-3/8)=3，-2+3=1。",
+    "source": "llm",
+    "verify": "(-8)*(1/4)+(-8)*(-3/8)"
+  },
+  {
+    "id": "cnm_015_q9",
+    "topicId": "cnm_015",
+    "type": "numeric",
+    "prompt": "计算 (-2)×3×(-4)×(-1)。",
+    "answer": "-24",
+    "difficulty": "challenge",
+    "explanation": "先(2×3×4×1)=24，负因数3个（奇）故为-24。",
+    "source": "llm",
+    "verify": "(-2)*3*(-4)*(-1)"
+  },
+  {
+    "id": "cnm_015_q10",
+    "topicId": "cnm_015",
+    "type": "numeric",
+    "prompt": "计算 (-5)×(-2)×(-1)。",
+    "answer": "-10",
+    "difficulty": "basic",
+    "explanation": "(-5)(-2)=10，10×(-1)=-10。",
+    "source": "llm",
+    "verify": "(-5)*(-2)*(-1)"
+  },
+  {
+    "id": "cnm_016_q6",
+    "topicId": "cnm_016",
+    "type": "numeric",
+    "prompt": "求 3 的倒数。",
+    "answer": "1/3",
+    "difficulty": "basic",
+    "explanation": "乘积为1的两个数互为倒数，3×1/3=1。",
+    "source": "llm",
+    "verify": "1/3"
+  },
+  {
+    "id": "cnm_016_q7",
+    "topicId": "cnm_016",
+    "type": "choice",
+    "prompt": "0 有没有倒数？",
+    "answer": "C",
+    "difficulty": "basic",
+    "explanation": "0 与任何数相乘都得0，不可能得1，故0没有倒数。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "有，为0"
+      },
+      {
+        "key": "B",
+        "text": "有，为1"
+      },
+      {
+        "key": "C",
+        "text": "没有"
+      },
+      {
+        "key": "D",
+        "text": "为任意数"
+      }
+    ]
+  },
+  {
+    "id": "cnm_016_q8",
+    "topicId": "cnm_016",
+    "type": "numeric",
+    "prompt": "求 -0.2 的倒数。",
+    "answer": "-5",
+    "difficulty": "standard",
+    "explanation": "0.2=1/5，其倒数为5，带符号得-5。",
+    "source": "llm",
+    "verify": "-5"
+  },
+  {
+    "id": "cnm_016_q9",
+    "topicId": "cnm_016",
+    "type": "choice",
+    "prompt": "若 a、b 互为倒数，则 ab 的值是哪一个？",
+    "answer": "C",
+    "difficulty": "challenge",
+    "explanation": "倒数定义即 ab=1。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "-1"
+      },
+      {
+        "key": "B",
+        "text": "0"
+      },
+      {
+        "key": "C",
+        "text": "1"
+      },
+      {
+        "key": "D",
+        "text": "2"
+      }
+    ]
+  },
+  {
+    "id": "cnm_016_q10",
+    "topicId": "cnm_016",
+    "type": "numeric",
+    "prompt": "已知 x 与 -3 互为倒数，则 x 等于多少？",
+    "answer": "-1/3",
+    "difficulty": "standard",
+    "explanation": "x×(-3)=1 ⇒ x=-1/3。",
+    "source": "llm",
+    "verify": "-1/3"
+  },
+  {
+    "id": "cnm_017_q6",
+    "topicId": "cnm_017",
+    "type": "numeric",
+    "prompt": "计算 (-24)÷(-6)。",
+    "answer": "4",
+    "difficulty": "basic",
+    "explanation": "同号得正：24÷6=4。",
+    "source": "llm",
+    "verify": "-24/(-6)"
+  },
+  {
+    "id": "cnm_017_q7",
+    "topicId": "cnm_017",
+    "type": "choice",
+    "prompt": "除以一个不为0的数，等于乘以这个数的什么？",
+    "answer": "B",
+    "difficulty": "basic",
+    "explanation": "有理数除法法则：除以一个数等于乘它的倒数。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "相反数"
+      },
+      {
+        "key": "B",
+        "text": "倒数"
+      },
+      {
+        "key": "C",
+        "text": "绝对值"
+      },
+      {
+        "key": "D",
+        "text": "本身"
+      }
+    ]
+  },
+  {
+    "id": "cnm_017_q8",
+    "topicId": "cnm_017",
+    "type": "numeric",
+    "prompt": "计算 (-2/3)÷(-4/9)，结果写成最简分数。",
+    "answer": "3/2",
+    "difficulty": "standard",
+    "explanation": "化乘倒数：(-2/3)×(-9/4)=18/12=3/2。",
+    "source": "llm",
+    "verify": "(-2/3)*(-9/4)"
+  },
+  {
+    "id": "cnm_017_q9",
+    "topicId": "cnm_017",
+    "type": "numeric",
+    "prompt": "若 a÷b=-4，且 b=1/2，则 a 等于多少？",
+    "answer": "-2",
+    "difficulty": "challenge",
+    "explanation": "a=(-4)×(1/2)=-2。",
+    "source": "llm",
+    "verify": "-4*(1/2)"
+  },
+  {
+    "id": "cnm_017_q10",
+    "topicId": "cnm_017",
+    "type": "numeric",
+    "prompt": "计算 0÷(-5)。",
+    "answer": "0",
+    "difficulty": "basic",
+    "explanation": "0除以任何非零数都得0。",
+    "source": "llm",
+    "verify": "0/(-5)"
+  },
+  {
+    "id": "cnm_018_q6",
+    "topicId": "cnm_018",
+    "type": "numeric",
+    "prompt": "计算 6÷(-2)-(-3)。",
+    "answer": "0",
+    "difficulty": "basic",
+    "explanation": "6÷(-2)=-3，-3-(-3)=0。",
+    "source": "llm",
+    "verify": "6/(-2)-(-3)"
+  },
+  {
+    "id": "cnm_018_q7",
+    "topicId": "cnm_018",
+    "type": "choice",
+    "prompt": "计算 (-12)÷3×(-2) 的结果是哪一个？",
+    "answer": "A",
+    "difficulty": "standard",
+    "explanation": "-12÷3=-4，-4×(-2)=8。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "8"
+      },
+      {
+        "key": "B",
+        "text": "-8"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "-4"
+      }
+    ]
+  },
+  {
+    "id": "cnm_018_q8",
+    "topicId": "cnm_018",
+    "type": "numeric",
+    "prompt": "计算 3×(-4)÷(-6)+1。",
+    "answer": "3",
+    "difficulty": "standard",
+    "explanation": "3×(-4)=-12，-12÷(-6)=2，2+1=3。",
+    "source": "llm",
+    "verify": "3*(-4)/(-6)+1"
+  },
+  {
+    "id": "cnm_018_q9",
+    "topicId": "cnm_018",
+    "type": "numeric",
+    "prompt": "计算 (-2)²÷(-4)×(-3)-5。",
+    "answer": "-2",
+    "difficulty": "challenge",
+    "explanation": "4÷(-4)=-1，-1×(-3)=3，3-5=-2。",
+    "source": "llm",
+    "verify": "(-2)*(-2)/(-4)*(-3)-5"
+  },
+  {
+    "id": "cnm_018_q10",
+    "topicId": "cnm_018",
+    "type": "numeric",
+    "prompt": "计算 10÷(-5)+2。",
+    "answer": "0",
+    "difficulty": "basic",
+    "explanation": "10÷(-5)=-2，-2+2=0。",
+    "source": "llm",
+    "verify": "10/(-5)+2"
+  },
+  {
+    "id": "cnm_019_q6",
+    "topicId": "cnm_019",
+    "type": "numeric",
+    "prompt": "把 5×5×5 写成幂 a^n 的形式，指数 n 是多少？",
+    "answer": "3",
+    "difficulty": "basic",
+    "explanation": "三个5相乘，指数为3。",
+    "source": "llm",
+    "verify": "3"
+  },
+  {
+    "id": "cnm_019_q7",
+    "topicId": "cnm_019",
+    "type": "choice",
+    "prompt": "在式子 -2⁴ 中，底数是哪一个？",
+    "answer": "B",
+    "difficulty": "basic",
+    "explanation": "-2⁴ 表示 2⁴ 的相反数，底数是 2（不是 -2）。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "-2"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "不确定"
+      }
+    ]
+  },
+  {
+    "id": "cnm_019_q8",
+    "topicId": "cnm_019",
+    "type": "numeric",
+    "prompt": "计算 (-1)⁷。",
+    "answer": "-1",
+    "difficulty": "standard",
+    "explanation": "奇数个-1相乘为-1。",
+    "source": "llm",
+    "verify": "-1"
+  },
+  {
+    "id": "cnm_019_q9",
+    "topicId": "cnm_019",
+    "type": "numeric",
+    "prompt": "计算 (-1)²⁰²⁴-(-1)²⁰²³。",
+    "answer": "2",
+    "difficulty": "challenge",
+    "explanation": "偶数次幂为1，奇数次幂为-1：1-(-1)=2。",
+    "source": "llm",
+    "verify": "1-(-1)"
+  },
+  {
+    "id": "cnm_019_q10",
+    "topicId": "cnm_019",
+    "type": "numeric",
+    "prompt": "计算 3³。",
+    "answer": "27",
+    "difficulty": "basic",
+    "explanation": "3×3×3=27。",
+    "source": "llm",
+    "verify": "27"
+  },
+  {
+    "id": "cnm_020_q6",
+    "topicId": "cnm_020",
+    "type": "numeric",
+    "prompt": "计算 (-1)¹⁰⁰。",
+    "answer": "1",
+    "difficulty": "basic",
+    "explanation": "100为偶数，(-1)的偶数次幂为1。",
+    "source": "llm",
+    "verify": "1"
+  },
+  {
+    "id": "cnm_020_q7",
+    "topicId": "cnm_020",
+    "type": "choice",
+    "prompt": "下列幂中结果为正数的是哪一个？",
+    "answer": "C",
+    "difficulty": "standard",
+    "explanation": "A=(-27)，B=(-32)，C=1，D=(-5)，只有C为正。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "(-3)³"
+      },
+      {
+        "key": "B",
+        "text": "(-2)⁵"
+      },
+      {
+        "key": "C",
+        "text": "(-1)⁴"
+      },
+      {
+        "key": "D",
+        "text": "(-5)¹"
+      }
+    ]
+  },
+  {
+    "id": "cnm_020_q8",
+    "topicId": "cnm_020",
+    "type": "numeric",
+    "prompt": "计算 (-3)²×(-2)³。",
+    "answer": "-72",
+    "difficulty": "standard",
+    "explanation": "(-3)²=9，(-2)³=-8，9×(-8)=-72。",
+    "source": "llm",
+    "verify": "9*(-8)"
+  },
+  {
+    "id": "cnm_020_q9",
+    "topicId": "cnm_020",
+    "type": "numeric",
+    "prompt": "若 n 为正整数，求 (-1)²ⁿ+(-1)²ⁿ⁺¹ 的值。",
+    "answer": "0",
+    "difficulty": "challenge",
+    "explanation": "2n为偶=1，2n+1为奇=-1，和为0。",
+    "source": "llm",
+    "verify": "1+(-1)"
+  },
+  {
+    "id": "cnm_020_q10",
+    "topicId": "cnm_020",
+    "type": "numeric",
+    "prompt": "计算 0.1³。",
+    "answer": "0.001",
+    "difficulty": "basic",
+    "explanation": "0.1×0.1×0.1=0.001。",
+    "source": "llm",
+    "verify": "0.001"
+  },
+  {
+    "id": "cnm_021_q6",
+    "topicId": "cnm_021",
+    "type": "numeric",
+    "prompt": "计算 (-2)²×3。",
+    "answer": "12",
+    "difficulty": "basic",
+    "explanation": "(-2)²=4，4×3=12。",
+    "source": "llm",
+    "verify": "4*3"
+  },
+  {
+    "id": "cnm_021_q7",
+    "topicId": "cnm_021",
+    "type": "choice",
+    "prompt": "计算 3²-(-2)³ 的结果是哪一个？",
+    "answer": "B",
+    "difficulty": "standard",
+    "explanation": "3²=9，(-2)³=-8，9-(-8)=17。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "17"
+      },
+      {
+        "key": "C",
+        "text": "-1"
+      },
+      {
+        "key": "D",
+        "text": "9"
+      }
+    ]
+  },
+  {
+    "id": "cnm_021_q8",
+    "topicId": "cnm_021",
+    "type": "numeric",
+    "prompt": "计算 -3²+(-1)³。",
+    "answer": "-10",
+    "difficulty": "standard",
+    "explanation": "-3²=-(3²)=-9，(-1)³=-1，-9-1=-10。",
+    "source": "llm",
+    "verify": "-9+(-1)"
+  },
+  {
+    "id": "cnm_021_q9",
+    "topicId": "cnm_021",
+    "type": "numeric",
+    "prompt": "计算 (-1)²⁰²⁴×2+(-2)³÷4。",
+    "answer": "0",
+    "difficulty": "challenge",
+    "explanation": "1×2=2，(-2)³÷4=-8÷4=-2，2+(-2)=0。",
+    "source": "llm",
+    "verify": "1*2+(-8)/4"
+  },
+  {
+    "id": "cnm_021_q10",
+    "topicId": "cnm_021",
+    "type": "numeric",
+    "prompt": "计算 2×3²-10。",
+    "answer": "8",
+    "difficulty": "basic",
+    "explanation": "先乘方：3²=9，2×9-10=8。",
+    "source": "llm",
+    "verify": "2*9-10"
+  },
+  {
+    "id": "cnm_022_q6",
+    "topicId": "cnm_022",
+    "type": "numeric",
+    "prompt": "把 47 000 写成 a×10^n（1≤a<10）的形式，则 n 等于多少？",
+    "answer": "4",
+    "difficulty": "basic",
+    "explanation": "47 000=4.7×10⁴，故 n=4。",
+    "source": "llm",
+    "verify": "4"
+  },
+  {
+    "id": "cnm_022_q7",
+    "topicId": "cnm_022",
+    "type": "choice",
+    "prompt": "2.5×10⁵ 等于哪一个？",
+    "answer": "C",
+    "difficulty": "basic",
+    "explanation": "2.5×100 000=250 000。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2500"
+      },
+      {
+        "key": "B",
+        "text": "25000"
+      },
+      {
+        "key": "C",
+        "text": "250000"
+      },
+      {
+        "key": "D",
+        "text": "2500000"
+      }
+    ]
+  },
+  {
+    "id": "cnm_022_q8",
+    "topicId": "cnm_022",
+    "type": "numeric",
+    "prompt": "把 0.000078 写成 a×10^n（1≤|a|<10）的形式，则 n 等于多少？",
+    "answer": "-5",
+    "difficulty": "standard",
+    "explanation": "0.000078=7.8×10⁻⁵，故 n=-5。",
+    "source": "llm",
+    "verify": "-5"
+  },
+  {
+    "id": "cnm_022_q9",
+    "topicId": "cnm_022",
+    "type": "numeric",
+    "prompt": "把 -3.6×10³ 还原成原数。",
+    "answer": "-3600",
+    "difficulty": "challenge",
+    "explanation": "-3.6×1000=-3600。",
+    "source": "llm",
+    "verify": "-3.6*1000"
+  },
+  {
+    "id": "cnm_022_q10",
+    "topicId": "cnm_022",
+    "type": "numeric",
+    "prompt": "把 920 000 写成 a×10^n（1≤a<10）的形式，则 n 等于多少？",
+    "answer": "5",
+    "difficulty": "basic",
+    "explanation": "920 000=9.2×10⁵，故 n=5。",
+    "source": "llm",
+    "verify": "5"
+  },
+  {
+    "id": "cnm_023_q6",
+    "topicId": "cnm_023",
+    "type": "numeric",
+    "prompt": "把 0.0682 精确到 0.01。",
+    "answer": "0.07",
+    "difficulty": "basic",
+    "explanation": "千分位8四舍五入，0.0682≈0.07。",
+    "source": "llm",
+    "verify": "0.07"
+  },
+  {
+    "id": "cnm_023_q7",
+    "topicId": "cnm_023",
+    "type": "choice",
+    "prompt": "近似数 1.30 精确到哪一位？",
+    "answer": "B",
+    "difficulty": "standard",
+    "explanation": "末位0在百分位，故精确到百分位。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "十分位"
+      },
+      {
+        "key": "B",
+        "text": "百分位"
+      },
+      {
+        "key": "C",
+        "text": "千分位"
+      },
+      {
+        "key": "D",
+        "text": "个位"
+      }
+    ]
+  },
+  {
+    "id": "cnm_023_q8",
+    "topicId": "cnm_023",
+    "type": "numeric",
+    "prompt": "把 5.678 保留两个有效数字。",
+    "answer": "5.7",
+    "difficulty": "standard",
+    "explanation": "第三位数字7进位，5.678≈5.7。",
+    "source": "llm",
+    "verify": "5.7"
+  },
+  {
+    "id": "cnm_023_q9",
+    "topicId": "cnm_023",
+    "type": "numeric",
+    "prompt": "近似数 0.003050 的有效数字共有几个？",
+    "answer": "4",
+    "difficulty": "challenge",
+    "explanation": "有效数字从第一个非零数字3起：3、0、5、0，共4个。",
+    "source": "llm",
+    "verify": "4"
+  },
+  {
+    "id": "cnm_023_q10",
+    "topicId": "cnm_023",
+    "type": "numeric",
+    "prompt": "把 9.95 精确到 0.1。",
+    "answer": "10.0",
+    "difficulty": "basic",
+    "explanation": "9.95四舍五入精确到十分位得10.0（保留末尾0表示精确到0.1）。",
+    "source": "llm",
+    "verify": "10.0"
+  },
+  {
+    "id": "cnm_024_q6",
+    "topicId": "cnm_024",
+    "type": "numeric",
+    "prompt": "把二进制数 111 化为十进制数。",
+    "answer": "7",
+    "difficulty": "basic",
+    "explanation": "111₂=1×4+1×2+1×1=7。",
+    "source": "llm",
+    "verify": "7"
+  },
+  {
+    "id": "cnm_024_q7",
+    "topicId": "cnm_024",
+    "type": "choice",
+    "prompt": "把十进制数 13 化为二进制数，结果是哪一个？",
+    "answer": "A",
+    "difficulty": "basic",
+    "explanation": "13=8+4+1=1101₂。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1101"
+      },
+      {
+        "key": "B",
+        "text": "1011"
+      },
+      {
+        "key": "C",
+        "text": "1110"
+      },
+      {
+        "key": "D",
+        "text": "1001"
+      }
+    ]
+  },
+  {
+    "id": "cnm_024_q8",
+    "topicId": "cnm_024",
+    "type": "numeric",
+    "prompt": "把二进制数 1010 化为十进制数。",
+    "answer": "10",
+    "difficulty": "standard",
+    "explanation": "1010₂=1×8+0×4+1×2+0×1=10。",
+    "source": "llm",
+    "verify": "10"
+  },
+  {
+    "id": "cnm_024_q9",
+    "topicId": "cnm_024",
+    "type": "numeric",
+    "prompt": "把二进制数 10000 化为十进制数。",
+    "answer": "16",
+    "difficulty": "challenge",
+    "explanation": "10000₂=1×16=16。",
+    "source": "llm",
+    "verify": "16"
+  },
+  {
+    "id": "cnm_024_q10",
+    "topicId": "cnm_024",
+    "type": "numeric",
+    "prompt": "二进制数 11 加上二进制数 1（按二进制加法）的和，化为十进制数是多少？",
+    "answer": "4",
+    "difficulty": "basic",
+    "explanation": "11₂=3，加1得4（十进制）。",
+    "source": "llm",
+    "verify": "4"
   }
 ]
