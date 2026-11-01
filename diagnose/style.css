@@ -220,3 +220,16 @@ table.log select { min-height: 44px; }
 .blind-item { padding: 8px 0; border-bottom: 1px solid var(--line); overflow-wrap: anywhere; }
 .blind-name { font-weight: 700; }
 .blind-retest { font-weight: 700; white-space: nowrap; }
+
+/* 考试范围：按章勾选 + 期中考/期末考 预设 */
+.exam-range { margin-top: 16px; padding-top: 14px; border-top: 1px dashed var(--line); }
+.exam-range h3 { margin: 0 0 4px; font-size: 1.02rem; }
+.exam-presets { margin: 8px 0; }
+.chap-checklist { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 6px; margin: 10px 0; }
+.chap-check { display: flex; align-items: center; gap: 6px; padding: 6px 8px; border: 1px solid var(--line); border-radius: 10px; background: var(--bg-muted); }
+.chap-check-label { display: flex; align-items: center; gap: 8px; flex: 1 1 auto; min-width: 0; cursor: pointer; margin: 0; }
+.chap-check-label input { flex: 0 0 auto; width: 16px; height: 16px; }
+.chap-no { flex: 1 1 auto; min-width: 0; overflow-wrap: anywhere; font-weight: 600; }
+.chap-count { flex: 0 0 auto; }
+.chap-single { flex: 0 0 auto; }
+.exam-start-row { margin-top: 6px; align-items: center; }

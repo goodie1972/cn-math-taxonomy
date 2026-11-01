@@ -43,6 +43,8 @@
   let chapterOpen = false;
   let gradeSel = '七';     // 开始页「按年级整体诊断」：年级
   let volSel = '';         // '' 整年级 / '上' / '下'
+  let examSel = [];        // 考试范围：已勾选的章 key 列表
+  let examSelVol = '';     // 记录 examSel 对应的册，切册时自动重置
   let seedParam = null;    // URL 参数 seed：固定选题的随机种子
   let pathCy = null;
   let pathToken = 0;
@@ -691,7 +693,54 @@
             onclick: function () { if (g) startSession(g.ids, g.label + '（整体筛查）', null, 'screen'); }
           }, '开始整体诊断')),
         h('p', { class: 'muted small' }, '知识点多、题量有限，到上限后没测到的标为「未测」；结果页可以再加题。默认 ' + E.SCREEN_LIMIT + ' 题。'));
+      const examNode = buildExamRange();
+      if (examNode) box.append(examNode);
     };
+    function buildExamRange() {
+      const volKey = gradeScope();
+      const treeVol = volSel ? D.tree[volKey] : null;
+      if (!treeVol || !treeVol.chapters.length) return null;
+      const allKeys = treeVol.chapters.map(function (ch) { return ch.key; });
+      const midN = Math.max(1, Math.ceil(allKeys.length / 2));
+      const midKeys = allKeys.slice(0, midN);
+      if (examSelVol !== volKey) { examSel = allKeys.slice(); examSelVol = volKey; }
+      const byChKey = {};
+      treeVol.chapters.forEach(function (ch) { byChKey[ch.key] = ch; });
+      function sameSet(a, b) { if (a.length !== b.length) return false; const s = new Set(a); return b.every(function (k) { return s.has(k); }); }
+      const wrap = h('div', { class: 'exam-range', id: 'exam-range' });
+      wrap.append(h('h3', { text: '考试范围（按章勾选）' }));
+      wrap.append(h('p', { class: 'muted small' }, '上半学期 = 上册、下半学期 = 下册。期中考一般只考前半部分章节，期末考考整册。先点预设，再按需勾选具体章节。'));
+      const presetRow = h('div', { class: 'row exam-presets' });
+      function preset(label, finalOn) {
+        presetRow.append(h('button', {
+          type: 'button',
+          class: 'stage-tab' + (finalOn ? (sameSet(examSel, allKeys) ? ' on' : '') : (sameSet(examSel, midKeys) ? ' on' : '')),
+          onclick: function () { examSel = finalOn ? allKeys.slice() : midKeys.slice(); fill(); }
+        }, label));
+      }
+      preset('期末考（整册 ' + allKeys.length + ' 章）', true);
+      preset('期中考（前 ' + midN + ' 章）', false);
+      wrap.append(presetRow);
+      const list = h('div', { class: 'chap-checklist' });
+      treeVol.chapters.forEach(function (ch, i) {
+        const id = 'chap-cb-' + i;
+        const cb = h('input', { type: 'checkbox', id: id, checked: examSel.indexOf(ch.key) >= 0 });
+        cb.addEventListener('change', function () {
+          if (cb.checked) { if (examSel.indexOf(ch.key) < 0) examSel.push(ch.key); }
+          else { examSel = examSel.filter(function (k) { return k !== ch.key; }); }
+          fill();
+        });
+        list.append(h('div', { class: 'chap-check' },
+          h('label', { for: id, class: 'chap-check-label' }, cb, h('span', { class: 'chap-no', text: ch.label }), h('span', { class: 'chap-count muted small', text: ch.topics.length + ' 点' })),
+          h('button', { type: 'button', class: 'link chap-single', title: '只测本章', onclick: function () { startSession(ch.topics.map(function (x) { return x.t.id; }), volKey + ' ' + ch.label + '（整章）'); } }, '整章')));
+      });
+      wrap.append(list);
+      const selIds = examSel.map(function (k) { const ch = byChKey[k]; return ch ? ch.topics.map(function (x) { return x.t.id; }) : []; }).reduce(function (a, b) { return a.concat(b); }, []);
+      wrap.append(h('div', { class: 'row exam-start-row' },
+        h('button', { type: 'button', class: 'primary', id: 'btn-chapters-start', disabled: !selIds.length, onclick: function () { if (selIds.length) startSession(selIds, volKey + '（所选 ' + examSel.length + ' 章）', null, 'screen'); } }, '开始所选章诊断（' + examSel.length + ' 章 / ' + selIds.length + ' 点）'),
+        h('span', { class: 'muted small' }, '所选章合并为一次筛查，结果页按章汇总薄弱点。')));
+      return wrap;
+    }
     fill();
     return box;
   }
@@ -1628,6 +1677,37 @@
       });
       if (!hit.length) throw new Error('URL 参数 chapter 没有匹配的章节：' + c + '（格式如 “七上 第一章”）');
       return { ids: hit[0].topics.map(function (x) { return x.t.id; }), label: hit[0].volume + ' ' + hit[0].label + '（整章）' };
+    }
+    const vParam = (params.get('volume') || '').trim();
+    const chParam = (params.get('chapters') || '').trim();
+    const examParam = (params.get('exam') || '').trim();
+    if (vParam && (chParam || examParam)) {
+      let volObj = D.tree[vParam] || null;
+      if (!volObj) {
+        const g = (params.get('grade') || '').trim();
+        if (/^[一二三四五六七八九]$/.test(g)) {
+          const scope = /^[上下]$/.test(vParam) ? (g + vParam) : (vParam === '全' || vParam === '全一册' ? (g + '全') : vParam);
+          volObj = D.tree[scope] || null;
+        }
+      }
+      if (!volObj) throw new Error('URL 参数 volume 没有匹配的册：' + vParam + '（格式如 volume=七上）');
+      const byChKey = {};
+      volObj.chapters.forEach(function (ch) { byChKey[ch.key] = ch; });
+      let keys;
+      if (examParam === 'mid') {
+        const midN = Math.max(1, Math.ceil(volObj.chapters.length / 2));
+        keys = volObj.chapters.slice(0, midN).map(function (ch) { return ch.key; });
+      } else if (examParam === 'final') {
+        keys = volObj.chapters.map(function (ch) { return ch.key; });
+      } else {
+        const pos = chParam.split(/[,\s]+/).map(function (s) { return parseInt(s, 10); }).filter(function (n) { return n >= 1; });
+        if (!pos.length) throw new Error('URL 参数 chapters 无法识别：' + chParam + '（如 chapters=1,2,3）');
+        keys = pos.map(function (n) { return volObj.chapters[n - 1] && volObj.chapters[n - 1].key; }).filter(Boolean);
+        if (!keys.length) throw new Error('URL 参数 chapters 超出范围：' + chParam + '（' + vParam + ' 共 ' + volObj.chapters.length + ' 章）');
+      }
+      const ids = keys.map(function (k) { return byChKey[k].topics.map(function (x) { return x.t.id; }); }).reduce(function (a, b) { return a.concat(b); }, []);
+      const label = vParam + '（' + (examParam === 'mid' ? '期中考 ' : examParam === 'final' ? '期末考 ' : '第 ' + chParam + ' 章 ') + keys.length + ' 章）';
+      return { ids: ids, label: label, mode: 'screen' };
     }
     const grade = (params.get('grade') || '').trim();
     const volume = (params.get('volume') || '').trim();
