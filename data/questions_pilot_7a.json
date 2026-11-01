@@ -1,0 +1,295 @@
+[
+  {
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "计算：(-3)+(-5)。",
+    "answer": "-8",
+    "explanation": "同号两数相加，取负号，并把绝对值相加：3+5=8，结果为 -8。",
+    "verify": "-3-5",
+    "id": "cnm_010_q5",
+    "topicId": "cnm_010"
+  },
+  {
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "计算：(-7)+4。",
+    "answer": "-3",
+    "explanation": "异号两数相加，取绝对值较大者（-7）的符号，并用较大绝对值减较小绝对值：7-4=3，结果为 -3。",
+    "verify": "-7+4",
+    "id": "cnm_010_q6",
+    "topicId": "cnm_010"
+  },
+  {
+    "difficulty": "basic",
+    "type": "choice",
+    "prompt": "下面哪道算式的结果是正数？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "(-2)+(-3)"
+      },
+      {
+        "key": "B",
+        "text": "(-5)+2"
+      },
+      {
+        "key": "C",
+        "text": "4+(-1)"
+      },
+      {
+        "key": "D",
+        "text": "(-6)+6"
+      }
+    ],
+    "answer": "C",
+    "explanation": "只有 4+(-1)=3 为正；其余为负或 0。",
+    "verify": "'C'",
+    "id": "cnm_010_q7",
+    "topicId": "cnm_010"
+  },
+  {
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "某天凌晨气温是 -4℃，到中午上升了 9℃，中午气温是多少℃？",
+    "answer": "5",
+    "explanation": "上升用加法：-4+9=5，中午 5℃。",
+    "verify": "-4+9",
+    "id": "cnm_010_q8",
+    "topicId": "cnm_010"
+  },
+  {
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "一艘潜艇在海平面下 12 米处，记作 -12 米，它又下潜 5 米，现在深度记作多少米？",
+    "answer": "-17",
+    "explanation": "再下潜 5 米相当于加 (-5)：(-12)+(-5)=-17，即海平面下 17 米。",
+    "verify": "(-12)+(-5)",
+    "id": "cnm_010_q9",
+    "topicId": "cnm_010"
+  },
+  {
+    "difficulty": "standard",
+    "type": "short",
+    "prompt": "用有理数加法法则说明：为什么 (-8)+3 不等于 8+3？",
+    "answer": "异号相加取绝对值较大者的符号。|-8|>|3|，所以 (-8)+3 应为负数，等于 -5，而不是 11。",
+    "accept": [
+      "因为|-8|>|3|，结果取负号，(-8)+3=-5",
+      "异号相加结果符号由绝对值大的决定，(-8)+3=-5"
+    ],
+    "explanation": "关键是异号相加的符号规则，而非简单把符号去掉。",
+    "id": "cnm_010_q10",
+    "topicId": "cnm_010"
+  },
+  {
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "计算 (-2)+5+(-3) 的结果是多少？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "6"
+      },
+      {
+        "key": "C",
+        "text": "-6"
+      },
+      {
+        "key": "D",
+        "text": "10"
+      }
+    ],
+    "answer": "A",
+    "explanation": "(-2)+5=3，3+(-3)=0。",
+    "verify": "'A'",
+    "id": "cnm_010_q11",
+    "topicId": "cnm_010"
+  },
+  {
+    "difficulty": "challenge",
+    "type": "numeric",
+    "prompt": "已知 a=3，b=-5，求 a+b+(a+(-b)) 的值。",
+    "answer": "6",
+    "explanation": "a+b=3+(-5)=-2；a+(-b)=3+5=8；合计 -2+8=6。",
+    "verify": "3+(-5)+(3+5)",
+    "id": "cnm_010_q12",
+    "topicId": "cnm_010"
+  },
+  {
+    "difficulty": "challenge",
+    "type": "short",
+    "prompt": "有理数加法中，为什么“异号两数相加，和的符号由绝对值较大的加数决定”？请用自己的话说明。",
+    "answer": "异号相加本质是“抵消”：绝对值大的那一方“剩下的量”决定了整体的方向（正负），所以符号由它决定。",
+    "explanation": "把加法理解为带方向的量叠加，量大的方向主导结果方向。",
+    "id": "cnm_010_q13",
+    "topicId": "cnm_010"
+  },
+  {
+    "difficulty": "challenge",
+    "type": "choice",
+    "prompt": "小刚说：“两个有理数相加，和一定比每个加数都大。”这个说法对吗？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "对（和一定比每个加数都大）"
+      },
+      {
+        "key": "B",
+        "text": "错（和不一定比每个加数都大，如 (-2)+1=-1）"
+      },
+      {
+        "key": "C",
+        "text": "无法判断"
+      }
+    ],
+    "answer": "B",
+    "explanation": "反例：(-2)+1=-1，-1 比加数 1 小，故说法错误。",
+    "verify": "'B'",
+    "id": "cnm_010_q14",
+    "topicId": "cnm_010"
+  },
+  {
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "解方程：x+5=9。",
+    "answer": "4",
+    "explanation": "两边减 5：x=9-5=4。",
+    "verify": "9-5",
+    "id": "cnm_042_q5",
+    "topicId": "cnm_042"
+  },
+  {
+    "difficulty": "basic",
+    "type": "numeric",
+    "prompt": "合并同类项后解方程：3x+2x=10。",
+    "answer": "2",
+    "explanation": "3x+2x=5x，5x=10，x=2。",
+    "verify": "10/5",
+    "id": "cnm_042_q6",
+    "topicId": "cnm_042"
+  },
+  {
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "解方程：3x+2=2x+7（移项）。",
+    "answer": "5",
+    "explanation": "移项：3x-2x=7-2，得 x=5。",
+    "verify": "7-2",
+    "id": "cnm_042_q7",
+    "topicId": "cnm_042"
+  },
+  {
+    "difficulty": "standard",
+    "type": "choice",
+    "prompt": "方程 -2x+4=10 的解是？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "x=-3"
+      },
+      {
+        "key": "B",
+        "text": "x=3"
+      },
+      {
+        "key": "C",
+        "text": "x=-7"
+      },
+      {
+        "key": "D",
+        "text": "x=7"
+      }
+    ],
+    "answer": "A",
+    "explanation": "-2x=10-4=6，x=-3。",
+    "verify": "'A'",
+    "id": "cnm_042_q8",
+    "topicId": "cnm_042"
+  },
+  {
+    "difficulty": "standard",
+    "type": "short",
+    "prompt": "一个数的 3 倍加上 5 等于 20，求这个数。",
+    "answer": "5",
+    "accept": [
+      "5",
+      "x=5"
+    ],
+    "explanation": "列方程 3x+5=20，3x=15，x=5。",
+    "id": "cnm_042_q9",
+    "topicId": "cnm_042"
+  },
+  {
+    "difficulty": "challenge",
+    "type": "numeric",
+    "prompt": "解方程：0.5x-3=2。",
+    "answer": "10",
+    "explanation": "0.5x=2+3=5，x=5÷0.5=10。",
+    "verify": "(2+3)/0.5",
+    "id": "cnm_042_q10",
+    "topicId": "cnm_042"
+  },
+  {
+    "difficulty": "challenge",
+    "type": "short",
+    "prompt": "解方程 4x-7=2x+5，要求写出移项合并的主要过程。",
+    "answer": "x=6",
+    "accept": [
+      "x=6",
+      "x=6（过程：4x-2x=5+7，2x=12，x=6）"
+    ],
+    "explanation": "移项：4x-2x=5+7，合并：2x=12，x=6。",
+    "id": "cnm_042_q11",
+    "topicId": "cnm_042"
+  },
+  {
+    "difficulty": "challenge",
+    "type": "choice",
+    "prompt": "解方程 5x-3=2x+9，下面步骤正确的是？",
+    "choices": [
+      {
+        "key": "A",
+        "text": "移项得 5x-2x=9+3"
+      },
+      {
+        "key": "B",
+        "text": "合并得 3x=12"
+      },
+      {
+        "key": "C",
+        "text": "解得 x=4"
+      },
+      {
+        "key": "D",
+        "text": "以上都对"
+      }
+    ],
+    "answer": "D",
+    "explanation": "三步都正确，故选 D。",
+    "verify": "'D'",
+    "id": "cnm_042_q12",
+    "topicId": "cnm_042"
+  },
+  {
+    "difficulty": "standard",
+    "type": "numeric",
+    "prompt": "解方程：-3x+8=-1。",
+    "answer": "3",
+    "explanation": "移项：-3x=-1-8=-9，x=(-9)/(-3)=3。",
+    "verify": "(-1-8)/(-3)",
+    "id": "cnm_042_q13",
+    "topicId": "cnm_042"
+  },
+  {
+    "difficulty": "challenge",
+    "type": "short",
+    "prompt": "从等式的性质角度，说明“移项要变号”的道理。",
+    "answer": "等式两边同时加上（或减去）同一个数，等式仍成立。把右边的项移到左边，相当于两边同时减去该项，因此符号改变。",
+    "explanation": "移项本质是等式两边同加/同减，符号因此改变。",
+    "id": "cnm_042_q14",
+    "topicId": "cnm_042"
+  }
+]
