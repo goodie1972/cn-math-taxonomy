@@ -287268,5 +287268,946 @@
     "difficulty": "standard",
     "explanation": "右边：2.5×3-5 = 7.5-5 = 2.5；左边合并：2.5x = 2.5，得 x=1。",
     "source": "textbook"
+  },
+  {
+    "id": "cnm_001_q5",
+    "topicId": "cnm_001",
+    "type": "numeric",
+    "prompt": "下列数中，哪些是负数？请依次写出：+3，-4，0，2.5，-1/3",
+    "answer": "-4，-1/3",
+    "difficulty": "basic",
+    "explanation": "负数带负号且不为 0；+3、2.5 为正，0 既非正也非负，故负数为 -4、-1/3。",
+    "source": "llm"
+  },
+  {
+    "id": "cnm_001_q6",
+    "topicId": "cnm_001",
+    "type": "choice",
+    "prompt": "关于负数，下列说法错误的是哪一个？",
+    "answer": "C",
+    "difficulty": "standard",
+    "explanation": "A 负数小于 0、B 负数小于正数均正确；D 0 既非正也非负正确；C 错误，因为带负号的数不一定是负数，如 -(-2)=2 是正数。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "负数都比 0 小"
+      },
+      {
+        "key": "B",
+        "text": "负数都比正数小"
+      },
+      {
+        "key": "C",
+        "text": "带负号的数都是负数"
+      },
+      {
+        "key": "D",
+        "text": "0 既不是正数也不是负数"
+      }
+    ]
+  },
+  {
+    "id": "cnm_001_q7",
+    "topicId": "cnm_001",
+    "type": "numeric",
+    "prompt": "在 -1，0，7，-3.2，4/5 这五个数中，正数共有几个？",
+    "answer": "2",
+    "difficulty": "basic",
+    "explanation": "正数大于 0：7 与 4/5 是正数，其余不是，共 2 个。",
+    "source": "llm",
+    "verify": "2"
+  },
+  {
+    "id": "cnm_001_q8",
+    "topicId": "cnm_001",
+    "type": "short",
+    "prompt": "举例说明生活中一对具有相反意义的量，并分别用正负数表示。",
+    "answer": "见解析",
+    "difficulty": "standard",
+    "explanation": "如\"收入与支出\"：收入 100 元记为 +100，支出 60 元记为 -60；关键是选同一类量并规定一方为正、另一方为负。",
+    "source": "llm",
+    "accept": [
+      "收入",
+      "支出",
+      "温度",
+      "海拔",
+      "水位",
+      "记账"
+    ]
+  },
+  {
+    "id": "cnm_001_q9",
+    "topicId": "cnm_001",
+    "type": "choice",
+    "prompt": "若 a<0<b 且 |a|=|b|，则 a+b 的结果是哪一个？",
+    "answer": "C",
+    "difficulty": "challenge",
+    "explanation": "a 为负、b 为正且绝对值相等，如 a=-3、b=3，则 a+b=-3+3=0。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "正数"
+      },
+      {
+        "key": "B",
+        "text": "负数"
+      },
+      {
+        "key": "C",
+        "text": "0"
+      },
+      {
+        "key": "D",
+        "text": "无法确定"
+      }
+    ]
+  },
+  {
+    "id": "cnm_001_q10",
+    "topicId": "cnm_001",
+    "type": "numeric",
+    "prompt": "把下列各数填入相应集合：-2，0，5，-1.2。负数集合包含哪些？（依次写出，用逗号隔开）",
+    "answer": "-2，-1.2",
+    "difficulty": "basic",
+    "explanation": "负数小于 0，-2 与 -1.2 为负，0 与 5 不是。",
+    "source": "llm"
+  },
+  {
+    "id": "cnm_002_q5",
+    "topicId": "cnm_002",
+    "type": "numeric",
+    "prompt": "若向北走 8 m 记为 +8 m，则向南走 6 m 记为多少 m？",
+    "answer": "-6",
+    "difficulty": "basic",
+    "explanation": "规定向北为正，则与之相反的向南为负，故记为 -6。",
+    "source": "llm",
+    "verify": "-(6)"
+  },
+  {
+    "id": "cnm_002_q6",
+    "topicId": "cnm_002",
+    "type": "choice",
+    "prompt": "下列各组量中，具有相反意义的是哪一组？",
+    "answer": "B",
+    "difficulty": "standard",
+    "explanation": "相反意义的量必须是同一类量、方向相反。A 缺具体数值、C 方向不同类（东与北）、D 温度与水温非相反；B 收入与支出是同一类量的相反方向。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "上升与下降"
+      },
+      {
+        "key": "B",
+        "text": "收入 100 元与支出 80 元"
+      },
+      {
+        "key": "C",
+        "text": "向东 3 km 与向北 3 km"
+      },
+      {
+        "key": "D",
+        "text": "气温 3℃ 与水温 3℃"
+      }
+    ]
+  },
+  {
+    "id": "cnm_002_q7",
+    "topicId": "cnm_002",
+    "type": "numeric",
+    "prompt": "某股票以昨收为基准记为 0，今天上涨 2 元记为 +2，那么下跌 1.5 元应记为什么？",
+    "answer": "-1.5",
+    "difficulty": "standard",
+    "explanation": "上涨为正则下跌为负，故下跌 1.5 元记为 -1.5。",
+    "source": "llm",
+    "verify": "-(1.5)"
+  },
+  {
+    "id": "cnm_002_q8",
+    "topicId": "cnm_002",
+    "type": "short",
+    "prompt": "用正负数表示下面的量：珠穆朗玛峰高出海平面 8848 m，吐鲁番盆地低于海平面 155 m。",
+    "answer": "见解析",
+    "difficulty": "standard",
+    "explanation": "以海平面为基准（0），高出记正、低于记负：珠峰 +8848 m，盆地 -155 m。",
+    "source": "llm",
+    "accept": [
+      "8848",
+      "-155",
+      "海平面",
+      "珠峰",
+      "盆地"
+    ]
+  },
+  {
+    "id": "cnm_002_q9",
+    "topicId": "cnm_002",
+    "type": "numeric",
+    "prompt": "一天内气温从 -3℃ 升到 +5℃，升温了多少摄氏度？",
+    "answer": "8",
+    "difficulty": "challenge",
+    "explanation": "升温 = 末温 - 初温 = 5 - (-3) = 8（℃）。",
+    "source": "llm",
+    "verify": "5-(-3)"
+  },
+  {
+    "id": "cnm_002_q10",
+    "topicId": "cnm_002",
+    "type": "choice",
+    "prompt": "如果节约 20 度电记为 +20 度，那么浪费 10 度电应记为哪一个？",
+    "answer": "B",
+    "difficulty": "basic",
+    "explanation": "节约与浪费是相反意义的量，节约为正则浪费为负，故为 -10。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "+10"
+      },
+      {
+        "key": "B",
+        "text": "-10"
+      },
+      {
+        "key": "C",
+        "text": "0"
+      },
+      {
+        "key": "D",
+        "text": "30"
+      }
+    ]
+  },
+  {
+    "id": "cnm_003_q5",
+    "topicId": "cnm_003",
+    "type": "choice",
+    "prompt": "下列各数中，是有理数的是哪一个？",
+    "answer": "C",
+    "difficulty": "basic",
+    "explanation": "有理数包括整数与分数（含有限小数、循环小数）。A π、B √2、D 无限不循环小数均为无理数；C 0.333…（循环）是有理数。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "π"
+      },
+      {
+        "key": "B",
+        "text": "√2"
+      },
+      {
+        "key": "C",
+        "text": "0.333…"
+      },
+      {
+        "key": "D",
+        "text": "无限不循环小数"
+      }
+    ]
+  },
+  {
+    "id": "cnm_003_q6",
+    "topicId": "cnm_003",
+    "type": "numeric",
+    "prompt": "在 -4，0，2/3，-0.25，9 中，有理数共有几个？",
+    "answer": "5",
+    "difficulty": "basic",
+    "explanation": "这五个数（整数 -4、0、9，分数 2/3、-0.25）全是有理数，共 5 个。",
+    "source": "llm",
+    "verify": "5"
+  },
+  {
+    "id": "cnm_003_q7",
+    "topicId": "cnm_003",
+    "type": "choice",
+    "prompt": "下列说法正确的是哪一个？",
+    "answer": "C",
+    "difficulty": "standard",
+    "explanation": "整数和分数统称为有理数。A 漏了 0；B 0 是有理数；D 有理数还包括 0。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "正整数和负整数统称整数"
+      },
+      {
+        "key": "B",
+        "text": "0 不是有理数"
+      },
+      {
+        "key": "C",
+        "text": "整数和分数统称有理数"
+      },
+      {
+        "key": "D",
+        "text": "有理数只包括正数和负数"
+      }
+    ]
+  },
+  {
+    "id": "cnm_003_q8",
+    "topicId": "cnm_003",
+    "type": "numeric",
+    "prompt": "在 3，-1/2，0，-5，2.7 中，非负整数共有几个？",
+    "answer": "2",
+    "difficulty": "standard",
+    "explanation": "非负整数 = 0 与正整数，即 3 和 0，共 2 个。",
+    "source": "llm",
+    "verify": "2"
+  },
+  {
+    "id": "cnm_003_q9",
+    "topicId": "cnm_003",
+    "type": "short",
+    "prompt": "把 -3，0，1/2，4，-2.5 按\"正整数、负整数、正分数、负分数、0\"分类。",
+    "answer": "见解析",
+    "difficulty": "standard",
+    "explanation": "正整数：4；负整数：-3；正分数：1/2；负分数：-2.5；0：0。",
+    "source": "llm"
+  },
+  {
+    "id": "cnm_003_q10",
+    "topicId": "cnm_003",
+    "type": "numeric",
+    "prompt": "在 -3，0，5，-1，2 中，既是整数又是非负数的数有几个？",
+    "answer": "3",
+    "difficulty": "challenge",
+    "explanation": "整数且非负 = 0 与正整数，即 0、5、2，共 3 个。",
+    "source": "llm",
+    "verify": "3"
+  },
+  {
+    "id": "cnm_004_q5",
+    "topicId": "cnm_004",
+    "type": "choice",
+    "prompt": "数轴的\"三要素\"是哪三个？",
+    "answer": "B",
+    "difficulty": "basic",
+    "explanation": "数轴三要素：原点、正方向、单位长度。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "原点、单位长度、直线"
+      },
+      {
+        "key": "B",
+        "text": "原点、正方向、单位长度"
+      },
+      {
+        "key": "C",
+        "text": "点、线、面"
+      },
+      {
+        "key": "D",
+        "text": "横轴、纵轴、原点"
+      }
+    ]
+  },
+  {
+    "id": "cnm_004_q6",
+    "topicId": "cnm_004",
+    "type": "numeric",
+    "prompt": "数轴上原点右侧 3 个单位长度处的点表示的数是多少？",
+    "answer": "3",
+    "difficulty": "basic",
+    "explanation": "原点右侧为正方向，右侧 3 个单位即 +3。",
+    "source": "llm",
+    "verify": "3"
+  },
+  {
+    "id": "cnm_004_q7",
+    "topicId": "cnm_004",
+    "type": "choice",
+    "prompt": "下列图形中，哪一条是数轴？",
+    "answer": "C",
+    "difficulty": "standard",
+    "explanation": "合格数轴须三要素齐全（原点、正方向、单位长度）。A 缺正方向、B 箭头向左且常缺单位、D 缺原点。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "只有原点和单位长度的直线"
+      },
+      {
+        "key": "B",
+        "text": "有原点和单位长度、箭头向左"
+      },
+      {
+        "key": "C",
+        "text": "三要素齐全的直线"
+      },
+      {
+        "key": "D",
+        "text": "只有单位长度的直线"
+      }
+    ]
+  },
+  {
+    "id": "cnm_004_q8",
+    "topicId": "cnm_004",
+    "type": "numeric",
+    "prompt": "点 A 在原点左侧 4 个单位，点 B 在原点右侧 1 个单位，A、B 两点间的距离是多少个单位长度？",
+    "answer": "5",
+    "difficulty": "standard",
+    "explanation": "A 表示 -4，B 表示 1，距离 = |1-(-4)| = 5。",
+    "source": "llm",
+    "verify": "4+1"
+  },
+  {
+    "id": "cnm_004_q9",
+    "topicId": "cnm_004",
+    "type": "choice",
+    "prompt": "数轴上与表示 -1 的点的距离为 2 的点所表示的数是哪一个？",
+    "answer": "C",
+    "difficulty": "challenge",
+    "explanation": "向左：-1-2=-3；向右：-1+2=1，故为 1 或 -3。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "-3"
+      },
+      {
+        "key": "C",
+        "text": "1 或 -3"
+      },
+      {
+        "key": "D",
+        "text": "0"
+      }
+    ]
+  },
+  {
+    "id": "cnm_004_q10",
+    "topicId": "cnm_004",
+    "type": "numeric",
+    "prompt": "原点表示的数是多少？",
+    "answer": "0",
+    "difficulty": "basic",
+    "explanation": "数轴的原点对应的数是 0。",
+    "source": "llm",
+    "verify": "0"
+  },
+  {
+    "id": "cnm_005_q5",
+    "topicId": "cnm_005",
+    "type": "numeric",
+    "prompt": "数轴上点 M 表示 -3，把它向左移动 2 个单位得到点 N，点 N 表示的数是多少？",
+    "answer": "-5",
+    "difficulty": "basic",
+    "explanation": "左移即减：-3 - 2 = -5。",
+    "source": "llm",
+    "verify": "-3-2"
+  },
+  {
+    "id": "cnm_005_q6",
+    "topicId": "cnm_005",
+    "type": "choice",
+    "prompt": "数轴上点 P 在 -1 的右侧 2 个单位长度，点 P 表示的数是哪一个？",
+    "answer": "A",
+    "difficulty": "standard",
+    "explanation": "-1 + 2 = 1，故 P 表示 1。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "-3"
+      },
+      {
+        "key": "C",
+        "text": "3"
+      },
+      {
+        "key": "D",
+        "text": "-1"
+      }
+    ]
+  },
+  {
+    "id": "cnm_005_q7",
+    "topicId": "cnm_005",
+    "type": "numeric",
+    "prompt": "点 A 表示 4，点 B 表示 -2，A、B 两点间的距离是多少个单位长度？",
+    "answer": "6",
+    "difficulty": "standard",
+    "explanation": "距离 = |4 - (-2)| = 6。",
+    "source": "llm",
+    "verify": "4-(-2)"
+  },
+  {
+    "id": "cnm_005_q8",
+    "topicId": "cnm_005",
+    "type": "numeric",
+    "prompt": "数轴上表示 -2 与 3 的两点之间的正中点表示的数是什么？（写成小数或最简分数）",
+    "answer": "0.5",
+    "difficulty": "challenge",
+    "explanation": "中点 = (-2 + 3) / 2 = 0.5。",
+    "source": "llm",
+    "verify": "(-2+3)/2"
+  },
+  {
+    "id": "cnm_005_q9",
+    "topicId": "cnm_005",
+    "type": "choice",
+    "prompt": "在数轴上，-4 位于 -1 的哪一侧？",
+    "answer": "A",
+    "difficulty": "basic",
+    "explanation": "数轴上左边的数更小，-4 < -1，故 -4 在 -1 左侧。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "左侧"
+      },
+      {
+        "key": "B",
+        "text": "右侧"
+      },
+      {
+        "key": "C",
+        "text": "重合"
+      },
+      {
+        "key": "D",
+        "text": "无法判断"
+      }
+    ]
+  },
+  {
+    "id": "cnm_005_q10",
+    "topicId": "cnm_005",
+    "type": "numeric",
+    "prompt": "表示 -1.5 的点到原点的距离是多少个单位长度？",
+    "answer": "1.5",
+    "difficulty": "standard",
+    "explanation": "距离 = |-1.5| = 1.5。",
+    "source": "llm",
+    "verify": "1.5"
+  },
+  {
+    "id": "cnm_006_q5",
+    "topicId": "cnm_006",
+    "type": "numeric",
+    "prompt": "求 9 与 -2/3 的相反数，并化简 -(-4)。（依次作答，用逗号隔开）",
+    "answer": "-9，2/3，4",
+    "difficulty": "basic",
+    "explanation": "9 的相反数是 -9；-2/3 的相反数是 2/3；-(-4)=4。",
+    "source": "llm"
+  },
+  {
+    "id": "cnm_006_q6",
+    "topicId": "cnm_006",
+    "type": "choice",
+    "prompt": "5 的相反数是哪一个？",
+    "answer": "A",
+    "difficulty": "basic",
+    "explanation": "只有符号不同的两个数互为相反数，5 的相反数是 -5。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "-5"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "1/5"
+      },
+      {
+        "key": "D",
+        "text": "-1/5"
+      }
+    ]
+  },
+  {
+    "id": "cnm_006_q7",
+    "topicId": "cnm_006",
+    "type": "numeric",
+    "prompt": "化简 -(-(-4)) 的结果是多少？",
+    "answer": "-4",
+    "difficulty": "standard",
+    "explanation": "从内到外：-(4) = -4，再 -(-4)=4，再 -(4) = -4。",
+    "source": "llm",
+    "verify": "-(-(-4))"
+  },
+  {
+    "id": "cnm_006_q8",
+    "topicId": "cnm_006",
+    "type": "numeric",
+    "prompt": "若 x+2 与 3x-6 互为相反数，求 x 的值。",
+    "answer": "1",
+    "difficulty": "standard",
+    "explanation": "互为相反数则和为 0：(x+2)+(3x-6)=0 → 4x-4=0 → x=1。",
+    "source": "llm",
+    "verify": "1"
+  },
+  {
+    "id": "cnm_006_q9",
+    "topicId": "cnm_006",
+    "type": "numeric",
+    "prompt": "已知 a 与 b 互为相反数，且 a=-7，则 b-a 等于多少？",
+    "answer": "14",
+    "difficulty": "challenge",
+    "explanation": "b 是 a 的相反数，b=7；b-a = 7-(-7) = 14。",
+    "source": "llm",
+    "verify": "7-(-7)"
+  },
+  {
+    "id": "cnm_006_q10",
+    "topicId": "cnm_006",
+    "type": "choice",
+    "prompt": "下列说法正确的是哪一个？",
+    "answer": "A",
+    "difficulty": "standard",
+    "explanation": "任意有理数都有相反数（0 的相反数是 0）。B、C 错在认为 0 无相反数或只有正数有；D 错在和应为 0。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "任何有理数都有相反数"
+      },
+      {
+        "key": "B",
+        "text": "0 没有相反数"
+      },
+      {
+        "key": "C",
+        "text": "只有正数才有相反数"
+      },
+      {
+        "key": "D",
+        "text": "互为相反数的两数和为 1"
+      }
+    ]
+  },
+  {
+    "id": "cnm_007_q5",
+    "topicId": "cnm_007",
+    "type": "numeric",
+    "prompt": "|-9| 等于多少？",
+    "answer": "9",
+    "difficulty": "basic",
+    "explanation": "绝对值是数轴上点到原点的距离，-9 到原点距离 9。",
+    "source": "llm",
+    "verify": "9"
+  },
+  {
+    "id": "cnm_007_q6",
+    "topicId": "cnm_007",
+    "type": "choice",
+    "prompt": "|0| 等于哪一个？",
+    "answer": "A",
+    "difficulty": "basic",
+    "explanation": "0 到原点的距离是 0，故 |0|=0。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "-1"
+      },
+      {
+        "key": "D",
+        "text": "不存在"
+      }
+    ]
+  },
+  {
+    "id": "cnm_007_q7",
+    "topicId": "cnm_007",
+    "type": "numeric",
+    "prompt": "数轴上到原点距离为 6 的点表示的数有哪些？（依次写出，用逗号隔开）",
+    "answer": "-6，6",
+    "difficulty": "standard",
+    "explanation": "原点左右各 6 个单位：-6 与 6。",
+    "source": "llm"
+  },
+  {
+    "id": "cnm_007_q8",
+    "topicId": "cnm_007",
+    "type": "choice",
+    "prompt": "下列说法正确的是哪一个？",
+    "answer": "C",
+    "difficulty": "standard",
+    "explanation": "互为相反数的两数到原点距离相等，绝对值相等。A 应相等；B |a|≥0 不一定为正（a=0 时为 0）；D |0|=0。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "|-5|>|5|"
+      },
+      {
+        "key": "B",
+        "text": "|a| 一定为正数"
+      },
+      {
+        "key": "C",
+        "text": "互为相反数的两数绝对值相等"
+      },
+      {
+        "key": "D",
+        "text": "|0|=-0"
+      }
+    ]
+  },
+  {
+    "id": "cnm_007_q9",
+    "topicId": "cnm_007",
+    "type": "numeric",
+    "prompt": "数轴上到原点距离不超过 2 的整数共有几个？",
+    "answer": "5",
+    "difficulty": "challenge",
+    "explanation": "满足条件的整数：-2、-1、0、1、2，共 5 个。",
+    "source": "llm",
+    "verify": "5"
+  },
+  {
+    "id": "cnm_007_q10",
+    "topicId": "cnm_007",
+    "type": "numeric",
+    "prompt": "一只蚂蚁从原点向左爬了 7 个单位长度，它离原点有多远？",
+    "answer": "7",
+    "difficulty": "basic",
+    "explanation": "距离只看绝对值：|−7| = 7。",
+    "source": "llm",
+    "verify": "7"
+  },
+  {
+    "id": "cnm_008_q5",
+    "topicId": "cnm_008",
+    "type": "numeric",
+    "prompt": "计算 |-8| - |-3| 的值。",
+    "answer": "5",
+    "difficulty": "basic",
+    "explanation": "|-8|=8，|-3|=3，8-3=5。",
+    "source": "llm",
+    "verify": "8-3"
+  },
+  {
+    "id": "cnm_008_q6",
+    "topicId": "cnm_008",
+    "type": "choice",
+    "prompt": "若 |x|=0，则 x 等于哪一个？",
+    "answer": "A",
+    "difficulty": "basic",
+    "explanation": "绝对值为 0 的数只有 0。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "-1"
+      },
+      {
+        "key": "D",
+        "text": "任意实数"
+      }
+    ]
+  },
+  {
+    "id": "cnm_008_q7",
+    "topicId": "cnm_008",
+    "type": "numeric",
+    "prompt": "若 |m|=4 且 m<0，则 m 等于多少？",
+    "answer": "-4",
+    "difficulty": "standard",
+    "explanation": "|m|=4 ⇒ m=±4；又 m<0，故 m=-4。",
+    "source": "llm",
+    "verify": "-4"
+  },
+  {
+    "id": "cnm_008_q8",
+    "topicId": "cnm_008",
+    "type": "numeric",
+    "prompt": "计算 |-1/2| + |3/4| 的值。（写成最简分数）",
+    "answer": "5/4",
+    "difficulty": "standard",
+    "explanation": "|-1/2|=1/2，|3/4|=3/4，和为 1/2+3/4=5/4。",
+    "source": "llm",
+    "verify": "1/2+3/4"
+  },
+  {
+    "id": "cnm_008_q9",
+    "topicId": "cnm_008",
+    "type": "choice",
+    "prompt": "若 a>0，则 |a|-a 等于哪一个？",
+    "answer": "B",
+    "difficulty": "challenge",
+    "explanation": "a>0 时 |a|=a，故 |a|-a = a-a = 0。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "a"
+      },
+      {
+        "key": "B",
+        "text": "0"
+      },
+      {
+        "key": "C",
+        "text": "-a"
+      },
+      {
+        "key": "D",
+        "text": "2a"
+      }
+    ]
+  },
+  {
+    "id": "cnm_008_q10",
+    "topicId": "cnm_008",
+    "type": "numeric",
+    "prompt": "已知 |x-2|=3，则 x 的值有哪些？（依次写出，用逗号隔开）",
+    "answer": "-1，5",
+    "difficulty": "challenge",
+    "explanation": "x-2=3 ⇒ x=5；x-2=-3 ⇒ x=-1。",
+    "source": "llm"
+  },
+  {
+    "id": "cnm_009_q5",
+    "topicId": "cnm_009",
+    "type": "numeric",
+    "prompt": "在 -3，-7，0 这三个数中，最大的数是多少？",
+    "answer": "0",
+    "difficulty": "basic",
+    "explanation": "负数小于 0，故 0 最大。",
+    "source": "llm",
+    "verify": "0"
+  },
+  {
+    "id": "cnm_009_q6",
+    "topicId": "cnm_009",
+    "type": "choice",
+    "prompt": "比较 -5 与 -2 的大小，正确的是哪一个？",
+    "answer": "B",
+    "difficulty": "basic",
+    "explanation": "两个负数，绝对值大的反而小：|-5|>|-2|，故 -5 < -2。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "-5 > -2"
+      },
+      {
+        "key": "B",
+        "text": "-5 < -2"
+      },
+      {
+        "key": "C",
+        "text": "-5 = -2"
+      },
+      {
+        "key": "D",
+        "text": "无法比较"
+      }
+    ]
+  },
+  {
+    "id": "cnm_009_q7",
+    "topicId": "cnm_009",
+    "type": "numeric",
+    "prompt": "把 0.5，-1，-0.5，2 按从小到大排列，排在第三位的数是多少？",
+    "answer": "-0.5",
+    "difficulty": "standard",
+    "explanation": "从小到大：-1 < -0.5 < 0.5 < 2，第三位是 -0.5。",
+    "source": "llm",
+    "verify": "-0.5"
+  },
+  {
+    "id": "cnm_009_q8",
+    "topicId": "cnm_009",
+    "type": "choice",
+    "prompt": "下列各式中，大小关系正确的是哪一个？",
+    "answer": "C",
+    "difficulty": "standard",
+    "explanation": "A 应 -1/3 < -1/4；B 0 > -1；D 1/2 > -1/2；只有 C：-2 > -3 正确。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "-1/3 > -1/4"
+      },
+      {
+        "key": "B",
+        "text": "0 < -1"
+      },
+      {
+        "key": "C",
+        "text": "-2 > -3"
+      },
+      {
+        "key": "D",
+        "text": "1/2 < -1/2"
+      }
+    ]
+  },
+  {
+    "id": "cnm_009_q9",
+    "topicId": "cnm_009",
+    "type": "choice",
+    "prompt": "若 a<0<b 且 |a|>|b|，则 a+b 是哪一个？",
+    "answer": "B",
+    "difficulty": "challenge",
+    "explanation": "负数绝对值更大，正负相加结果为负，如 a=-5、b=3，a+b=-2。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "正数"
+      },
+      {
+        "key": "B",
+        "text": "负数"
+      },
+      {
+        "key": "C",
+        "text": "0"
+      },
+      {
+        "key": "D",
+        "text": "无法确定"
+      }
+    ]
+  },
+  {
+    "id": "cnm_009_q10",
+    "topicId": "cnm_009",
+    "type": "numeric",
+    "prompt": "大于 -4 且小于 2 的整数共有几个？",
+    "answer": "5",
+    "difficulty": "basic",
+    "explanation": "满足条件的整数：-3、-2、-1、0、1，共 5 个。",
+    "source": "llm",
+    "verify": "5"
   }
 ]
