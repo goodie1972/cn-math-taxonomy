@@ -287154,5 +287154,119 @@
     "explanation": "移项本质是等式两边同加/同减，符号因此改变。",
     "id": "cnm_042_q14",
     "topicId": "cnm_042"
+  },
+  {
+    "id": "cnm_010_q15",
+    "topicId": "cnm_010",
+    "type": "numeric",
+    "prompt": "计算：15 + (-22)",
+    "answer": "-7",
+    "difficulty": "basic",
+    "explanation": "异号两数相加，取绝对值较大的符号（负），并用较大绝对值减去较小绝对值：22-15=7，结果为 -7。",
+    "source": "textbook",
+    "verify": "(15)+(-22)"
+  },
+  {
+    "id": "cnm_010_q16",
+    "topicId": "cnm_010",
+    "type": "numeric",
+    "prompt": "计算：(-13) + (-8)",
+    "answer": "-21",
+    "difficulty": "basic",
+    "explanation": "同号两数相加，取相同符号（负），并把绝对值相加：13+8=21，结果为 -21。",
+    "source": "textbook",
+    "verify": "(-13)+(-8)"
+  },
+  {
+    "id": "cnm_010_q17",
+    "topicId": "cnm_010",
+    "type": "numeric",
+    "prompt": "计算：(-0.9) + 1.5",
+    "answer": "0.6",
+    "difficulty": "basic",
+    "explanation": "异号相加，取绝对值较大者（正）的符号，1.5-0.9=0.6。",
+    "source": "textbook",
+    "verify": "(-0.9)+(1.5)"
+  },
+  {
+    "id": "cnm_010_q18",
+    "topicId": "cnm_010",
+    "type": "short",
+    "prompt": "请用生活中的实例解释 5+(-3)=2 与 (-5)+(-3)=-8 的意义。",
+    "answer": "见解析",
+    "difficulty": "standard",
+    "explanation": "例如：5+(-3) 可理解为原有 5 元又花掉 3 元，还剩 2 元；(-5)+(-3) 可理解为先欠 5 元又欠 3 元，共欠 8 元。",
+    "source": "textbook"
+  },
+  {
+    "id": "cnm_010_q19",
+    "topicId": "cnm_010",
+    "type": "numeric",
+    "prompt": "用加法运算律简便计算：16 + (-25) + 24 + (-35)",
+    "answer": "-20",
+    "difficulty": "challenge",
+    "explanation": "交换律与结合律：[16+24] + [(-25)+(-35)] = 40 + (-60) = -20。",
+    "source": "textbook",
+    "verify": "16+(-25)+24+(-35)"
+  },
+  {
+    "id": "cnm_042_q15",
+    "topicId": "cnm_042",
+    "type": "numeric",
+    "prompt": "解方程：5x - 2x = 9",
+    "answer": "3",
+    "difficulty": "basic",
+    "explanation": "合并同类项：3x=9，系数化为 1 得 x=3。",
+    "source": "textbook"
+  },
+  {
+    "id": "cnm_042_q16",
+    "topicId": "cnm_042",
+    "type": "numeric",
+    "prompt": "解方程：2x + 3x + 4x = 18",
+    "answer": "2",
+    "difficulty": "basic",
+    "explanation": "合并同类项：9x=18，系数化为 1 得 x=2。",
+    "source": "textbook"
+  },
+  {
+    "id": "cnm_042_q17",
+    "topicId": "cnm_042",
+    "type": "numeric",
+    "prompt": "解方程：13x - 15x + x = -3",
+    "answer": "3",
+    "difficulty": "basic",
+    "explanation": "合并同类项：(13-15+1)x = -x = -3，得 x=3。",
+    "source": "textbook"
+  },
+  {
+    "id": "cnm_042_q18",
+    "topicId": "cnm_042",
+    "type": "numeric",
+    "prompt": "解方程：3x + 5 = 4x + 1",
+    "answer": "4",
+    "difficulty": "standard",
+    "explanation": "移项：把含 x 的项移到一边、常数项移到另一边，5-1 = 4x-3x，即 4 = x，所以 x=4。",
+    "source": "textbook"
+  },
+  {
+    "id": "cnm_042_q19",
+    "topicId": "cnm_042",
+    "type": "numeric",
+    "prompt": "解方程：9 - 3y = 5y + 5",
+    "answer": "0.5",
+    "difficulty": "standard",
+    "explanation": "移项：9-5 = 5y+3y，即 4 = 8y，系数化为 1 得 y=0.5。",
+    "source": "textbook"
+  },
+  {
+    "id": "cnm_042_q20",
+    "topicId": "cnm_042",
+    "type": "numeric",
+    "prompt": "解方程：7x - 4.5x = 2.5 × 3 - 5",
+    "answer": "1",
+    "difficulty": "standard",
+    "explanation": "右边：2.5×3-5 = 7.5-5 = 2.5；左边合并：2.5x = 2.5，得 x=1。",
+    "source": "textbook"
   }
 ]

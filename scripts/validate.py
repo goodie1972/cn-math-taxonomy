@@ -1107,7 +1107,8 @@ Q_DIFFICULTIES = ("basic", "standard", "challenge")
 Q_DIFFICULTY_ALIASES = {"advanced": "challenge"}  # 旧名，与 challenge 同档
 Q_TYPES = ("numeric", "choice", "short", "self")
 Q_FIELDS = {"id", "topicId", "difficulty", "type", "prompt", "answer", "choices", "accept",
-            "explanation", "verify", "unordered", "fixed_from_source", "figure", "hideChoiceText", "percent"}
+            "explanation", "verify", "unordered", "fixed_from_source", "figure", "hideChoiceText", "percent",
+            "source"}  # source: 题源标记，textbook=教材对齐（方案2），llm=LLM 生成（方案1），缺省为原有人工/自动题
 # 与知识点无关的纯整数/小数四则（不含分数写法 a/b）。
 # 一至六年级 challenge 不得直接「计算：…＝？」。低年级允许写进情境里的简单计算，
 # 但整题不能只是「计算：2＋3＝？」或「3＋2 的得数是哪一个？」。
