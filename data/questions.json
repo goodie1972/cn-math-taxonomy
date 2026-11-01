@@ -289262,5 +289262,580 @@
     "explanation": "11₂=3，加1得4（十进制）。",
     "source": "llm",
     "verify": "4"
+  },
+  {
+    "id": "cnm_025_q5",
+    "topicId": "cnm_025",
+    "type": "numeric",
+    "prompt": "当 a=4 时，求 3a 的值。",
+    "answer": "12",
+    "difficulty": "basic",
+    "explanation": "把 a=4 代入：3×4=12。",
+    "source": "llm",
+    "verify": "3*4"
+  },
+  {
+    "id": "cnm_025_q6",
+    "topicId": "cnm_025",
+    "type": "choice",
+    "prompt": "小明每天读 a 页书，读 7 天一共读多少页？",
+    "answer": "A",
+    "difficulty": "basic",
+    "explanation": "每天 a 页、共 7 天，总页数为 7a。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "7a"
+      },
+      {
+        "key": "B",
+        "text": "a+7"
+      },
+      {
+        "key": "C",
+        "text": "7/a"
+      },
+      {
+        "key": "D",
+        "text": "a-7"
+      }
+    ]
+  },
+  {
+    "id": "cnm_025_q7",
+    "topicId": "cnm_025",
+    "type": "numeric",
+    "prompt": "三个连续奇数中最小的是 2k-1（k 为整数），则这三个连续奇数依次为 2k-1、2k+1、2k+3。当 k=2 时，这三个数的和是多少？",
+    "answer": "15",
+    "difficulty": "standard",
+    "explanation": "k=2 时三个奇数为 3、5、7，和为 15。",
+    "source": "llm",
+    "verify": "3+5+7"
+  },
+  {
+    "id": "cnm_025_q8",
+    "topicId": "cnm_025",
+    "type": "choice",
+    "prompt": "关于用字母表示数，下列说法错误的是哪一个？",
+    "answer": "B",
+    "difficulty": "standard",
+    "explanation": "a² 表示 a 与 a 相乘，不是两个 a 相加（那是 2a）。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "字母可以表示任意数"
+      },
+      {
+        "key": "B",
+        "text": "a² 一定表示两个 a 相加"
+      },
+      {
+        "key": "C",
+        "text": "可用字母表示运算律"
+      },
+      {
+        "key": "D",
+        "text": "字母取值要使式子有意义"
+      }
+    ]
+  },
+  {
+    "id": "cnm_025_q9",
+    "topicId": "cnm_025",
+    "type": "short",
+    "prompt": "用字母表示乘法分配律。",
+    "answer": "a(b+c)=ab+ac",
+    "difficulty": "basic",
+    "explanation": "乘法对加法的分配律：a(b+c)=ab+ac。",
+    "source": "llm"
+  },
+  {
+    "id": "cnm_025_q10",
+    "topicId": "cnm_025",
+    "type": "numeric",
+    "prompt": "一个长方形的长为 a cm、宽为 b cm，面积 S=ab。当 a=6、b=4 时，面积是多少平方厘米？",
+    "answer": "24",
+    "difficulty": "challenge",
+    "explanation": "代入：S=6×4=24（cm²）。",
+    "source": "llm",
+    "verify": "6*4"
+  },
+  {
+    "id": "cnm_026_q5",
+    "topicId": "cnm_026",
+    "type": "choice",
+    "prompt": "下列各式中，不是代数式的是哪一个？",
+    "answer": "C",
+    "difficulty": "basic",
+    "explanation": "代数式由数、字母和运算符号组成；不等式（如 3>2）不是代数式。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2x"
+      },
+      {
+        "key": "B",
+        "text": "0"
+      },
+      {
+        "key": "C",
+        "text": "3>2"
+      },
+      {
+        "key": "D",
+        "text": "1/2"
+      }
+    ]
+  },
+  {
+    "id": "cnm_026_q6",
+    "topicId": "cnm_026",
+    "type": "numeric",
+    "prompt": "当 a=3 时，求代数式 5a 的值。",
+    "answer": "15",
+    "difficulty": "basic",
+    "explanation": "代入：5×3=15。",
+    "source": "llm",
+    "verify": "5*3"
+  },
+  {
+    "id": "cnm_026_q7",
+    "topicId": "cnm_026",
+    "type": "choice",
+    "prompt": "下列代数式书写规范的是哪一个？",
+    "answer": "D",
+    "difficulty": "standard",
+    "explanation": "数字与字母相乘时乘号可省略，写成 2a 最规范。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1/2x（易歧义）"
+      },
+      {
+        "key": "B",
+        "text": "a×b÷c"
+      },
+      {
+        "key": "C",
+        "text": "3·x"
+      },
+      {
+        "key": "D",
+        "text": "2a"
+      }
+    ]
+  },
+  {
+    "id": "cnm_026_q8",
+    "topicId": "cnm_026",
+    "type": "short",
+    "prompt": "把“x 与 y 的和的平方”写成规范的代数式。",
+    "answer": "(x+y)²",
+    "difficulty": "standard",
+    "explanation": "先求和再平方：(x+y)²。",
+    "source": "llm"
+  },
+  {
+    "id": "cnm_026_q9",
+    "topicId": "cnm_026",
+    "type": "choice",
+    "prompt": "下列各式中，既是代数式又能表示数量关系的是哪一个？",
+    "answer": "B",
+    "difficulty": "challenge",
+    "explanation": "只有 B 是纯代数式；A 是等式、C 与 D 是不等式。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "x+y=z"
+      },
+      {
+        "key": "B",
+        "text": "3x-1"
+      },
+      {
+        "key": "C",
+        "text": "2>1"
+      },
+      {
+        "key": "D",
+        "text": "x≥0"
+      }
+    ]
+  },
+  {
+    "id": "cnm_026_q10",
+    "topicId": "cnm_026",
+    "type": "numeric",
+    "prompt": "当 x=10 时，求代数式 x-7 的值。",
+    "answer": "3",
+    "difficulty": "basic",
+    "explanation": "代入：10-7=3。",
+    "source": "llm",
+    "verify": "10-7"
+  },
+  {
+    "id": "cnm_027_q5",
+    "topicId": "cnm_027",
+    "type": "short",
+    "prompt": "“a 的三分之一与 b 的和”用含 a、b 的代数式表示。",
+    "answer": "a/3+b",
+    "difficulty": "basic",
+    "explanation": "a 的三分之一为 a/3，再加 b 得 a/3+b。",
+    "source": "llm"
+  },
+  {
+    "id": "cnm_027_q6",
+    "topicId": "cnm_027",
+    "type": "choice",
+    "prompt": "“x 与 y 的积减去 4”用代数式表示为哪一个？",
+    "answer": "A",
+    "difficulty": "basic",
+    "explanation": "积为 xy，减 4 得 xy-4。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "xy-4"
+      },
+      {
+        "key": "B",
+        "text": "x(y-4)"
+      },
+      {
+        "key": "C",
+        "text": "x-4y"
+      },
+      {
+        "key": "D",
+        "text": "4-xy"
+      }
+    ]
+  },
+  {
+    "id": "cnm_027_q7",
+    "topicId": "cnm_027",
+    "type": "numeric",
+    "prompt": "一件衣服进价 m 元，加价 20% 后标价。当 m=80 时，标价是多少元？",
+    "answer": "96",
+    "difficulty": "standard",
+    "explanation": "标价=1.2m，代入 1.2×80=96。",
+    "source": "llm",
+    "verify": "1.2*80"
+  },
+  {
+    "id": "cnm_027_q8",
+    "topicId": "cnm_027",
+    "type": "choice",
+    "prompt": "“某数的一半与 3 的差”（设该数为 x）用代数式表示，正确的是哪一个？",
+    "answer": "A",
+    "difficulty": "standard",
+    "explanation": "一半为 x/2，减 3 得 x/2-3。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "x/2-3"
+      },
+      {
+        "key": "B",
+        "text": "x-1/2-3"
+      },
+      {
+        "key": "C",
+        "text": "2x-3"
+      },
+      {
+        "key": "D",
+        "text": "x/2+3"
+      }
+    ]
+  },
+  {
+    "id": "cnm_027_q9",
+    "topicId": "cnm_027",
+    "type": "short",
+    "prompt": "甲有 x 元，乙的钱是甲的 2 倍少 5 元，丙比乙多 8 元。用含 x 的代数式表示丙的钱数。",
+    "answer": "2x+3",
+    "difficulty": "challenge",
+    "explanation": "乙=2x-5，丙=乙+8=(2x-5)+8=2x+3。",
+    "source": "llm"
+  },
+  {
+    "id": "cnm_027_q10",
+    "topicId": "cnm_027",
+    "type": "numeric",
+    "prompt": "“a 与 b 的和的 2 倍”代数式为 2(a+b)，当 a=1、b=2 时的值是多少？",
+    "answer": "6",
+    "difficulty": "basic",
+    "explanation": "代入：2×(1+2)=6。",
+    "source": "llm",
+    "verify": "2*(1+2)"
+  },
+  {
+    "id": "cnm_028_q5",
+    "topicId": "cnm_028",
+    "type": "choice",
+    "prompt": "若 v 表示速度（km/h），t 表示时间（h），则 vt 表示什么？",
+    "answer": "A",
+    "difficulty": "basic",
+    "explanation": "速度×时间=路程。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "路程"
+      },
+      {
+        "key": "B",
+        "text": "速度"
+      },
+      {
+        "key": "C",
+        "text": "时间"
+      },
+      {
+        "key": "D",
+        "text": "加速度"
+      }
+    ]
+  },
+  {
+    "id": "cnm_028_q6",
+    "topicId": "cnm_028",
+    "type": "self",
+    "prompt": "说明代数式 2x+3 在“购买文具”情境中的可能含义（x 为单价）。",
+    "answer": "见解析",
+    "difficulty": "standard",
+    "explanation": "如：每本笔记本 x 元，买 2 本再另付 3 元运费，共需 (2x+3) 元。",
+    "source": "llm"
+  },
+  {
+    "id": "cnm_028_q7",
+    "topicId": "cnm_028",
+    "type": "numeric",
+    "prompt": "一出租车起步价 8 元，之后每公里 2 元。行驶 s 公里（忽略起步里程限制）车费为 (8+2s) 元，当 s=5 时车费是多少元？",
+    "answer": "18",
+    "difficulty": "standard",
+    "explanation": "代入：8+2×5=18（元）。",
+    "source": "llm",
+    "verify": "8+2*5"
+  },
+  {
+    "id": "cnm_028_q8",
+    "topicId": "cnm_028",
+    "type": "choice",
+    "prompt": "代数式 a² 在“正方形”情境中可表示什么？（a 为边长）",
+    "answer": "B",
+    "difficulty": "standard",
+    "explanation": "边长 a 的正方形面积为 a²。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "周长"
+      },
+      {
+        "key": "B",
+        "text": "面积"
+      },
+      {
+        "key": "C",
+        "text": "对角线长度"
+      },
+      {
+        "key": "D",
+        "text": "边长"
+      }
+    ]
+  },
+  {
+    "id": "cnm_028_q9",
+    "topicId": "cnm_028",
+    "type": "short",
+    "prompt": "为代数式 50-2n 编一个合理的生活情境（n 为正整数）。",
+    "answer": "见解析",
+    "difficulty": "challenge",
+    "explanation": "如：一盒有 50 颗糖，每天吃掉 2 颗，n 天后剩下 (50-2n) 颗。",
+    "source": "llm"
+  },
+  {
+    "id": "cnm_028_q10",
+    "topicId": "cnm_028",
+    "type": "numeric",
+    "prompt": "一个长方形长 x cm、宽 5 cm，面积 S=5x。当 x=6 时面积是多少平方厘米？",
+    "answer": "30",
+    "difficulty": "basic",
+    "explanation": "代入：S=5×6=30（cm²）。",
+    "source": "llm",
+    "verify": "5*6"
+  },
+  {
+    "id": "cnm_029_q5",
+    "topicId": "cnm_029",
+    "type": "numeric",
+    "prompt": "当 x=4 时，求代数式 x²-1 的值。",
+    "answer": "15",
+    "difficulty": "basic",
+    "explanation": "代入：4²-1=16-1=15。",
+    "source": "llm",
+    "verify": "4*4-1"
+  },
+  {
+    "id": "cnm_029_q6",
+    "topicId": "cnm_029",
+    "type": "choice",
+    "prompt": "当 a=-1 时，2a+3 的值是哪一个？",
+    "answer": "A",
+    "difficulty": "basic",
+    "explanation": "2×(-1)+3=1。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "-1"
+      },
+      {
+        "key": "D",
+        "text": "-5"
+      }
+    ]
+  },
+  {
+    "id": "cnm_029_q7",
+    "topicId": "cnm_029",
+    "type": "numeric",
+    "prompt": "当 x=-3 时，求 (x+1)² 的值。",
+    "answer": "4",
+    "difficulty": "standard",
+    "explanation": "x+1=-2，(-2)²=4。",
+    "source": "llm",
+    "verify": "(-3+1)*(-3+1)"
+  },
+  {
+    "id": "cnm_029_q8",
+    "topicId": "cnm_029",
+    "type": "numeric",
+    "prompt": "当 a=2、b=-1 时，求 a²-b² 的值。",
+    "answer": "3",
+    "difficulty": "standard",
+    "explanation": "a²=4，b²=1，4-1=3。",
+    "source": "llm",
+    "verify": "2*2-(-1)*(-1)"
+  },
+  {
+    "id": "cnm_029_q9",
+    "topicId": "cnm_029",
+    "type": "numeric",
+    "prompt": "当 x=1/2 时，求 4x²-2x+1 的值。",
+    "answer": "1",
+    "difficulty": "challenge",
+    "explanation": "4×1/4 - 2×1/2 + 1 = 1-1+1=1。",
+    "source": "llm",
+    "verify": "4*(1/2)*(1/2)-2*(1/2)+1"
+  },
+  {
+    "id": "cnm_029_q10",
+    "topicId": "cnm_029",
+    "type": "numeric",
+    "prompt": "当 y=5 时，求 10-2y 的值。",
+    "answer": "0",
+    "difficulty": "basic",
+    "explanation": "代入：10-10=0。",
+    "source": "llm",
+    "verify": "10-2*5"
+  },
+  {
+    "id": "cnm_030_q5",
+    "topicId": "cnm_030",
+    "type": "short",
+    "prompt": "数列 1，4，9，16，…（完全平方数）的第 n 项用代数式表示。",
+    "answer": "n²",
+    "difficulty": "basic",
+    "explanation": "第 n 项为 n²。",
+    "source": "llm"
+  },
+  {
+    "id": "cnm_030_q6",
+    "topicId": "cnm_030",
+    "type": "numeric",
+    "prompt": "数列 1，4，9，16，…（第 n 项 n²）的第 10 项是多少？",
+    "answer": "100",
+    "difficulty": "basic",
+    "explanation": "10²=100。",
+    "source": "llm",
+    "verify": "10*10"
+  },
+  {
+    "id": "cnm_030_q7",
+    "topicId": "cnm_030",
+    "type": "choice",
+    "prompt": "数列 1，3，6，10，…（第 n 项为 n(n+1)/2）的第 6 项是哪一个？",
+    "answer": "B",
+    "difficulty": "standard",
+    "explanation": "6×7/2=21。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "15"
+      },
+      {
+        "key": "B",
+        "text": "21"
+      },
+      {
+        "key": "C",
+        "text": "20"
+      },
+      {
+        "key": "D",
+        "text": "28"
+      }
+    ]
+  },
+  {
+    "id": "cnm_030_q8",
+    "topicId": "cnm_030",
+    "type": "numeric",
+    "prompt": "用火柴棒摆三角形：1 个用 3 根，2 个用 5 根，3 个用 7 根，摆 n 个需 (2n+1) 根。摆 30 个需要多少根？",
+    "answer": "61",
+    "difficulty": "standard",
+    "explanation": "代入：2×30+1=61。",
+    "source": "llm",
+    "verify": "2*30+1"
+  },
+  {
+    "id": "cnm_030_q9",
+    "topicId": "cnm_030",
+    "type": "numeric",
+    "prompt": "已知前 n 个奇数之和 1+3+5+…+(2n-1)=n²。前 12 个奇数之和是多少？",
+    "answer": "144",
+    "difficulty": "challenge",
+    "explanation": "12²=144。",
+    "source": "llm",
+    "verify": "12*12"
+  },
+  {
+    "id": "cnm_030_q10",
+    "topicId": "cnm_030",
+    "type": "short",
+    "prompt": "一组数 2，4，8，16，… 第 n 项用代数式表示。",
+    "answer": "2ⁿ",
+    "difficulty": "basic",
+    "explanation": "后一项是前一项的 2 倍，第 n 项为 2ⁿ。",
+    "source": "llm"
   }
 ]
