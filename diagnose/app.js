@@ -45,6 +45,7 @@
   let volSel = '';         // '' 整年级 / '上' / '下'
   let examSel = [];        // 考试范围：已勾选的章 key 列表
   let examSelVol = '';     // 记录 examSel 对应的册，切册时自动重置
+  let editionSel = '';     // 教材版本：''(按年级通用) 或 editions 里的 id
   let seedParam = null;    // URL 参数 seed：固定选题的随机种子
   let pathCy = null;
   let pathToken = 0;
@@ -269,7 +270,15 @@
     const stdById = {};
     js[2].items.forEach(function (x) { stdById[x.id] = x; });
     const graph = E.buildGraph(topics, deps, questions);
-    D = { topics: topics, deps: deps, stdById: stdById, graph: graph, tree: buildTree(topics), aliases: (js[3] && js[3].aliases) || {} };
+    // 版本/教材映射（可选）：缺失时静默降级为空
+    let editions = {};
+    try {
+      const er = await fetch('../data/editions/shanghai2024_grade6.json');
+      if (er.ok) { const ej = await er.json(); editions[ej.id] = ej; }
+    } catch (e) { editions = {}; }
+    D = { topics: topics, deps: deps, stdById: stdById, graph: graph, tree: buildTree(topics), aliases: (js[3] && js[3].aliases) || {}, editions: editions };
+    const eq = new URLSearchParams(location.search).get('edition');
+    if (eq && editions[eq]) editionSel = eq;
   }
 
   function buildTree(topics) {
@@ -631,7 +640,9 @@
     const box = h('div', { class: 'card', id: 'grade-card' });
     const fill = function () {
       while (box.firstChild) box.removeChild(box.firstChild);
-      const g = E.gradeTargets(D.graph, gradeScope(), subject);
+      const edition = editionSel ? (D.editions && D.editions[editionSel]) : null;
+      const g = edition ? E.editionTargets(edition, subject, D.graph) : E.gradeTargets(D.graph, gradeScope(), subject);
+      const subjLabel = ({ math: '数学', english: '英语', chinese: '语文', physics: '物理', science: '科学', morality: '道德与法治', history: '历史', geography: '地理' })[subject] || '数学';
       const tabs = function (label, items, current, set) {
         return h('div', { class: 'stage-tabs', role: 'tablist', 'aria-label': label }, items.map(function (it) {
           return h('button', {
@@ -651,7 +662,31 @@
         limitInput.value = String(v);
         setSetting('screenLimit', v);
       });
+      // 版本/教材选择（始终显示，可切回「按年级通用」）
+      const edSel = h('select', { id: 'edition-select', 'aria-label': '教材版本' },
+        h('option', { value: '' }, '（按年级通用）'),
+        Object.keys(D.editions || {}).map(function (id) {
+          return h('option', { value: id, selected: editionSel === id }, D.editions[id].label);
+        }));
+      edSel.value = editionSel || '';
+      edSel.addEventListener('change', function () { editionSel = edSel.value; fill(); });
+      const edRow = h('div', { class: 'row edition-row' },
+        h('label', { class: 'edition-label', for: 'edition-select' }, '教材版本', edSel));
+      if (edition) {
+        box.append(edRow,
+          h('h2', { text: '按教材版本诊断' }),
+          h('p', { class: 'muted' }, '已按《' + edition.label + '》的「' + subjLabel + '」范围划定知识点，覆盖该版本对应年级的全部考点。按「基础 / 提高 / 拓展」逐级筛查，最后按章汇总薄弱点。' + (g ? '' : '（该学科题库尚未就绪，请切换其他学科或改回「按年级通用」。）')),
+          h('p', { class: 'muted', id: 'grade-info' }, g ? g.label + '：' + g.ids.length + ' 个知识点。' : '这个范围没有知识点。'),
+          h('div', { class: 'row' },
+            h('label', null, '题量上限（' + SCREEN_MIN + '–' + SCREEN_MAX + '）', limitInput),
+            h('button', {
+              class: 'primary', id: 'btn-grade-start', disabled: !g,
+              onclick: function () { if (g) startSession(g.ids, g.label + '（整体筛查）', null, 'screen'); }
+            }, '开始整体诊断')),
+          h('p', { class: 'muted small' }, '知识点多、题量有限，到上限后没测到的标为「未测」；结果页可以再加题。默认 ' + E.SCREEN_LIMIT + ' 题。'));
+      } else {
       box.append(
+        edRow,
         h('h2', { text: '按年级整体诊断' }),
         h('p', { class: 'muted' }, '本测评检查本年级知识点是否掌握，不是竞赛拔高。按「基础 / 提高 / 拓展」出题：先出提高题，答对再出拓展题确认掌握；答错会先补基础题，仍错会回到前面年级的相关知识点。每个知识点连续答对 ' + getSettings().confirm + ' 题才算掌握（可在上方改），最后按章汇总出哪几章薄弱。适合期初摸底、学期末复习。'),
         tabs('年级', subject === 'physics'
@@ -695,6 +730,7 @@
         h('p', { class: 'muted small' }, '知识点多、题量有限，到上限后没测到的标为「未测」；结果页可以再加题。默认 ' + E.SCREEN_LIMIT + ' 题。'));
       const examNode = buildExamRange();
       if (examNode) box.append(examNode);
+      }
     };
     function buildExamRange() {
       const volKey = gradeScope();

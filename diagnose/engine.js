@@ -624,6 +624,22 @@
   }
 
   /**
+   * 版本 / 教材映射：从 edition JSON 取出某学科的知识点 id 列表。
+   * edition 形如 { id, label, subjects: { math: {label, topicIds:[...]}, ... } }；
+   * 某学科可置 null（题库尚未就绪）。只保留确实存在于 graph 中的 id，
+   * 因此页内即便只加载了单学科，也能安全用于该学科的诊断范围。
+   * 返回 {ids, label}；该学科未配置或无有效 id 时返回 null。
+   */
+  function editionTargets(edition, subject, graph) {
+    if (!edition || !edition.subjects) return null;
+    const sub = edition.subjects[subject];
+    if (!sub || !sub.topicIds || !sub.topicIds.length) return null;
+    const ids = sub.topicIds.filter(function (id) { return graph && graph.byId && graph.byId[id]; });
+    if (!ids.length) return null;
+    return { ids: ids, label: (edition.label || edition.id || '版本') + ' · ' + (sub.label || subject) };
+  }
+
+  /**
    * 按章汇总：范围内每章的 掌握 / 不稳 / 薄弱 / 未测 数量和薄弱、不稳的知识点 id。
    * 章按教材顺序给出，再按「薄弱数多、不稳数多」稳定排序，薄弱的章排前面。
    */
@@ -1001,6 +1017,7 @@
     normalizeConfirm: normalizeConfirm,
     needConfirm: needConfirm,
     gradeTargets: gradeTargets,
+    editionTargets: editionTargets,
     subjectOf: subjectOf,
     chapterSummary: chapterSummary,
     buildGraph: buildGraph,

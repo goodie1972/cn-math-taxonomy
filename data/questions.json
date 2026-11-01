@@ -303116,5 +303116,79 @@
   "difficulty": "standard",
   "answer": "柳书,不仅,骨力遒劲,而且,结构严密",
   "explanation": "用递进句式准确描述柳公权书法的两个核心艺术特征。"
+ },
+ {
+  "id": "cnm_p204_q10",
+  "topicId": "cnm_p204",
+  "difficulty": "standard",
+  "type": "numeric",
+  "prompt": "把 500 元存两年，年利率 2%。两年的利息是多少元？",
+  "answer": "20",
+  "verify": "500*2*2/100",
+  "explanation": "利息＝本金×年利率×年数＝500×2%×2＝20。"
+ },
+ {
+  "id": "cnm_p205_q10",
+  "topicId": "cnm_p205",
+  "difficulty": "standard",
+  "type": "numeric",
+  "prompt": "120 的 15% 是多少？",
+  "answer": "18",
+  "verify": "120*15/100",
+  "explanation": "120×15%＝18。"
+ },
+ {
+  "id": "cnc_p440_q10",
+  "topicId": "cnc_p440",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "倡议书结尾通常要写什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "对谁说的称呼"
+   },
+   {
+    "key": "B",
+    "text": "倡议的具体做法"
+   },
+   {
+    "key": "C",
+    "text": "署名和日期"
+   },
+   {
+    "key": "D",
+    "text": "一幅装饰画"
+   }
+  ],
+  "answer": "C",
+  "explanation": "倡议书最后要署名、写日期，才完整可信。"
+ },
+ {
+  "id": "cnc_p441_q10",
+  "topicId": "cnc_p441",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "「______天气寒冷，______他坚持每天晨跑。」哪一组填得对？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "不但……而且……"
+   },
+   {
+    "key": "B",
+    "text": "虽然……但是……"
+   },
+   {
+    "key": "C",
+    "text": "只要……就……"
+   },
+   {
+    "key": "D",
+    "text": "因为……所以……"
+   }
+  ],
+  "answer": "B",
+  "explanation": "前句说冷、后句说仍去跑，是转折关系，用虽然……但是……。"
  }
 ]
