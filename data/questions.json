@@ -289837,5 +289837,3071 @@
     "difficulty": "basic",
     "explanation": "后一项是前一项的 2 倍，第 n 项为 2ⁿ。",
     "source": "llm"
+  },
+  {
+    "id": "cnm_031_q5",
+    "topicId": "cnm_031",
+    "type": "numeric",
+    "prompt": "单项式 -4x^4 的系数是？",
+    "answer": "-4",
+    "difficulty": "basic",
+    "explanation": "系数是数字因数，即 -4。",
+    "source": "llm",
+    "verify": "-4"
+  },
+  {
+    "id": "cnm_031_q6",
+    "topicId": "cnm_031",
+    "type": "numeric",
+    "prompt": "单项式 -5x^2x^2 的系数是？",
+    "answer": "-5",
+    "difficulty": "basic",
+    "explanation": "系数是数字因数，即 -5。",
+    "source": "llm",
+    "verify": "-5"
+  },
+  {
+    "id": "cnm_031_q7",
+    "topicId": "cnm_031",
+    "type": "numeric",
+    "prompt": "单项式 3y^2y^3 的系数是？",
+    "answer": "3",
+    "difficulty": "basic",
+    "explanation": "系数是数字因数，即 3。",
+    "source": "llm",
+    "verify": "3"
+  },
+  {
+    "id": "cnm_031_q8",
+    "topicId": "cnm_031",
+    "type": "numeric",
+    "prompt": "单项式 5x^2 的系数是？",
+    "answer": "5",
+    "difficulty": "basic",
+    "explanation": "系数是数字因数，即 5。",
+    "source": "llm",
+    "verify": "5"
+  },
+  {
+    "id": "cnm_031_q9",
+    "topicId": "cnm_031",
+    "type": "numeric",
+    "prompt": "单项式 3x^4x^3 的系数是？",
+    "answer": "3",
+    "difficulty": "basic",
+    "explanation": "系数是数字因数，即 3。",
+    "source": "llm",
+    "verify": "3"
+  },
+  {
+    "id": "cnm_031_q10",
+    "topicId": "cnm_031",
+    "type": "numeric",
+    "prompt": "单项式 -4m^1m^1 的系数是？",
+    "answer": "-4",
+    "difficulty": "basic",
+    "explanation": "系数是数字因数，即 -4。",
+    "source": "llm",
+    "verify": "-4"
+  },
+  {
+    "id": "cnm_032_q5",
+    "topicId": "cnm_032",
+    "type": "numeric",
+    "prompt": "多项式 2x^2+4y-2 有几项？",
+    "answer": "3",
+    "difficulty": "basic",
+    "explanation": "按加减号拆分，共 3 项。",
+    "source": "llm",
+    "verify": "3"
+  },
+  {
+    "id": "cnm_032_q6",
+    "topicId": "cnm_032",
+    "type": "numeric",
+    "prompt": "多项式 2x^2+3y-2 有几项？",
+    "answer": "3",
+    "difficulty": "basic",
+    "explanation": "按加减号拆分，共 3 项。",
+    "source": "llm",
+    "verify": "3"
+  },
+  {
+    "id": "cnm_032_q7",
+    "topicId": "cnm_032",
+    "type": "numeric",
+    "prompt": "多项式 3x^2+5y-4 有几项？",
+    "answer": "3",
+    "difficulty": "basic",
+    "explanation": "按加减号拆分，共 3 项。",
+    "source": "llm",
+    "verify": "3"
+  },
+  {
+    "id": "cnm_032_q8",
+    "topicId": "cnm_032",
+    "type": "numeric",
+    "prompt": "多项式 5x^2+5y-2 有几项？",
+    "answer": "3",
+    "difficulty": "basic",
+    "explanation": "按加减号拆分，共 3 项。",
+    "source": "llm",
+    "verify": "3"
+  },
+  {
+    "id": "cnm_032_q9",
+    "topicId": "cnm_032",
+    "type": "numeric",
+    "prompt": "多项式 6x^2+5y-4 有几项？",
+    "answer": "3",
+    "difficulty": "basic",
+    "explanation": "按加减号拆分，共 3 项。",
+    "source": "llm",
+    "verify": "3"
+  },
+  {
+    "id": "cnm_032_q10",
+    "topicId": "cnm_032",
+    "type": "numeric",
+    "prompt": "多项式 2x^2+4y-2 的次数是？",
+    "answer": "2",
+    "difficulty": "standard",
+    "explanation": "最高次项 2x^2 的次数为 2。",
+    "source": "llm",
+    "verify": "2"
+  },
+  {
+    "id": "cnm_033_q5",
+    "topicId": "cnm_033",
+    "type": "choice",
+    "prompt": "下列各组单项式中，是同类项的是（ ）",
+    "answer": "A",
+    "difficulty": "basic",
+    "explanation": "同类项要求所含字母相同且相同字母指数也相同。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "3x^2y 与 -3x^2y"
+      },
+      {
+        "key": "B",
+        "text": "2xy 与 3x^2y"
+      },
+      {
+        "key": "C",
+        "text": "x^2 与 x^3"
+      },
+      {
+        "key": "D",
+        "text": "2x 与 3y"
+      }
+    ]
+  },
+  {
+    "id": "cnm_033_q6",
+    "topicId": "cnm_033",
+    "type": "choice",
+    "prompt": "下列各组单项式中，是同类项的是（ ）",
+    "answer": "C",
+    "difficulty": "basic",
+    "explanation": "同类项要求所含字母相同且相同字母指数也相同。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2x 与 3y"
+      },
+      {
+        "key": "B",
+        "text": "x^2 与 x^3"
+      },
+      {
+        "key": "C",
+        "text": "5x^2y 与 -3x^2y"
+      },
+      {
+        "key": "D",
+        "text": "2xy 与 3x^2y"
+      }
+    ]
+  },
+  {
+    "id": "cnm_033_q7",
+    "topicId": "cnm_033",
+    "type": "choice",
+    "prompt": "下列各组单项式中，是同类项的是（ ）",
+    "answer": "A",
+    "difficulty": "basic",
+    "explanation": "同类项要求所含字母相同且相同字母指数也相同。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2x^2y 与 -3x^2y"
+      },
+      {
+        "key": "B",
+        "text": "2xy 与 3x^2y"
+      },
+      {
+        "key": "C",
+        "text": "x^2 与 x^3"
+      },
+      {
+        "key": "D",
+        "text": "2x 与 3y"
+      }
+    ]
+  },
+  {
+    "id": "cnm_033_q8",
+    "topicId": "cnm_033",
+    "type": "choice",
+    "prompt": "下列各组单项式中，是同类项的是（ ）",
+    "answer": "A",
+    "difficulty": "basic",
+    "explanation": "同类项要求所含字母相同且相同字母指数也相同。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "6x^2y 与 -3x^2y"
+      },
+      {
+        "key": "B",
+        "text": "2x 与 3y"
+      },
+      {
+        "key": "C",
+        "text": "x^2 与 x^3"
+      },
+      {
+        "key": "D",
+        "text": "2xy 与 3x^2y"
+      }
+    ]
+  },
+  {
+    "id": "cnm_033_q9",
+    "topicId": "cnm_033",
+    "type": "choice",
+    "prompt": "下列各组单项式中，是同类项的是（ ）",
+    "answer": "A",
+    "difficulty": "basic",
+    "explanation": "同类项要求所含字母相同且相同字母指数也相同。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2x^2y 与 -3x^2y"
+      },
+      {
+        "key": "B",
+        "text": "x^2 与 x^3"
+      },
+      {
+        "key": "C",
+        "text": "2xy 与 3x^2y"
+      },
+      {
+        "key": "D",
+        "text": "2x 与 3y"
+      }
+    ]
+  },
+  {
+    "id": "cnm_033_q10",
+    "topicId": "cnm_033",
+    "type": "choice",
+    "prompt": "下列各组单项式中，是同类项的是（ ）",
+    "answer": "A",
+    "difficulty": "basic",
+    "explanation": "同类项要求所含字母相同且相同字母指数也相同。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2x^2y 与 -3x^2y"
+      },
+      {
+        "key": "B",
+        "text": "2xy 与 3x^2y"
+      },
+      {
+        "key": "C",
+        "text": "2x 与 3y"
+      },
+      {
+        "key": "D",
+        "text": "x^2 与 x^3"
+      }
+    ]
+  },
+  {
+    "id": "cnm_034_q5",
+    "topicId": "cnm_034",
+    "type": "numeric",
+    "prompt": "当 x=8 时，求 5x + 3x - 2x 的值。",
+    "answer": "48",
+    "difficulty": "basic",
+    "explanation": "先合并同类项得 6x，代入 x=8 得 48。",
+    "source": "llm",
+    "verify": "(5+3-2)*8"
+  },
+  {
+    "id": "cnm_034_q6",
+    "topicId": "cnm_034",
+    "type": "numeric",
+    "prompt": "当 x=-2 时，求 6x + 6x - 5x 的值。",
+    "answer": "-14",
+    "difficulty": "basic",
+    "explanation": "先合并同类项得 7x，代入 x=-2 得 -14。",
+    "source": "llm",
+    "verify": "(6+6-5)*-2"
+  },
+  {
+    "id": "cnm_034_q7",
+    "topicId": "cnm_034",
+    "type": "numeric",
+    "prompt": "当 x=3 时，求 6x + 6x - 6x 的值。",
+    "answer": "18",
+    "difficulty": "basic",
+    "explanation": "先合并同类项得 6x，代入 x=3 得 18。",
+    "source": "llm",
+    "verify": "(6+6-6)*3"
+  },
+  {
+    "id": "cnm_034_q8",
+    "topicId": "cnm_034",
+    "type": "numeric",
+    "prompt": "当 x=5 时，求 5x + 6x - 3x 的值。",
+    "answer": "40",
+    "difficulty": "basic",
+    "explanation": "先合并同类项得 8x，代入 x=5 得 40。",
+    "source": "llm",
+    "verify": "(5+6-3)*5"
+  },
+  {
+    "id": "cnm_034_q9",
+    "topicId": "cnm_034",
+    "type": "numeric",
+    "prompt": "当 x=-1 时，求 4x + 2x - 5x 的值。",
+    "answer": "-1",
+    "difficulty": "basic",
+    "explanation": "先合并同类项得 1x，代入 x=-1 得 -1。",
+    "source": "llm",
+    "verify": "(4+2-5)*-1"
+  },
+  {
+    "id": "cnm_034_q10",
+    "topicId": "cnm_034",
+    "type": "numeric",
+    "prompt": "当 x=4 时，求 2x + 5x - 4x 的值。",
+    "answer": "12",
+    "difficulty": "basic",
+    "explanation": "先合并同类项得 3x，代入 x=4 得 12。",
+    "source": "llm",
+    "verify": "(2+5-4)*4"
+  },
+  {
+    "id": "cnm_035_q5",
+    "topicId": "cnm_035",
+    "type": "numeric",
+    "prompt": "当 x=5 时，求 -(5x - 4) + 5x 的值。",
+    "answer": "4",
+    "difficulty": "standard",
+    "explanation": "去括号：-5x+4+5x，x 项抵消，结果恒为 4。",
+    "source": "llm",
+    "verify": "(-5*5+4)+5*5"
+  },
+  {
+    "id": "cnm_035_q6",
+    "topicId": "cnm_035",
+    "type": "numeric",
+    "prompt": "当 x=3 时，求 -(3x - 3) + 3x 的值。",
+    "answer": "3",
+    "difficulty": "standard",
+    "explanation": "去括号：-3x+3+3x，x 项抵消，结果恒为 3。",
+    "source": "llm",
+    "verify": "(-3*3+3)+3*3"
+  },
+  {
+    "id": "cnm_035_q7",
+    "topicId": "cnm_035",
+    "type": "numeric",
+    "prompt": "当 x=-4 时，求 -(5x - 3) + 5x 的值。",
+    "answer": "3",
+    "difficulty": "standard",
+    "explanation": "去括号：-5x+3+5x，x 项抵消，结果恒为 3。",
+    "source": "llm",
+    "verify": "(-5*-4+3)+5*-4"
+  },
+  {
+    "id": "cnm_035_q8",
+    "topicId": "cnm_035",
+    "type": "numeric",
+    "prompt": "当 x=-4 时，求 -(5x - 2) + 5x 的值。",
+    "answer": "2",
+    "difficulty": "standard",
+    "explanation": "去括号：-5x+2+5x，x 项抵消，结果恒为 2。",
+    "source": "llm",
+    "verify": "(-5*-4+2)+5*-4"
+  },
+  {
+    "id": "cnm_035_q9",
+    "topicId": "cnm_035",
+    "type": "numeric",
+    "prompt": "当 x=4 时，求 -(4x - 4) + 4x 的值。",
+    "answer": "4",
+    "difficulty": "standard",
+    "explanation": "去括号：-4x+4+4x，x 项抵消，结果恒为 4。",
+    "source": "llm",
+    "verify": "(-4*4+4)+4*4"
+  },
+  {
+    "id": "cnm_035_q10",
+    "topicId": "cnm_035",
+    "type": "numeric",
+    "prompt": "当 x=7 时，求 -(5x - 3) + 5x 的值。",
+    "answer": "3",
+    "difficulty": "standard",
+    "explanation": "去括号：-5x+3+5x，x 项抵消，结果恒为 3。",
+    "source": "llm",
+    "verify": "(-5*7+3)+5*7"
+  },
+  {
+    "id": "cnm_036_q5",
+    "topicId": "cnm_036",
+    "type": "numeric",
+    "prompt": "当 x=6 时，求 (5x+2) + (-5x+4) 的值。",
+    "answer": "6",
+    "difficulty": "standard",
+    "explanation": "去括号合并同类项：x 项抵消，常数 2+4=6。",
+    "source": "llm",
+    "verify": "(5*6+2)+(-5*6+4)"
+  },
+  {
+    "id": "cnm_036_q6",
+    "topicId": "cnm_036",
+    "type": "numeric",
+    "prompt": "当 x=-1 时，求 (2x+5) + (-2x+10) 的值。",
+    "answer": "15",
+    "difficulty": "standard",
+    "explanation": "去括号合并同类项：x 项抵消，常数 5+10=15。",
+    "source": "llm",
+    "verify": "(2*-1+5)+(-2*-1+10)"
+  },
+  {
+    "id": "cnm_036_q7",
+    "topicId": "cnm_036",
+    "type": "numeric",
+    "prompt": "当 x=-3 时，求 (5x+4) + (-5x+8) 的值。",
+    "answer": "12",
+    "difficulty": "standard",
+    "explanation": "去括号合并同类项：x 项抵消，常数 4+8=12。",
+    "source": "llm",
+    "verify": "(5*-3+4)+(-5*-3+8)"
+  },
+  {
+    "id": "cnm_036_q8",
+    "topicId": "cnm_036",
+    "type": "numeric",
+    "prompt": "当 x=1 时，求 (2x+4) + (-2x+8) 的值。",
+    "answer": "12",
+    "difficulty": "standard",
+    "explanation": "去括号合并同类项：x 项抵消，常数 4+8=12。",
+    "source": "llm",
+    "verify": "(2*1+4)+(-2*1+8)"
+  },
+  {
+    "id": "cnm_036_q9",
+    "topicId": "cnm_036",
+    "type": "numeric",
+    "prompt": "当 x=-1 时，求 (3x+4) + (-3x+8) 的值。",
+    "answer": "12",
+    "difficulty": "standard",
+    "explanation": "去括号合并同类项：x 项抵消，常数 4+8=12。",
+    "source": "llm",
+    "verify": "(3*-1+4)+(-3*-1+8)"
+  },
+  {
+    "id": "cnm_036_q10",
+    "topicId": "cnm_036",
+    "type": "numeric",
+    "prompt": "当 x=5 时，求 (2x+2) + (-2x+4) 的值。",
+    "answer": "6",
+    "difficulty": "standard",
+    "explanation": "去括号合并同类项：x 项抵消，常数 2+4=6。",
+    "source": "llm",
+    "verify": "(2*5+2)+(-2*5+4)"
+  },
+  {
+    "id": "cnm_037_q5",
+    "topicId": "cnm_037",
+    "type": "numeric",
+    "prompt": "先化简再求值：3x+5y，其中 x=7，y=2。",
+    "answer": "31",
+    "difficulty": "standard",
+    "explanation": "直接代入：3×7+5×2=31。",
+    "source": "llm",
+    "verify": "3*7+5*2"
+  },
+  {
+    "id": "cnm_037_q6",
+    "topicId": "cnm_037",
+    "type": "numeric",
+    "prompt": "先化简再求值：5x+4y，其中 x=7，y=5。",
+    "answer": "55",
+    "difficulty": "standard",
+    "explanation": "直接代入：5×7+4×5=55。",
+    "source": "llm",
+    "verify": "5*7+4*5"
+  },
+  {
+    "id": "cnm_037_q7",
+    "topicId": "cnm_037",
+    "type": "numeric",
+    "prompt": "先化简再求值：5x+5y，其中 x=1，y=4。",
+    "answer": "25",
+    "difficulty": "standard",
+    "explanation": "直接代入：5×1+5×4=25。",
+    "source": "llm",
+    "verify": "5*1+5*4"
+  },
+  {
+    "id": "cnm_037_q8",
+    "topicId": "cnm_037",
+    "type": "numeric",
+    "prompt": "先化简再求值：3x+2y，其中 x=5，y=4。",
+    "answer": "23",
+    "difficulty": "standard",
+    "explanation": "直接代入：3×5+2×4=23。",
+    "source": "llm",
+    "verify": "3*5+2*4"
+  },
+  {
+    "id": "cnm_037_q9",
+    "topicId": "cnm_037",
+    "type": "numeric",
+    "prompt": "先化简再求值：5x+5y，其中 x=2，y=3。",
+    "answer": "25",
+    "difficulty": "standard",
+    "explanation": "直接代入：5×2+5×3=25。",
+    "source": "llm",
+    "verify": "5*2+5*3"
+  },
+  {
+    "id": "cnm_037_q10",
+    "topicId": "cnm_037",
+    "type": "numeric",
+    "prompt": "先化简再求值：3x+2y，其中 x=2，y=-1。",
+    "answer": "4",
+    "difficulty": "standard",
+    "explanation": "直接代入：3×2+2×-1=4。",
+    "source": "llm",
+    "verify": "3*2+2*-1"
+  },
+  {
+    "id": "cnm_038_q5",
+    "topicId": "cnm_038",
+    "type": "numeric",
+    "prompt": "一个长方形，长是 12 cm，宽比长少 3 cm，求它的周长（cm）。",
+    "answer": "42",
+    "difficulty": "basic",
+    "explanation": "宽=12-3=9，周长=2×(长+宽)=2×(12+9)=42。",
+    "source": "llm",
+    "verify": "2*(12+(12-3))"
+  },
+  {
+    "id": "cnm_038_q6",
+    "topicId": "cnm_038",
+    "type": "numeric",
+    "prompt": "一个长方形，长是 9 cm，宽比长少 3 cm，求它的周长（cm）。",
+    "answer": "30",
+    "difficulty": "basic",
+    "explanation": "宽=9-3=6，周长=2×(长+宽)=2×(9+6)=30。",
+    "source": "llm",
+    "verify": "2*(9+(9-3))"
+  },
+  {
+    "id": "cnm_038_q7",
+    "topicId": "cnm_038",
+    "type": "numeric",
+    "prompt": "一个长方形，长是 10 cm，宽比长少 3 cm，求它的周长（cm）。",
+    "answer": "34",
+    "difficulty": "basic",
+    "explanation": "宽=10-3=7，周长=2×(长+宽)=2×(10+7)=34。",
+    "source": "llm",
+    "verify": "2*(10+(10-3))"
+  },
+  {
+    "id": "cnm_038_q8",
+    "topicId": "cnm_038",
+    "type": "numeric",
+    "prompt": "一个长方形，长是 6 cm，宽比长少 3 cm，求它的周长（cm）。",
+    "answer": "18",
+    "difficulty": "basic",
+    "explanation": "宽=6-3=3，周长=2×(长+宽)=2×(6+3)=18。",
+    "source": "llm",
+    "verify": "2*(6+(6-3))"
+  },
+  {
+    "id": "cnm_038_q9",
+    "topicId": "cnm_038",
+    "type": "numeric",
+    "prompt": "小明有邮票 3 张，小红比小明多 3 张。若小明有 4 张，两人共有多少张？",
+    "answer": "11",
+    "difficulty": "standard",
+    "explanation": "小红有 4+3=7 张，两人共 4+7=11 张。",
+    "source": "llm",
+    "verify": "(4+3)+4"
+  },
+  {
+    "id": "cnm_038_q10",
+    "topicId": "cnm_038",
+    "type": "numeric",
+    "prompt": "小明有邮票 5 张，小红比小明多 5 张。若小明有 2 张，两人共有多少张？",
+    "answer": "9",
+    "difficulty": "standard",
+    "explanation": "小红有 2+5=7 张，两人共 2+7=9 张。",
+    "source": "llm",
+    "verify": "(2+5)+2"
+  },
+  {
+    "id": "cnm_039_q5",
+    "topicId": "cnm_039",
+    "type": "choice",
+    "prompt": "下列各式中，是方程的是（ ）",
+    "answer": "D",
+    "difficulty": "basic",
+    "explanation": "含有未知数的等式叫方程，2x+3=7 符合。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2x>5"
+      },
+      {
+        "key": "B",
+        "text": "3+5=8"
+      },
+      {
+        "key": "C",
+        "text": "4x-1"
+      },
+      {
+        "key": "D",
+        "text": "2x+3=7"
+      }
+    ]
+  },
+  {
+    "id": "cnm_039_q6",
+    "topicId": "cnm_039",
+    "type": "choice",
+    "prompt": "下列各式中，是方程的是（ ）",
+    "answer": "B",
+    "difficulty": "basic",
+    "explanation": "含有未知数的等式叫方程，2x+3=7 符合。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "4x-1"
+      },
+      {
+        "key": "B",
+        "text": "2x+3=7"
+      },
+      {
+        "key": "C",
+        "text": "3+5=8"
+      },
+      {
+        "key": "D",
+        "text": "2x>5"
+      }
+    ]
+  },
+  {
+    "id": "cnm_039_q7",
+    "topicId": "cnm_039",
+    "type": "choice",
+    "prompt": "下列各式中，是方程的是（ ）",
+    "answer": "B",
+    "difficulty": "basic",
+    "explanation": "含有未知数的等式叫方程，2x+3=7 符合。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "4x-1"
+      },
+      {
+        "key": "B",
+        "text": "2x+3=7"
+      },
+      {
+        "key": "C",
+        "text": "2x>5"
+      },
+      {
+        "key": "D",
+        "text": "3+5=8"
+      }
+    ]
+  },
+  {
+    "id": "cnm_039_q8",
+    "topicId": "cnm_039",
+    "type": "choice",
+    "prompt": "下列各式中，是方程的是（ ）",
+    "answer": "C",
+    "difficulty": "basic",
+    "explanation": "含有未知数的等式叫方程，2x+3=7 符合。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "3+5=8"
+      },
+      {
+        "key": "B",
+        "text": "4x-1"
+      },
+      {
+        "key": "C",
+        "text": "2x+3=7"
+      },
+      {
+        "key": "D",
+        "text": "2x>5"
+      }
+    ]
+  },
+  {
+    "id": "cnm_039_q9",
+    "topicId": "cnm_039",
+    "type": "choice",
+    "prompt": "下列各式中，是方程的是（ ）",
+    "answer": "D",
+    "difficulty": "basic",
+    "explanation": "含有未知数的等式叫方程，2x+3=7 符合。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "3+5=8"
+      },
+      {
+        "key": "B",
+        "text": "4x-1"
+      },
+      {
+        "key": "C",
+        "text": "2x>5"
+      },
+      {
+        "key": "D",
+        "text": "2x+3=7"
+      }
+    ]
+  },
+  {
+    "id": "cnm_039_q10",
+    "topicId": "cnm_039",
+    "type": "choice",
+    "prompt": "下列各式中，是方程的是（ ）",
+    "answer": "D",
+    "difficulty": "basic",
+    "explanation": "含有未知数的等式叫方程，2x+3=7 符合。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2x>5"
+      },
+      {
+        "key": "B",
+        "text": "4x-1"
+      },
+      {
+        "key": "C",
+        "text": "3+5=8"
+      },
+      {
+        "key": "D",
+        "text": "2x+3=7"
+      }
+    ]
+  },
+  {
+    "id": "cnm_040_q5",
+    "topicId": "cnm_040",
+    "type": "choice",
+    "prompt": "已知 a=b，下列变形一定正确的是（ ）",
+    "answer": "A",
+    "difficulty": "basic",
+    "explanation": "等式两边同时加同一个数，等式仍成立。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "a+3=b+3"
+      },
+      {
+        "key": "B",
+        "text": "a+3=b-3"
+      },
+      {
+        "key": "C",
+        "text": "a=b+3"
+      },
+      {
+        "key": "D",
+        "text": "3a=b/3"
+      }
+    ]
+  },
+  {
+    "id": "cnm_040_q6",
+    "topicId": "cnm_040",
+    "type": "choice",
+    "prompt": "已知 a=b，下列变形一定正确的是（ ）",
+    "answer": "D",
+    "difficulty": "basic",
+    "explanation": "等式两边同时加同一个数，等式仍成立。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "a=b+3"
+      },
+      {
+        "key": "B",
+        "text": "3a=b/3"
+      },
+      {
+        "key": "C",
+        "text": "a+3=b-3"
+      },
+      {
+        "key": "D",
+        "text": "a+3=b+3"
+      }
+    ]
+  },
+  {
+    "id": "cnm_040_q7",
+    "topicId": "cnm_040",
+    "type": "choice",
+    "prompt": "已知 a=b，下列变形一定正确的是（ ）",
+    "answer": "D",
+    "difficulty": "basic",
+    "explanation": "等式两边同时加同一个数，等式仍成立。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "a=b+3"
+      },
+      {
+        "key": "B",
+        "text": "a+3=b-3"
+      },
+      {
+        "key": "C",
+        "text": "3a=b/3"
+      },
+      {
+        "key": "D",
+        "text": "a+3=b+3"
+      }
+    ]
+  },
+  {
+    "id": "cnm_040_q8",
+    "topicId": "cnm_040",
+    "type": "choice",
+    "prompt": "已知 a=b，下列变形一定正确的是（ ）",
+    "answer": "D",
+    "difficulty": "basic",
+    "explanation": "等式两边同时加同一个数，等式仍成立。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "3a=b/3"
+      },
+      {
+        "key": "B",
+        "text": "a=b+3"
+      },
+      {
+        "key": "C",
+        "text": "a+3=b-3"
+      },
+      {
+        "key": "D",
+        "text": "a+3=b+3"
+      }
+    ]
+  },
+  {
+    "id": "cnm_040_q9",
+    "topicId": "cnm_040",
+    "type": "choice",
+    "prompt": "已知 a=b，下列变形一定正确的是（ ）",
+    "answer": "A",
+    "difficulty": "basic",
+    "explanation": "等式两边同时加同一个数，等式仍成立。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "a+3=b+3"
+      },
+      {
+        "key": "B",
+        "text": "3a=b/3"
+      },
+      {
+        "key": "C",
+        "text": "a+3=b-3"
+      },
+      {
+        "key": "D",
+        "text": "a=b+3"
+      }
+    ]
+  },
+  {
+    "id": "cnm_040_q10",
+    "topicId": "cnm_040",
+    "type": "choice",
+    "prompt": "由 2x=6 得到 x=3，依据的是（ ）",
+    "answer": "A",
+    "difficulty": "standard",
+    "explanation": "2x=6 两边同除以 2 得 x=3。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "等式两边同除以2"
+      },
+      {
+        "key": "B",
+        "text": "两边同开方"
+      },
+      {
+        "key": "C",
+        "text": "两边同平方"
+      },
+      {
+        "key": "D",
+        "text": "两边同加2"
+      }
+    ]
+  },
+  {
+    "id": "cnm_041_q5",
+    "topicId": "cnm_041",
+    "type": "choice",
+    "prompt": "下列方程中，是一元一次方程的是（ ）",
+    "answer": "D",
+    "difficulty": "basic",
+    "explanation": "一元一次方程是只含一个未知数且未知数次数为 1 的整式方程。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1/x=2"
+      },
+      {
+        "key": "B",
+        "text": "2x+3y=7"
+      },
+      {
+        "key": "C",
+        "text": "x^2=4"
+      },
+      {
+        "key": "D",
+        "text": "3x-5=1"
+      }
+    ]
+  },
+  {
+    "id": "cnm_041_q6",
+    "topicId": "cnm_041",
+    "type": "choice",
+    "prompt": "下列方程中，是一元一次方程的是（ ）",
+    "answer": "A",
+    "difficulty": "basic",
+    "explanation": "一元一次方程是只含一个未知数且未知数次数为 1 的整式方程。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "3x-5=1"
+      },
+      {
+        "key": "B",
+        "text": "x^2=4"
+      },
+      {
+        "key": "C",
+        "text": "2x+3y=7"
+      },
+      {
+        "key": "D",
+        "text": "1/x=2"
+      }
+    ]
+  },
+  {
+    "id": "cnm_041_q7",
+    "topicId": "cnm_041",
+    "type": "choice",
+    "prompt": "下列方程中，是一元一次方程的是（ ）",
+    "answer": "C",
+    "difficulty": "basic",
+    "explanation": "一元一次方程是只含一个未知数且未知数次数为 1 的整式方程。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1/x=2"
+      },
+      {
+        "key": "B",
+        "text": "x^2=4"
+      },
+      {
+        "key": "C",
+        "text": "3x-5=1"
+      },
+      {
+        "key": "D",
+        "text": "2x+3y=7"
+      }
+    ]
+  },
+  {
+    "id": "cnm_041_q8",
+    "topicId": "cnm_041",
+    "type": "choice",
+    "prompt": "下列方程中，是一元一次方程的是（ ）",
+    "answer": "A",
+    "difficulty": "basic",
+    "explanation": "一元一次方程是只含一个未知数且未知数次数为 1 的整式方程。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "3x-5=1"
+      },
+      {
+        "key": "B",
+        "text": "1/x=2"
+      },
+      {
+        "key": "C",
+        "text": "2x+3y=7"
+      },
+      {
+        "key": "D",
+        "text": "x^2=4"
+      }
+    ]
+  },
+  {
+    "id": "cnm_041_q9",
+    "topicId": "cnm_041",
+    "type": "choice",
+    "prompt": "下列方程中，是一元一次方程的是（ ）",
+    "answer": "B",
+    "difficulty": "basic",
+    "explanation": "一元一次方程是只含一个未知数且未知数次数为 1 的整式方程。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "x^2=4"
+      },
+      {
+        "key": "B",
+        "text": "3x-5=1"
+      },
+      {
+        "key": "C",
+        "text": "2x+3y=7"
+      },
+      {
+        "key": "D",
+        "text": "1/x=2"
+      }
+    ]
+  },
+  {
+    "id": "cnm_041_q10",
+    "topicId": "cnm_041",
+    "type": "choice",
+    "prompt": "方程 5x=0 是不是一元一次方程？（ ）",
+    "answer": "C",
+    "difficulty": "standard",
+    "explanation": "5x=0 含一个未知数且次数为 1，是一元一次方程。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "否，因为没有常数项"
+      },
+      {
+        "key": "B",
+        "text": "否，因为 x 的系数为 5"
+      },
+      {
+        "key": "C",
+        "text": "是"
+      },
+      {
+        "key": "D",
+        "text": "无法确定"
+      }
+    ]
+  },
+  {
+    "id": "cnm_043_q5",
+    "topicId": "cnm_043",
+    "type": "numeric",
+    "prompt": "解方程：2(x+5)=16。",
+    "answer": "3",
+    "difficulty": "standard",
+    "explanation": "去括号：2x+10=16，移项 2x=6，x=3。",
+    "source": "llm",
+    "verify": "(2*3+2*5)/2-5"
+  },
+  {
+    "id": "cnm_043_q6",
+    "topicId": "cnm_043",
+    "type": "numeric",
+    "prompt": "解方程：3(x+1)=-12。",
+    "answer": "-5",
+    "difficulty": "standard",
+    "explanation": "去括号：3x+3=-12，移项 3x=-15，x=-5。",
+    "source": "llm",
+    "verify": "(3*-5+3*1)/3-1"
+  },
+  {
+    "id": "cnm_043_q7",
+    "topicId": "cnm_043",
+    "type": "numeric",
+    "prompt": "解方程：2(x+4)=6。",
+    "answer": "-1",
+    "difficulty": "standard",
+    "explanation": "去括号：2x+8=6，移项 2x=-2，x=-1。",
+    "source": "llm",
+    "verify": "(2*-1+2*4)/2-4"
+  },
+  {
+    "id": "cnm_043_q8",
+    "topicId": "cnm_043",
+    "type": "numeric",
+    "prompt": "解方程：3(x+5)=27。",
+    "answer": "4",
+    "difficulty": "standard",
+    "explanation": "去括号：3x+15=27，移项 3x=12，x=4。",
+    "source": "llm",
+    "verify": "(3*4+3*5)/3-5"
+  },
+  {
+    "id": "cnm_043_q9",
+    "topicId": "cnm_043",
+    "type": "numeric",
+    "prompt": "解方程：2(x+4)=-2。",
+    "answer": "-5",
+    "difficulty": "standard",
+    "explanation": "去括号：2x+8=-2，移项 2x=-10，x=-5。",
+    "source": "llm",
+    "verify": "(2*-5+2*4)/2-4"
+  },
+  {
+    "id": "cnm_043_q10",
+    "topicId": "cnm_043",
+    "type": "numeric",
+    "prompt": "解方程：5(x+4)=-10。",
+    "answer": "-6",
+    "difficulty": "standard",
+    "explanation": "去括号：5x+20=-10，移项 5x=-30，x=-6。",
+    "source": "llm",
+    "verify": "(5*-6+5*4)/5-4"
+  },
+  {
+    "id": "cnm_044_q5",
+    "topicId": "cnm_044",
+    "type": "numeric",
+    "prompt": "解方程：(x+2)/5=4。",
+    "answer": "18",
+    "difficulty": "standard",
+    "explanation": "两边乘 5：x+2=20，x=18。",
+    "source": "llm",
+    "verify": "(5*4-2)"
+  },
+  {
+    "id": "cnm_044_q6",
+    "topicId": "cnm_044",
+    "type": "numeric",
+    "prompt": "解方程：(x+7)/5=3。",
+    "answer": "8",
+    "difficulty": "standard",
+    "explanation": "两边乘 5：x+7=15，x=8。",
+    "source": "llm",
+    "verify": "(5*3-7)"
+  },
+  {
+    "id": "cnm_044_q7",
+    "topicId": "cnm_044",
+    "type": "numeric",
+    "prompt": "解方程：(x+5)/2=3。",
+    "answer": "1",
+    "difficulty": "standard",
+    "explanation": "两边乘 2：x+5=6，x=1。",
+    "source": "llm",
+    "verify": "(2*3-5)"
+  },
+  {
+    "id": "cnm_044_q8",
+    "topicId": "cnm_044",
+    "type": "numeric",
+    "prompt": "解方程：(x+7)/4=2。",
+    "answer": "1",
+    "difficulty": "standard",
+    "explanation": "两边乘 4：x+7=8，x=1。",
+    "source": "llm",
+    "verify": "(4*2-7)"
+  },
+  {
+    "id": "cnm_044_q9",
+    "topicId": "cnm_044",
+    "type": "numeric",
+    "prompt": "解方程：(x+5)/2=5。",
+    "answer": "5",
+    "difficulty": "standard",
+    "explanation": "两边乘 2：x+5=10，x=5。",
+    "source": "llm",
+    "verify": "(2*5-5)"
+  },
+  {
+    "id": "cnm_044_q10",
+    "topicId": "cnm_044",
+    "type": "numeric",
+    "prompt": "解方程：(x+4)/5=3。",
+    "answer": "11",
+    "difficulty": "standard",
+    "explanation": "两边乘 5：x+4=15，x=11。",
+    "source": "llm",
+    "verify": "(5*3-4)"
+  },
+  {
+    "id": "cnm_045_q5",
+    "topicId": "cnm_045",
+    "type": "choice",
+    "prompt": "用一元一次方程解应用题的一般步骤，正确的是（ ）",
+    "answer": "A",
+    "difficulty": "basic",
+    "explanation": "标准步骤：审题、设元、列方程、解方程、检验、作答。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "设未知数→列方程→解方程→检验→作答"
+      },
+      {
+        "key": "B",
+        "text": "先猜答案再验证"
+      },
+      {
+        "key": "C",
+        "text": "只列方程不求解"
+      },
+      {
+        "key": "D",
+        "text": "直接写答案"
+      }
+    ]
+  },
+  {
+    "id": "cnm_045_q6",
+    "topicId": "cnm_045",
+    "type": "choice",
+    "prompt": "用一元一次方程解应用题的一般步骤，正确的是（ ）",
+    "answer": "B",
+    "difficulty": "basic",
+    "explanation": "标准步骤：审题、设元、列方程、解方程、检验、作答。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "先猜答案再验证"
+      },
+      {
+        "key": "B",
+        "text": "设未知数→列方程→解方程→检验→作答"
+      },
+      {
+        "key": "C",
+        "text": "只列方程不求解"
+      },
+      {
+        "key": "D",
+        "text": "直接写答案"
+      }
+    ]
+  },
+  {
+    "id": "cnm_045_q7",
+    "topicId": "cnm_045",
+    "type": "choice",
+    "prompt": "用一元一次方程解应用题的一般步骤，正确的是（ ）",
+    "answer": "D",
+    "difficulty": "basic",
+    "explanation": "标准步骤：审题、设元、列方程、解方程、检验、作答。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "直接写答案"
+      },
+      {
+        "key": "B",
+        "text": "只列方程不求解"
+      },
+      {
+        "key": "C",
+        "text": "先猜答案再验证"
+      },
+      {
+        "key": "D",
+        "text": "设未知数→列方程→解方程→检验→作答"
+      }
+    ]
+  },
+  {
+    "id": "cnm_045_q8",
+    "topicId": "cnm_045",
+    "type": "choice",
+    "prompt": "用一元一次方程解应用题的一般步骤，正确的是（ ）",
+    "answer": "D",
+    "difficulty": "basic",
+    "explanation": "标准步骤：审题、设元、列方程、解方程、检验、作答。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "先猜答案再验证"
+      },
+      {
+        "key": "B",
+        "text": "直接写答案"
+      },
+      {
+        "key": "C",
+        "text": "只列方程不求解"
+      },
+      {
+        "key": "D",
+        "text": "设未知数→列方程→解方程→检验→作答"
+      }
+    ]
+  },
+  {
+    "id": "cnm_045_q9",
+    "topicId": "cnm_045",
+    "type": "choice",
+    "prompt": "用一元一次方程解应用题的一般步骤，正确的是（ ）",
+    "answer": "A",
+    "difficulty": "basic",
+    "explanation": "标准步骤：审题、设元、列方程、解方程、检验、作答。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "设未知数→列方程→解方程→检验→作答"
+      },
+      {
+        "key": "B",
+        "text": "直接写答案"
+      },
+      {
+        "key": "C",
+        "text": "只列方程不求解"
+      },
+      {
+        "key": "D",
+        "text": "先猜答案再验证"
+      }
+    ]
+  },
+  {
+    "id": "cnm_045_q10",
+    "topicId": "cnm_045",
+    "type": "choice",
+    "prompt": "“某数的一半加上 3 等于 10”，设某数为 x，列方程是（ ）",
+    "answer": "A",
+    "difficulty": "standard",
+    "explanation": "某数一半即 x/2，加 3 等于 10：x/2+3=10。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "x/2+3=10"
+      },
+      {
+        "key": "B",
+        "text": "x+3/2=10"
+      },
+      {
+        "key": "C",
+        "text": "x/2-3=10"
+      },
+      {
+        "key": "D",
+        "text": "2x+3=10"
+      }
+    ]
+  },
+  {
+    "id": "cnm_046_q5",
+    "topicId": "cnm_046",
+    "type": "numeric",
+    "prompt": "某车间生产螺丝和螺母，1 个螺丝配 2 个螺母。若生产螺丝 10 个，需配套生产螺母多少个？",
+    "answer": "20",
+    "difficulty": "basic",
+    "explanation": "1 个螺丝配 2 个螺母，需 10×2=20 个。",
+    "source": "llm",
+    "verify": "10*2"
+  },
+  {
+    "id": "cnm_046_q6",
+    "topicId": "cnm_046",
+    "type": "numeric",
+    "prompt": "某车间生产螺丝和螺母，1 个螺丝配 2 个螺母。若生产螺丝 15 个，需配套生产螺母多少个？",
+    "answer": "30",
+    "difficulty": "basic",
+    "explanation": "1 个螺丝配 2 个螺母，需 15×2=30 个。",
+    "source": "llm",
+    "verify": "15*2"
+  },
+  {
+    "id": "cnm_046_q7",
+    "topicId": "cnm_046",
+    "type": "numeric",
+    "prompt": "某车间生产螺丝和螺母，1 个螺丝配 2 个螺母。若生产螺丝 18 个，需配套生产螺母多少个？",
+    "answer": "36",
+    "difficulty": "basic",
+    "explanation": "1 个螺丝配 2 个螺母，需 18×2=36 个。",
+    "source": "llm",
+    "verify": "18*2"
+  },
+  {
+    "id": "cnm_046_q8",
+    "topicId": "cnm_046",
+    "type": "numeric",
+    "prompt": "某车间生产螺丝和螺母，1 个螺丝配 2 个螺母。若生产螺丝 5 个，需配套生产螺母多少个？",
+    "answer": "10",
+    "difficulty": "basic",
+    "explanation": "1 个螺丝配 2 个螺母，需 5×2=10 个。",
+    "source": "llm",
+    "verify": "5*2"
+  },
+  {
+    "id": "cnm_046_q9",
+    "topicId": "cnm_046",
+    "type": "numeric",
+    "prompt": "某车间生产螺丝和螺母，1 个螺丝配 2 个螺母。若生产螺丝 14 个，需配套生产螺母多少个？",
+    "answer": "28",
+    "difficulty": "basic",
+    "explanation": "1 个螺丝配 2 个螺母，需 14×2=28 个。",
+    "source": "llm",
+    "verify": "14*2"
+  },
+  {
+    "id": "cnm_046_q10",
+    "topicId": "cnm_046",
+    "type": "numeric",
+    "prompt": "某车间生产螺丝和螺母，1 个螺丝配 2 个螺母。若生产螺丝 9 个，需配套生产螺母多少个？",
+    "answer": "18",
+    "difficulty": "basic",
+    "explanation": "1 个螺丝配 2 个螺母，需 9×2=18 个。",
+    "source": "llm",
+    "verify": "9*2"
+  },
+  {
+    "id": "cnm_047_q5",
+    "topicId": "cnm_047",
+    "type": "numeric",
+    "prompt": "甲、乙两车从相距 340 米的两地同时相向而行，甲速 90 米/分，乙速 80 米/分，几分钟后相遇？",
+    "answer": "2",
+    "difficulty": "standard",
+    "explanation": "相遇时间=路程和÷速度和=340÷(90+80)=2 分钟。",
+    "source": "llm",
+    "verify": "340/(90+80)"
+  },
+  {
+    "id": "cnm_047_q6",
+    "topicId": "cnm_047",
+    "type": "numeric",
+    "prompt": "甲、乙两车从相距 510 米的两地同时相向而行，甲速 90 米/分，乙速 80 米/分，几分钟后相遇？",
+    "answer": "3",
+    "difficulty": "standard",
+    "explanation": "相遇时间=路程和÷速度和=510÷(90+80)=3 分钟。",
+    "source": "llm",
+    "verify": "510/(90+80)"
+  },
+  {
+    "id": "cnm_047_q7",
+    "topicId": "cnm_047",
+    "type": "numeric",
+    "prompt": "甲、乙两车从相距 450 米的两地同时相向而行，甲速 80 米/分，乙速 70 米/分，几分钟后相遇？",
+    "answer": "3",
+    "difficulty": "standard",
+    "explanation": "相遇时间=路程和÷速度和=450÷(80+70)=3 分钟。",
+    "source": "llm",
+    "verify": "450/(80+70)"
+  },
+  {
+    "id": "cnm_047_q8",
+    "topicId": "cnm_047",
+    "type": "numeric",
+    "prompt": "甲、乙两车从相距 220 米的两地同时相向而行，甲速 60 米/分，乙速 50 米/分，几分钟后相遇？",
+    "answer": "2",
+    "difficulty": "standard",
+    "explanation": "相遇时间=路程和÷速度和=220÷(60+50)=2 分钟。",
+    "source": "llm",
+    "verify": "220/(60+50)"
+  },
+  {
+    "id": "cnm_047_q9",
+    "topicId": "cnm_047",
+    "type": "numeric",
+    "prompt": "甲、乙两车从相距 330 米的两地同时相向而行，甲速 60 米/分，乙速 50 米/分，几分钟后相遇？",
+    "answer": "3",
+    "difficulty": "standard",
+    "explanation": "相遇时间=路程和÷速度和=330÷(60+50)=3 分钟。",
+    "source": "llm",
+    "verify": "330/(60+50)"
+  },
+  {
+    "id": "cnm_047_q10",
+    "topicId": "cnm_047",
+    "type": "numeric",
+    "prompt": "快车以 90 米/分行驶，出发 5 分钟后，慢车以相同方向 80 米/分（比快车慢 10）从同地追及，慢车需几分钟追上？",
+    "answer": "45",
+    "difficulty": "challenge",
+    "explanation": "追及距离=快车已行 90×5，速度差 10 米/分，时间=90×5÷10=45 分钟。",
+    "source": "llm",
+    "verify": "(90*5)/10"
+  },
+  {
+    "id": "cnm_048_q5",
+    "topicId": "cnm_048",
+    "type": "numeric",
+    "prompt": "一件衣服原价 150 元，打 8 折销售，实际售价是多少元？",
+    "answer": "120",
+    "difficulty": "basic",
+    "explanation": "打 8 折即原价的 8/10，售价=150×8÷10=120 元。",
+    "source": "llm",
+    "verify": "150*8/10"
+  },
+  {
+    "id": "cnm_048_q6",
+    "topicId": "cnm_048",
+    "type": "numeric",
+    "prompt": "一件衣服原价 100 元，打 9 折销售，实际售价是多少元？",
+    "answer": "90",
+    "difficulty": "basic",
+    "explanation": "打 9 折即原价的 9/10，售价=100×9÷10=90 元。",
+    "source": "llm",
+    "verify": "100*9/10"
+  },
+  {
+    "id": "cnm_048_q7",
+    "topicId": "cnm_048",
+    "type": "numeric",
+    "prompt": "一件衣服原价 150 元，打 9 折销售，实际售价是多少元？",
+    "answer": "135",
+    "difficulty": "basic",
+    "explanation": "打 9 折即原价的 9/10，售价=150×9÷10=135 元。",
+    "source": "llm",
+    "verify": "150*9/10"
+  },
+  {
+    "id": "cnm_048_q8",
+    "topicId": "cnm_048",
+    "type": "numeric",
+    "prompt": "一件衣服原价 300 元，打 7 折销售，实际售价是多少元？",
+    "answer": "210",
+    "difficulty": "basic",
+    "explanation": "打 7 折即原价的 7/10，售价=300×7÷10=210 元。",
+    "source": "llm",
+    "verify": "300*7/10"
+  },
+  {
+    "id": "cnm_048_q9",
+    "topicId": "cnm_048",
+    "type": "numeric",
+    "prompt": "一件衣服原价 200 元，打 7 折销售，实际售价是多少元？",
+    "answer": "140",
+    "difficulty": "basic",
+    "explanation": "打 7 折即原价的 7/10，售价=200×7÷10=140 元。",
+    "source": "llm",
+    "verify": "200*7/10"
+  },
+  {
+    "id": "cnm_048_q10",
+    "topicId": "cnm_048",
+    "type": "numeric",
+    "prompt": "一件衣服原价 200 元，打 8 折销售，实际售价是多少元？",
+    "answer": "160",
+    "difficulty": "basic",
+    "explanation": "打 8 折即原价的 8/10，售价=200×8÷10=160 元。",
+    "source": "llm",
+    "verify": "200*8/10"
+  },
+  {
+    "id": "cnm_049_q5",
+    "topicId": "cnm_049",
+    "type": "numeric",
+    "prompt": "电话套餐 A：月租 10 元，通话 0.2 元/分；套餐 B：无月租 0.3 元/分。每月通话多少分钟时两套餐费用相同？",
+    "answer": "100",
+    "difficulty": "basic",
+    "explanation": "设 x 分钟：10+0.2x=0.3x，解得 10=0.1x，x=10÷0.1=100 分钟。",
+    "source": "llm",
+    "verify": "10*10"
+  },
+  {
+    "id": "cnm_049_q6",
+    "topicId": "cnm_049",
+    "type": "numeric",
+    "prompt": "某地电费：每月用电不超过 200 度部分 0.5 元/度，超过部分 0.8 元/度。某月用电 150 度，应交电费多少元？",
+    "answer": "75",
+    "difficulty": "challenge",
+    "explanation": "分段计算：150*0.5=75 元。",
+    "source": "llm",
+    "verify": "150*0.5"
+  },
+  {
+    "id": "cnm_049_q7",
+    "topicId": "cnm_049",
+    "type": "numeric",
+    "prompt": "某地电费：每月用电不超过 200 度部分 0.5 元/度，超过部分 0.8 元/度。某月用电 220 度，应交电费多少元？",
+    "answer": "116",
+    "difficulty": "challenge",
+    "explanation": "分段计算：200*0.5+(220-200)*0.8=116 元。",
+    "source": "llm",
+    "verify": "200*0.5+(220-200)*0.8"
+  },
+  {
+    "id": "cnm_049_q8",
+    "topicId": "cnm_049",
+    "type": "numeric",
+    "prompt": "某地电费：每月用电不超过 200 度部分 0.5 元/度，超过部分 0.8 元/度。某月用电 160 度，应交电费多少元？",
+    "answer": "80",
+    "difficulty": "challenge",
+    "explanation": "分段计算：160*0.5=80 元。",
+    "source": "llm",
+    "verify": "160*0.5"
+  },
+  {
+    "id": "cnm_049_q9",
+    "topicId": "cnm_049",
+    "type": "numeric",
+    "prompt": "某地电费：每月用电不超过 200 度部分 0.5 元/度，超过部分 0.8 元/度。某月用电 240 度，应交电费多少元？",
+    "answer": "132",
+    "difficulty": "challenge",
+    "explanation": "分段计算：200*0.5+(240-200)*0.8=132 元。",
+    "source": "llm",
+    "verify": "200*0.5+(240-200)*0.8"
+  },
+  {
+    "id": "cnm_049_q10",
+    "topicId": "cnm_049",
+    "type": "numeric",
+    "prompt": "某地电费：每月用电不超过 200 度部分 0.5 元/度，超过部分 0.8 元/度。某月用电 170 度，应交电费多少元？",
+    "answer": "85",
+    "difficulty": "challenge",
+    "explanation": "分段计算：170*0.5=85 元。",
+    "source": "llm",
+    "verify": "170*0.5"
+  },
+  {
+    "id": "cnm_050_q5",
+    "topicId": "cnm_050",
+    "type": "choice",
+    "prompt": "下列图形中，属于立体图形的是（ ）",
+    "answer": "D",
+    "difficulty": "basic",
+    "explanation": "正方体是三维立体图形，其余是平面图形。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "线段"
+      },
+      {
+        "key": "B",
+        "text": "圆"
+      },
+      {
+        "key": "C",
+        "text": "三角形"
+      },
+      {
+        "key": "D",
+        "text": "正方体"
+      }
+    ]
+  },
+  {
+    "id": "cnm_050_q6",
+    "topicId": "cnm_050",
+    "type": "choice",
+    "prompt": "下列图形中，属于立体图形的是（ ）",
+    "answer": "A",
+    "difficulty": "basic",
+    "explanation": "正方体是三维立体图形，其余是平面图形。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "正方体"
+      },
+      {
+        "key": "B",
+        "text": "三角形"
+      },
+      {
+        "key": "C",
+        "text": "圆"
+      },
+      {
+        "key": "D",
+        "text": "线段"
+      }
+    ]
+  },
+  {
+    "id": "cnm_050_q7",
+    "topicId": "cnm_050",
+    "type": "choice",
+    "prompt": "长方体、正方体、圆柱、圆锥都属于（ ）",
+    "answer": "C",
+    "difficulty": "basic",
+    "explanation": "这些都是占有空间的三维图形。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "点"
+      },
+      {
+        "key": "B",
+        "text": "线段"
+      },
+      {
+        "key": "C",
+        "text": "立体图形"
+      },
+      {
+        "key": "D",
+        "text": "平面图形"
+      }
+    ]
+  },
+  {
+    "id": "cnm_050_q8",
+    "topicId": "cnm_050",
+    "type": "choice",
+    "prompt": "下列物体中，形状类似球体的是（ ）",
+    "answer": "B",
+    "difficulty": "basic",
+    "explanation": "篮球近似球体。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "教科书"
+      },
+      {
+        "key": "B",
+        "text": "篮球"
+      },
+      {
+        "key": "C",
+        "text": "魔方"
+      },
+      {
+        "key": "D",
+        "text": "文具盒"
+      }
+    ]
+  },
+  {
+    "id": "cnm_050_q9",
+    "topicId": "cnm_050",
+    "type": "choice",
+    "prompt": "下列图形中，属于平面图形的是（ ）",
+    "answer": "B",
+    "difficulty": "standard",
+    "explanation": "圆是平面图形，其余为立体图形。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "圆柱"
+      },
+      {
+        "key": "B",
+        "text": "圆"
+      },
+      {
+        "key": "C",
+        "text": "正方体"
+      },
+      {
+        "key": "D",
+        "text": "球"
+      }
+    ]
+  },
+  {
+    "id": "cnm_050_q10",
+    "topicId": "cnm_050",
+    "type": "choice",
+    "prompt": "圆柱的上下两个底面是（ ）",
+    "answer": "C",
+    "difficulty": "standard",
+    "explanation": "圆柱两底为全等圆形。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "两个正方形"
+      },
+      {
+        "key": "B",
+        "text": "两个长方形"
+      },
+      {
+        "key": "C",
+        "text": "两个完全相同的圆"
+      },
+      {
+        "key": "D",
+        "text": "一个圆一个长方形"
+      }
+    ]
+  },
+  {
+    "id": "cnm_051_q6",
+    "topicId": "cnm_051",
+    "type": "choice",
+    "prompt": "从正面、左面、上面观察同一几何体，可能得到的图形叫（ ）",
+    "answer": "B",
+    "difficulty": "basic",
+    "explanation": "从三个方向看到的平面图形合称三视图。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "展开图"
+      },
+      {
+        "key": "B",
+        "text": "三视图"
+      },
+      {
+        "key": "C",
+        "text": "剖面图"
+      },
+      {
+        "key": "D",
+        "text": "透视图"
+      }
+    ]
+  },
+  {
+    "id": "cnm_051_q7",
+    "topicId": "cnm_051",
+    "type": "choice",
+    "prompt": "正方体有（ ）个面",
+    "answer": "A",
+    "difficulty": "basic",
+    "explanation": "正方体由 6 个正方形面围成。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "8"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "12"
+      }
+    ]
+  },
+  {
+    "id": "cnm_051_q8",
+    "topicId": "cnm_051",
+    "type": "choice",
+    "prompt": "正方体有（ ）个顶点",
+    "answer": "A",
+    "difficulty": "basic",
+    "explanation": "正方体 8 个顶点。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "8"
+      },
+      {
+        "key": "B",
+        "text": "12"
+      },
+      {
+        "key": "C",
+        "text": "6"
+      },
+      {
+        "key": "D",
+        "text": "10"
+      }
+    ]
+  },
+  {
+    "id": "cnm_051_q9",
+    "topicId": "cnm_051",
+    "type": "choice",
+    "prompt": "从上面观察一个正方体，看到的平面图形是（ ）",
+    "answer": "B",
+    "difficulty": "basic",
+    "explanation": "正方体每个面都是正方形。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "三角形"
+      },
+      {
+        "key": "B",
+        "text": "正方形"
+      },
+      {
+        "key": "C",
+        "text": "圆"
+      },
+      {
+        "key": "D",
+        "text": "长方形"
+      }
+    ]
+  },
+  {
+    "id": "cnm_051_q10",
+    "topicId": "cnm_051",
+    "type": "choice",
+    "prompt": "把一个正方体放在桌面上，从正面看到的图形是（ ）",
+    "answer": "A",
+    "difficulty": "basic",
+    "explanation": "正视正方体看到其正面正方形。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "正方形"
+      },
+      {
+        "key": "B",
+        "text": "菱形"
+      },
+      {
+        "key": "C",
+        "text": "圆"
+      },
+      {
+        "key": "D",
+        "text": "长方形"
+      }
+    ]
+  },
+  {
+    "id": "cnm_052_q6",
+    "topicId": "cnm_052",
+    "type": "choice",
+    "prompt": "包围长方体的是（ ）",
+    "answer": "A",
+    "difficulty": "basic",
+    "explanation": "长方体由 6 个面围成。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "面"
+      },
+      {
+        "key": "B",
+        "text": "线"
+      },
+      {
+        "key": "C",
+        "text": "点"
+      },
+      {
+        "key": "D",
+        "text": "体"
+      }
+    ]
+  },
+  {
+    "id": "cnm_052_q7",
+    "topicId": "cnm_052",
+    "type": "choice",
+    "prompt": "包围长方体的是（ ）",
+    "answer": "D",
+    "difficulty": "basic",
+    "explanation": "长方体由 6 个面围成。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "线"
+      },
+      {
+        "key": "B",
+        "text": "点"
+      },
+      {
+        "key": "C",
+        "text": "体"
+      },
+      {
+        "key": "D",
+        "text": "面"
+      }
+    ]
+  },
+  {
+    "id": "cnm_052_q8",
+    "topicId": "cnm_052",
+    "type": "choice",
+    "prompt": "面与面相交得到（ ）",
+    "answer": "B",
+    "difficulty": "basic",
+    "explanation": "两平面相交成一条直线。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "体"
+      },
+      {
+        "key": "B",
+        "text": "线"
+      },
+      {
+        "key": "C",
+        "text": "面"
+      },
+      {
+        "key": "D",
+        "text": "点"
+      }
+    ]
+  },
+  {
+    "id": "cnm_052_q9",
+    "topicId": "cnm_052",
+    "type": "choice",
+    "prompt": "线与线相交得到（ ）",
+    "answer": "C",
+    "difficulty": "basic",
+    "explanation": "两直线相交只有一个交点。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "面"
+      },
+      {
+        "key": "B",
+        "text": "体"
+      },
+      {
+        "key": "C",
+        "text": "点"
+      },
+      {
+        "key": "D",
+        "text": "线"
+      }
+    ]
+  },
+  {
+    "id": "cnm_052_q10",
+    "topicId": "cnm_052",
+    "type": "choice",
+    "prompt": "“笔尖在纸上画出一条线”体现的几何直观是（ ）",
+    "answer": "D",
+    "difficulty": "basic",
+    "explanation": "笔尖是点，运动形成线。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "线动成面"
+      },
+      {
+        "key": "B",
+        "text": "线动成线"
+      },
+      {
+        "key": "C",
+        "text": "面动成体"
+      },
+      {
+        "key": "D",
+        "text": "点动成线"
+      }
+    ]
+  },
+  {
+    "id": "cnm_053_q6",
+    "topicId": "cnm_053",
+    "type": "choice",
+    "prompt": "下列几何体中，两端都能无限延伸的是（ ）",
+    "answer": "C",
+    "difficulty": "basic",
+    "explanation": "直线没有端点，向两方无限延伸。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "射线"
+      },
+      {
+        "key": "B",
+        "text": "线段"
+      },
+      {
+        "key": "C",
+        "text": "直线"
+      },
+      {
+        "key": "D",
+        "text": "以上都不对"
+      }
+    ]
+  },
+  {
+    "id": "cnm_053_q7",
+    "topicId": "cnm_053",
+    "type": "choice",
+    "prompt": "下列几何体中，两端都能无限延伸的是（ ）",
+    "answer": "A",
+    "difficulty": "basic",
+    "explanation": "直线没有端点，向两方无限延伸。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "直线"
+      },
+      {
+        "key": "B",
+        "text": "射线"
+      },
+      {
+        "key": "C",
+        "text": "线段"
+      },
+      {
+        "key": "D",
+        "text": "以上都不对"
+      }
+    ]
+  },
+  {
+    "id": "cnm_053_q8",
+    "topicId": "cnm_053",
+    "type": "choice",
+    "prompt": "线段有（ ）个端点",
+    "answer": "B",
+    "difficulty": "basic",
+    "explanation": "线段有两个端点，可度量长度。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "1"
+      },
+      {
+        "key": "D",
+        "text": "3"
+      }
+    ]
+  },
+  {
+    "id": "cnm_053_q9",
+    "topicId": "cnm_053",
+    "type": "choice",
+    "prompt": "射线有（ ）个端点",
+    "answer": "A",
+    "difficulty": "basic",
+    "explanation": "射线一个端点，向一方延伸。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "0"
+      },
+      {
+        "key": "C",
+        "text": "2"
+      },
+      {
+        "key": "D",
+        "text": "3"
+      }
+    ]
+  },
+  {
+    "id": "cnm_053_q10",
+    "topicId": "cnm_053",
+    "type": "choice",
+    "prompt": "直线有（ ）个端点",
+    "answer": "C",
+    "difficulty": "basic",
+    "explanation": "直线无端点，向两方延伸。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "0"
+      },
+      {
+        "key": "D",
+        "text": "3"
+      }
+    ]
+  },
+  {
+    "id": "cnm_054_q6",
+    "topicId": "cnm_054",
+    "type": "choice",
+    "prompt": "“两点确定一条直线”说明经过两点能画（ ）",
+    "answer": "D",
+    "difficulty": "basic",
+    "explanation": "直线的基本事实：两点确定且只确定一条直线。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "零条"
+      },
+      {
+        "key": "B",
+        "text": "两条"
+      },
+      {
+        "key": "C",
+        "text": "无数条"
+      },
+      {
+        "key": "D",
+        "text": "且只能画一条直线"
+      }
+    ]
+  },
+  {
+    "id": "cnm_054_q7",
+    "topicId": "cnm_054",
+    "type": "choice",
+    "prompt": "“两点确定一条直线”说明经过两点能画（ ）",
+    "answer": "C",
+    "difficulty": "basic",
+    "explanation": "直线的基本事实：两点确定且只确定一条直线。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "无数条"
+      },
+      {
+        "key": "B",
+        "text": "零条"
+      },
+      {
+        "key": "C",
+        "text": "且只能画一条直线"
+      },
+      {
+        "key": "D",
+        "text": "两条"
+      }
+    ]
+  },
+  {
+    "id": "cnm_054_q8",
+    "topicId": "cnm_054",
+    "type": "choice",
+    "prompt": "经过一点可以画（ ）条直线",
+    "answer": "A",
+    "difficulty": "basic",
+    "explanation": "过一点可作无数条直线。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "无数条"
+      },
+      {
+        "key": "B",
+        "text": "1条"
+      },
+      {
+        "key": "C",
+        "text": "0条"
+      },
+      {
+        "key": "D",
+        "text": "2条"
+      }
+    ]
+  },
+  {
+    "id": "cnm_054_q9",
+    "topicId": "cnm_054",
+    "type": "choice",
+    "prompt": "连接两点的所有线中，（ ）最短",
+    "answer": "B",
+    "difficulty": "basic",
+    "explanation": "两点之间线段最短。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "直线"
+      },
+      {
+        "key": "B",
+        "text": "线段"
+      },
+      {
+        "key": "C",
+        "text": "射线"
+      },
+      {
+        "key": "D",
+        "text": "曲线"
+      }
+    ]
+  },
+  {
+    "id": "cnm_054_q10",
+    "topicId": "cnm_054",
+    "type": "choice",
+    "prompt": "“两点之间，线段最短”中的“线段”指（ ）",
+    "answer": "A",
+    "difficulty": "standard",
+    "explanation": "两点间所有连线中线段最短。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "连接两点的线段"
+      },
+      {
+        "key": "B",
+        "text": "射线"
+      },
+      {
+        "key": "C",
+        "text": "折线"
+      },
+      {
+        "key": "D",
+        "text": "直线"
+      }
+    ]
+  },
+  {
+    "id": "cnm_055_q6",
+    "topicId": "cnm_055",
+    "type": "numeric",
+    "prompt": "已知点 C 在线段 AB 上，AC=11 cm，CB=6 cm，则 AB 长多少 cm？",
+    "answer": "17",
+    "difficulty": "basic",
+    "explanation": "AB=AC+CB=11+6=17 cm。",
+    "source": "llm",
+    "verify": "11+6"
+  },
+  {
+    "id": "cnm_055_q7",
+    "topicId": "cnm_055",
+    "type": "numeric",
+    "prompt": "已知点 C 在线段 AB 上，AC=12 cm，CB=8 cm，则 AB 长多少 cm？",
+    "answer": "20",
+    "difficulty": "basic",
+    "explanation": "AB=AC+CB=12+8=20 cm。",
+    "source": "llm",
+    "verify": "12+8"
+  },
+  {
+    "id": "cnm_055_q8",
+    "topicId": "cnm_055",
+    "type": "numeric",
+    "prompt": "已知点 C 在线段 AB 上，AC=5 cm，CB=4 cm，则 AB 长多少 cm？",
+    "answer": "9",
+    "difficulty": "basic",
+    "explanation": "AB=AC+CB=5+4=9 cm。",
+    "source": "llm",
+    "verify": "5+4"
+  },
+  {
+    "id": "cnm_055_q9",
+    "topicId": "cnm_055",
+    "type": "numeric",
+    "prompt": "已知点 C 在线段 AB 上，AC=3 cm，CB=7 cm，则 AB 长多少 cm？",
+    "answer": "10",
+    "difficulty": "basic",
+    "explanation": "AB=AC+CB=3+7=10 cm。",
+    "source": "llm",
+    "verify": "3+7"
+  },
+  {
+    "id": "cnm_055_q10",
+    "topicId": "cnm_055",
+    "type": "numeric",
+    "prompt": "已知点 C 在线段 AB 上，AC=5 cm，CB=6 cm，则 AB 长多少 cm？",
+    "answer": "11",
+    "difficulty": "basic",
+    "explanation": "AB=AC+CB=5+6=11 cm。",
+    "source": "llm",
+    "verify": "5+6"
+  },
+  {
+    "id": "cnm_056_q6",
+    "topicId": "cnm_056",
+    "type": "choice",
+    "prompt": "角通常用符号（ ）表示",
+    "answer": "D",
+    "difficulty": "basic",
+    "explanation": "角用符号 ∠ 表示。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "⊙"
+      },
+      {
+        "key": "B",
+        "text": "△"
+      },
+      {
+        "key": "C",
+        "text": "∥"
+      },
+      {
+        "key": "D",
+        "text": "∠"
+      }
+    ]
+  },
+  {
+    "id": "cnm_056_q7",
+    "topicId": "cnm_056",
+    "type": "choice",
+    "prompt": "角通常用符号（ ）表示",
+    "answer": "B",
+    "difficulty": "basic",
+    "explanation": "角用符号 ∠ 表示。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "∥"
+      },
+      {
+        "key": "B",
+        "text": "∠"
+      },
+      {
+        "key": "C",
+        "text": "⊙"
+      },
+      {
+        "key": "D",
+        "text": "△"
+      }
+    ]
+  },
+  {
+    "id": "cnm_056_q8",
+    "topicId": "cnm_056",
+    "type": "choice",
+    "prompt": "1 周角 =（ ）个平角",
+    "answer": "D",
+    "difficulty": "basic",
+    "explanation": "周角 360°=2×平角 180°。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "2"
+      }
+    ]
+  },
+  {
+    "id": "cnm_056_q9",
+    "topicId": "cnm_056",
+    "type": "choice",
+    "prompt": "1 平角 =（ ）个直角",
+    "answer": "C",
+    "difficulty": "basic",
+    "explanation": "平角 180°=2×直角 90°。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "3"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "2"
+      },
+      {
+        "key": "D",
+        "text": "1"
+      }
+    ]
+  },
+  {
+    "id": "cnm_056_q10",
+    "topicId": "cnm_056",
+    "type": "choice",
+    "prompt": "1 直角 =（ ）度",
+    "answer": "B",
+    "difficulty": "basic",
+    "explanation": "直角为 90°。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "180"
+      },
+      {
+        "key": "B",
+        "text": "90"
+      },
+      {
+        "key": "C",
+        "text": "360"
+      },
+      {
+        "key": "D",
+        "text": "45"
+      }
+    ]
+  },
+  {
+    "id": "cnm_057_q6",
+    "topicId": "cnm_057",
+    "type": "numeric",
+    "prompt": "把 360 分化成度与分：等于 6°0′。",
+    "answer": "6",
+    "difficulty": "basic",
+    "explanation": "360 分=6°0′。",
+    "source": "llm",
+    "verify": "360//60"
+  },
+  {
+    "id": "cnm_057_q7",
+    "topicId": "cnm_057",
+    "type": "numeric",
+    "prompt": "把 225 分化成度与分：等于 3°45′。",
+    "answer": "3",
+    "difficulty": "basic",
+    "explanation": "225 分=3°45′。",
+    "source": "llm",
+    "verify": "225//60"
+  },
+  {
+    "id": "cnm_057_q8",
+    "topicId": "cnm_057",
+    "type": "numeric",
+    "prompt": "把 330 分化成度与分：等于 5°30′。",
+    "answer": "5",
+    "difficulty": "basic",
+    "explanation": "330 分=5°30′。",
+    "source": "llm",
+    "verify": "330//60"
+  },
+  {
+    "id": "cnm_057_q9",
+    "topicId": "cnm_057",
+    "type": "numeric",
+    "prompt": "把 90 分化成度与分：等于 1°30′。",
+    "answer": "1",
+    "difficulty": "basic",
+    "explanation": "90 分=1°30′。",
+    "source": "llm",
+    "verify": "90//60"
+  },
+  {
+    "id": "cnm_057_q10",
+    "topicId": "cnm_057",
+    "type": "numeric",
+    "prompt": "把 345 分化成度与分：等于 5°45′。",
+    "answer": "5",
+    "difficulty": "basic",
+    "explanation": "345 分=5°45′。",
+    "source": "llm",
+    "verify": "345//60"
+  },
+  {
+    "id": "cnm_058_q6",
+    "topicId": "cnm_058",
+    "type": "numeric",
+    "prompt": "已知 OC 是 ∠AOB 的平分线，若 ∠AOB=156°，则 ∠AOC 是多少度？",
+    "answer": "78",
+    "difficulty": "basic",
+    "explanation": "角平分线把角分成相等的两部分，∠AOC=∠AOB÷2=78°。",
+    "source": "llm",
+    "verify": "156/2"
+  },
+  {
+    "id": "cnm_058_q7",
+    "topicId": "cnm_058",
+    "type": "numeric",
+    "prompt": "已知 OC 是 ∠AOB 的平分线，若 ∠AOB=130°，则 ∠AOC 是多少度？",
+    "answer": "65",
+    "difficulty": "basic",
+    "explanation": "角平分线把角分成相等的两部分，∠AOC=∠AOB÷2=65°。",
+    "source": "llm",
+    "verify": "130/2"
+  },
+  {
+    "id": "cnm_058_q8",
+    "topicId": "cnm_058",
+    "type": "numeric",
+    "prompt": "已知 OC 是 ∠AOB 的平分线，若 ∠AOB=118°，则 ∠AOC 是多少度？",
+    "answer": "59",
+    "difficulty": "basic",
+    "explanation": "角平分线把角分成相等的两部分，∠AOC=∠AOB÷2=59°。",
+    "source": "llm",
+    "verify": "118/2"
+  },
+  {
+    "id": "cnm_058_q9",
+    "topicId": "cnm_058",
+    "type": "numeric",
+    "prompt": "已知 OC 是 ∠AOB 的平分线，若 ∠AOB=128°，则 ∠AOC 是多少度？",
+    "answer": "64",
+    "difficulty": "basic",
+    "explanation": "角平分线把角分成相等的两部分，∠AOC=∠AOB÷2=64°。",
+    "source": "llm",
+    "verify": "128/2"
+  },
+  {
+    "id": "cnm_058_q10",
+    "topicId": "cnm_058",
+    "type": "numeric",
+    "prompt": "已知 OC 是 ∠AOB 的平分线，若 ∠AOB=60°，则 ∠AOC 是多少度？",
+    "answer": "30",
+    "difficulty": "basic",
+    "explanation": "角平分线把角分成相等的两部分，∠AOC=∠AOB÷2=30°。",
+    "source": "llm",
+    "verify": "60/2"
+  },
+  {
+    "id": "cnm_059_q6",
+    "topicId": "cnm_059",
+    "type": "numeric",
+    "prompt": "若一个角是 29°，则它的余角是多少度？",
+    "answer": "61",
+    "difficulty": "basic",
+    "explanation": "余角=90°-已知角=90°-29°=61°。",
+    "source": "llm",
+    "verify": "90-29"
+  },
+  {
+    "id": "cnm_059_q7",
+    "topicId": "cnm_059",
+    "type": "numeric",
+    "prompt": "若一个角是 35°，则它的余角是多少度？",
+    "answer": "55",
+    "difficulty": "basic",
+    "explanation": "余角=90°-已知角=90°-35°=55°。",
+    "source": "llm",
+    "verify": "90-35"
+  },
+  {
+    "id": "cnm_059_q8",
+    "topicId": "cnm_059",
+    "type": "numeric",
+    "prompt": "若一个角是 27°，则它的余角是多少度？",
+    "answer": "63",
+    "difficulty": "basic",
+    "explanation": "余角=90°-已知角=90°-27°=63°。",
+    "source": "llm",
+    "verify": "90-27"
+  },
+  {
+    "id": "cnm_059_q9",
+    "topicId": "cnm_059",
+    "type": "numeric",
+    "prompt": "若一个角是 66°，则它的余角是多少度？",
+    "answer": "24",
+    "difficulty": "basic",
+    "explanation": "余角=90°-已知角=90°-66°=24°。",
+    "source": "llm",
+    "verify": "90-66"
+  },
+  {
+    "id": "cnm_059_q10",
+    "topicId": "cnm_059",
+    "type": "numeric",
+    "prompt": "若一个角是 44°，则它的余角是多少度？",
+    "answer": "46",
+    "difficulty": "basic",
+    "explanation": "余角=90°-已知角=90°-44°=46°。",
+    "source": "llm",
+    "verify": "90-44"
+  },
+  {
+    "id": "cnm_060_q6",
+    "topicId": "cnm_060",
+    "type": "choice",
+    "prompt": "若 ∠A 与 ∠B 互补，∠C 与 ∠B 也互补，则 ∠A 与 ∠C 的关系是（ ）",
+    "answer": "B",
+    "difficulty": "basic",
+    "explanation": "同角（等角）的补角相等。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "互余"
+      },
+      {
+        "key": "B",
+        "text": "相等"
+      },
+      {
+        "key": "C",
+        "text": "互补"
+      },
+      {
+        "key": "D",
+        "text": "无法比较"
+      }
+    ]
+  },
+  {
+    "id": "cnm_060_q7",
+    "topicId": "cnm_060",
+    "type": "choice",
+    "prompt": "90° 的角叫（ ）",
+    "answer": "D",
+    "difficulty": "basic",
+    "explanation": "等于 90° 的角是直角。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "钝角"
+      },
+      {
+        "key": "B",
+        "text": "锐角"
+      },
+      {
+        "key": "C",
+        "text": "平角"
+      },
+      {
+        "key": "D",
+        "text": "直角"
+      }
+    ]
+  },
+  {
+    "id": "cnm_060_q8",
+    "topicId": "cnm_060",
+    "type": "choice",
+    "prompt": "大于 90° 且小于 180° 的角是（ ）",
+    "answer": "C",
+    "difficulty": "basic",
+    "explanation": "钝角是大于 90° 小于 180° 的角。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "平角"
+      },
+      {
+        "key": "B",
+        "text": "直角"
+      },
+      {
+        "key": "C",
+        "text": "钝角"
+      },
+      {
+        "key": "D",
+        "text": "锐角"
+      }
+    ]
+  },
+  {
+    "id": "cnm_060_q9",
+    "topicId": "cnm_060",
+    "type": "choice",
+    "prompt": "小于 90° 的角是（ ）",
+    "answer": "C",
+    "difficulty": "basic",
+    "explanation": "锐角是小于 90° 的角。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "直角"
+      },
+      {
+        "key": "B",
+        "text": "钝角"
+      },
+      {
+        "key": "C",
+        "text": "锐角"
+      },
+      {
+        "key": "D",
+        "text": "平角"
+      }
+    ]
+  },
+  {
+    "id": "cnm_060_q10",
+    "topicId": "cnm_060",
+    "type": "choice",
+    "prompt": "一个角与它的余角之和一定是（ ）",
+    "answer": "C",
+    "difficulty": "basic",
+    "explanation": "互余两角和为 90°。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "360°"
+      },
+      {
+        "key": "B",
+        "text": "180°"
+      },
+      {
+        "key": "C",
+        "text": "90°"
+      },
+      {
+        "key": "D",
+        "text": "45°"
+      }
+    ]
+  },
+  {
+    "id": "cnm_061_q6",
+    "topicId": "cnm_061",
+    "type": "choice",
+    "prompt": "圆的周长公式 C=（ ）",
+    "answer": "D",
+    "difficulty": "basic",
+    "explanation": "圆周长=2π×半径。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "πr"
+      },
+      {
+        "key": "B",
+        "text": "4r"
+      },
+      {
+        "key": "C",
+        "text": "πd/2"
+      },
+      {
+        "key": "D",
+        "text": "2πr"
+      }
+    ]
+  },
+  {
+    "id": "cnm_061_q7",
+    "topicId": "cnm_061",
+    "type": "choice",
+    "prompt": "车轮滚动一圈前进的距离等于车轮的（ ）",
+    "answer": "A",
+    "difficulty": "basic",
+    "explanation": "滚动一圈即一个周长。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "周长"
+      },
+      {
+        "key": "B",
+        "text": "直径"
+      },
+      {
+        "key": "C",
+        "text": "面积"
+      },
+      {
+        "key": "D",
+        "text": "半径"
+      }
+    ]
+  },
+  {
+    "id": "cnm_061_q8",
+    "topicId": "cnm_061",
+    "type": "choice",
+    "prompt": "已知圆的直径 d，其周长是（ ）",
+    "answer": "A",
+    "difficulty": "basic",
+    "explanation": "周长=π×直径。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "πd"
+      },
+      {
+        "key": "B",
+        "text": "πr"
+      },
+      {
+        "key": "C",
+        "text": "2πd"
+      },
+      {
+        "key": "D",
+        "text": "πd/2"
+      }
+    ]
+  },
+  {
+    "id": "cnm_061_q9",
+    "topicId": "cnm_061",
+    "type": "choice",
+    "prompt": "用圆规画圆时，圆规两脚间的距离是圆的（ ）",
+    "answer": "D",
+    "difficulty": "basic",
+    "explanation": "两脚距即半径。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "直径"
+      },
+      {
+        "key": "B",
+        "text": "周长"
+      },
+      {
+        "key": "C",
+        "text": "圆心"
+      },
+      {
+        "key": "D",
+        "text": "半径"
+      }
+    ]
+  },
+  {
+    "id": "cnm_061_q10",
+    "topicId": "cnm_061",
+    "type": "choice",
+    "prompt": "绕圆形花坛走一圈的路程就是花坛的（ ）",
+    "answer": "C",
+    "difficulty": "basic",
+    "explanation": "一圈路程是周长。",
+    "source": "llm",
+    "choices": [
+      {
+        "key": "A",
+        "text": "面积"
+      },
+      {
+        "key": "B",
+        "text": "半径"
+      },
+      {
+        "key": "C",
+        "text": "周长"
+      },
+      {
+        "key": "D",
+        "text": "直径"
+      }
+    ]
   }
 ]
