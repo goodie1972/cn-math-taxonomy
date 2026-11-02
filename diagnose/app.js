@@ -662,16 +662,13 @@
         limitInput.value = String(v);
         setSetting('screenLimit', v);
       });
-      // 版本/教材选择：始终显示在「开始整体诊断」按钮行最右；列出全部版本，暂无数据的灰显且不可点
+      // 版本/教材选择：与卡片标题同一行、置于最右；列出全部版本，暂无数据的灰显且不可点
       const edSel = h('select', { id: 'edition-select', 'aria-label': '教材版本', class: 'edition-select' },
         h('option', { value: '', title: '不限定教材版本，按年级/册的通用知识点范围出题' }, '按年级通用'));
       (D.editions.versions || []).forEach(function (v) {
         const st = E.versionStatus(D.editions, v.id, subject, D.graph);
         const ok = st.ready;
-        let text;
-        if (ok) text = v.label + '（' + st.covered + ' 点）';
-        else if (st.total) text = v.label + '（暂无数据）';
-        else text = v.label + '（暂无数据）';
+        const text = ok ? v.label + '（' + st.covered + ' 点）' : v.label + '（暂无数据）';
         const tip = ok
           ? (v.note || v.label) + '（' + st.covered + '/' + st.total + ' 个知识点已建库）'
           : (v.note ? v.note + ' ' : '') + '该版本本学科题库尚未建设，完成建库后自动点亮';
@@ -680,23 +677,26 @@
       edSel.value = editionSel || '';
       edSel.addEventListener('change', function () { editionSel = edSel.value; fill(); });
       const edWrap = h('label', { class: 'edition-inline', for: 'edition-select' }, '教材版本', edSel);
+      // 标题行：标题在左，教材版本选择框在同一行最右
+      const headRow = function (title) {
+        return h('div', { class: 'card-head' }, h('h2', { text: title }), edWrap);
+      };
       const startRow = h('div', { class: 'row grade-start-row' },
         h('label', null, '题量上限（' + SCREEN_MIN + '–' + SCREEN_MAX + '）', limitInput),
         h('button', {
           class: 'primary', id: 'btn-grade-start', disabled: !g,
           onclick: function () { if (g) startSession(g.ids, g.label + '（整体筛查）', null, 'screen'); }
-        }, '开始整体诊断'),
-        edWrap);
+        }, '开始整体诊断'));
       if (edition) {
         box.append(
-          h('h2', { text: '按教材版本诊断' }),
+          headRow('按教材版本诊断'),
           h('p', { class: 'muted' }, '已按《' + edition.label + '》的「' + subjLabel + '」范围划定知识点，覆盖该版本对应年级的全部考点。按「基础 / 提高 / 拓展」逐级筛查，最后按章汇总薄弱点。' + (g ? '' : '（该学科题库尚未就绪，请切换其他学科或改回「按年级通用」。）')),
           h('p', { class: 'muted', id: 'grade-info' }, g ? g.label + '：' + g.ids.length + ' 个知识点。' : '这个范围没有知识点。'),
           startRow,
           h('p', { class: 'muted small' }, '知识点多、题量有限，到上限后没测到的标为「未测」；结果页可以再加题。默认 ' + E.SCREEN_LIMIT + ' 题。'));
       } else {
       box.append(
-        h('h2', { text: '按年级整体诊断' }),
+        headRow('按年级整体诊断'),
         h('p', { class: 'muted' }, '本测评检查本年级知识点是否掌握，不是竞赛拔高。按「基础 / 提高 / 拓展」出题：先出提高题，答对再出拓展题确认掌握；答错会先补基础题，仍错会回到前面年级的相关知识点。每个知识点连续答对 ' + getSettings().confirm + ' 题才算掌握（可在上方改），最后按章汇总出哪几章薄弱。适合期初摸底、学期末复习。'),
         tabs('年级', subject === 'physics'
           ? [['八', '八年级'], ['九', '九年级'], ['必修一', '必修一'], ['必修二', '必修二'], ['必修三', '必修三'],

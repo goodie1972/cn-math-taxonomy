@@ -16,7 +16,9 @@ main#root { width: min(840px, 100%); margin: 0 auto; padding: 20px 16px 56px; }
 .small { font-size: 0.92rem; }
 .err { color: var(--bad); }
 .row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
-.edition-inline { margin-left: auto; display: inline-flex; align-items: center; gap: 8px; font-weight: 700; white-space: nowrap; }
+.card-head { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; justify-content: space-between; margin-bottom: 8px; }
+.card-head h2 { margin: 0; }
+.edition-inline { display: inline-flex; align-items: center; gap: 8px; font-weight: 700; white-space: nowrap; margin-left: auto; }
 .edition-inline select { font-weight: 400; }
 .edition-select { min-width: 168px; }
 .edition-select option:disabled { color: #b0b0b0; }
