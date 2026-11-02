@@ -303190,5 +303190,5351 @@
   ],
   "answer": "B",
   "explanation": "前句说冷、后句说仍去跑，是转折关系，用虽然……但是……。"
+ },
+ {
+  "id": "cne_p155_q5",
+  "topicId": "cne_p155",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「museum」的中文意思是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "博物馆"
+   },
+   {
+    "key": "B",
+    "text": "餐厅"
+   },
+   {
+    "key": "C",
+    "text": "银行"
+   },
+   {
+    "key": "D",
+    "text": "公园"
+   }
+  ],
+  "answer": "A",
+  "explanation": "museum 是博物馆。"
+ },
+ {
+  "id": "cne_p155_q6",
+  "topicId": "cne_p155",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "哪个单词的意思是「超市」？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "school"
+   },
+   {
+    "key": "B",
+    "text": "supermarket"
+   },
+   {
+    "key": "C",
+    "text": "library"
+   },
+   {
+    "key": "D",
+    "text": "bank"
+   }
+  ],
+  "answer": "B",
+  "explanation": "supermarket 是超市。"
+ },
+ {
+  "id": "cne_p155_q7",
+  "topicId": "cne_p155",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "你想借书，应该去哪里？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "library"
+   },
+   {
+    "key": "B",
+    "text": "restaurant"
+   },
+   {
+    "key": "C",
+    "text": "hotel"
+   },
+   {
+    "key": "D",
+    "text": "bank"
+   }
+  ],
+  "answer": "A",
+  "explanation": "借书去 library（图书馆）。"
+ },
+ {
+  "id": "cne_p155_q8",
+  "topicId": "cne_p155",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "「restaurant」的意思是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "餐厅"
+   },
+   {
+    "key": "B",
+    "text": "公园"
+   },
+   {
+    "key": "C",
+    "text": "学校"
+   },
+   {
+    "key": "D",
+    "text": "邮局"
+   }
+  ],
+  "answer": "A",
+  "explanation": "restaurant 是餐厅。"
+ },
+ {
+  "id": "cne_p155_q9",
+  "topicId": "cne_p155",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "下列哪个是「旅馆」的英文？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "hotel"
+   },
+   {
+    "key": "B",
+    "text": "bank"
+   },
+   {
+    "key": "C",
+    "text": "museum"
+   },
+   {
+    "key": "D",
+    "text": "cinema"
+   }
+  ],
+  "answer": "A",
+  "explanation": "hotel 是旅馆。"
+ },
+ {
+  "id": "cne_p155_q10",
+  "topicId": "cne_p155",
+  "difficulty": "challenge",
+  "type": "choice",
+  "prompt": "「医院」的英文单词是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "hospital"
+   },
+   {
+    "key": "B",
+    "text": "school"
+   },
+   {
+    "key": "C",
+    "text": "park"
+   },
+   {
+    "key": "D",
+    "text": "library"
+   }
+  ],
+  "answer": "A",
+  "explanation": "hospital 是医院。"
+ },
+ {
+  "id": "cne_p156_q5",
+  "topicId": "cne_p156",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「turn left」的意思是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "左转"
+   },
+   {
+    "key": "B",
+    "text": "右转"
+   },
+   {
+    "key": "C",
+    "text": "直行"
+   },
+   {
+    "key": "D",
+    "text": "停下"
+   }
+  ],
+  "answer": "A",
+  "explanation": "turn left 是左转。"
+ },
+ {
+  "id": "cne_p156_q6",
+  "topicId": "cne_p156",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "哪个短语表示「直行」？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "go straight"
+   },
+   {
+    "key": "B",
+    "text": "turn right"
+   },
+   {
+    "key": "C",
+    "text": "sit down"
+   },
+   {
+    "key": "D",
+    "text": "come in"
+   }
+  ],
+  "answer": "A",
+  "explanation": "go straight 是直行。"
+ },
+ {
+  "id": "cne_p156_q7",
+  "topicId": "cne_p156",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "「turn right」对应的中文是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "右转"
+   },
+   {
+    "key": "B",
+    "text": "左转"
+   },
+   {
+    "key": "C",
+    "text": "往后走"
+   },
+   {
+    "key": "D",
+    "text": "停下来"
+   }
+  ],
+  "answer": "A",
+  "explanation": "turn right 是右转。"
+ },
+ {
+  "id": "cne_p156_q8",
+  "topicId": "cne_p156",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "在十字路口可以说？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "at the crossing"
+   },
+   {
+    "key": "B",
+    "text": "in the book"
+   },
+   {
+    "key": "C",
+    "text": "on the desk"
+   },
+   {
+    "key": "D",
+    "text": "under the tree"
+   }
+  ],
+  "answer": "A",
+  "explanation": "crossing 是十字路口。"
+ },
+ {
+  "id": "cne_p156_q9",
+  "topicId": "cne_p156",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「左转」的英文是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "turn left"
+   },
+   {
+    "key": "B",
+    "text": "turn right"
+   },
+   {
+    "key": "C",
+    "text": "go straight"
+   },
+   {
+    "key": "D",
+    "text": "sit down"
+   }
+  ],
+  "answer": "A",
+  "explanation": "turn left 左转。"
+ },
+ {
+  "id": "cne_p156_q10",
+  "topicId": "cne_p156",
+  "difficulty": "challenge",
+  "type": "choice",
+  "prompt": "指路时「到拐角处左转」可表达为？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Turn left at the corner."
+   },
+   {
+    "key": "B",
+    "text": "Turn left on the book."
+   },
+   {
+    "key": "C",
+    "text": "Go straight the corner."
+   },
+   {
+    "key": "D",
+    "text": "Left turn museum."
+   }
+  ],
+  "answer": "A",
+  "explanation": "at the corner 表示在拐角处。"
+ },
+ {
+  "id": "cne_p157_q5",
+  "topicId": "cne_p157",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "想问「图书馆在哪里」，应说？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Where is the library?"
+   },
+   {
+    "key": "B",
+    "text": "What is the library?"
+   },
+   {
+    "key": "C",
+    "text": "Who is the library?"
+   },
+   {
+    "key": "D",
+    "text": "How library?"
+   }
+  ],
+  "answer": "A",
+  "explanation": "Where is...? 问位置。"
+ },
+ {
+  "id": "cne_p157_q6",
+  "topicId": "cne_p157",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「How can I get to the park?」意思是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "我怎么去公园？"
+   },
+   {
+    "key": "B",
+    "text": "公园有多大？"
+   },
+   {
+    "key": "C",
+    "text": "公园在哪里？"
+   },
+   {
+    "key": "D",
+    "text": "谁是公园？"
+   }
+  ],
+  "answer": "A",
+  "explanation": "How can I get to...? 问怎么去。"
+ },
+ {
+  "id": "cne_p157_q7",
+  "topicId": "cne_p157",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "给别人指路可以说？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Go straight and turn left."
+   },
+   {
+    "key": "B",
+    "text": "I am a student."
+   },
+   {
+    "key": "C",
+    "text": "It is red."
+   },
+   {
+    "key": "D",
+    "text": "Thank you."
+   }
+  ],
+  "answer": "A",
+  "explanation": "Go straight and turn left 是直行再左转。"
+ },
+ {
+  "id": "cne_p157_q8",
+  "topicId": "cne_p157",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "回答「How can I get to the school?」可以说？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Turn right and go straight."
+   },
+   {
+    "key": "B",
+    "text": "I like school."
+   },
+   {
+    "key": "C",
+    "text": "School is big."
+   },
+   {
+    "key": "D",
+    "text": "No, you can't."
+   }
+  ],
+  "answer": "A",
+  "explanation": "用方向指令回答。"
+ },
+ {
+  "id": "cne_p157_q9",
+  "topicId": "cne_p157",
+  "difficulty": "challenge",
+  "type": "choice",
+  "prompt": "「它就在银行旁边」英文是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "It is next to the bank."
+   },
+   {
+    "key": "B",
+    "text": "It is bank."
+   },
+   {
+    "key": "C",
+    "text": "Next bank it."
+   },
+   {
+    "key": "D",
+    "text": "Bank next is."
+   }
+  ],
+  "answer": "A",
+  "explanation": "next to 表示在……旁边。"
+ },
+ {
+  "id": "cne_p157_q10",
+  "topicId": "cne_p157",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "问路时先说礼貌用语可以用？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Excuse me."
+   },
+   {
+    "key": "B",
+    "text": "Goodbye."
+   },
+   {
+    "key": "C",
+    "text": "Thank you."
+   },
+   {
+    "key": "D",
+    "text": "Hello."
+   }
+  ],
+  "answer": "A",
+  "explanation": "Excuse me 用于打扰/问路。"
+ },
+ {
+  "id": "cne_p158_q5",
+  "topicId": "cne_p158",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "阅读：Go straight, then turn left. The bank is on your right. 银行在你的？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "右边"
+   },
+   {
+    "key": "B",
+    "text": "左边"
+   },
+   {
+    "key": "C",
+    "text": "前面"
+   },
+   {
+    "key": "D",
+    "text": "后面"
+   }
+  ],
+  "answer": "A",
+  "explanation": "on your right 在右边。"
+ },
+ {
+  "id": "cne_p158_q6",
+  "topicId": "cne_p158",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "阅读：Turn right at the crossing, the museum is next to the park. 博物馆在？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "公园旁边"
+   },
+   {
+    "key": "B",
+    "text": "学校里面"
+   },
+   {
+    "key": "C",
+    "text": "银行对面"
+   },
+   {
+    "key": "D",
+    "text": "家里"
+   }
+  ],
+  "answer": "A",
+  "explanation": "next to the park 在公园旁。"
+ },
+ {
+  "id": "cne_p158_q7",
+  "topicId": "cne_p158",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "阅读：Walk straight for two minutes, turn left, you'll see the library. 你会看到？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "图书馆"
+   },
+   {
+    "key": "B",
+    "text": "餐厅"
+   },
+   {
+    "key": "C",
+    "text": "邮局"
+   },
+   {
+    "key": "D",
+    "text": "医院"
+   }
+  ],
+  "answer": "A",
+  "explanation": "you'll see the library 看到图书馆。"
+ },
+ {
+  "id": "cne_p158_q8",
+  "topicId": "cne_p158",
+  "difficulty": "challenge",
+  "type": "choice",
+  "prompt": "阅读：Cross the road, turn right, the cinema is between the bank and the hotel. 电影院在？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "银行和旅馆之间"
+   },
+   {
+    "key": "B",
+    "text": "公园对面"
+   },
+   {
+    "key": "C",
+    "text": "学校旁边"
+   },
+   {
+    "key": "D",
+    "text": "桥下面"
+   }
+  ],
+  "answer": "A",
+  "explanation": "between...and... 在两者之间。"
+ },
+ {
+  "id": "cne_p158_q9",
+  "topicId": "cne_p158",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "阅读：Go straight and turn right, the post office is on your left. 邮局在你的？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "左边"
+   },
+   {
+    "key": "B",
+    "text": "右边"
+   },
+   {
+    "key": "C",
+    "text": "前面"
+   },
+   {
+    "key": "D",
+    "text": "后面"
+   }
+  ],
+  "answer": "A",
+  "explanation": "on your left 在左边。"
+ },
+ {
+  "id": "cne_p158_q10",
+  "topicId": "cne_p158",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "阅读：Turn left, the school is on the left. 学校在你的哪边？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "左边"
+   },
+   {
+    "key": "B",
+    "text": "右边"
+   },
+   {
+    "key": "C",
+    "text": "上面"
+   },
+   {
+    "key": "D",
+    "text": "下面"
+   }
+  ],
+  "answer": "A",
+  "explanation": "on the left 在左边。"
+ },
+ {
+  "id": "cne_p185_q5",
+  "topicId": "cne_p185",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "play 的过去式是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "played"
+   },
+   {
+    "key": "B",
+    "text": "play"
+   },
+   {
+    "key": "C",
+    "text": "playing"
+   },
+   {
+    "key": "D",
+    "text": "plays"
+   }
+  ],
+  "answer": "A",
+  "explanation": "规则动词加 -ed。"
+ },
+ {
+  "id": "cne_p185_q6",
+  "topicId": "cne_p185",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "watch 的过去式是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "watched"
+   },
+   {
+    "key": "B",
+    "text": "watch"
+   },
+   {
+    "key": "C",
+    "text": "watching"
+   },
+   {
+    "key": "D",
+    "text": "watches"
+   }
+  ],
+  "answer": "A",
+  "explanation": "watch 以 ch 结尾加 -ed。"
+ },
+ {
+  "id": "cne_p185_q7",
+  "topicId": "cne_p185",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "visit 的过去式是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "visited"
+   },
+   {
+    "key": "B",
+    "text": "visit"
+   },
+   {
+    "key": "C",
+    "text": "visiting"
+   },
+   {
+    "key": "D",
+    "text": "visits"
+   }
+  ],
+  "answer": "A",
+  "explanation": "visit 直接加 -ed。"
+ },
+ {
+  "id": "cne_p185_q8",
+  "topicId": "cne_p185",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "clean 的过去式是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "cleaned"
+   },
+   {
+    "key": "B",
+    "text": "clean"
+   },
+   {
+    "key": "C",
+    "text": "cleaning"
+   },
+   {
+    "key": "D",
+    "text": "cleans"
+   }
+  ],
+  "answer": "A",
+  "explanation": "clean 加 -ed。"
+ },
+ {
+  "id": "cne_p185_q9",
+  "topicId": "cne_p185",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "下列哪组是动词过去式？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "walked"
+   },
+   {
+    "key": "B",
+    "text": "walk"
+   },
+   {
+    "key": "C",
+    "text": "walking"
+   },
+   {
+    "key": "D",
+    "text": "walks"
+   }
+  ],
+  "answer": "A",
+  "explanation": "walked 是 walk 的过去式。"
+ },
+ {
+  "id": "cne_p185_q10",
+  "topicId": "cne_p185",
+  "difficulty": "challenge",
+  "type": "choice",
+  "prompt": "cook 的过去式是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "cooked"
+   },
+   {
+    "key": "B",
+    "text": "cook"
+   },
+   {
+    "key": "C",
+    "text": "cooking"
+   },
+   {
+    "key": "D",
+    "text": "cooks"
+   }
+  ],
+  "answer": "A",
+  "explanation": "cook 加 -ed 变 cooked。"
+ },
+ {
+  "id": "cne_p189_q5",
+  "topicId": "cne_p189",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "go 的过去式是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "went"
+   },
+   {
+    "key": "B",
+    "text": "go"
+   },
+   {
+    "key": "C",
+    "text": "going"
+   },
+   {
+    "key": "D",
+    "text": "goes"
+   }
+  ],
+  "answer": "A",
+  "explanation": "go 是不规则变化 went。"
+ },
+ {
+  "id": "cne_p189_q6",
+  "topicId": "cne_p189",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "see 的过去式是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "saw"
+   },
+   {
+    "key": "B",
+    "text": "see"
+   },
+   {
+    "key": "C",
+    "text": "seeing"
+   },
+   {
+    "key": "D",
+    "text": "sees"
+   }
+  ],
+  "answer": "A",
+  "explanation": "see 的过去式是 saw。"
+ },
+ {
+  "id": "cne_p189_q7",
+  "topicId": "cne_p189",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "eat 的过去式是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "ate"
+   },
+   {
+    "key": "B",
+    "text": "eat"
+   },
+   {
+    "key": "C",
+    "text": "eating"
+   },
+   {
+    "key": "D",
+    "text": "eats"
+   }
+  ],
+  "answer": "A",
+  "explanation": "eat 的过去式是 ate。"
+ },
+ {
+  "id": "cne_p189_q8",
+  "topicId": "cne_p189",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "have 的过去式是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "had"
+   },
+   {
+    "key": "B",
+    "text": "have"
+   },
+   {
+    "key": "C",
+    "text": "having"
+   },
+   {
+    "key": "D",
+    "text": "has"
+   }
+  ],
+  "answer": "A",
+  "explanation": "have 的过去式是 had。"
+ },
+ {
+  "id": "cne_p189_q9",
+  "topicId": "cne_p189",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "come 的过去式是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "came"
+   },
+   {
+    "key": "B",
+    "text": "come"
+   },
+   {
+    "key": "C",
+    "text": "coming"
+   },
+   {
+    "key": "D",
+    "text": "comes"
+   }
+  ],
+  "answer": "A",
+  "explanation": "come 的过去式是 came。"
+ },
+ {
+  "id": "cne_p189_q10",
+  "topicId": "cne_p189",
+  "difficulty": "challenge",
+  "type": "choice",
+  "prompt": "buy 的过去式是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "bought"
+   },
+   {
+    "key": "B",
+    "text": "buy"
+   },
+   {
+    "key": "C",
+    "text": "buying"
+   },
+   {
+    "key": "D",
+    "text": "buys"
+   }
+  ],
+  "answer": "A",
+  "explanation": "buy 的过去式是 bought。"
+ },
+ {
+  "id": "cne_p186_q5",
+  "topicId": "cne_p186",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "问「你昨天去公园了吗？」应说？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Did you go to the park yesterday?"
+   },
+   {
+    "key": "B",
+    "text": "Do you go to the park?"
+   },
+   {
+    "key": "C",
+    "text": "Are you go park?"
+   },
+   {
+    "key": "D",
+    "text": "You went park?"
+   }
+  ],
+  "answer": "A",
+  "explanation": "过去式疑问用 Did 开头。"
+ },
+ {
+  "id": "cne_p186_q6",
+  "topicId": "cne_p186",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "对 Did you watch TV? 的肯定回答是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Yes, I did."
+   },
+   {
+    "key": "B",
+    "text": "Yes, I do."
+   },
+   {
+    "key": "C",
+    "text": "Yes, I am."
+   },
+   {
+    "key": "D",
+    "text": "No, I do."
+   }
+  ],
+  "answer": "A",
+  "explanation": "Did 提问用 did 回答。"
+ },
+ {
+  "id": "cne_p186_q7",
+  "topicId": "cne_p186",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "否定回答 Did he come? 是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "No, he didn't."
+   },
+   {
+    "key": "B",
+    "text": "No, he doesn't."
+   },
+   {
+    "key": "C",
+    "text": "No, he isn't."
+   },
+   {
+    "key": "D",
+    "text": "No, he don't."
+   }
+  ],
+  "answer": "A",
+  "explanation": "he 用 didn't。"
+ },
+ {
+  "id": "cne_p186_q8",
+  "topicId": "cne_p186",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "Did she visit the museum? 的肯定回答？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Yes, she did."
+   },
+   {
+    "key": "B",
+    "text": "Yes, she does."
+   },
+   {
+    "key": "C",
+    "text": "Yes, she is."
+   },
+   {
+    "key": "D",
+    "text": "Yes, she do."
+   }
+  ],
+  "answer": "A",
+  "explanation": "she 用 did 回答。"
+ },
+ {
+  "id": "cne_p186_q9",
+  "topicId": "cne_p186",
+  "difficulty": "challenge",
+  "type": "choice",
+  "prompt": "选择正确句子：",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Did they go to the zoo?"
+   },
+   {
+    "key": "B",
+    "text": "Did they went to the zoo?"
+   },
+   {
+    "key": "C",
+    "text": "They did went?"
+   },
+   {
+    "key": "D",
+    "text": "Did they going?"
+   }
+  ],
+  "answer": "A",
+  "explanation": "Did 后接动词原形 go。"
+ },
+ {
+  "id": "cne_p186_q10",
+  "topicId": "cne_p186",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "Did you play football? 的否定回答？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "No, I didn't."
+   },
+   {
+    "key": "B",
+    "text": "No, I don't."
+   },
+   {
+    "key": "C",
+    "text": "No, I won't."
+   },
+   {
+    "key": "D",
+    "text": "No, I haven't."
+   }
+  ],
+  "answer": "A",
+  "explanation": "用 didn't 回答。"
+ },
+ {
+  "id": "cne_p190_q5",
+  "topicId": "cne_p190",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「我去了图书馆」英文是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "I went to the library."
+   },
+   {
+    "key": "B",
+    "text": "I go to the library."
+   },
+   {
+    "key": "C",
+    "text": "I going library."
+   },
+   {
+    "key": "D",
+    "text": "I went library."
+   }
+  ],
+  "answer": "A",
+  "explanation": "过去式 went to。"
+ },
+ {
+  "id": "cne_p190_q6",
+  "topicId": "cne_p190",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「我们上周去了长城」英文是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "We went to the Great Wall."
+   },
+   {
+    "key": "B",
+    "text": "We go to the Great Wall."
+   },
+   {
+    "key": "C",
+    "text": "We went Great Wall."
+   },
+   {
+    "key": "D",
+    "text": "We going Great Wall."
+   }
+  ],
+  "answer": "A",
+  "explanation": "went to the Great Wall。"
+ },
+ {
+  "id": "cne_p190_q7",
+  "topicId": "cne_p190",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "问「你们去哪儿了？」应说？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Where did you go?"
+   },
+   {
+    "key": "B",
+    "text": "Where you go?"
+   },
+   {
+    "key": "C",
+    "text": "Where do you go?"
+   },
+   {
+    "key": "D",
+    "text": "Where went you?"
+   }
+  ],
+  "answer": "A",
+  "explanation": "过去式 Where did you go?。"
+ },
+ {
+  "id": "cne_p190_q8",
+  "topicId": "cne_p190",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "「她和妈妈去购物了」英文是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "She went shopping with her mother."
+   },
+   {
+    "key": "B",
+    "text": "She goes shopping with mother."
+   },
+   {
+    "key": "C",
+    "text": "She went shop with her mother."
+   },
+   {
+    "key": "D",
+    "text": "She go shopping with her mother."
+   }
+  ],
+  "answer": "A",
+  "explanation": "went shopping 去购物。"
+ },
+ {
+  "id": "cne_p190_q9",
+  "topicId": "cne_p190",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "下列哪句指过去？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "I visited my grandma."
+   },
+   {
+    "key": "B",
+    "text": "I visit my grandma."
+   },
+   {
+    "key": "C",
+    "text": "I am visiting."
+   },
+   {
+    "key": "D",
+    "text": "I will visit."
+   }
+  ],
+  "answer": "A",
+  "explanation": "visited 是过去式。"
+ },
+ {
+  "id": "cne_p190_q10",
+  "topicId": "cne_p190",
+  "difficulty": "challenge",
+  "type": "choice",
+  "prompt": "「他去了公园」应说？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "He went to the park."
+   },
+   {
+    "key": "B",
+    "text": "He goes to the park."
+   },
+   {
+    "key": "C",
+    "text": "He go to the park."
+   },
+   {
+    "key": "D",
+    "text": "He going to the park."
+   }
+  ],
+  "answer": "A",
+  "explanation": "过去式 He went to。"
+ },
+ {
+  "id": "cne_p191_q5",
+  "topicId": "cne_p191",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "阅读日记：Yesterday I went to the zoo. I saw many animals. 他去了？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "动物园"
+   },
+   {
+    "key": "B",
+    "text": "公园"
+   },
+   {
+    "key": "C",
+    "text": "博物馆"
+   },
+   {
+    "key": "D",
+    "text": "图书馆"
+   }
+  ],
+  "answer": "A",
+  "explanation": "zoo 是动物园。"
+ },
+ {
+  "id": "cne_p191_q6",
+  "topicId": "cne_p191",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "阅读：We went to the beach. We swam in the sea. 他们在海里？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "游泳"
+   },
+   {
+    "key": "B",
+    "text": "跑步"
+   },
+   {
+    "key": "C",
+    "text": "唱歌"
+   },
+   {
+    "key": "D",
+    "text": "读书"
+   }
+  ],
+  "answer": "A",
+  "explanation": "swam 是 swim 的过去式，游泳。"
+ },
+ {
+  "id": "cne_p191_q7",
+  "topicId": "cne_p191",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "阅读：I visited my uncle. He gave me a gift. 叔叔给了他？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "一个礼物"
+   },
+   {
+    "key": "B",
+    "text": "一本书"
+   },
+   {
+    "key": "C",
+    "text": "一些钱"
+   },
+   {
+    "key": "D",
+    "text": "一朵花"
+   }
+  ],
+  "answer": "A",
+  "explanation": "gift 是礼物。"
+ },
+ {
+  "id": "cne_p191_q8",
+  "topicId": "cne_p191",
+  "difficulty": "challenge",
+  "type": "choice",
+  "prompt": "阅读：Last summer we went to Beijing. We ate Beijing duck. It was delicious. 他们吃了？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "北京烤鸭"
+   },
+   {
+    "key": "B",
+    "text": "面条"
+   },
+   {
+    "key": "C",
+    "text": "米饭"
+   },
+   {
+    "key": "D",
+    "text": "汉堡"
+   }
+  ],
+  "answer": "A",
+  "explanation": "Beijing duck 北京烤鸭。"
+ },
+ {
+  "id": "cne_p191_q9",
+  "topicId": "cne_p191",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "阅读：I took many photos. 意思是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "我拍了很多照片"
+   },
+   {
+    "key": "B",
+    "text": "我买了很多书"
+   },
+   {
+    "key": "C",
+    "text": "我看了很多电影"
+   },
+   {
+    "key": "D",
+    "text": "我吃了很多水果"
+   }
+  ],
+  "answer": "A",
+  "explanation": "took photos 拍照。"
+ },
+ {
+  "id": "cne_p191_q10",
+  "topicId": "cne_p191",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "阅读：I went to the museum and saw old things. went 的原形是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "go"
+   },
+   {
+    "key": "B",
+    "text": "went"
+   },
+   {
+    "key": "C",
+    "text": "going"
+   },
+   {
+    "key": "D",
+    "text": "gone"
+   }
+  ],
+  "answer": "A",
+  "explanation": "went 的原形是 go。"
+ },
+ {
+  "id": "cne_p163_q5",
+  "topicId": "cne_p163",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「weekend」的意思是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "周末"
+   },
+   {
+    "key": "B",
+    "text": "工作日"
+   },
+   {
+    "key": "C",
+    "text": "假期"
+   },
+   {
+    "key": "D",
+    "text": "星期一"
+   }
+  ],
+  "answer": "A",
+  "explanation": "weekend 是周末。"
+ },
+ {
+  "id": "cne_p163_q6",
+  "topicId": "cne_p163",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "哪个词意思是「计划」？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "plan"
+   },
+   {
+    "key": "B",
+    "text": "play"
+   },
+   {
+    "key": "C",
+    "text": "park"
+   },
+   {
+    "key": "D",
+    "text": "plate"
+   }
+  ],
+  "answer": "A",
+  "explanation": "plan 是计划。"
+ },
+ {
+  "id": "cne_p163_q7",
+  "topicId": "cne_p163",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "「picnic」的中文是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "野餐"
+   },
+   {
+    "key": "B",
+    "text": "聚会"
+   },
+   {
+    "key": "C",
+    "text": "旅行"
+   },
+   {
+    "key": "D",
+    "text": "会议"
+   }
+  ],
+  "answer": "A",
+  "explanation": "picnic 是野餐。"
+ },
+ {
+  "id": "cne_p163_q8",
+  "topicId": "cne_p163",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "「visit my grandma」意思是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "看望奶奶"
+   },
+   {
+    "key": "B",
+    "text": "拜访老师"
+   },
+   {
+    "key": "C",
+    "text": "去公园"
+   },
+   {
+    "key": "D",
+    "text": "看电视"
+   }
+  ],
+  "answer": "A",
+  "explanation": "visit 是看望/拜访。"
+ },
+ {
+  "id": "cne_p163_q9",
+  "topicId": "cne_p163",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「trip」的意思是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "旅行"
+   },
+   {
+    "key": "B",
+    "text": "陷阱"
+   },
+   {
+    "key": "C",
+    "text": "三轮车"
+   },
+   {
+    "key": "D",
+    "text": "小费"
+   }
+  ],
+  "answer": "A",
+  "explanation": "trip 是旅行。"
+ },
+ {
+  "id": "cne_p163_q10",
+  "topicId": "cne_p163",
+  "difficulty": "challenge",
+  "type": "choice",
+  "prompt": "「我们周末要去公园野餐」补全：We will have a ___ in the park.",
+  "choices": [
+   {
+    "key": "A",
+    "text": "picnic"
+   },
+   {
+    "key": "B",
+    "text": "book"
+   },
+   {
+    "key": "C",
+    "text": "pen"
+   },
+   {
+    "key": "D",
+    "text": "bag"
+   }
+  ],
+  "answer": "A",
+  "explanation": "have a picnic 去野餐。"
+ },
+ {
+  "id": "cne_p164_q5",
+  "topicId": "cne_p164",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「我打算去看电影」英文是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "I am going to see a film."
+   },
+   {
+    "key": "B",
+    "text": "I see a film."
+   },
+   {
+    "key": "C",
+    "text": "I saw a film."
+   },
+   {
+    "key": "D",
+    "text": "I am seeing film."
+   }
+  ],
+  "answer": "A",
+  "explanation": "be going to 表将来打算。"
+ },
+ {
+  "id": "cne_p164_q6",
+  "topicId": "cne_p164",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "问「你打算做什么？」应说？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "What are you going to do?"
+   },
+   {
+    "key": "B",
+    "text": "What do you do?"
+   },
+   {
+    "key": "C",
+    "text": "What did you do?"
+   },
+   {
+    "key": "D",
+    "text": "What you going do?"
+   }
+  ],
+  "answer": "A",
+  "explanation": "What are you going to do?。"
+ },
+ {
+  "id": "cne_p164_q7",
+  "topicId": "cne_p164",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "「他打算去游泳」英文是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "He is going to swim."
+   },
+   {
+    "key": "B",
+    "text": "He goes to swim."
+   },
+   {
+    "key": "C",
+    "text": "He went to swim."
+   },
+   {
+    "key": "D",
+    "text": "He going swim."
+   }
+  ],
+  "answer": "A",
+  "explanation": "He is going to swim。"
+ },
+ {
+  "id": "cne_p164_q8",
+  "topicId": "cne_p164",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "肯定回答 Are you going to read a book? 是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Yes, I am."
+   },
+   {
+    "key": "B",
+    "text": "Yes, I do."
+   },
+   {
+    "key": "C",
+    "text": "Yes, I will."
+   },
+   {
+    "key": "D",
+    "text": "Yes, I did."
+   }
+  ],
+  "answer": "A",
+  "explanation": "用 am 回答。"
+ },
+ {
+  "id": "cne_p164_q9",
+  "topicId": "cne_p164",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "They ___ going to play football. 应填？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "are"
+   },
+   {
+    "key": "B",
+    "text": "is"
+   },
+   {
+    "key": "C",
+    "text": "am"
+   },
+   {
+    "key": "D",
+    "text": "be"
+   }
+  ],
+  "answer": "A",
+  "explanation": "They 配 are。"
+ },
+ {
+  "id": "cne_p164_q10",
+  "topicId": "cne_p164",
+  "difficulty": "challenge",
+  "type": "choice",
+  "prompt": "选择正确句子：",
+  "choices": [
+   {
+    "key": "A",
+    "text": "She is going to visit her friend."
+   },
+   {
+    "key": "B",
+    "text": "She going to visit friend."
+   },
+   {
+    "key": "C",
+    "text": "She is go to visit her friend."
+   },
+   {
+    "key": "D",
+    "text": "She going visit her friend."
+   }
+  ],
+  "answer": "A",
+  "explanation": "She is going to + 动词原形。"
+ },
+ {
+  "id": "cne_p165_q5",
+  "topicId": "cne_p165",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "朋友说「I'm going to the park.」你猜他会？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "去公园"
+   },
+   {
+    "key": "B",
+    "text": "看电视"
+   },
+   {
+    "key": "C",
+    "text": "睡觉"
+   },
+   {
+    "key": "D",
+    "text": "吃饭"
+   }
+  ],
+  "answer": "A",
+  "explanation": "be going to the park 去公园。"
+ },
+ {
+  "id": "cne_p165_q6",
+  "topicId": "cne_p165",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "想问朋友周末计划，应说？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "What are you going to do this weekend?"
+   },
+   {
+    "key": "B",
+    "text": "What do you do?"
+   },
+   {
+    "key": "C",
+    "text": "Where are you?"
+   },
+   {
+    "key": "D",
+    "text": "How are you?"
+   }
+  ],
+  "answer": "A",
+  "explanation": "问将来计划。"
+ },
+ {
+  "id": "cne_p165_q7",
+  "topicId": "cne_p165",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "回答「What is she going to do?」可以说？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "She is going to dance."
+   },
+   {
+    "key": "B",
+    "text": "She goes to dance."
+   },
+   {
+    "key": "C",
+    "text": "She danced."
+   },
+   {
+    "key": "D",
+    "text": "She is dance."
+   }
+  ],
+  "answer": "A",
+  "explanation": "She is going to dance。"
+ },
+ {
+  "id": "cne_p165_q8",
+  "topicId": "cne_p165",
+  "difficulty": "challenge",
+  "type": "choice",
+  "prompt": "补全对话：—What are you going to do? —I ___ going to draw a picture.",
+  "choices": [
+   {
+    "key": "A",
+    "text": "am"
+   },
+   {
+    "key": "B",
+    "text": "is"
+   },
+   {
+    "key": "C",
+    "text": "are"
+   },
+   {
+    "key": "D",
+    "text": "be"
+   }
+  ],
+  "answer": "A",
+  "explanation": "I 配 am。"
+ },
+ {
+  "id": "cne_p165_q9",
+  "topicId": "cne_p165",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「We are going to have a party.」意思是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "我们要开派对"
+   },
+   {
+    "key": "B",
+    "text": "我们开了派对"
+   },
+   {
+    "key": "C",
+    "text": "我们喜欢派对"
+   },
+   {
+    "key": "D",
+    "text": "我们没有派对"
+   }
+  ],
+  "answer": "A",
+  "explanation": "be going to have a party 要开派对。"
+ },
+ {
+  "id": "cne_p165_q10",
+  "topicId": "cne_p165",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "表达「他不去」应说？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "He is not going to come."
+   },
+   {
+    "key": "B",
+    "text": "He not going come."
+   },
+   {
+    "key": "C",
+    "text": "He don't going come."
+   },
+   {
+    "key": "D",
+    "text": "He is going not come."
+   }
+  ],
+  "answer": "A",
+  "explanation": "is not going to come。"
+ },
+ {
+  "id": "cne_p166_q5",
+  "topicId": "cne_p166",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "阅读：I am going to visit my grandma this weekend. 他周末要？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "看望奶奶"
+   },
+   {
+    "key": "B",
+    "text": "看电影"
+   },
+   {
+    "key": "C",
+    "text": "去游泳"
+   },
+   {
+    "key": "D",
+    "text": "去上学"
+   }
+  ],
+  "answer": "A",
+  "explanation": "visit my grandma 看望奶奶。"
+ },
+ {
+  "id": "cne_p166_q6",
+  "topicId": "cne_p166",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "阅读：We are going to have a picnic in the park on Sunday. 他们周日要？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "去公园野餐"
+   },
+   {
+    "key": "B",
+    "text": "去学校"
+   },
+   {
+    "key": "C",
+    "text": "去超市"
+   },
+   {
+    "key": "D",
+    "text": "去图书馆"
+   }
+  ],
+  "answer": "A",
+  "explanation": "have a picnic 野餐。"
+ },
+ {
+  "id": "cne_p166_q7",
+  "topicId": "cne_p166",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "阅读：She is going to take a dancing class. 她要？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "上舞蹈课"
+   },
+   {
+    "key": "B",
+    "text": "看电视"
+   },
+   {
+    "key": "C",
+    "text": "写作业"
+   },
+   {
+    "key": "D",
+    "text": "吃饭"
+   }
+  ],
+  "answer": "A",
+  "explanation": "take a dancing class 上舞蹈课。"
+ },
+ {
+  "id": "cne_p166_q8",
+  "topicId": "cne_p166",
+  "difficulty": "challenge",
+  "type": "choice",
+  "prompt": "阅读：My family is going to travel to Hangzhou. We are going to see the West Lake. 他们要去？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "杭州看西湖"
+   },
+   {
+    "key": "B",
+    "text": "北京爬长城"
+   },
+   {
+    "key": "C",
+    "text": "上海逛公园"
+   },
+   {
+    "key": "D",
+    "text": "广州吃早茶"
+   }
+  ],
+  "answer": "A",
+  "explanation": "Hangzhou 杭州，West Lake 西湖。"
+ },
+ {
+  "id": "cne_p166_q9",
+  "topicId": "cne_p166",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "阅读：He is going to play basketball with his friends. 他要和谁玩？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "朋友们"
+   },
+   {
+    "key": "B",
+    "text": "老师"
+   },
+   {
+    "key": "C",
+    "text": "父母"
+   },
+   {
+    "key": "D",
+    "text": "同学"
+   }
+  ],
+  "answer": "A",
+  "explanation": "with his friends 和朋友们。"
+ },
+ {
+  "id": "cne_p166_q10",
+  "topicId": "cne_p166",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "阅读：I am going to read a book. going to 后的动词是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "read"
+   },
+   {
+    "key": "B",
+    "text": "reading"
+   },
+   {
+    "key": "C",
+    "text": "reads"
+   },
+   {
+    "key": "D",
+    "text": "to read"
+   }
+  ],
+  "answer": "A",
+  "explanation": "be going to 后接动词原形 read。"
+ },
+ {
+  "id": "cne_p238_q5",
+  "topicId": "cne_p238",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「invite」的意思是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "邀请"
+   },
+   {
+    "key": "B",
+    "text": "介绍"
+   },
+   {
+    "key": "C",
+    "text": "拜访"
+   },
+   {
+    "key": "D",
+    "text": "感谢"
+   }
+  ],
+  "answer": "A",
+  "explanation": "invite 是邀请。"
+ },
+ {
+  "id": "cne_p238_q6",
+  "topicId": "cne_p238",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "哪个词是「礼物」？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "gift"
+   },
+   {
+    "key": "B",
+    "text": "give"
+   },
+   {
+    "key": "C",
+    "text": "girl"
+   },
+   {
+    "key": "D",
+    "text": "gate"
+   }
+  ],
+  "answer": "A",
+  "explanation": "gift 是礼物。"
+ },
+ {
+  "id": "cne_p238_q7",
+  "topicId": "cne_p238",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "「birthday party」意思是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "生日派对"
+   },
+   {
+    "key": "B",
+    "text": "班级聚会"
+   },
+   {
+    "key": "C",
+    "text": "家庭晚餐"
+   },
+   {
+    "key": "D",
+    "text": "学校会议"
+   }
+  ],
+  "answer": "A",
+  "explanation": "birthday party 生日派对。"
+ },
+ {
+  "id": "cne_p238_q8",
+  "topicId": "cne_p238",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "「celebrate」的意思是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "庆祝"
+   },
+   {
+    "key": "B",
+    "text": "计算"
+   },
+   {
+    "key": "C",
+    "text": "收集"
+   },
+   {
+    "key": "D",
+    "text": "检查"
+   }
+  ],
+  "answer": "A",
+  "explanation": "celebrate 是庆祝。"
+ },
+ {
+  "id": "cne_p238_q9",
+  "topicId": "cne_p238",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "你想请同学来派对，应说？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Would you like to come to my party?"
+   },
+   {
+    "key": "B",
+    "text": "You come party."
+   },
+   {
+    "key": "C",
+    "text": "Come party please."
+   },
+   {
+    "key": "D",
+    "text": "Party you come."
+   }
+  ],
+  "answer": "A",
+  "explanation": "Would you like to...? 发出邀请。"
+ },
+ {
+  "id": "cne_p238_q10",
+  "topicId": "cne_p238",
+  "difficulty": "challenge",
+  "type": "choice",
+  "prompt": "「join us」的意思是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "加入我们"
+   },
+   {
+    "key": "B",
+    "text": "离开我们"
+   },
+   {
+    "key": "C",
+    "text": "帮助我们"
+   },
+   {
+    "key": "D",
+    "text": "找到我们"
+   }
+  ],
+  "answer": "A",
+  "explanation": "join 是加入。"
+ },
+ {
+  "id": "cne_p176_q5",
+  "topicId": "cne_p176",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "提建议「你应该多喝水」英文是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "You should drink more water."
+   },
+   {
+    "key": "B",
+    "text": "You drink water."
+   },
+   {
+    "key": "C",
+    "text": "You drank water."
+   },
+   {
+    "key": "D",
+    "text": "You are drink water."
+   }
+  ],
+  "answer": "A",
+  "explanation": "should + 动词原形。"
+ },
+ {
+  "id": "cne_p176_q6",
+  "topicId": "cne_p176",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「你不应该吃太多糖」英文是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "You shouldn't eat too much candy."
+   },
+   {
+    "key": "B",
+    "text": "You should eat candy."
+   },
+   {
+    "key": "C",
+    "text": "You don't eat candy."
+   },
+   {
+    "key": "D",
+    "text": "You aren't eat candy."
+   }
+  ],
+  "answer": "A",
+  "explanation": "shouldn't 不应该。"
+ },
+ {
+  "id": "cne_p176_q7",
+  "topicId": "cne_p176",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "问「我感冒了该怎么办？」应说？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "What should I do?"
+   },
+   {
+    "key": "B",
+    "text": "What I should do?"
+   },
+   {
+    "key": "C",
+    "text": "What do I do?"
+   },
+   {
+    "key": "D",
+    "text": "What did I do?"
+   }
+  ],
+  "answer": "A",
+  "explanation": "What should I do?。"
+ },
+ {
+  "id": "cne_p176_q8",
+  "topicId": "cne_p176",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "补全：You ___ eat more vegetables.（你应该多吃蔬菜）",
+  "choices": [
+   {
+    "key": "A",
+    "text": "should"
+   },
+   {
+    "key": "B",
+    "text": "shouldn't"
+   },
+   {
+    "key": "C",
+    "text": "will"
+   },
+   {
+    "key": "D",
+    "text": "are"
+   }
+  ],
+  "answer": "A",
+  "explanation": "should 应该。"
+ },
+ {
+  "id": "cne_p176_q9",
+  "topicId": "cne_p176",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「You should go to bed early.」中文是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "你应该早点睡觉"
+   },
+   {
+    "key": "B",
+    "text": "你去了睡觉"
+   },
+   {
+    "key": "C",
+    "text": "你喜欢睡觉"
+   },
+   {
+    "key": "D",
+    "text": "你在睡觉"
+   }
+  ],
+  "answer": "A",
+  "explanation": "go to bed early 早点睡。"
+ },
+ {
+  "id": "cne_p176_q10",
+  "topicId": "cne_p176",
+  "difficulty": "challenge",
+  "type": "choice",
+  "prompt": "选择正确句子：",
+  "choices": [
+   {
+    "key": "A",
+    "text": "He should see a doctor."
+   },
+   {
+    "key": "B",
+    "text": "He should to see a doctor."
+   },
+   {
+    "key": "C",
+    "text": "He should sees a doctor."
+   },
+   {
+    "key": "D",
+    "text": "He should seeing a doctor."
+   }
+  ],
+  "answer": "A",
+  "explanation": "should 后接原形 see。"
+ },
+ {
+  "id": "cne_p178_q5",
+  "topicId": "cne_p178",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "阅读：I have a headache. You should rest. 他怎么了？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "头痛"
+   },
+   {
+    "key": "B",
+    "text": "肚子痛"
+   },
+   {
+    "key": "C",
+    "text": "发烧"
+   },
+   {
+    "key": "D",
+    "text": "脚痛"
+   }
+  ],
+  "answer": "A",
+  "explanation": "headache 头痛。"
+ },
+ {
+  "id": "cne_p178_q6",
+  "topicId": "cne_p178",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "阅读：She is sad. She should talk to her friend. 建议是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "和朋友聊聊"
+   },
+   {
+    "key": "B",
+    "text": "一个人待着"
+   },
+   {
+    "key": "C",
+    "text": "看电视"
+   },
+   {
+    "key": "D",
+    "text": "吃糖"
+   }
+  ],
+  "answer": "A",
+  "explanation": "talk to her friend 和朋友聊。"
+ },
+ {
+  "id": "cne_p178_q7",
+  "topicId": "cne_p178",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "阅读：He has a toothache. He shouldn't eat sweets. 他不应该？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "吃甜食"
+   },
+   {
+    "key": "B",
+    "text": "刷牙"
+   },
+   {
+    "key": "C",
+    "text": "看医生"
+   },
+   {
+    "key": "D",
+    "text": "喝水"
+   }
+  ],
+  "answer": "A",
+  "explanation": "sweets 甜食。"
+ },
+ {
+  "id": "cne_p178_q8",
+  "topicId": "cne_p178",
+  "difficulty": "challenge",
+  "type": "choice",
+  "prompt": "阅读：My mother is tired. She should have a good sleep. 妈妈需要？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "好好睡一觉"
+   },
+   {
+    "key": "B",
+    "text": "去跑步"
+   },
+   {
+    "key": "C",
+    "text": "去工作"
+   },
+   {
+    "key": "D",
+    "text": "看电视"
+   }
+  ],
+  "answer": "A",
+  "explanation": "have a good sleep 好好睡。"
+ },
+ {
+  "id": "cne_p178_q9",
+  "topicId": "cne_p178",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "阅读：I feel cold. 意思是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "我觉得冷"
+   },
+   {
+    "key": "B",
+    "text": "我觉得热"
+   },
+   {
+    "key": "C",
+    "text": "我觉得饿"
+   },
+   {
+    "key": "D",
+    "text": "我觉得累"
+   }
+  ],
+  "answer": "A",
+  "explanation": "feel cold 觉得冷。"
+ },
+ {
+  "id": "cne_p178_q10",
+  "topicId": "cne_p178",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "阅读：You should drink warm water. should 后的动词是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "drink"
+   },
+   {
+    "key": "B",
+    "text": "drinking"
+   },
+   {
+    "key": "C",
+    "text": "drinks"
+   },
+   {
+    "key": "D",
+    "text": "to drink"
+   }
+  ],
+  "answer": "A",
+  "explanation": "should 后接原形 drink。"
+ },
+ {
+  "id": "cne_p235_q5",
+  "topicId": "cne_p235",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「exercise」的意思是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "锻炼"
+   },
+   {
+    "key": "B",
+    "text": "考试"
+   },
+   {
+    "key": "C",
+    "text": "例子"
+   },
+   {
+    "key": "D",
+    "text": "展览"
+   }
+  ],
+  "answer": "A",
+  "explanation": "exercise 是锻炼。"
+ },
+ {
+  "id": "cne_p235_q6",
+  "topicId": "cne_p235",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "哪个词是「蔬菜」？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "vegetable"
+   },
+   {
+    "key": "B",
+    "text": "fruit"
+   },
+   {
+    "key": "C",
+    "text": "bread"
+   },
+   {
+    "key": "D",
+    "text": "meat"
+   }
+  ],
+  "answer": "A",
+  "explanation": "vegetable 是蔬菜。"
+ },
+ {
+  "id": "cne_p235_q7",
+  "topicId": "cne_p235",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "「brush my teeth」意思是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "刷牙"
+   },
+   {
+    "key": "B",
+    "text": "洗脸"
+   },
+   {
+    "key": "C",
+    "text": "洗手"
+   },
+   {
+    "key": "D",
+    "text": "洗澡"
+   }
+  ],
+  "answer": "A",
+  "explanation": "brush teeth 刷牙。"
+ },
+ {
+  "id": "cne_p235_q8",
+  "topicId": "cne_p235",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "保持健康应多吃？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "vegetables and fruit"
+   },
+   {
+    "key": "B",
+    "text": "candy and cake"
+   },
+   {
+    "key": "C",
+    "text": "hamburgers only"
+   },
+   {
+    "key": "D",
+    "text": "ice cream"
+   }
+  ],
+  "answer": "A",
+  "explanation": "蔬菜水果更健康。"
+ },
+ {
+  "id": "cne_p235_q9",
+  "topicId": "cne_p235",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「sleep」的意思是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "睡觉"
+   },
+   {
+    "key": "B",
+    "text": "滑倒"
+   },
+   {
+    "key": "C",
+    "text": "慢的"
+   },
+   {
+    "key": "D",
+    "text": "小的"
+   }
+  ],
+  "answer": "A",
+  "explanation": "sleep 是睡觉。"
+ },
+ {
+  "id": "cne_p235_q10",
+  "topicId": "cne_p235",
+  "difficulty": "challenge",
+  "type": "choice",
+  "prompt": "「fruit」的意思是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "水果"
+   },
+   {
+    "key": "B",
+    "text": "油炸"
+   },
+   {
+    "key": "C",
+    "text": "新鲜"
+   },
+   {
+    "key": "D",
+    "text": "前面"
+   }
+  ],
+  "answer": "A",
+  "explanation": "fruit 是水果。"
+ },
+ {
+  "id": "cne_p236_q5",
+  "topicId": "cne_p236",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "健康习惯「每天刷牙」英文是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Brush your teeth every day."
+   },
+   {
+    "key": "B",
+    "text": "Brush tooth every day."
+   },
+   {
+    "key": "C",
+    "text": "Brushing your tooth."
+   },
+   {
+    "key": "D",
+    "text": "Brush your teeth every days."
+   }
+  ],
+  "answer": "A",
+  "explanation": "teeth 复数，every day 每天。"
+ },
+ {
+  "id": "cne_p236_q6",
+  "topicId": "cne_p236",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "建议「早点睡觉」应说？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "You should go to bed early."
+   },
+   {
+    "key": "B",
+    "text": "You should go to bed late."
+   },
+   {
+    "key": "C",
+    "text": "You go bed early."
+   },
+   {
+    "key": "D",
+    "text": "Go to bed early you should."
+   }
+  ],
+  "answer": "A",
+  "explanation": "go to bed early 早点睡。"
+ },
+ {
+  "id": "cne_p236_q7",
+  "topicId": "cne_p236",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "「不要吃太多快餐」英文是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Don't eat too much fast food."
+   },
+   {
+    "key": "B",
+    "text": "Don't eat many fast food."
+   },
+   {
+    "key": "C",
+    "text": "Not eat fast food too much."
+   },
+   {
+    "key": "D",
+    "text": "You don't eat fast food."
+   }
+  ],
+  "answer": "A",
+  "explanation": "Don't eat... 不要吃……"
+ },
+ {
+  "id": "cne_p236_q8",
+  "topicId": "cne_p236",
+  "difficulty": "challenge",
+  "type": "choice",
+  "prompt": "补全：We should ___ hands before meals.（饭前洗手）",
+  "choices": [
+   {
+    "key": "A",
+    "text": "wash"
+   },
+   {
+    "key": "B",
+    "text": "washing"
+   },
+   {
+    "key": "C",
+    "text": "washes"
+   },
+   {
+    "key": "D",
+    "text": "washed"
+   }
+  ],
+  "answer": "A",
+  "explanation": "wash hands 洗手。"
+ },
+ {
+  "id": "cne_p236_q9",
+  "topicId": "cne_p236",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "每天锻炼可以说？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Do exercise every day."
+   },
+   {
+    "key": "B",
+    "text": "Do exercising every day."
+   },
+   {
+    "key": "C",
+    "text": "Exercises every day."
+   },
+   {
+    "key": "D",
+    "text": "Exercising every day do."
+   }
+  ],
+  "answer": "A",
+  "explanation": "do exercise 锻炼。"
+ },
+ {
+  "id": "cne_p236_q10",
+  "topicId": "cne_p236",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "保持眼睛健康应？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "read in good light"
+   },
+   {
+    "key": "B",
+    "text": "read in the dark"
+   },
+   {
+    "key": "C",
+    "text": "watch TV all day"
+   },
+   {
+    "key": "D",
+    "text": "play phone all night"
+   }
+  ],
+  "answer": "A",
+  "explanation": "在充足光线下读书。"
+ },
+ {
+  "id": "cne_p237_q5",
+  "topicId": "cne_p237",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "阅读：Apples and bananas are good fruit. 它们属于？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "水果"
+   },
+   {
+    "key": "B",
+    "text": "蔬菜"
+   },
+   {
+    "key": "C",
+    "text": "肉类"
+   },
+   {
+    "key": "D",
+    "text": "饮料"
+   }
+  ],
+  "answer": "A",
+  "explanation": "apples/bananas 是水果。"
+ },
+ {
+  "id": "cne_p237_q6",
+  "topicId": "cne_p237",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "阅读：I run in the park every morning. It makes me strong. 他早上？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "跑步"
+   },
+   {
+    "key": "B",
+    "text": "游泳"
+   },
+   {
+    "key": "C",
+    "text": "骑车"
+   },
+   {
+    "key": "D",
+    "text": "跳舞"
+   }
+  ],
+  "answer": "A",
+  "explanation": "run 跑步。"
+ },
+ {
+  "id": "cne_p237_q7",
+  "topicId": "cne_p237",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "阅读：Don't eat too much candy. It's bad for your teeth. 糖果对？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "牙齿不好"
+   },
+   {
+    "key": "B",
+    "text": "眼睛不好"
+   },
+   {
+    "key": "C",
+    "text": "头发不好"
+   },
+   {
+    "key": "D",
+    "text": "腿不好"
+   }
+  ],
+  "answer": "A",
+  "explanation": "bad for your teeth 对牙齿不好。"
+ },
+ {
+  "id": "cne_p237_q8",
+  "topicId": "cne_p237",
+  "difficulty": "challenge",
+  "type": "choice",
+  "prompt": "阅读：Drink milk every day and you will be healthy. 建议每天？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "喝牛奶"
+   },
+   {
+    "key": "B",
+    "text": "喝可乐"
+   },
+   {
+    "key": "C",
+    "text": "喝咖啡"
+   },
+   {
+    "key": "D",
+    "text": "喝茶"
+   }
+  ],
+  "answer": "A",
+  "explanation": "milk 牛奶。"
+ },
+ {
+  "id": "cne_p237_q9",
+  "topicId": "cne_p237",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "阅读：Wash your hands before eating. 什么时候洗手？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "吃饭前"
+   },
+   {
+    "key": "B",
+    "text": "睡觉前"
+   },
+   {
+    "key": "C",
+    "text": "放学后"
+   },
+   {
+    "key": "D",
+    "text": "起床后"
+   }
+  ],
+  "answer": "A",
+  "explanation": "before eating 饭前。"
+ },
+ {
+  "id": "cne_p237_q10",
+  "topicId": "cne_p237",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "阅读：We should eat more vegetables. vegetables 的中文是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "蔬菜"
+   },
+   {
+    "key": "B",
+    "text": "水果"
+   },
+   {
+    "key": "C",
+    "text": "肉类"
+   },
+   {
+    "key": "D",
+    "text": "主食"
+   }
+  ],
+  "answer": "A",
+  "explanation": "vegetables 蔬菜。"
+ },
+ {
+  "id": "cne_p201_q5",
+  "topicId": "cne_p201",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「money」的意思是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "钱"
+   },
+   {
+    "key": "B",
+    "text": "时间"
+   },
+   {
+    "key": "C",
+    "text": "工作"
+   },
+   {
+    "key": "D",
+    "text": "食物"
+   }
+  ],
+  "answer": "A",
+  "explanation": "money 是钱。"
+ },
+ {
+  "id": "cne_p201_q6",
+  "topicId": "cne_p201",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "哪个词是「省钱/储蓄」？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "save"
+   },
+   {
+    "key": "B",
+    "text": "spend"
+   },
+   {
+    "key": "C",
+    "text": "sent"
+   },
+   {
+    "key": "D",
+    "text": "seat"
+   }
+  ],
+  "answer": "A",
+  "explanation": "save 有储蓄之意。"
+ },
+ {
+  "id": "cne_p201_q7",
+  "topicId": "cne_p201",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "「spend」的意思是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "花费"
+   },
+   {
+    "key": "B",
+    "text": "速度"
+   },
+   {
+    "key": "C",
+    "text": "发送"
+   },
+   {
+    "key": "D",
+    "text": "拼写"
+   }
+  ],
+  "answer": "A",
+  "explanation": "spend 是花费。"
+ },
+ {
+  "id": "cne_p201_q8",
+  "topicId": "cne_p201",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "人民币的单位是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "yuan"
+   },
+   {
+    "key": "B",
+    "text": "dollar"
+   },
+   {
+    "key": "C",
+    "text": "pound"
+   },
+   {
+    "key": "D",
+    "text": "euro"
+   }
+  ],
+  "answer": "A",
+  "explanation": "yuan 元。"
+ },
+ {
+  "id": "cne_p201_q9",
+  "topicId": "cne_p201",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「cost」的意思是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "花费（某物多少钱）"
+   },
+   {
+    "key": "B",
+    "text": "咳嗽"
+   },
+   {
+    "key": "C",
+    "text": "海岸"
+   },
+   {
+    "key": "D",
+    "text": "外套"
+   }
+  ],
+  "answer": "A",
+  "explanation": "cost 表示花费。"
+ },
+ {
+  "id": "cne_p201_q10",
+  "topicId": "cne_p201",
+  "difficulty": "challenge",
+  "type": "choice",
+  "prompt": "下列哪个与「花钱」有关？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "spend"
+   },
+   {
+    "key": "B",
+    "text": "sleep"
+   },
+   {
+    "key": "C",
+    "text": "small"
+   },
+   {
+    "key": "D",
+    "text": "smile"
+   }
+  ],
+  "answer": "A",
+  "explanation": "spend 花费。"
+ },
+ {
+  "id": "cne_p202_q5",
+  "topicId": "cne_p202",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「100」的英文是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "one hundred"
+   },
+   {
+    "key": "B",
+    "text": "ten"
+   },
+   {
+    "key": "C",
+    "text": "one thousand"
+   },
+   {
+    "key": "D",
+    "text": "one ten"
+   }
+  ],
+  "answer": "A",
+  "explanation": "100 = one hundred。"
+ },
+ {
+  "id": "cne_p202_q6",
+  "topicId": "cne_p202",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「1000」的英文是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "one thousand"
+   },
+   {
+    "key": "B",
+    "text": "ten hundred"
+   },
+   {
+    "key": "C",
+    "text": "one hundred"
+   },
+   {
+    "key": "D",
+    "text": "ten thousand"
+   }
+  ],
+  "answer": "A",
+  "explanation": "1000 = one thousand。"
+ },
+ {
+  "id": "cne_p202_q7",
+  "topicId": "cne_p202",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "「200」的英文是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "two hundred"
+   },
+   {
+    "key": "B",
+    "text": "twenty"
+   },
+   {
+    "key": "C",
+    "text": "two thousand"
+   },
+   {
+    "key": "D",
+    "text": "twelve"
+   }
+  ],
+  "answer": "A",
+  "explanation": "200 = two hundred。"
+ },
+ {
+  "id": "cne_p202_q8",
+  "topicId": "cne_p202",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "「500」的英文是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "five hundred"
+   },
+   {
+    "key": "B",
+    "text": "fifty"
+   },
+   {
+    "key": "C",
+    "text": "five thousand"
+   },
+   {
+    "key": "D",
+    "text": "fifteen"
+   }
+  ],
+  "answer": "A",
+  "explanation": "500 = five hundred。"
+ },
+ {
+  "id": "cne_p202_q9",
+  "topicId": "cne_p202",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「三百」的英文是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "three hundred"
+   },
+   {
+    "key": "B",
+    "text": "thirty"
+   },
+   {
+    "key": "C",
+    "text": "three thousand"
+   },
+   {
+    "key": "D",
+    "text": "thirteen"
+   }
+  ],
+  "answer": "A",
+  "explanation": "300 = three hundred。"
+ },
+ {
+  "id": "cne_p202_q10",
+  "topicId": "cne_p202",
+  "difficulty": "challenge",
+  "type": "choice",
+  "prompt": "「这本书花了五十元」英文是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "The book costs fifty yuan."
+   },
+   {
+    "key": "B",
+    "text": "The book cost fifty yuan."
+   },
+   {
+    "key": "C",
+    "text": "The book costing fifty yuan."
+   },
+   {
+    "key": "D",
+    "text": "The book costs fifty yuant."
+   }
+  ],
+  "answer": "A",
+  "explanation": "costs fifty yuan 花五十元。"
+ },
+ {
+  "id": "cne_p203_q5",
+  "topicId": "cne_p203",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "阅读：I get 20 yuan a week. 他一周得到？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "20元"
+   },
+   {
+    "key": "B",
+    "text": "20美元"
+   },
+   {
+    "key": "C",
+    "text": "2元"
+   },
+   {
+    "key": "D",
+    "text": "200元"
+   }
+  ],
+  "answer": "A",
+  "explanation": "20 yuan 20元。"
+ },
+ {
+  "id": "cne_p203_q6",
+  "topicId": "cne_p203",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "阅读：I save 10 yuan every week. 他每周？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "存10元"
+   },
+   {
+    "key": "B",
+    "text": "花10元"
+   },
+   {
+    "key": "C",
+    "text": "赚10元"
+   },
+   {
+    "key": "D",
+    "text": "丢10元"
+   }
+  ],
+  "answer": "A",
+  "explanation": "save 存。"
+ },
+ {
+  "id": "cne_p203_q7",
+  "topicId": "cne_p203",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "阅读：I want to buy a toy. It costs 60 yuan. 玩具？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "花60元"
+   },
+   {
+    "key": "B",
+    "text": "花6元"
+   },
+   {
+    "key": "C",
+    "text": "花16元"
+   },
+   {
+    "key": "D",
+    "text": "花60美元"
+   }
+  ],
+  "answer": "A",
+  "explanation": "costs 60 yuan。"
+ },
+ {
+  "id": "cne_p203_q8",
+  "topicId": "cne_p203",
+  "difficulty": "challenge",
+  "type": "choice",
+  "prompt": "阅读：My plan: save 5 yuan a week for 10 weeks, then I can buy a book. 他存几周？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "10周"
+   },
+   {
+    "key": "B",
+    "text": "5周"
+   },
+   {
+    "key": "C",
+    "text": "1周"
+   },
+   {
+    "key": "D",
+    "text": "50周"
+   }
+  ],
+  "answer": "A",
+  "explanation": "for 10 weeks 存10周。"
+ },
+ {
+  "id": "cne_p203_q9",
+  "topicId": "cne_p203",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "阅读：I spend my money on snacks. 他把钱花在？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "零食"
+   },
+   {
+    "key": "B",
+    "text": "书"
+   },
+   {
+    "key": "C",
+    "text": "玩具"
+   },
+   {
+    "key": "D",
+    "text": "衣服"
+   }
+  ],
+  "answer": "A",
+  "explanation": "snacks 零食。"
+ },
+ {
+  "id": "cne_p203_q10",
+  "topicId": "cne_p203",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "阅读：I put my coins in a box. coins 是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "硬币"
+   },
+   {
+    "key": "B",
+    "text": "纸币"
+   },
+   {
+    "key": "C",
+    "text": "书"
+   },
+   {
+    "key": "D",
+    "text": "玩具"
+   }
+  ],
+  "answer": "A",
+  "explanation": "coins 硬币。"
+ },
+ {
+  "id": "cne_p239_q5",
+  "topicId": "cne_p239",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「我打算存钱买自行车」英文是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "I am going to save money to buy a bike."
+   },
+   {
+    "key": "B",
+    "text": "I save money buy bike."
+   },
+   {
+    "key": "C",
+    "text": "I saved money to buy bike."
+   },
+   {
+    "key": "D",
+    "text": "I am save money buy bike."
+   }
+  ],
+  "answer": "A",
+  "explanation": "be going to save money 打算存钱。"
+ },
+ {
+  "id": "cne_p239_q6",
+  "topicId": "cne_p239",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「我会把零花钱存起来」英文是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "I will save my pocket money."
+   },
+   {
+    "key": "B",
+    "text": "I save my pocket money."
+   },
+   {
+    "key": "C",
+    "text": "I saved my pocket money."
+   },
+   {
+    "key": "D",
+    "text": "I am save my pocket money."
+   }
+  ],
+  "answer": "A",
+  "explanation": "will save 将会存。"
+ },
+ {
+  "id": "cne_p239_q7",
+  "topicId": "cne_p239",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "问「你打算怎么用这笔钱？」应说？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "What are you going to do with the money?"
+   },
+   {
+    "key": "B",
+    "text": "What you do with money?"
+   },
+   {
+    "key": "C",
+    "text": "What did you do with money?"
+   },
+   {
+    "key": "D",
+    "text": "How you with money?"
+   }
+  ],
+  "answer": "A",
+  "explanation": "What...do with the money?。"
+ },
+ {
+  "id": "cne_p239_q8",
+  "topicId": "cne_p239",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "He ___ going to save 10 yuan a week. 应填？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "is"
+   },
+   {
+    "key": "B",
+    "text": "am"
+   },
+   {
+    "key": "C",
+    "text": "are"
+   },
+   {
+    "key": "D",
+    "text": "be"
+   }
+  ],
+  "answer": "A",
+  "explanation": "He 配 is。"
+ },
+ {
+  "id": "cne_p239_q9",
+  "topicId": "cne_p239",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「I want to buy a gift for my mum.」意思是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "我想给妈妈买礼物"
+   },
+   {
+    "key": "B",
+    "text": "我给妈妈买书"
+   },
+   {
+    "key": "C",
+    "text": "我想卖礼物"
+   },
+   {
+    "key": "D",
+    "text": "妈妈想买礼物"
+   }
+  ],
+  "answer": "A",
+  "explanation": "buy a gift 买礼物。"
+ },
+ {
+  "id": "cne_p239_q10",
+  "topicId": "cne_p239",
+  "difficulty": "challenge",
+  "type": "choice",
+  "prompt": "选择正确句子：",
+  "choices": [
+   {
+    "key": "A",
+    "text": "She will save money for a trip."
+   },
+   {
+    "key": "B",
+    "text": "She will saves money for a trip."
+   },
+   {
+    "key": "C",
+    "text": "She will saving money for a trip."
+   },
+   {
+    "key": "D",
+    "text": "She will save money for trip."
+   }
+  ],
+  "answer": "A",
+  "explanation": "will 后接原形 save。"
+ },
+ {
+  "id": "cne_p204_q5",
+  "topicId": "cne_p204",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「planet」的意思是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "行星"
+   },
+   {
+    "key": "B",
+    "text": "计划"
+   },
+   {
+    "key": "C",
+    "text": "植物"
+   },
+   {
+    "key": "D",
+    "text": "飞机"
+   }
+  ],
+  "answer": "A",
+  "explanation": "planet 是行星。"
+ },
+ {
+  "id": "cne_p204_q6",
+  "topicId": "cne_p204",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "哪个词是「宇航员」？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "astronaut"
+   },
+   {
+    "key": "B",
+    "text": "artist"
+   },
+   {
+    "key": "C",
+    "text": "autumn"
+   },
+   {
+    "key": "D",
+    "text": "aunt"
+   }
+  ],
+  "answer": "A",
+  "explanation": "astronaut 是宇航员。"
+ },
+ {
+  "id": "cne_p204_q7",
+  "topicId": "cne_p204",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "「rocket」的意思是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "火箭"
+   },
+   {
+    "key": "B",
+    "text": "钟表"
+   },
+   {
+    "key": "C",
+    "text": "黑板"
+   },
+   {
+    "key": "D",
+    "text": "口袋"
+   }
+  ],
+  "answer": "A",
+  "explanation": "rocket 是火箭。"
+ },
+ {
+  "id": "cne_p204_q8",
+  "topicId": "cne_p204",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "我们生活的星球是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "the earth"
+   },
+   {
+    "key": "B",
+    "text": "the sun"
+   },
+   {
+    "key": "C",
+    "text": "the moon"
+   },
+   {
+    "key": "D",
+    "text": "the star"
+   }
+  ],
+  "answer": "A",
+  "explanation": "地球 the earth。"
+ },
+ {
+  "id": "cne_p204_q9",
+  "topicId": "cne_p204",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「moon」的意思是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "月亮"
+   },
+   {
+    "key": "B",
+    "text": "中午"
+   },
+   {
+    "key": "C",
+    "text": "房间"
+   },
+   {
+    "key": "D",
+    "text": "勺子"
+   }
+  ],
+  "answer": "A",
+  "explanation": "moon 是月亮。"
+ },
+ {
+  "id": "cne_p204_q10",
+  "topicId": "cne_p204",
+  "difficulty": "challenge",
+  "type": "choice",
+  "prompt": "「star」的意思是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "恒星/星星"
+   },
+   {
+    "key": "B",
+    "text": "商店"
+   },
+   {
+    "key": "C",
+    "text": "开始"
+   },
+   {
+    "key": "D",
+    "text": "恒星（仅指太阳）"
+   }
+  ],
+  "answer": "A",
+  "explanation": "star 泛指星星/恒星。"
+ },
+ {
+  "id": "cne_p205_q5",
+  "topicId": "cne_p205",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「我将来会住在月球上」英文是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "I will live on the moon."
+   },
+   {
+    "key": "B",
+    "text": "I live on the moon."
+   },
+   {
+    "key": "C",
+    "text": "I lived on the moon."
+   },
+   {
+    "key": "D",
+    "text": "I am live on the moon."
+   }
+  ],
+  "answer": "A",
+  "explanation": "will live 将居住。"
+ },
+ {
+  "id": "cne_p205_q6",
+  "topicId": "cne_p205",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "问「你将来想做什么？」应说？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "What will you do in the future?"
+   },
+   {
+    "key": "B",
+    "text": "What do you do?"
+   },
+   {
+    "key": "C",
+    "text": "What did you do?"
+   },
+   {
+    "key": "D",
+    "text": "What you do?"
+   }
+  ],
+  "answer": "A",
+  "explanation": "What will you do...?。"
+ },
+ {
+  "id": "cne_p205_q7",
+  "topicId": "cne_p205",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "「将来会有更多火箭」英文是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "There will be more rockets."
+   },
+   {
+    "key": "B",
+    "text": "There are more rockets."
+   },
+   {
+    "key": "C",
+    "text": "There will more rockets."
+   },
+   {
+    "key": "D",
+    "text": "There will have more rockets."
+   }
+  ],
+  "answer": "A",
+  "explanation": "There will be 将会有。"
+ },
+ {
+  "id": "cne_p205_q8",
+  "topicId": "cne_p205",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "Robots ___ help us in space. 应填？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "will"
+   },
+   {
+    "key": "B",
+    "text": "is"
+   },
+   {
+    "key": "C",
+    "text": "are"
+   },
+   {
+    "key": "D",
+    "text": "do"
+   }
+  ],
+  "answer": "A",
+  "explanation": "will 表将来。"
+ },
+ {
+  "id": "cne_p205_q9",
+  "topicId": "cne_p205",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "肯定回答 Will you go to space? 是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Yes, I will."
+   },
+   {
+    "key": "B",
+    "text": "Yes, I do."
+   },
+   {
+    "key": "C",
+    "text": "Yes, I am."
+   },
+   {
+    "key": "D",
+    "text": "Yes, I did."
+   }
+  ],
+  "answer": "A",
+  "explanation": "will 提问用 will 答。"
+ },
+ {
+  "id": "cne_p205_q10",
+  "topicId": "cne_p205",
+  "difficulty": "challenge",
+  "type": "choice",
+  "prompt": "选择正确句子：",
+  "choices": [
+   {
+    "key": "A",
+    "text": "He will be an astronaut."
+   },
+   {
+    "key": "B",
+    "text": "He will is an astronaut."
+   },
+   {
+    "key": "C",
+    "text": "He will be astronaut."
+   },
+   {
+    "key": "D",
+    "text": "He will being an astronaut."
+   }
+  ],
+  "answer": "A",
+  "explanation": "will be 后接名词。"
+ },
+ {
+  "id": "cne_p206_q5",
+  "topicId": "cne_p206",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "阅读：The sun is a star. 太阳是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "一颗恒星"
+   },
+   {
+    "key": "B",
+    "text": "一颗行星"
+   },
+   {
+    "key": "C",
+    "text": "月亮"
+   },
+   {
+    "key": "D",
+    "text": "地球"
+   }
+  ],
+  "answer": "A",
+  "explanation": "sun 是 star 恒星。"
+ },
+ {
+  "id": "cne_p206_q6",
+  "topicId": "cne_p206",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "阅读：The earth goes around the sun. 地球绕着？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "太阳转"
+   },
+   {
+    "key": "B",
+    "text": "月亮转"
+   },
+   {
+    "key": "C",
+    "text": "星星转"
+   },
+   {
+    "key": "D",
+    "text": "银河转"
+   }
+  ],
+  "answer": "A",
+  "explanation": "goes around the sun 绕太阳转。"
+ },
+ {
+  "id": "cne_p206_q7",
+  "topicId": "cne_p206",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "阅读：Astronauts travel to space by spaceship. 宇航员乘坐？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "宇宙飞船"
+   },
+   {
+    "key": "B",
+    "text": "飞机"
+   },
+   {
+    "key": "C",
+    "text": "火车"
+   },
+   {
+    "key": "D",
+    "text": "汽车"
+   }
+  ],
+  "answer": "A",
+  "explanation": "spaceship 宇宙飞船。"
+ },
+ {
+  "id": "cne_p206_q8",
+  "topicId": "cne_p206",
+  "difficulty": "challenge",
+  "type": "choice",
+  "prompt": "阅读：In the future, people may live on Mars. Mars is a red planet. 火星是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "红色的行星"
+   },
+   {
+    "key": "B",
+    "text": "蓝色的星球"
+   },
+   {
+    "key": "C",
+    "text": "白色的月亮"
+   },
+   {
+    "key": "D",
+    "text": "黄色的太阳"
+   }
+  ],
+  "answer": "A",
+  "explanation": "red planet 红色行星。"
+ },
+ {
+  "id": "cne_p206_q9",
+  "topicId": "cne_p206",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "阅读：The moon is smaller than the earth. 月亮比地球？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "小"
+   },
+   {
+    "key": "B",
+    "text": "大"
+   },
+   {
+    "key": "C",
+    "text": "一样大"
+   },
+   {
+    "key": "D",
+    "text": "远"
+   }
+  ],
+  "answer": "A",
+  "explanation": "smaller 更小。"
+ },
+ {
+  "id": "cne_p206_q10",
+  "topicId": "cne_p206",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "阅读：We see stars at night. stars 的中文是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "星星"
+   },
+   {
+    "key": "B",
+    "text": "商店"
+   },
+   {
+    "key": "C",
+    "text": "起始"
+   },
+   {
+    "key": "D",
+    "text": "车站"
+   }
+  ],
+  "answer": "A",
+  "explanation": "stars 星星。"
+ },
+ {
+  "id": "cne_p240_q5",
+  "topicId": "cne_p240",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「space station」意思是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "空间站"
+   },
+   {
+    "key": "B",
+    "text": "太空"
+   },
+   {
+    "key": "C",
+    "text": "车站"
+   },
+   {
+    "key": "D",
+    "text": "飞机场"
+   }
+  ],
+  "answer": "A",
+  "explanation": "space station 空间站。"
+ },
+ {
+  "id": "cne_p240_q6",
+  "topicId": "cne_p240",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "问「你想成为宇航员吗？」应说？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "Do you want to be an astronaut?"
+   },
+   {
+    "key": "B",
+    "text": "Do you want be astronaut?"
+   },
+   {
+    "key": "C",
+    "text": "Are you want to be an astronaut?"
+   },
+   {
+    "key": "D",
+    "text": "You want to be an astronaut?"
+   }
+  ],
+  "answer": "A",
+  "explanation": "want to be 想成为。"
+ },
+ {
+  "id": "cne_p240_q7",
+  "topicId": "cne_p240",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "「我想去看火箭发射」英文是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "I want to watch a rocket launch."
+   },
+   {
+    "key": "B",
+    "text": "I want watch a rocket."
+   },
+   {
+    "key": "C",
+    "text": "I want to watch rocket launch."
+   },
+   {
+    "key": "D",
+    "text": "I wants to watch a rocket launch."
+   }
+  ],
+  "answer": "A",
+  "explanation": "want to watch 想看。"
+ },
+ {
+  "id": "cne_p240_q8",
+  "topicId": "cne_p240",
+  "difficulty": "challenge",
+  "type": "choice",
+  "prompt": "They ___ explore the space next year. 应填？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "will"
+   },
+   {
+    "key": "B",
+    "text": "are"
+   },
+   {
+    "key": "C",
+    "text": "is"
+   },
+   {
+    "key": "D",
+    "text": "do"
+   }
+  ],
+  "answer": "A",
+  "explanation": "will 表将来。"
+ },
+ {
+  "id": "cne_p240_q9",
+  "topicId": "cne_p240",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「中国发射了空间站」可说？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "China sent a space station into space."
+   },
+   {
+    "key": "B",
+    "text": "China send space station."
+   },
+   {
+    "key": "C",
+    "text": "China sending space station."
+   },
+   {
+    "key": "D",
+    "text": "China sent space station to moon."
+   }
+  ],
+  "answer": "A",
+  "explanation": "sent 是 send 的过去式。"
+ },
+ {
+  "id": "cne_p240_q10",
+  "topicId": "cne_p240",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "表达「卫星绕着地球转」应说？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "A satellite goes around the earth."
+   },
+   {
+    "key": "B",
+    "text": "Satellite go around earth."
+   },
+   {
+    "key": "C",
+    "text": "A satellite going around the earth."
+   },
+   {
+    "key": "D",
+    "text": "Satellite goes earth around."
+   }
+  ],
+  "answer": "A",
+  "explanation": "goes around the earth 绕地球转。"
+ },
+ {
+  "id": "cne_p159_q5",
+  "topicId": "cne_p159",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「subway」的意思是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "地铁"
+   },
+   {
+    "key": "B",
+    "text": "科目"
+   },
+   {
+    "key": "C",
+    "text": "郊区"
+   },
+   {
+    "key": "D",
+    "text": "太阳"
+   }
+  ],
+  "answer": "A",
+  "explanation": "subway 是地铁。"
+ },
+ {
+  "id": "cne_p159_q6",
+  "topicId": "cne_p159",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "哪个词是「自行车」？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "bike"
+   },
+   {
+    "key": "B",
+    "text": "bus"
+   },
+   {
+    "key": "C",
+    "text": "book"
+   },
+   {
+    "key": "D",
+    "text": "back"
+   }
+  ],
+  "answer": "A",
+  "explanation": "bike 是自行车。"
+ },
+ {
+  "id": "cne_p159_q7",
+  "topicId": "cne_p159",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "「by plane」意思是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "乘飞机"
+   },
+   {
+    "key": "B",
+    "text": "乘公交"
+   },
+   {
+    "key": "C",
+    "text": "乘地铁"
+   },
+   {
+    "key": "D",
+    "text": "步行"
+   }
+  ],
+  "answer": "A",
+  "explanation": "by plane 乘飞机。"
+ },
+ {
+  "id": "cne_p159_q8",
+  "topicId": "cne_p159",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "远洋出行用？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "ship（船）"
+   },
+   {
+    "key": "B",
+    "text": "bike"
+   },
+   {
+    "key": "C",
+    "text": "bus"
+   },
+   {
+    "key": "D",
+    "text": "taxi"
+   }
+  ],
+  "answer": "A",
+  "explanation": "ship 船用于远洋。"
+ },
+ {
+  "id": "cne_p159_q9",
+  "topicId": "cne_p159",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「on foot」的意思是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "步行"
+   },
+   {
+    "key": "B",
+    "text": "在脚上"
+   },
+   {
+    "key": "C",
+    "text": "足球"
+   },
+   {
+    "key": "D",
+    "text": "脚步"
+   }
+  ],
+  "answer": "A",
+  "explanation": "on foot 步行。"
+ },
+ {
+  "id": "cne_p159_q10",
+  "topicId": "cne_p159",
+  "difficulty": "challenge",
+  "type": "choice",
+  "prompt": "哪个不是陆上交通工具？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "ship"
+   },
+   {
+    "key": "B",
+    "text": "bus"
+   },
+   {
+    "key": "C",
+    "text": "train"
+   },
+   {
+    "key": "D",
+    "text": "taxi"
+   }
+  ],
+  "answer": "A",
+  "explanation": "ship 是船，水上。"
+ },
+ {
+  "id": "cne_p160_q5",
+  "topicId": "cne_p160",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "红灯时应该说？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "You must stop."
+   },
+   {
+    "key": "B",
+    "text": "You must go."
+   },
+   {
+    "key": "C",
+    "text": "You must run."
+   },
+   {
+    "key": "D",
+    "text": "You must sing."
+   }
+  ],
+  "answer": "A",
+  "explanation": "红灯必须停。"
+ },
+ {
+  "id": "cne_p160_q6",
+  "topicId": "cne_p160",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「你必须遵守交通规则」英文是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "You must follow the traffic rules."
+   },
+   {
+    "key": "B",
+    "text": "You must to follow rules."
+   },
+   {
+    "key": "C",
+    "text": "You must following rules."
+   },
+   {
+    "key": "D",
+    "text": "You must follows rules."
+   }
+  ],
+  "answer": "A",
+  "explanation": "must 后接原形。"
+ },
+ {
+  "id": "cne_p160_q7",
+  "topicId": "cne_p160",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "「你绝不能闯红灯」英文是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "You mustn't run the red light."
+   },
+   {
+    "key": "B",
+    "text": "You mustn't to run red light."
+   },
+   {
+    "key": "C",
+    "text": "You not must run red light."
+   },
+   {
+    "key": "D",
+    "text": "You mustn't running red light."
+   }
+  ],
+  "answer": "A",
+  "explanation": "mustn't 绝不能。"
+ },
+ {
+  "id": "cne_p160_q8",
+  "topicId": "cne_p160",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "You ___ wear a seat belt in the car. 应填？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "must"
+   },
+   {
+    "key": "B",
+    "text": "mustn't"
+   },
+   {
+    "key": "C",
+    "text": "will"
+   },
+   {
+    "key": "D",
+    "text": "are"
+   }
+  ],
+  "answer": "A",
+  "explanation": "must 必须系安全带。"
+ },
+ {
+  "id": "cne_p160_q9",
+  "topicId": "cne_p160",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「must」的意思是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "必须"
+   },
+   {
+    "key": "B",
+    "text": "可以"
+   },
+   {
+    "key": "C",
+    "text": "可能"
+   },
+   {
+    "key": "D",
+    "text": "不必"
+   }
+  ],
+  "answer": "A",
+  "explanation": "must 必须。"
+ },
+ {
+  "id": "cne_p160_q10",
+  "topicId": "cne_p160",
+  "difficulty": "challenge",
+  "type": "choice",
+  "prompt": "选择正确句子：",
+  "choices": [
+   {
+    "key": "A",
+    "text": "We must wait for the green light."
+   },
+   {
+    "key": "B",
+    "text": "We must to wait for green light."
+   },
+   {
+    "key": "C",
+    "text": "We must waiting for green light."
+   },
+   {
+    "key": "D",
+    "text": "We must waits for green light."
+   }
+  ],
+  "answer": "A",
+  "explanation": "must wait 必须等待。"
+ },
+ {
+  "id": "cne_p161_q5",
+  "topicId": "cne_p161",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「我乘公交去上学」英文是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "I go to school by bus."
+   },
+   {
+    "key": "B",
+    "text": "I go to school bus."
+   },
+   {
+    "key": "C",
+    "text": "I go to school on bus."
+   },
+   {
+    "key": "D",
+    "text": "I go school by bus."
+   }
+  ],
+  "answer": "A",
+  "explanation": "by bus 乘公交。"
+ },
+ {
+  "id": "cne_p161_q6",
+  "topicId": "cne_p161",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「他步行回家」英文是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "He goes home on foot."
+   },
+   {
+    "key": "B",
+    "text": "He goes home by foot."
+   },
+   {
+    "key": "C",
+    "text": "He goes home foot."
+   },
+   {
+    "key": "D",
+    "text": "He go home on foot."
+   }
+  ],
+  "answer": "A",
+  "explanation": "on foot 步行。"
+ },
+ {
+  "id": "cne_p161_q7",
+  "topicId": "cne_p161",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "问「你怎么去公园？」应说？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "How do you go to the park?"
+   },
+   {
+    "key": "B",
+    "text": "How you go to the park?"
+   },
+   {
+    "key": "C",
+    "text": "What do you go to the park?"
+   },
+   {
+    "key": "D",
+    "text": "Where you go to the park?"
+   }
+  ],
+  "answer": "A",
+  "explanation": "How 问方式。"
+ },
+ {
+  "id": "cne_p161_q8",
+  "topicId": "cne_p161",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "She goes to work ___ bike. 应填？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "by"
+   },
+   {
+    "key": "B",
+    "text": "on"
+   },
+   {
+    "key": "C",
+    "text": "with"
+   },
+   {
+    "key": "D",
+    "text": "in"
+   }
+  ],
+  "answer": "A",
+  "explanation": "by bike 骑自行车。"
+ },
+ {
+  "id": "cne_p161_q9",
+  "topicId": "cne_p161",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「We go to Beijing by train.」意思是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "我们乘火车去北京"
+   },
+   {
+    "key": "B",
+    "text": "我们开车去北京"
+   },
+   {
+    "key": "C",
+    "text": "我们走路去北京"
+   },
+   {
+    "key": "D",
+    "text": "我们坐船去北京"
+   }
+  ],
+  "answer": "A",
+  "explanation": "by train 乘火车。"
+ },
+ {
+  "id": "cne_p161_q10",
+  "topicId": "cne_p161",
+  "difficulty": "challenge",
+  "type": "choice",
+  "prompt": "表达「他们乘地铁去」应说？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "They go there by subway."
+   },
+   {
+    "key": "B",
+    "text": "They go there subway."
+   },
+   {
+    "key": "C",
+    "text": "They go there on subway."
+   },
+   {
+    "key": "D",
+    "text": "They going there by subway."
+   }
+  ],
+  "answer": "A",
+  "explanation": "by subway 乘地铁。"
+ },
+ {
+  "id": "cne_p162_q5",
+  "topicId": "cne_p162",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "阅读：At the red light, you must stop. 红灯时你？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "必须停下"
+   },
+   {
+    "key": "B",
+    "text": "可以走"
+   },
+   {
+    "key": "C",
+    "text": "必须跑"
+   },
+   {
+    "key": "D",
+    "text": "可以唱歌"
+   }
+  ],
+  "answer": "A",
+  "explanation": "must stop 必须停。"
+ },
+ {
+  "id": "cne_p162_q6",
+  "topicId": "cne_p162",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "阅读：You must look left and right before crossing. 过马路前要？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "左右看"
+   },
+   {
+    "key": "B",
+    "text": "闭上眼"
+   },
+   {
+    "key": "C",
+    "text": "快跑"
+   },
+   {
+    "key": "D",
+    "text": "打电话"
+   }
+  ],
+  "answer": "A",
+  "explanation": "look left and right 左右看。"
+ },
+ {
+  "id": "cne_p162_q7",
+  "topicId": "cne_p162",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "阅读：Children must wear a helmet on a bike. 骑车时孩子必须？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "戴头盔"
+   },
+   {
+    "key": "B",
+    "text": "戴手套"
+   },
+   {
+    "key": "C",
+    "text": "穿校服"
+   },
+   {
+    "key": "D",
+    "text": "系鞋带"
+   }
+  ],
+  "answer": "A",
+  "explanation": "wear a helmet 戴头盔。"
+ },
+ {
+  "id": "cne_p162_q8",
+  "topicId": "cne_p162",
+  "difficulty": "challenge",
+  "type": "choice",
+  "prompt": "阅读：Don't cross when the light is red. Wait for the green man. 要等？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "绿灯（绿灯小人）"
+   },
+   {
+    "key": "B",
+    "text": "红灯"
+   },
+   {
+    "key": "C",
+    "text": "黄灯"
+   },
+   {
+    "key": "D",
+    "text": "警察"
+   }
+  ],
+  "answer": "A",
+  "explanation": "green man 绿灯/绿灯小人。"
+ },
+ {
+  "id": "cne_p162_q9",
+  "topicId": "cne_p162",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "阅读：The green light means go. 绿灯表示？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "通行"
+   },
+   {
+    "key": "B",
+    "text": "停止"
+   },
+   {
+    "key": "C",
+    "text": "等待"
+   },
+   {
+    "key": "D",
+    "text": "转弯"
+   }
+  ],
+  "answer": "A",
+  "explanation": "green light 通行。"
+ },
+ {
+  "id": "cne_p162_q10",
+  "topicId": "cne_p162",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "阅读：You mustn't ride a bike on the sidewalk. mustn't 的中文是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "绝不能/禁止"
+   },
+   {
+    "key": "B",
+    "text": "必须"
+   },
+   {
+    "key": "C",
+    "text": "可以"
+   },
+   {
+    "key": "D",
+    "text": "应该"
+   }
+  ],
+  "answer": "A",
+  "explanation": "mustn't 绝不能。"
+ },
+ {
+  "id": "cne_p207_q5",
+  "topicId": "cne_p207",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「energy」的意思是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "能源"
+   },
+   {
+    "key": "B",
+    "text": "引擎"
+   },
+   {
+    "key": "C",
+    "text": "努力"
+   },
+   {
+    "key": "D",
+    "text": "入口"
+   }
+  ],
+  "answer": "A",
+  "explanation": "energy 是能源。"
+ },
+ {
+  "id": "cne_p207_q6",
+  "topicId": "cne_p207",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「reuse」的意思是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "重复使用"
+   },
+   {
+    "key": "B",
+    "text": "回收"
+   },
+   {
+    "key": "C",
+    "text": "减少"
+   },
+   {
+    "key": "D",
+    "text": "拒绝"
+   }
+  ],
+  "answer": "A",
+  "explanation": "reuse 重复使用。"
+ },
+ {
+  "id": "cne_p207_q7",
+  "topicId": "cne_p207",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "「turn off the light」意思是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "关灯"
+   },
+   {
+    "key": "B",
+    "text": "开灯"
+   },
+   {
+    "key": "C",
+    "text": "修灯"
+   },
+   {
+    "key": "D",
+    "text": "买灯"
+   }
+  ],
+  "answer": "A",
+  "explanation": "turn off 关闭。"
+ },
+ {
+  "id": "cne_p207_q8",
+  "topicId": "cne_p207",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "节约能源应？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "turn off lights when leaving"
+   },
+   {
+    "key": "B",
+    "text": "keep lights on all day"
+   },
+   {
+    "key": "C",
+    "text": "waste water"
+   },
+   {
+    "key": "D",
+    "text": "use more electricity"
+   }
+  ],
+  "answer": "A",
+  "explanation": "离开时关灯。"
+ },
+ {
+  "id": "cne_p207_q9",
+  "topicId": "cne_p207",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「solar energy」意思是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "太阳能"
+   },
+   {
+    "key": "B",
+    "text": "电能"
+   },
+   {
+    "key": "C",
+    "text": "风能"
+   },
+   {
+    "key": "D",
+    "text": "水能"
+   }
+  ],
+  "answer": "A",
+  "explanation": "solar 太阳的。"
+ },
+ {
+  "id": "cne_p207_q10",
+  "topicId": "cne_p207",
+  "difficulty": "challenge",
+  "type": "choice",
+  "prompt": "哪个词是「回收」？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "recycle"
+   },
+   {
+    "key": "B",
+    "text": "reuse"
+   },
+   {
+    "key": "C",
+    "text": "reduce"
+   },
+   {
+    "key": "D",
+    "text": "refuse"
+   }
+  ],
+  "answer": "A",
+  "explanation": "recycle 回收。"
+ },
+ {
+  "id": "cne_p208_q5",
+  "topicId": "cne_p208",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "阅读：Please turn off the tap after washing hands. 洗手后请？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "关水龙头"
+   },
+   {
+    "key": "B",
+    "text": "开水龙头"
+   },
+   {
+    "key": "C",
+    "text": "洗手"
+   },
+   {
+    "key": "D",
+    "text": "擦手"
+   }
+  ],
+  "answer": "A",
+  "explanation": "turn off the tap 关水龙头。"
+ },
+ {
+  "id": "cne_p208_q6",
+  "topicId": "cne_p208",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "阅读：We should reuse paper bags. 我们应？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "重复使用纸袋"
+   },
+   {
+    "key": "B",
+    "text": "扔掉纸袋"
+   },
+   {
+    "key": "C",
+    "text": "烧掉纸袋"
+   },
+   {
+    "key": "D",
+    "text": "买塑料袋"
+   }
+  ],
+  "answer": "A",
+  "explanation": "reuse 重复使用。"
+ },
+ {
+  "id": "cne_p208_q7",
+  "topicId": "cne_p208",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "阅读：Recycle bottles and cans. 应回收？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "瓶子和罐子"
+   },
+   {
+    "key": "B",
+    "text": "书和笔"
+   },
+   {
+    "key": "C",
+    "text": "衣服"
+   },
+   {
+    "key": "D",
+    "text": "食物"
+   }
+  ],
+  "answer": "A",
+  "explanation": "bottles and cans 瓶罐。"
+ },
+ {
+  "id": "cne_p208_q8",
+  "topicId": "cne_p208",
+  "difficulty": "challenge",
+  "type": "choice",
+  "prompt": "阅读：Use both sides of the paper. It saves trees. 用纸两面可以？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "拯救树木"
+   },
+   {
+    "key": "B",
+    "text": "节省钱"
+   },
+   {
+    "key": "C",
+    "text": "减少污染"
+   },
+   {
+    "key": "D",
+    "text": "生产更多纸"
+   }
+  ],
+  "answer": "A",
+  "explanation": "saves trees 拯救树木。"
+ },
+ {
+  "id": "cne_p208_q9",
+  "topicId": "cne_p208",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "阅读：Don't waste electricity. 不要浪费？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "电"
+   },
+   {
+    "key": "B",
+    "text": "水"
+   },
+   {
+    "key": "C",
+    "text": "食物"
+   },
+   {
+    "key": "D",
+    "text": "时间"
+   }
+  ],
+  "answer": "A",
+  "explanation": "electricity 电。"
+ },
+ {
+  "id": "cne_p208_q10",
+  "topicId": "cne_p208",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "阅读：Solar panels give us clean energy. solar 的中文是？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "太阳的/太阳能"
+   },
+   {
+    "key": "B",
+    "text": "干净的"
+   },
+   {
+    "key": "C",
+    "text": "电池的"
+   },
+   {
+    "key": "D",
+    "text": "新型的"
+   }
+  ],
+  "answer": "A",
+  "explanation": "solar 太阳的。"
  }
 ]
