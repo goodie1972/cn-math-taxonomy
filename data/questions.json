@@ -615431,5 +615431,71 @@
   ],
   "difficulty": "standard",
   "explanation": "可持续理念。"
+ },
+ {
+  "id": "cnm_p241_q8",
+  "topicId": "cnm_p241",
+  "source": "llm",
+  "difficulty": "standard",
+  "type": "numeric",
+  "prompt": "一个环形跑道一圈 400 米，小明跑了 2.5 圈。他跑了多少米？",
+  "answer": "1000",
+  "verify": "400*2.5",
+  "explanation": "400×2.5＝1000（米）。"
+ },
+ {
+  "id": "cnm_p241_q9",
+  "topicId": "cnm_p241",
+  "source": "llm",
+  "difficulty": "standard",
+  "type": "numeric",
+  "prompt": "某校运动会共有 240 名同学参加，其中 60% 参加接力赛。参加接力赛的有多少人？",
+  "answer": "144",
+  "verify": "240*60/100",
+  "explanation": "240×60%＝144（人）。"
+ },
+ {
+  "id": "cnm_p241_q10",
+  "topicId": "cnm_p241",
+  "source": "llm",
+  "difficulty": "challenge",
+  "type": "numeric",
+  "prompt": "甲、乙两人赛跑，甲跑了 3 圈，乙跑了 2.5 圈，每圈 200 米。乙比甲少跑多少米？",
+  "answer": "100",
+  "verify": "(3-2.5)*200",
+  "explanation": "(3−2.5)×200＝100（米）。"
+ },
+ {
+  "id": "cnm_p242_q8",
+  "topicId": "cnm_p242",
+  "source": "llm",
+  "difficulty": "standard",
+  "type": "numeric",
+  "prompt": "一个水龙头每天漏水 1.5 升，20 天一共漏水多少升？",
+  "answer": "30",
+  "verify": "1.5*20",
+  "explanation": "1.5×20＝30（升）。"
+ },
+ {
+  "id": "cnm_p242_q9",
+  "topicId": "cnm_p242",
+  "source": "llm",
+  "difficulty": "standard",
+  "type": "numeric",
+  "prompt": "一桶纯净水 24 升，用去了 1/4。用去多少升？",
+  "answer": "6",
+  "verify": "24/4",
+  "explanation": "24×1/4＝6（升）。"
+ },
+ {
+  "id": "cnm_p242_q10",
+  "topicId": "cnm_p242",
+  "source": "llm",
+  "difficulty": "challenge",
+  "type": "numeric",
+  "prompt": "一个水龙头每天漏水 3 升，一年（365 天）共漏水多少升？合多少立方米？",
+  "answer": "1095",
+  "verify": "3*365",
+  "explanation": "3×365＝1095（升）＝1.095 立方米。"
  }
 ]
