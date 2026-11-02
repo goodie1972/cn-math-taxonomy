@@ -637,7 +637,9 @@
     if (!sub || !sub.topicIds || !sub.topicIds.length) return null;
     const ids = sub.topicIds.filter(function (id) { return graph && graph.byId && graph.byId[id]; });
     if (!ids.length) return null;
-    return { ids: ids, label: (v.label || v.id || '版本') + ' · ' + (sub.label || subject) };
+    const SUBJ_CN = { math: '数学', english: '英语', chinese: '语文', physics: '物理',
+                      science: '科学', morality: '道德与法治', history: '历史', geography: '地理' };
+    return { ids: ids, label: (v.label || v.id || '版本') + ' · ' + (sub.label || SUBJ_CN[subject] || subject) };
   }
 
   /**
