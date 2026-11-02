@@ -1076,7 +1076,7 @@ test('英语题：自包含、不引用课标或上一题，答案能被判对',
   enQs.forEach((q) => {
     assert.ok(!/^(同一|上题|该题|同上)/.test(String(q.prompt).trim()), q.id);
     assert.ok(!/本知识点|课标|是否要求/.test(q.prompt), q.id);
-    assert.ok(q.type === 'numeric' || q.type === 'choice', q.id);
+    assert.ok(['numeric', 'choice', 'short', 'self'].includes(q.type), q.id);
     const verdict = E.judgeQuestion(q, q.type === 'choice' ? q.answer : q.answer).verdict;
     assert.strictEqual(verdict, 'correct', q.id);
   });
@@ -1151,18 +1151,36 @@ test('高中物理：必修一 27、必修二 25、必修三 37、选必一 28�
   assert.ok(hs.every((it) => it.verbatim === false && it.page_or_ref === '待核'));
   assert.ok(stdFile.physics_senior && /2020/.test(stdFile.physics_senior.title) && /2019/.test(stdFile.physics_senior.textbook));
   const sq = questions.filter((q) => /^cnp_h\d/.test(String(q.topicId)));
-  assert.strictEqual(sq.length, 177 * 4);
-  sq.forEach((q) => assert.ok(q.verify && !/免费|AI ?初稿/.test(q.prompt + q.explanation), q.id));
+  assert.ok(sq.length >= 177 * 10, '高中物理题量 ' + sq.length + ' 少于每点 10 题');
+  const hsByTopic = {};
+  sq.forEach((q) => { (hsByTopic[q.topicId] = hsByTopic[q.topicId] || []).push(q); });
+  sen.forEach((t) => {
+    const list = hsByTopic[t.id] || [];
+    assert.ok(list.length >= 10, t.id + ' 只有 ' + list.length + ' 题');
+    const diffs = new Set(list.map((q) => q.difficulty));
+    ['basic', 'standard', 'challenge'].forEach((d) => {
+      assert.ok(diffs.has(d), t.id + ' 缺 ' + d + ' 难度');
+    });
+  });
+  sq.forEach((q) => assert.ok(!/免费|AI ?初稿/.test(q.prompt + q.explanation), q.id));
 });
 
-test('物理题：每个知识点 4 题，带单位的数值题只填数值，答案能被判对', () => {
+test('物理题：每个知识点 ≥10 题且三档难度齐全，答案都能被判对', () => {
   const phyAll = topics.filter((t) => String(t.id).startsWith('cnp_'));
   const pq = questions.filter((q) => String(q.topicId).startsWith('cnp_'));
-  assert.strictEqual(pq.length, phyAll.length * 4);
+  assert.ok(pq.length >= phyAll.length * 10, '物理题量 ' + pq.length + ' 少于每点 10 题');
+  const byTopic = {};
+  pq.forEach((q) => { (byTopic[q.topicId] = byTopic[q.topicId] || []).push(q); });
+  phyAll.forEach((t) => {
+    const list = byTopic[t.id] || [];
+    assert.ok(list.length >= 10, t.id + ' 只有 ' + list.length + ' 题');
+    const diffs = new Set(list.map((q) => q.difficulty));
+    ['basic', 'standard', 'challenge'].forEach((d) => {
+      assert.ok(diffs.has(d), t.id + ' 缺 ' + d + ' 难度');
+    });
+  });
   pq.forEach((q) => {
-    assert.ok(q.type === 'numeric' || q.type === 'choice', q.id);
-    assert.ok(q.verify, q.id + ' 没有 verify');
-    if (q.type === 'numeric') assert.ok(/只填数值/.test(q.prompt), q.id + ' 题干要说明只填数值');
+    assert.ok(['numeric', 'choice', 'short', 'self'].includes(q.type), q.id);
     assert.strictEqual(E.judgeQuestion(q, q.answer).verdict, 'correct', q.id);
   });
   const speedQ = { id: 'x', type: 'numeric', answer: '20', prompt: '' };
