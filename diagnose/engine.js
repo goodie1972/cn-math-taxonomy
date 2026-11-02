@@ -643,6 +643,45 @@
   }
 
   /**
+   * 某版本 + 某年级的范围：把版本登记的点再按年级切一刀。
+   * 该版有逐点对照（placement）时按该版自己的册次判年级；没有则沿用人教版的章名。
+   * 切完为空时返回 null（调用方回退到整版范围，不至于给出空卡）。
+   */
+  function editionGradeTargets(registry, versionId, subject, graph, scope) {
+    const base = editionTargets(registry, versionId, subject, graph);
+    if (!base) return null;
+    const key = String(scope == null ? '' : scope).trim();
+    const CN = { 一: 1, 二: 2, 三: 3, 四: 4, 五: 5, 六: 6, 七: 7, 八: 8, 九: 9 };
+    let grades = null, terms = null, senior = false;
+    let m = /^([一二三四五六七八九])年级$/.exec(key);
+    if (m) { grades = [CN[m[1]]]; terms = ['上', '下']; }
+    if (!grades) { m = /^([一二三四五六七八九])([上下])$/.exec(key); if (m) { grades = [CN[m[1]]]; terms = [m[2]]; } }
+    if (!grades) { m = /^([一二三四五六七八九])全$/.exec(key); if (m) { grades = [CN[m[1]]]; terms = ['全']; } }
+    if (!grades && /^(高一|高二|必修|选必)/.test(key)) senior = true;
+    if (!grades && !senior) return null;
+    const v = registry.versions.filter(function (x) { return x.id === versionId; })[0];
+    const pl = (((v || {}).subjects || {})[subject] || {}).placement || {};
+    const ids = base.ids.filter(function (id) {
+      const p = pl[id];
+      if (p && p.grade != null) {
+        if (senior) return p.grade >= 10 || String(p.grade).indexOf('高') === 0;
+        if (grades.indexOf(Number(p.grade)) < 0) return false;
+        return !p.term || terms.indexOf(p.term) >= 0;
+      }
+      const t = graph.byId[id];
+      if (!t) return false;
+      const vol = parseChapter(t.chapter).volume;
+      if (!vol) return false;
+      if (senior) return /^(高一|高二|必修|选必)/.test(vol);
+      m = /^([一二三四五六七八九])([上下全])/.exec(vol);
+      if (!m) return false;
+      return grades.indexOf(CN[m[1]]) >= 0 && terms.indexOf(m[2]) >= 0;
+    });
+    if (!ids.length) return { ids: [], label: base.label + ' · ' + key, labelGrade: key, empty: true };
+    return { ids: ids, label: base.label + ' · ' + key, labelGrade: key };
+  }
+
+  /**
    * 某版本在某学科下的建库状态：{ ready, covered, total }。
    * covered = 该版本该学科已建到题的知识点数；total = 版本登记的知识点数（图里不存在的也算）。
    * ready = 至少一个知识点已有题（即可点亮）；建库进度 = covered / total。
@@ -1050,6 +1089,7 @@
     needConfirm: needConfirm,
     gradeTargets: gradeTargets,
     editionTargets: editionTargets,
+    editionGradeTargets: editionGradeTargets,
     versionHasData: versionHasData,
     versionStatus: versionStatus,
     subjectOf: subjectOf,

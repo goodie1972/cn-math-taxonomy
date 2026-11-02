@@ -46,6 +46,7 @@
   let examSel = [];        // 考试范围：已勾选的章 key 列表
   let examSelVol = '';     // 记录 examSel 对应的册，切册时自动重置
   let editionSel = '';     // 教材版本：''(按年级通用) 或 editions 里的 id
+  let provinceSel = '';    // 省份：''(全部) ；只用来筛选教材版本下拉，不参与出题
   let seedParam = null;    // URL 参数 seed：固定选题的随机种子
   let pathCy = null;
   let pathToken = 0;
@@ -641,7 +642,10 @@
     const fill = function () {
       while (box.firstChild) box.removeChild(box.firstChild);
       const edition = editionSel ? (D.editions.versions || []).filter(function (v) { return v.id === editionSel; })[0] : null;
-      const g = edition ? E.editionTargets(D.editions, editionSel, subject, D.graph) : E.gradeTargets(D.graph, gradeScope(), subject);
+      const gn = edition ? E.editionGradeTargets(D.editions, editionSel, subject, D.graph, gradeScope()) : null;
+      const g = edition ? (gn || E.editionTargets(D.editions, editionSel, subject, D.graph))
+                        : E.gradeTargets(D.graph, gradeScope(), subject);
+      const noCover = !!(gn && gn.empty);
       const subjLabel = ({ math: '数学', english: '英语', chinese: '语文', physics: '物理', science: '科学', morality: '道德与法治', history: '历史', geography: '地理' })[subject] || '数学';
       const tabs = function (label, items, current, set) {
         return h('div', { class: 'stage-tabs', role: 'tablist', 'aria-label': label }, items.map(function (it) {
@@ -663,20 +667,64 @@
         setSetting('screenLimit', v);
       });
       // 版本/教材选择：与卡片标题同一行、置于最右；列出全部版本，暂无数据的灰显且不可点
+      // 每个版本该学科的来源（registry 的 origin）决定文案：native=池子按该版编排，mapping=已逐点对照目录，borrowed=只圈了同年级范围
+      const subOrigin = function (v) { return ((v.subjects || {})[subject] || {}).origin || 'borrowed'; };
+      const ORIGIN_TAG = { native: '·本库底版', mapping: '·已对照目录', borrowed: '·章次未对照' };
+      const originText = function (origin, n) {
+        if (origin === 'native') {
+          return '本图谱的知识点就是按《' + edition.label + '》的目录编排的，这 ' + n +
+            ' 个点是该版「' + subjLabel + '」的全部建库范围，章名与册次即该版目录。';
+        }
+        if (origin === 'mapping') {
+          return '《' + edition.label + '》的这 ' + n +
+            ' 个点是逐点对照过该版教材目录的，该版的册次与单元名都有依据（对照表见 data/mappings）；该版尚未对照的册次不在范围内。';
+        }
+        return '《' + edition.label + '》没有逐点对照表：这 ' + n +
+          ' 个点是按人教版册次圈出的同年级范围。知识点本身可用，但章名与先后顺序不是该版的，' +
+          '要用该版真实章次得先补一份逐点对照表。';
+      };
+      // 省份清单来自 registry 里各版各学科登记的 provinces（见 docs/province_textbook_map.md）
+      const provSet = {};
+      (D.editions.versions || []).forEach(function (v) {
+        (((v.subjects || {})[subject] || {}).provinces || []).forEach(function (p) { provSet[p] = 1; });
+      });
+      const provinces = Object.keys(provSet).sort();
+      const usesProvince = function (v) {
+        if (!v) return true;
+        const ps = ((v.subjects || {})[subject] || {}).provinces;
+        return !provinceSel || !ps || ps.indexOf(provinceSel) >= 0;
+      };
+      if (provinceSel && provinces.indexOf(provinceSel) < 0) provinceSel = '';
+      const pvSel = h('select', { id: 'province-select', 'aria-label': '省份', class: 'edition-select' },
+        h('option', { value: '', title: '不限定省份，列出全部已登记版本' }, '全部省份'));
+      provinces.forEach(function (p) {
+        pvSel.append(h('option', { value: p, title: p + '·该学科在用版本' }, p));
+      });
+      pvSel.value = provinceSel || '';
+      pvSel.addEventListener('change', function () {
+        provinceSel = pvSel.value;
+        if (editionSel && !usesProvince((D.editions.versions || []).filter(function (v) { return v.id === editionSel; })[0])) editionSel = '';
+        fill();
+      });
       const edSel = h('select', { id: 'edition-select', 'aria-label': '教材版本', class: 'edition-select' },
         h('option', { value: '', title: '不限定教材版本，按年级/册的通用知识点范围出题' }, '按年级通用'));
       (D.editions.versions || []).forEach(function (v) {
+        if (!usesProvince(v)) return;
         const st = E.versionStatus(D.editions, v.id, subject, D.graph);
         const ok = st.ready;
-        const text = ok ? v.label + '（' + st.covered + ' 点）' : v.label + '（暂无数据）';
+        const text = ok ? v.label + ORIGIN_TAG[subOrigin(v)] + '（' + st.covered + ' 点）' : v.label + '（暂无数据）';
+        const ps = ((v.subjects || {})[subject] || {}).provinces || [];
         const tip = ok
-          ? (v.note || v.label) + '（' + st.covered + '/' + st.total + ' 个知识点已建库）'
+          ? (v.note || v.label) + '（' + st.covered + '/' + st.total + ' 个知识点已建库）' +
+            (provinceSel ? '' : (ps.length ? ' 在用省区：' + ps.join('、') : ''))
           : (v.note ? v.note + ' ' : '') + '该版本本学科题库尚未建设，完成建库后自动点亮';
         edSel.append(h('option', { value: v.id, disabled: !ok, title: tip }, text));
       });
       edSel.value = editionSel || '';
       edSel.addEventListener('change', function () { editionSel = edSel.value; fill(); });
-      const edWrap = h('label', { class: 'edition-inline', for: 'edition-select' }, '教材版本', edSel);
+      const edWrap = h('span', { class: 'edition-inline' },
+        provinces.length ? h('label', { class: 'edition-field', for: 'province-select' }, '省份', pvSel) : null,
+        h('label', { class: 'edition-field', for: 'edition-select' }, '教材版本', edSel));
       // 标题行：标题在左，教材版本选择框在同一行最右
       const headRow = function (title) {
         return h('div', { class: 'card-head' }, h('h2', { text: title }), edWrap);
@@ -684,52 +732,61 @@
       const startRow = h('div', { class: 'row grade-start-row' },
         h('label', null, '题量上限（' + SCREEN_MIN + '–' + SCREEN_MAX + '）', limitInput),
         h('button', {
-          class: 'primary', id: 'btn-grade-start', disabled: !g,
-          onclick: function () { if (g) startSession(g.ids, g.label + '（整体筛查）', null, 'screen'); }
-        }, '开始整体诊断'));
+          class: 'primary', id: 'btn-grade-start', disabled: !g || !g.ids.length,
+          title: noCover ? '《' + edition.label + '》的登记范围里没有 ' + gradeScope() + ' 的点：该版这一年级不在取证到的册次内，换年级或换版本。' : '',
+          onclick: function () { if (g && g.ids.length) startSession(g.ids, g.label + '（整体筛查）', null, 'screen'); }
+        }, noCover ? '该版未覆盖这一年级' : '开始整体诊断'));
+      const gradeItems = subject === 'physics'
+        ? [['八', '八年级'], ['九', '九年级'], ['必修一', '必修一'], ['必修二', '必修二'], ['必修三', '必修三'],
+          ['选必一', '选必一'], ['选必二', '选必二'], ['选必三', '选必三']]
+        : subject === 'english'
+        ? '三四五六七八九'.split('').map(function (x) { return [x, x + '年级']; }).concat([
+          ['必修一', '必修一'], ['必修二', '必修二'], ['必修三', '必修三'],
+          ['选必一', '选必一'], ['选必二', '选必二'], ['选必三', '选必三'], ['选必四', '选必四']
+        ])
+        : subject === 'history'
+        ? '七八九'.split('').map(function (x) { return [x, x + '年级']; })
+        : subject === 'geography'
+        ? '七八'.split('').map(function (x) { return [x, x + '年级']; })
+        : subject === 'chinese' || subject === 'science' || subject === 'morality'
+        ? '一二三四五六'.split('').map(function (x) { return [x, x + '年级']; })
+        : GRADES.map(function (x) { return [x, x + '年级']; }).concat([
+          ['高一', '高一'], ['高二', '高二'], ['选必一', '选必一'], ['选必二', '选必二'], ['选必三', '选必三']
+        ]);
+      const setGrade = function (v) {
+        gradeSel = v;
+        if (seniorGrade(v)) volSel = '';
+        else if (subject === 'physics' && v === '九') volSel = '全';
+        else if (subject === 'english' && v === '九') volSel = '';
+        else if (volSel === '全') volSel = '';
+      };
+      const volRow = seniorGrade(gradeSel)
+        ? tabs('范围', [['', seniorRangeLabel(gradeSel)]], '', function () { volSel = ''; })
+        : (subject === 'physics' && gradeSel === '九')
+        ? tabs('范围', [['全', '全一册']], '全', function () { volSel = '全'; })
+        : (subject === 'english' && gradeSel === '九')
+        ? tabs('范围', [['', '整年级'], ['上', '上册（新版）'], ['全', '全一册（旧版，九下暂用）']], volSel, function (v) { volSel = v; })
+        : tabs('范围', [['', '整年级'], ['上', '上册'], ['下', '下册']], volSel, function (v) { volSel = v; });
+      const gradeRows = [tabs('年级', gradeItems, gradeSel, setGrade), h('div', { style: 'margin-top:8px' }), volRow];
+      const infoRow = h('p', { class: 'muted', id: 'grade-info' },
+        g ? g.label + '：' + g.ids.length + ' 个知识点。' : '这个范围没有知识点。');
       if (edition) {
         box.append(
           headRow('按教材版本诊断'),
-          h('p', { class: 'muted' }, '已按《' + edition.label + '》的「' + subjLabel + '」范围划定知识点，覆盖该版本对应年级的全部考点。按「基础 / 提高 / 拓展」逐级筛查，最后按章汇总薄弱点。' + (g ? '' : '（该学科题库尚未就绪，请切换其他学科或改回「按年级通用」。）')),
-          h('p', { class: 'muted', id: 'grade-info' }, g ? g.label + '：' + g.ids.length + ' 个知识点。' : '这个范围没有知识点。'),
+          h('p', { class: 'muted' }, (noCover ? '《' + edition.label + '》登记的是另一些年级的点，' + gradeScope() + ' 没有——换年级或换版本。'
+            : (g ? originText(subOrigin(edition), g.ids.length) :
+              '《' + edition.label + '》的「' + subjLabel + '」尚未登记知识点。')) +
+            (g && !noCover ? '按「基础 / 提高 / 拓展」逐级筛查，最后按章汇总薄弱点。' : '（该学科在此版本下暂无可用知识点，请改选其他版本或改回「按年级通用」。）')),
+          ...gradeRows,
+          infoRow,
           startRow,
           h('p', { class: 'muted small' }, '知识点多、题量有限，到上限后没测到的标为「未测」；结果页可以再加题。默认 ' + E.SCREEN_LIMIT + ' 题。'));
       } else {
       box.append(
         headRow('按年级整体诊断'),
         h('p', { class: 'muted' }, '本测评检查本年级知识点是否掌握，不是竞赛拔高。按「基础 / 提高 / 拓展」出题：先出提高题，答对再出拓展题确认掌握；答错会先补基础题，仍错会回到前面年级的相关知识点。每个知识点连续答对 ' + getSettings().confirm + ' 题才算掌握（可在上方改），最后按章汇总出哪几章薄弱。适合期初摸底、学期末复习。'),
-        tabs('年级', subject === 'physics'
-          ? [['八', '八年级'], ['九', '九年级'], ['必修一', '必修一'], ['必修二', '必修二'], ['必修三', '必修三'],
-            ['选必一', '选必一'], ['选必二', '选必二'], ['选必三', '选必三']]
-          : subject === 'english'
-          ? '三四五六七八九'.split('').map(function (x) { return [x, x + '年级']; }).concat([
-            ['必修一', '必修一'], ['必修二', '必修二'], ['必修三', '必修三'],
-            ['选必一', '选必一'], ['选必二', '选必二'], ['选必三', '选必三'], ['选必四', '选必四']
-          ])
-          : subject === 'history'
-          ? '七八九'.split('').map(function (x) { return [x, x + '年级']; })
-          : subject === 'geography'
-          ? '七八'.split('').map(function (x) { return [x, x + '年级']; })
-          : subject === 'chinese' || subject === 'science' || subject === 'morality'
-          ? '一二三四五六'.split('').map(function (x) { return [x, x + '年级']; })
-          : GRADES.map(function (x) { return [x, x + '年级']; }).concat([
-            ['高一', '高一'], ['高二', '高二'], ['选必一', '选必一'], ['选必二', '选必二'], ['选必三', '选必三']
-          ]), gradeSel, function (v) {
-          gradeSel = v;
-          if (seniorGrade(v)) volSel = '';
-          else if (subject === 'physics' && v === '九') volSel = '全';
-          else if (subject === 'english' && v === '九') volSel = '';
-          else if (volSel === '全') volSel = '';
-        }),
-        h('div', { style: 'margin-top:8px' }),
-        seniorGrade(gradeSel)
-          ? tabs('范围', [['', seniorRangeLabel(gradeSel)]], '', function () { volSel = ''; })
-          : (subject === 'physics' && gradeSel === '九')
-            ? tabs('范围', [['全', '全一册']], '全', function () { volSel = '全'; })
-          : (subject === 'english' && gradeSel === '九')
-            ? tabs('范围', [['', '整年级'], ['上', '上册（新版）'], ['全', '全一册（旧版，九下暂用）']], volSel, function (v) { volSel = v; })
-            : tabs('范围', [['', '整年级'], ['上', '上册'], ['下', '下册']], volSel, function (v) { volSel = v; }),
-        h('p', { class: 'muted', id: 'grade-info' }, g ? g.label + '：' + g.ids.length + ' 个知识点。' : '这个范围没有知识点。'),
+        ...gradeRows,
+        infoRow,
         startRow,
         h('p', { class: 'muted small' }, '知识点多、题量有限，到上限后没测到的标为「未测」；结果页可以再加题。默认 ' + E.SCREEN_LIMIT + ' 题。'));
       const examNode = buildExamRange();
