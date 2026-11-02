@@ -624,19 +624,49 @@
   }
 
   /**
-   * 版本 / 教材映射：从 edition JSON 取出某学科的知识点 id 列表。
-   * edition 形如 { id, label, subjects: { math: {label, topicIds:[...]}, ... } }；
-   * 某学科可置 null（题库尚未就绪）。只保留确实存在于 graph 中的 id，
-   * 因此页内即便只加载了单学科，也能安全用于该学科的诊断范围。
-   * 返回 {ids, label}；该学科未配置或无有效 id 时返回 null。
+   * 版本 / 教材映射：从「版本注册表」取出某版本、某学科的知识点 id 列表。
+   * registry 形如 { versions: [ { id, label, subjects: { math: {label, topicIds:[...]}, ... } }, ... ] }。
+   * 只保留确实存在于 graph 中的 id（页内即便只加载了单学科也能安全使用）。
+   * 返回 {ids, label}；该版本未配置、该学科无有效 id 时返回 null。
    */
-  function editionTargets(edition, subject, graph) {
-    if (!edition || !edition.subjects) return null;
-    const sub = edition.subjects[subject];
+  function editionTargets(registry, versionId, subject, graph) {
+    if (!registry || !registry.versions) return null;
+    const v = registry.versions.filter(function (x) { return x.id === versionId; })[0];
+    if (!v || !v.subjects) return null;
+    const sub = v.subjects[subject];
     if (!sub || !sub.topicIds || !sub.topicIds.length) return null;
     const ids = sub.topicIds.filter(function (id) { return graph && graph.byId && graph.byId[id]; });
     if (!ids.length) return null;
-    return { ids: ids, label: (edition.label || edition.id || '版本') + ' · ' + (sub.label || subject) };
+    return { ids: ids, label: (v.label || v.id || '版本') + ' · ' + (sub.label || subject) };
+  }
+
+  /**
+   * 某版本在某学科下的建库状态：{ ready, covered, total }。
+   * covered = 该版本该学科已建到题的知识点数；total = 版本登记的知识点数（图里不存在的也算）。
+   * ready = 至少一个知识点已有题（即可点亮）；建库进度 = covered / total。
+   * 用于前端把暂无数据的版本灰显、不可点，并在题库里补完某版本后自动点亮。
+   */
+  function versionStatus(registry, versionId, subject, graph) {
+    const empty = { ready: false, covered: 0, total: 0 };
+    if (!registry || !registry.versions) return empty;
+    const v = registry.versions.filter(function (x) { return x.id === versionId; })[0];
+    if (!v || !v.subjects) return empty;
+    const sub = v.subjects[subject];
+    if (!sub || !sub.topicIds || !sub.topicIds.length) return empty;
+    let covered = 0;
+    sub.topicIds.forEach(function (id) {
+      const t = graph && graph.byId && graph.byId[id];
+      if (t && graph.bank && graph.bank[id] && graph.bank[id].length) covered++;
+    });
+    return { ready: covered > 0, covered: covered, total: sub.topicIds.length };
+  }
+
+  /**
+   * 判断某版本在某学科下是否「有数据」（该版本该学科至少一个知识点在题库里存在题），
+   * 用于前端把暂无数据的版本灰显、不可点。返回 boolean。
+   */
+  function versionHasData(registry, versionId, subject, graph) {
+    return versionStatus(registry, versionId, subject, graph).ready;
   }
 
   /**
@@ -1018,6 +1048,8 @@
     needConfirm: needConfirm,
     gradeTargets: gradeTargets,
     editionTargets: editionTargets,
+    versionHasData: versionHasData,
+    versionStatus: versionStatus,
     subjectOf: subjectOf,
     chapterSummary: chapterSummary,
     buildGraph: buildGraph,
