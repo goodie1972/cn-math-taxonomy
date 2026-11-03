@@ -257,10 +257,36 @@ SUBJECT_CN = {"math": "数学", "english": "英语", "chinese": "语文", "physi
               "other": "其他"}
 
 
+WU4_HEAD = re.compile(u"五[·•\\.、]?四\\s*(?:学)?制")
+
+
+def is_wu4(meta):
+    """该省是否按五四制展开年级。
+
+    学制字段是取证原文，里面满是「全省六三制，未见五四制地市证据」这类否定句，
+    子串判断会把 13 个六三省误判成五四制（六年级被当初中预备班，整行按初中取证格填）。
+    所以只看首句：正面以五四制起头才算，混合/并存/以六三为主一律按六三。
+    """
+    s = (meta.get(u"学制") or u"").strip().lstrip(u"*").strip()
+    first = re.split(u"[。；;：:，,]", s)[0]
+    if not WU4_HEAD.match(first):
+        return False
+    return u"六三" not in first and u"混合" not in first and u"并存" not in first
+
+
+def system_label(meta):
+    """省内混合学制的省（山东、黑龙江）不能标成单一学制：这里按六三展开，但把差异留在字段里。"""
+    if is_wu4(meta):
+        return u"五四制"
+    s = (meta.get(u"学制") or u"")
+    if u"混合" in s or u"并存" in s:
+        return u"六三制为主（省内另有五四制地市，年级归属差一学年，见学制）"
+    return u"六三制"
+
+
 def grade_stage_map(meta):
     """按该省学制，把年级 1~9 归到学段。五四制：1-5 小学、6-9 初中。"""
-    s = (meta.get("学制") or "")
-    wu4 = "五四" in s and "混合" not in s and "并存" not in s
+    wu4 = is_wu4(meta)
     return {g: ("小学" if (g <= (5 if wu4 else 6)) else "初中") for g in range(1, 10)}, wu4
 
 
@@ -463,8 +489,8 @@ def emit_durable(prov_meta, cell, registry, outdir_docs, out_json):
             "note": "格值为该省该年级在用的版本集合；confidence 取自取证表",
             "provinces": {}}
     for p in provinces:
-        gsmap, wu4 = grade_stage_map(prov_meta[p])
-        entry = {"system": "五四制" if wu4 else "六三制",
+        gsmap, _ = grade_stage_map(prov_meta[p])
+        entry = {"system": system_label(prov_meta[p]),
                  "meta": prov_meta[p], "grades": {}}
         for g in range(1, 10):
             stage = gsmap[g]
