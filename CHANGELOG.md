@@ -1,5 +1,12 @@
 # 变更日志
 
+## 2026-11-03（山东「青岛版 / 鲁教版」错位订正）
+
+- 2026-11-03：`sd54_math` 原来挂着山东**全部**「青岛版」格值（数学 1–9 年级 + 英语/科学/物理/地理），把青岛出版社的两种学制混成一条，而五四制初中段数学根本不属于青岛社。双源核对（烟台/威海/东营 2025-2026 官方教学用书与教辅目录：五四初中数学＝**鲁教版（山东教育出版社）**、册次六~九年级；青岛 2025 秋免费教科书目录 + 济南市鲁矿一小目录：青岛社五四版只到**小学五年制**）后拆成三条：`cn_qd63` 青岛版（六三制，山东六三主体地区，数学 599 点等 5 科）、`sd54_math` 青岛版（五四制，小学 1–5 年级，数学 12 点 mapping + 科学 185 点）、`lujiao54_junior` 鲁教版（五四制）初中段（数学 315 点）。registry 49 → **51 个版本**；`cn_lujiao` 摘掉错挂的数学，note 说明其在义务教育段是五四学制。
+- 2026-11-03：拆分落在生成层，不是手改产物。`scripts/province_map_parse.py` 新增 `GRADE_FIX`（取证表只到学段，按年级把裸名拆成带学制的版名）与 `SUPPRESS`/`CANON` 显式名优先；`scripts/apply_province_map.py` 新增 `SYSTEM_OF`/`NOTE_OF`/`SUBJECT_GAP` 和 `WU4_GRADE`（版名带「（五四制）」时该省年级→人教册次的偏移），`data/editions/province_map.json` 的格值随之可复现。五四制口径下人教池**六年级的 48 点**没有对应册次（摊到五下~六上），本版与初中段都不圈它——这条真实空隙写进 `gap` 而不是糊过去。
+- 2026-11-03：两处口径问题一并修掉。① `docs/registry_from_map.md` 原先只记「本次新增」，重跑一次就被清空；改为按 registry 现状回推并加 `来源` 列，重复跑输出一致。② registry 全量重建原先会丢掉订正说明，故把说明挪进 `gen_registry.py`（`MAPPING_EXTRA_NOTE`/`MAPPING_EXTRA_GAP`/`meta.corrections`）与 `data/mappings/sd54_math.json` 的 `label`/`source`，从零重建 → `apply` → 再解析的链路已在沙箱验证与现网逐点一致（`new=82 versions=51`，两次连续解析 0 差异）。取证表 `docs/province_textbook_map.md` 新增「裸名按学制拆开」订正表；覆盖判定不变：**577 格 / 558 格可选到已登记版本（97%）/ 3 对待新增**。
+- 2026-11-03：**没有拆的部分**同样写明原因——英语/化学/生物/地理里的「鲁教版」仍留裸名：那几科五四/六三的分市归属只核到聚合站（中低置信），强拆会让 `cn_lujiao` 的地理只剩高中格（人教池无高中地理点）而整块落空。题池未改动：`validate.py` VALIDATION PASSED、`node tests/test_engine.js` 92 passed / 0 failed、`bank_gap.py` `formal=2997 below=0 orphans=0`。本地提交，未推送、未部署。
+
 ## 2026-11-03（题库按知识点补齐 + 重复题清理）
 
 - 2026-11-03：按知识点补齐总题库，清单 `_scratch/qgen/manifest.json` 的 **808 个缺口全部闭合**（781 道拓展档 + 27 道基础档，分 21 批）。题目只挂 `topicId`，不分教材版本——同一知识点在沪教版、人教版、苏教版里用的是同一批题，版本 / 册次只是知识点切片。现库 **35299 题 / 2997 个正式知识点**（数学 9943、英语 9271、语文 6773、物理 2797、科学 2581、道法 1749、历史 1474、地理 711），`bank_gap.py` → `formal=2997 below=0 orphans=0`：每个点 ≥3 题、含 basic 与 standard、q1 之外还有一道 basic。可复跑流水线：`scripts/qgen_prep.py` → `scripts/qgen_lint.py` → `scripts/qgen_merge.py --dry-run` → `scripts/verify_questions.py --file` → 真合并 → `scripts/qgen_blind.py prepare/compare`。

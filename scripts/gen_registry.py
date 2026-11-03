@@ -149,6 +149,18 @@ MAPPING_EXTRA_NOTE = {
                    "英语=沪教牛津上海版，本项目没有该版对照表——池子里的英语单元名来自人教 PEP 与 Go for it!，"
                    "不能当沪教牛津的目录用。五四制的六年级是初中预备班，与六三制「六年级=小学」不同名，"
                    "页内年级/册切换仍按六三制册次。",
+    "sd54_math": "本版＝青岛出版社《义务教育教科书（五·四学制）》，山东五四制地区（烟台/威海/东营/泰安等）"
+                 "小学 1–5 年级在用。五四制的初中段（六年级～九年级）数学不是青岛社这套，是鲁教版"
+                 "（山东教育出版社），registry 里另立 lujiao54_junior；山东六三地区的青岛版另立 cn_qd63。"
+                 "2026-11-03 订正：此前本条目误把山东全部「青岛版」格值（含六三制小学/初中与五四制初中）"
+                 "都挂在自己名下。",
+}
+
+MAPPING_EXTRA_GAP = {
+    # 五四制小学只有五年，人教池的六年级点（小学最后一年）在该版没有对应册次。
+    "sd54_math": " 本版只到小学 1–5 年级（五四制小学五年），六三制青岛版属 cn_qd63、"
+                 "五四制初中段属 lujiao54_junior；人教池六年级的 48 点在五四制口径下被摊到五下~六上，"
+                 "本版与初中段都不圈它，是真实的归属空隙。",
 }
 
 
@@ -212,7 +224,8 @@ def build_from_mappings():
             continue
         book_text = " ".join("%s(%d)" % (b, n) for b, n in sorted(books.items()))
         gap = ("对照表目前只覆盖 %s 共 %d 个知识点；该版其余册次没有逐点对照，选这个版本时不在范围内。"
-               % (" ".join(sorted(books)), len(ids)))
+               % (" ".join(sorted(books)), len(ids))
+               + MAPPING_EXTRA_GAP.get(edition, ""))
         label = data.get("label") or edition
         if label.endswith(SUBJ_CN[subj]):
             label = label[: -len(SUBJ_CN[subj])].rstrip()
@@ -233,6 +246,9 @@ def build_from_mappings():
                 placement=placement,
                 gap=gap)},
         })
+    for v in versions:
+        if v.get("sd54_note"):
+            v["note"] += u" " + v.pop("sd54_note")
     return versions
 
 
@@ -300,6 +316,14 @@ def main():
             },
             "generated": "2026-11-03",
             "generator": "scripts/gen_registry.py",
+            "corrections": [
+                "2026-11-03 sd54_math：原条目同时挂着山东全部「青岛版」格值，把六三制青岛版与五四制青岛版"
+                "混成一条，且五四制初中段数学（鲁教版，山东教育出版社）无处登记。"
+                "现拆成 cn_qd63（青岛版六三制）/ sd54_math（青岛版五四制，小学 1–5 年级）/ "
+                "lujiao54_junior（鲁教版五四制初中段）。"
+                "证据：docs/province_textbook_map.md 的学段粒度订正表 + _scratch/province_map/luyu.md "
+                "（烟台/东营 2025-2026 官方目录、青岛 2025 秋免费教科书目录）。",
+            ],
             "source": "data/topics.json（池子编排版本见各学科建库脚本自述）+ data/mappings/*.json（逐点对照表）"
                       "+ ChinaStudyFree 目录（仅作题源，其 outlines 为 LLM 归纳，不作目录用）",
         },

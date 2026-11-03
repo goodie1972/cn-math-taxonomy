@@ -39,7 +39,12 @@ SLUG = {
     "粤教沪外版": "cn_yuejiao_huwait", "科粤版": "cn_keyue", "粤人版": "cn_yueren",
     "湘教版": "cn_xiangjiao", "湘科版": "cn_xiangke", "湘鲁版": "cn_xianglu",
     "湘少版": "cn_xiangshao", "鲁教版": "cn_lujiao", "鲁科版": "cn_luke",
-    "青岛版": "sd54_math", "济南版": "cn_jinan", "冀教版": "cn_jijiao",
+    # 「青岛版」不再单独指向某一条目：六三制与五四制是两套目录（青岛出版社都出），
+    # 鲁教版数学只存在于五四制初中段。取证表必须写成带学制的显式版名，
+    # 落到裸名「青岛版」时这里查不到 slug，会进台账的「未落地」而不是悄悄挂到五四制条目上。
+    "青岛版（六三制）": "cn_qd63", "青岛版（五四制）": "sd54_math",
+    "鲁教版（五四制）": "lujiao54_junior",
+    "济南版": "cn_jinan", "冀教版": "cn_jijiao",
     "冀少版": "cn_jishao", "河北教版": "cn_hebeijiao", "河北人民版": "cn_hebeirenmin",
     "河北大学版": "cn_hebeidaxue", "北京课改版": "cn_beijingkaiban",
     "华东师大版": "cn_huadongshida", "西南师大版": "cn_xinan", "陕师大版": "cn_shanshida",
@@ -57,6 +62,29 @@ STATIC_PROVINCES = {
     "hujiao54_junior": {"math": ["上海"]},
 }
 
+# 同一出版社在不同学制下是两套书：新建版本条目时学制不能一律写「通用」。
+SYSTEM_OF = {"cn_qd63": "六三制", "lujiao54_junior": "五四制", "cn_lujiao": "通用"}
+NOTE_OF = {
+    "cn_qd63": ("青岛出版社六三制系列，山东六三主体地区（济南、青岛主体、枣庄、德州、聊城、"
+                "临沂、日照、菏泽）在用。没有逐点对照表，只按人教池同年级范围圈点；"
+                "与青岛版（五四制，sd54_math）是两套目录。"),
+    "lujiao54_junior": ("山东教育出版社《义务教育教科书（五·四学制）》初中段，烟台/威海/东营/泰安等"
+                        "五四地区在用。数学册次是六年级～九年级（五四制初中四年），内容对应人教池 "
+                        "7–9 年级册次；没有逐点对照表，只按人教年级范围圈点。"),
+    "cn_lujiao": ("鲁教版（山东教育出版社）在义务教育阶段是五四学制（初中六~九年级）；"
+                  "本条保留高中地理等跨学制通用的登记，五四制初中段数学另见 lujiao54_junior。"),
+}
+# 该版该学科相对人教年级键的真实册次，写进 gap 免得被当成小学口径。
+SUBJECT_GAP = {
+    ("sd54_math", "science"): " 五四制小学段为 1–5 年级，故不圈池子六年级的点。",
+    ("lujiao54_junior", "math"): " 该版实际册次为六年级～九年级（五四制初中段），人教池 7–9 年级册次即其内容范围。",
+    ("cn_qd63", "math"): " 与「青岛版（五四制）」（小学 1–5 年级）是两套目录，不可混用。",
+    ("cn_lujiao", "english"): " 山东的义务教育段属五四制初中（六~九年级册次），本条只保留跨学制通用的部分。",
+    ("cn_lujiao", "geography"): " 山东的义务教育段属五四制初中（六~九年级册次），本条只保留跨学制通用的部分。",
+}
+for _k in ("english", "physics", "geography", "science"):
+    SUBJECT_GAP[("cn_qd63", _k)] = SUBJECT_GAP[("cn_qd63", "math")]
+
 
 def load(p):
     return json.load(io.open(p, encoding="utf-8"))
@@ -65,6 +93,23 @@ def load(p):
 def grade_bounds(gk):
     """取证表年级键 → 人教池子的 grade 取值集合。high 含全部高中档（>=10）。"""
     return "high" if gk == "high" else int(gk)
+
+
+# 五四制初中四年（六年级～九年级）教人教 7–9 年级的内容：六年级是初中预备班，
+# 人教池六年级（小学最后一年）在这套学制里没有对应册次。
+# 只在版名自带「（五四制）」的切片上生效——混合学制省（山东）的六三制格子仍按原年级圈。
+WU4_GRADE = {6: 7, 7: 8, 8: 9, 9: 9}
+
+
+def pool_grades(canon, raw):
+    if not canon.endswith(u"（五四制）"):
+        return sorted(raw, key=lambda x: (x == "high", x))
+    out = []
+    for g in raw:
+        v = WU4_GRADE.get(g, g)
+        if v not in out:
+            out.append(v)
+    return sorted(out, key=lambda x: (x == "high", x))
 
 
 def main():
@@ -112,7 +157,8 @@ def main():
             merged.append(("无 slug", canon, s, a))
             continue
         pool_ids = []
-        for g in sorted(a["grades"], key=lambda x: (x == "high", x)):
+        pg = pool_grades(canon, a["grades"])
+        for g in pg:
             pool_ids += by_subj_grade.get((s, g), [])
         if not pool_ids:
             merged.append(("池子该学科该年级无点", canon, s, a))
@@ -122,8 +168,7 @@ def main():
             if i not in seen:
                 seen.add(i)
                 ids.append(i)
-        grades_txt = "、".join("高中" if g == "high" else "%d 年级" % g
-                              for g in sorted(a["grades"], key=lambda x: (x == "high", x)))
+        grades_txt = "、".join("高中" if g == "high" else "%d 年级" % g for g in pg)
         if vid in have and s in reg_by_id[vid]["subjects"]:
             sd = reg_by_id[vid]["subjects"][s]
             sd["provinces"] = sorted(set(sd.get("provinces") or []) | a["prov"])
@@ -133,21 +178,21 @@ def main():
                 before = len(sd.get("topicIds") or [])
                 ids = list(sd.get("topicIds") or [])
                 seen = set(ids)
-                for g in sorted(a["grades"], key=lambda x: (x == "high", x)):
+                for g in pg:
                     for i in by_subj_grade.get((s, g), []):
                         if i not in seen:
                             seen.add(i)
                             ids.append(i)
                 if len(ids) != before:
-                    gtxt = "、".join("高中" if g == "high" else "%d 年级" % g
-                                     for g in sorted(a["grades"], key=lambda x: (x == "high", x)))
+                    gtxt = "、".join("高中" if g == "high" else "%d 年级" % g for g in pg)
                     sd["topicIds"] = ids
                     sd["scope"] = ("按人教版册键圈定（题源）+ 省份取证表加宽至：%s（共 %d 点）" % (gtxt, len(ids)))
                     sd["gap"] = (sd.get("gap") or "") + " 年级范围按省份取证表加宽，加宽的点没有该版目录。"
             continue
         if vid not in have:
-            v = {"id": vid, "label": canon, "system": "通用", "kind": "borrowed",
-                 "note": "由省份取证表登记：该版该学科无目录对照，只圈人教池子的同年级范围。",
+            v = {"id": vid, "label": canon,
+                 "system": SYSTEM_OF.get(vid, "通用"), "kind": "borrowed",
+                 "note": NOTE_OF.get(vid, "由省份取证表登记：该版该学科无目录对照，只圈人教池子的同年级范围。"),
                  "subjects": {}}
             reg["versions"].append(v)
             reg_by_id[vid] = v
@@ -160,7 +205,8 @@ def main():
             "origin": "borrowed",
             "status": "borrowed",
             "evidence": "来源=docs/province_textbook_map.md（省×年级取证，附 URL 与置信度）；使用省区 %d 个。" % len(a["prov"]),
-            "gap": "该版该学科未取教材目录，章名与册次沿用人教版；年级归属可能与该版差一个学年（五四制尤甚）。",
+            "gap": ("该版该学科未取教材目录，章名与册次沿用人教版；年级归属可能与该版差一个学年（五四制尤甚）。"
+                    + SUBJECT_GAP.get((vid, s), "")),
             "provinces": sorted(a["prov"]),
             "topicIds": ids,
         }
@@ -185,11 +231,24 @@ def main():
                "provinces": pm},
               io.open(MAP_COPY, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
-    out = ["# 由省份取证表新增的 registry 登记（borrowed）", "",
-           "共新增 **%d** 条「版本 × 学科」。每条只圈人教池子的同年级范围，不编该版章名。" % len(new_rows), "",
-           "| 版本 | 学科 | 圈定点数 | 年级范围 | 使用省区 |", "|---|---|---|---|---|"]
-    for canon, s, n, gtxt, provs in sorted(new_rows, key=lambda r: (-r[2], r[0])):
-        out.append("| %s | %s | %d | %s | %s |" % (canon, SUBJ_CN[s], n, gtxt, " ".join(provs)))
+    out = ["# 由省份取证表落地的 registry 登记", "",
+           "取证表里每个「版本 × 学科」落到哪条 registry 登记、圈了多少点、被哪些省用到。",
+           "本表由 registry 现状回推，重复跑不会清空（`来源`：native=有教材目录逐册对照，"
+           "mapping=逐点对照且只覆盖部分册次，borrowed=无目录、按人教年级范围圈点）。", "",
+           "| 版本 | 学科 | 点数 | 年级范围 | 使用省区 | 来源 |", "|---|---|---|---|---|---|"]
+    ledger_rows = []
+    for (canon, s), a in sorted(agg.items()):
+        if s not in SUBJ_CN or s in NO_POOL:
+            continue
+        v = reg_by_id.get(SLUG.get(canon, ""))
+        sd = ((v or {}).get("subjects") or {}).get(s)
+        if not sd or not sd.get("topicIds"):
+            continue
+        gtxt = "、".join("高中" if g == "high" else "%d 年级" % g for g in pool_grades(canon, a["grades"]))
+        ledger_rows.append((canon, s, len(sd["topicIds"]), gtxt,
+                            sorted(sd.get("provinces") or []), sd.get("origin", "?")))
+    for canon, s, n, gtxt, provs, origin in sorted(ledger_rows, key=lambda r: (-r[2], r[0])):
+        out.append("| %s | %s | %d | %s | %s | %s |" % (canon, SUBJ_CN[s], n, gtxt, " ".join(provs), origin))
     out += ["", "## 池子里没有的学科（无法登记，属知识点缺口不是版本缺口）", ""]
     agg2 = collections.defaultdict(set)
     for (canon, s), a in agg.items():

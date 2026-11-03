@@ -5,6 +5,10 @@
 用法：
   python3 scripts/province_map_parse.py            # 解析并打印统计
   python3 scripts/province_map_parse.py --dump     # 额外写 _scratch/province_map/parsed.json
+
+落地顺序：gen_registry.py → 本脚本 → apply_province_map.py → 再跑一次本脚本。
+「十一、registry 对账」是把取证表对着 registry 现状核的，所以 registry 建完后再跑一次，
+那张表才会带上新登记的点数。
 """
 import io
 import json
@@ -89,6 +93,10 @@ EDITION_BLACKLIST = {"版", "出版", "第一版", "新版", "旧版", "本版",
 
 # 规范化词典：命中顺序即优先级（具体的在前，泛化的「人教版」垫底）。
 CANON = [
+    # 同一出版社在六三/五四两种学制下是两套目录，取证表写成带学制的显式版名时优先命中它，
+    # 裸名由 SUPPRESS 让位（见 canon_of）。
+    ("青岛版（六三制）", "青岛版（六三制）"), ("青岛版（五四制）", "青岛版（五四制）"),
+    ("鲁教版（五四制）", "鲁教版（五四制）"),
     ("人教A版", "人教A版"), ("人教B版", "人教B版"), ("数学(A版", "人教A版"),
     ("人教PEP", "人教PEP"), ("PEP", "人教PEP"), ("人教精通", "人教精通版"),
     ("人教部编", "统编版"), ("统编", "统编版"), ("部编", "统编版"),
@@ -169,13 +177,78 @@ def parse_file(path):
     return provs
 
 
+SUPPRESS = {u"青岛版": (u"青岛版（六三制）", u"青岛版（五四制）"),
+            u"鲁教版": (u"鲁教版（五四制）",)}
+
+
 def canon_of(text):
-    """自由文本 -> 规范版本名集合。"""
+    """自由文本 -> 规范版本名集合。带学制的显式名命中时，裸名不再单列。"""
     hits = []
     for pat, name in CANON:
         if pat in text and name not in hits:
             hits.append(name)
-    return hits
+    return [n for n in hits
+            if not any(alt in hits for alt in SUPPRESS.get(n, ()))]
+
+
+# 取证表只记到「学段」，但同一出版社在六三/五四两种学制下是两套目录，按年级展开时裸名必须拆开。
+# 依据（_scratch/province_map/luyu.md 山东·小学/初中·数学行，置信度=高）：
+#   烟台/威海/东营/泰安 2025-2026 官方目录——五四制初中数学＝鲁教版（山东教育出版社，六~九年级）；
+#   青岛社的五四版数学只覆盖小学五年制；青岛 2025 秋免费教科书目录——小学/初中六三制＝青岛版。
+# 英语/化学/生物/地理的「鲁教版」仍留裸名：那几科五四/六三分市归属只核到聚合站（中低置信），
+# 拆成「鲁教版（五四制）」会让 cn_lujiao 的地理只剩高中格（池子无高中点）而整块消失。
+GRADE_FIX = [
+    # (省, 学科, 年级区间, {裸名: 拆出的版名}, 额外补入)
+    (u"山东", u"math", u"1-5", {u"青岛版": (u"青岛版（六三制）", u"青岛版（五四制）")}, ()),
+    (u"山东", u"math", u"6", {u"青岛版": (u"青岛版（六三制）",)}, (u"鲁教版（五四制）",)),
+    (u"山东", u"math", u"7-9",
+     {u"青岛版": (u"青岛版（六三制）",), u"鲁教版": (u"鲁教版（五四制）",)}, ()),
+    (u"山东", u"science", u"1-5", {u"青岛版": (u"青岛版（六三制）", u"青岛版（五四制）")}, ()),
+    (u"山东", u"science", u"6", {u"青岛版": (u"青岛版（六三制）",)}, ()),
+    (u"山东", u"english", u"1-9", {u"青岛版": (u"青岛版（六三制）",)}, ()),
+    (u"山东", u"physics", u"7-9", {u"青岛版": (u"青岛版（六三制）",)}, ()),
+    (u"山东", u"chemistry", u"7-9", {u"青岛版": (u"青岛版（六三制）",)}, ()),
+    (u"山东", u"biology", u"7-9", {u"青岛版": (u"青岛版（六三制）",)}, ()),
+    (u"山东", u"geography", u"7-9", {u"青岛版": (u"青岛版（六三制）",)}, ()),
+]
+
+
+def _span_grades(span):
+    if span == "high":
+        return [u"high"]
+    a, _, b = span.partition(u"-")
+    return [str(g) for g in range(int(a), int(b or a) + 1)]
+
+
+GRADE_FIX_AT = {}
+for _p, _s, _span, _ren, _add in GRADE_FIX:
+    for _g in _span_grades(_span):
+        cur = GRADE_FIX_AT.setdefault((_p, _s, _g), ({}, []))
+        cur[0].update(_ren)
+        cur[1].extend(x for x in _add if x not in cur[1])
+
+
+def fix_grade(prov, subj, grade, vers):
+    """按年级把裸名拆成带学制的版名；没有登记的格子原样返回。"""
+    ren, adds = GRADE_FIX_AT.get((prov, subj, str(grade)), ({}, []))
+    if not ren and not adds:
+        return sorted(vers)
+    out = []
+    for v in sorted(vers):
+        for x in ren.get(v, (v,)):
+            if x not in out:
+                out.append(x)
+    for x in adds:
+        if x not in out:
+            out.append(x)
+    return out
+
+
+def grades_of_stage(meta, stage):
+    if stage == u"高中":
+        return [u"high"]
+    gsmap, _ = grade_stage_map(meta)
+    return [str(g) for g in range(1, 10) if gsmap[g] == stage]
 
 
 SUBJECT_CN = {"math": "数学", "english": "英语", "chinese": "语文", "physics": "物理",
@@ -198,6 +271,19 @@ def cell_versions(cell, prov, subj, stage):
     return sorted(v["main"] | v["other"]), v["conf"]
 
 
+def stage_union(cell, prov_meta):
+    """取证格按学段记录；把裸名按年级拆开后再回合成该学段真实出现的版本集合。"""
+    out = {}
+    for (prov, subj, stage), v in cell.items():
+        raw = v["main"] | v["other"]
+        fixed = set()
+        for g in grades_of_stage(prov_meta.get(prov, {}), stage):
+            fixed |= set(fix_grade(prov, subj, g, raw))
+        out[(prov, subj, stage)] = {"main": fixed, "other": set(),
+                                    "conf": v["conf"], "src": v["src"]}
+    return out
+
+
 def render_cell(cell, prov, subj, grade, meta):
     gsmap, wu4 = grade_stage_map(meta)
     if grade == "high":
@@ -209,6 +295,7 @@ def render_cell(cell, prov, subj, grade, meta):
     vers, conf = cell_versions(cell, prov, subj, stage)
     if not vers:
         return "未核", {"低"}
+    vers = fix_grade(prov, subj, grade, vers)
     weak = "†" if conf and ("低" in conf or any(c not in ("高", "中") for c in conf)) else ""
     return "/".join(vers) + weak, conf
 
@@ -218,7 +305,8 @@ REGISTRY_OF = {
     "统编版": "cn_tongbian", "教科版": "cn_jiaoke",
     "沪教版": "hujiao_math", "北师大版": "cn_beishida", "浙教版": "cn_zhejiao",
     "苏教版": "cn_sujiao", "外研版": "cn_waiyan", "译林版": "cn_yilin",
-    "青岛版": "sd54_math",
+    "青岛版（六三制）": "cn_qd63", "青岛版（五四制）": "sd54_math",
+    "鲁教版（五四制）": "lujiao54_junior",
 }
 # 同一出版社的另一套目录：registry 里有该出版社的池子，但这套本身没建
 SAME_PUBLISHER = {"人教B版": "人教（B 版未建）", "人教精通版": "人教（精通本未建）",
@@ -242,8 +330,15 @@ def registry_status(reg, canon, subj):
     return SAME_PUBLISHER.get(canon, "无版本")
 
 
-def emit_durable(prov_meta, cell, need, need_prov, registry, outdir_docs, out_json):
+def emit_durable(prov_meta, cell, registry, outdir_docs, out_json):
     provinces = sorted(prov_meta)
+    gcell = stage_union(cell, prov_meta)
+    need = collections.Counter()
+    need_prov = collections.defaultdict(set)
+    for (prov, subj, stage), v in sorted(gcell.items()):
+        for e in sorted(v["main"]):
+            need[e] += 1
+            need_prov[e].add(prov)
     lines = ["# 省份 × 年级 → 教材版本（选用地图）", "",
              "> 由 `scripts/province_map_parse.py` 从 `_scratch/province_map/*.md` 汇总生成。",
              "> 每格是该省该年级该学科**在用的版本集合**，含主流与并存版本；",
@@ -267,6 +362,23 @@ def emit_durable(prov_meta, cell, need, need_prov, registry, outdir_docs, out_js
                   "八年级期末即学完初中内容，九年级多出一年用于复习与高中先修。")
     lines.append("- 因此同一套知识点池，五四制省的年级标签要整体下移一个学年；这一偏移属于「版本 = 归属层」，"
                   "不需要重建知识点。")
+    lines.append("")
+    lines.append("### 裸名按学制拆开（取证表的学段粒度订正）")
+    lines.append("")
+    lines.append("取证表只记到学段，但同一出版社在六三/五四两种学制下是**两套目录**，"
+                 "下表把这些格子按年级拆成带学制的版名；registry 里它们各自独立登记，不再混挂一条。")
+    lines.append("")
+    lines.append("| 省 | 学科 | 年级 | 拆开 | 另补 |")
+    lines.append("|---|---|---|---|---|")
+    for p, s, span, ren, adds in GRADE_FIX:
+        lines.append("| %s | %s | %s | %s | %s |" % (
+            p, SUBJECT_CN.get(s, s), span,
+            "；".join("%s→%s" % (k, "、".join(v)) for k, v in sorted(ren.items())) or "—",
+            "、".join(adds) or "—"))
+    lines.append("")
+    lines.append("- 英语/化学/生物/地理里的「鲁教版」仍留裸名：这几科五四/六三的分市归属只核到聚合站（中低置信），"
+                  "强行拆成「鲁教版（五四制）」会让鲁教版的地理只剩高中格（人教池无高中地理点）而整块落空。"
+                  "证据：`_scratch/province_map/luyu.md` 山东·初中行。")
     lines.append("")
     tables = [("一、数学", "math", True), ("二、英语", "english", True),
               ("三、物理", "physics", False), ("四、化学", "chemistry", False),
@@ -295,7 +407,7 @@ def emit_durable(prov_meta, cell, need, need_prov, registry, outdir_docs, out_js
     subj_all = ["math", "english", "physics", "chemistry", "biology", "geography",
                 "science", "chinese", "history", "morality"]
     ver_subj = collections.defaultdict(set)
-    for (prov, subj, stage), v in cell.items():
+    for (prov, subj, stage), v in gcell.items():
         for e in (v["main"] | v["other"]):
             ver_subj[e].add(subj)
     for name, n in need.most_common():
@@ -316,7 +428,7 @@ def emit_durable(prov_meta, cell, need, need_prov, registry, outdir_docs, out_js
                 pool_subj.add(s)
     total = ok = unknown = 0
     gap_pairs = collections.defaultdict(set)
-    for (prov, subj, stage), v in cell.items():
+    for (prov, subj, stage), v in gcell.items():
         if subj not in pool_subj:
             continue
         vers = v["main"] | v["other"]
@@ -357,9 +469,10 @@ def emit_durable(prov_meta, cell, need, need_prov, registry, outdir_docs, out_js
         for g in range(1, 10):
             stage = gsmap[g]
             entry["grades"][str(g)] = {
-                s: (cell_versions(cell, p, s, stage)[0] or [])
+                s: fix_grade(p, s, g, cell_versions(cell, p, s, stage)[0] or [])
                 for s in subj_all}
-        entry["grades"]["high"] = {s: (cell_versions(cell, p, s, "高中")[0] or [])
+        entry["grades"]["high"] = {s: fix_grade(p, s, "high",
+                                                cell_versions(cell, p, s, "高中")[0] or [])
                                    for s in subj_all}
         data["provinces"][p] = entry
     io.open(out_json, "w", encoding="utf-8").write(json.dumps(data, ensure_ascii=False, indent=1))
@@ -445,7 +558,7 @@ def main():
               io.open(os.path.join(SRC_DIR, "parsed.json"), "w", encoding="utf-8"),
               ensure_ascii=False, indent=1)
     reg = json.load(io.open(os.path.join(ROOT, "data", "editions", "registry.json"), encoding="utf-8"))
-    emit_durable(prov_meta, cell, need, need_prov, reg,
+    emit_durable(prov_meta, cell, reg,
                  os.path.join(ROOT, "docs", "province_textbook_map.md"),
                  os.path.join(ROOT, "_scratch", "province_map", "province_map.json"))
     print("cells=%d canon_editions=%d" % (len(cell), len(need)))
