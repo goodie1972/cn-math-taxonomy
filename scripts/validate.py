@@ -56,15 +56,16 @@ EN_STD_CODES = {"PH": "语音", "VO": "词汇", "GR": "语法", "FU": "日常表
 EN_STD_ID_RE = re.compile(r"^ces-2022:([123])\.(PH|VO|GR|FU|RW)\.(\d{2,})$")
 # 高中英语：ces-2017:H.B 必修，ces-2017:H.S 选择性必修。编号是本图谱编的。
 EN_HS_STD_ID_RE = re.compile(r"^ces-2017:H\.(B|S)\.(PH|VO|GR|FU|RW)\.(\d{2,})$")
-# 小学语文：ccs-2022:<学段 1–3>.<PY|SZ|CY|JZ|YD|GS|XZ>.<NN>。编号是本图谱编的。
+# 语文（小学＋初中）：ccs-2022:<学段 1–4>.<PY|SZ|CY|JZ|YD|GS|XZ>.<NN>。学段 4 是第四学段（七～九年级）。编号是本图谱编的。
 ZH_STD_CODES = {
     "PY": "拼音", "SZ": "识字写字", "CY": "词语", "JZ": "句子",
     "YD": "阅读理解", "GS": "古诗文积累", "XZ": "习作基础",
 }
+ZH_STD_ID_RE = re.compile(r"^ccs-2022:([1234])\.(PY|SZ|CY|JZ|YD|GS|XZ)\.(\d{2,})$")
 SCI_STD_CODES = {"WZ": "物质科学", "SM": "生命科学", "DQ": "地球与宇宙科学", "JG": "技术与工程"}
-SCI_STD_ID_RE = re.compile(r"^css-2022:([123])\.(WZ|SM|DQ|JG)\.(\d{2,})$")
+SCI_STD_ID_RE = re.compile(r"^css-2022:([1234])\.(WZ|SM|DQ|JG)\.(\d{2,})$")
 MOR_STD_CODES = {"LS": "生活与安全", "XX": "学校生活", "JT": "家庭与亲情", "SH": "社会规则", "GM": "公民与国家", "ZR": "自然与环境"}
-MOR_STD_ID_RE = re.compile(r"^cds-2022:([123])\.(LS|XX|JT|SH|GM|ZR)\.(\d{2,})$")
+MOR_STD_ID_RE = re.compile(r"^cds-2022:([1234])\.(LS|XX|JT|SH|GM|ZR)\.(\d{2,})$")
 HIS_STD_CODES = {
     "CA": "中国古代史", "CN": "中国近代史", "CM": "中国现代史",
     "WA": "世界古代史", "WN": "世界近代史", "WM": "世界现代史",
@@ -72,7 +73,6 @@ HIS_STD_CODES = {
 HIS_STD_ID_RE = re.compile(r"^chs-2022:(CA|CN|CM|WA|WN|WM)\.(\d{2,})$")
 GEO_STD_CODES = {"EM": "地球与地图", "WG": "世界地理", "CG": "中国地理"}
 GEO_STD_ID_RE = re.compile(r"^cgs-2022:(EM|WG|CG)\.(\d{2,})$")
-ZH_STD_ID_RE = re.compile(r"^ccs-2022:([123])\.(PY|SZ|CY|JZ|YD|GS|XZ)\.(\d{2,})$")
 EN_PROMPT_START_RE = re.compile(r"^(同一|上题|该题|同上)")
 EN_PROMPT_BAN_RE = re.compile(r"本知识点|课标|是否要求")
 CORE_FIELDS = ["id", "name", "domain", "grade", "semester", "chapter", "type",
@@ -80,7 +80,8 @@ CORE_FIELDS = ["id", "name", "domain", "grade", "semester", "chapter", "type",
 EXT_FIELDS = ["id", "name", "domain", "grade", "description", "external"]
 # cnm_001 初中正式；cnm_p001 小学正式；cnm_h001 高中正式。cne_p001 小学英语，cne_j001 初中英语，cne_h001 高中英语。
 # cnp_001 初中物理；cnp_h001 高中物理（必修一至选必三，grade 10–15）。cnc_p001 小学语文；cns_p001 小学科学；cnd_p001 小学道德与法治；cnh_j001 初中历史；cng_j001 初中地理。
-ID_RE = re.compile(r"^(?:cnm_(?:p|h)?|cne_[pjh]|cnp_h?|cnc_p|cns_p|cnd_p|cnh_j|cng_j)\d{3,}$")
+# cnc_j001 初中语文；cns_j001 初中科学；cnd_j001 初中道德与法治（grade 7–9，与小学段分开编号，小学 id 永不改号）。
+ID_RE = re.compile(r"^(?:cnm_(?:p|h)?|cne_[pjh]|cnp_h?|cnc_[pj]|cns_[pj]|cnd_[pj]|cnh_j|cng_j)\d{3,}$")
 # 10、11 是必修第一、二册；12、13、14 是选择性必修第一、二、三册，不是教学年份。
 GRADES = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14)
 ALIASES_PATH = os.path.join(ROOT, "data", "id-aliases.json")
@@ -409,16 +410,25 @@ def check_topics(topics):
             pass
         elif g not in GRADES:
             err("%s grade 必须是 1–14 的整数（10、11 为必修两册，12–14 为选择性必修三册）" % where)
-        if subj == "science" and g not in (1, 2, 3, 4, 5, 6):
-            err("%s 小学科学 grade 必须是 1–6" % where)
-        if subj == "morality" and g not in (1, 2, 3, 4, 5, 6):
-            err("%s 小学道德与法治 grade 必须是 1–6" % where)
+        if subj == "science":
+            if str(tid).startswith("cns_p") and g not in (1, 2, 3, 4, 5, 6):
+                err("%s 小学科学 grade 必须是 1–6" % where)
+            elif str(tid).startswith("cns_j") and g not in (7, 8, 9):
+                err("%s 初中科学 grade 必须是 7–9" % where)
+        if subj == "morality":
+            if str(tid).startswith("cnd_p") and g not in (1, 2, 3, 4, 5, 6):
+                err("%s 小学道德与法治 grade 必须是 1–6" % where)
+            elif str(tid).startswith("cnd_j") and g not in (7, 8, 9):
+                err("%s 初中道德与法治 grade 必须是 7–9" % where)
         if subj == "history" and g not in (7, 8, 9):
             err("%s 初中历史 grade 必须是 7–9" % where)
         if subj == "geography" and g not in (7, 8):
             err("%s 初中地理 grade 必须是 7 或 8" % where)
-        if subj == "chinese" and g not in (1, 2, 3, 4, 5, 6):
-            err("%s 小学语文 grade 必须是 1–6" % where)
+        if subj == "chinese":
+            if str(tid).startswith("cnc_p") and g not in (1, 2, 3, 4, 5, 6):
+                err("%s 小学语文 grade 必须是 1–6" % where)
+            elif str(tid).startswith("cnc_j") and g not in (7, 8, 9):
+                err("%s 初中语文 grade 必须是 7–9" % where)
         if subj == "english":
             if str(tid).startswith("cne_p") and g not in (3, 4, 5, 6):
                 err("%s 小学英语 grade 必须是 3–6" % where)
@@ -896,7 +906,7 @@ def check_standards_file(std):
             if it.get("page_or_ref") != "待核":
                 err("%s 地理课标 page_or_ref 必须是「待核」，不能编页码" % where)
         else:
-            err("%s id 格式不合法（应为 cms-2022:<学段>.<NA|GG|SP|IP>.<NN>、cms-2017:H.<PRE|FUN|GA|PS|MI>.<NN>、ces-2022:<1|2|3>.<PH|VO|GR|FU|RW>.<NN> 、ces-2017:H.<B|S>.<PH|VO|GR|FU|RW>.<NN> 、ccs-2022:<1|2|3>.<PY|SZ|CY|JZ|YD|GS|XZ>.<NN> 、css-2022:<1|2|3>.<WZ|SM|DQ|JG>.<NN> 、cds-2022:<1|2|3>.<LS|XX|JT|SH|GM|ZR>.<NN> 、chs-2022:<CA|CN|CM|WA|WN|WM>.<NN> 、cgs-2022:<EM|WG|CG>.<NN> 、cps-2022:<1-5>.<二级>.<序号> 或 cps-hs-2017:<B|S><1-3>.<1-4|X>.<序号>）" % where)
+            err("%s id 格式不合法（应为 cms-2022:<学段>.<NA|GG|SP|IP>.<NN>、cms-2017:H.<PRE|FUN|GA|PS|MI>.<NN>、ces-2022:<1|2|3>.<PH|VO|GR|FU|RW>.<NN> 、ces-2017:H.<B|S>.<PH|VO|GR|FU|RW>.<NN> 、ccs-2022:<1|2|3|4>.<PY|SZ|CY|JZ|YD|GS|XZ>.<NN> 、css-2022:<1|2|3|4>.<WZ|SM|DQ|JG>.<NN> 、cds-2022:<1|2|3|4>.<LS|XX|JT|SH|GM|ZR>.<NN> 、chs-2022:<CA|CN|CM|WA|WN|WM>.<NN> 、cgs-2022:<EM|WG|CG>.<NN> 、cps-2022:<1-5>.<二级>.<序号> 或 cps-hs-2017:<B|S><1-3>.<1-4|X>.<序号>）" % where)
         for f in ("domain", "section", "text"):
             if not nonempty_str(it.get(f)):
                 err("%s 字段 %s 缺失或为空" % (where, f))
@@ -1119,7 +1129,7 @@ PURE_ARITH_CHOICE_RE = re.compile(
     r"^\d+(?:\.\d+)?(?:\s*[＋+\-－×*÷]\s*\d+(?:\.\d+)?)+ 的得数是哪一个？$"
 )
 CHALLENGE_BARE_CALC_RE = re.compile(r"^计算：.*＝？")
-Q_ID_RE = re.compile(r"^((?:cnm_(?:p|h)?|cne_[pjh]|cnp_h?|cnc_p|cns_p|cnd_p|cnh_j|cng_j)\d{3,})_q([1-9]\d*)$")
+Q_ID_RE = re.compile(r"^((?:cnm_(?:p|h)?|cne_[pjh]|cnp_h?|cnc_[pj]|cns_[pj]|cnd_[pj]|cnh_j|cng_j)\d{3,})_q([1-9]\d*)$")
 NUM_RE = re.compile(r"^-?\d+(?:\.\d+)?(?:/\d+(?:\.\d+)?)?$")
 MIN_QUESTIONS_PER_TOPIC = 3
 MIN_AUTO_SHARE = 0.60

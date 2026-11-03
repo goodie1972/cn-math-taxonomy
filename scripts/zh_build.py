@@ -24,7 +24,8 @@ import zh_g4  # noqa: E402,F401
 import zh_g5  # noqa: E402,F401
 import zh_g6  # noqa: E402,F401
 import zh_edges  # noqa: E402,F401
-from zh_lib import HARD, STANDARD_ROWS, TOPICS, chapter, check_question, materialise_questions  # noqa: E402
+from zh_lib import HARD, STANDARD_ROWS, TOPICS, chapter, check_question, materialise_questions, stage_label  # noqa: E402
+from build_merge import merge_generated  # noqa: E402
 from verify_questions import verify_all  # noqa: E402
 
 ZH_CODES = {
@@ -32,7 +33,14 @@ ZH_CODES = {
     "YD": "阅读理解", "GS": "古诗文积累", "XZ": "习作基础",
 }
 CHAPTER_RE = re.compile(r"^([一二三四五六七八九])年级([上下全])册 (第\d+单元|预备单元\d) (.+)$")
-VOLUMES = ["1上", "1下", "2上", "2下", "3上", "3下", "4上", "4下", "5上", "5下", "6上", "6下"]
+PRIMARY_VOLUMES = ["1上", "1下", "2上", "2下", "3上", "3下", "4上", "4下", "5上", "5下", "6上", "6下"]
+JUNIOR_VOLUMES = ["7上", "7下", "8上", "8下", "9上", "9下"]
+VOLUMES = PRIMARY_VOLUMES + JUNIOR_VOLUMES
+# 每册知识点数上下界。小学十二册按已核对的统编目录填；初中六册的界（JUNIOR_BOUNDS）要等目录
+# 双源核对后再填，留空就等于「这一册还没覆盖」，不许凭印象给一个数。
+BOUNDS = {k: (30, 48) for k in PRIMARY_VOLUMES}
+JUNIOR_BOUNDS = {}
+BOUNDS.update(JUNIOR_BOUNDS)
 
 
 def load(name):
@@ -43,6 +51,11 @@ def load(name):
 def dump(name, data):
     path = os.path.join(ROOT, "data", name)
     with open(path, "w", encoding="utf-8") as f:
+        if name == "questions.json":
+            # 题库由 scripts/qgen_merge.py 落盘，格式是 indent=1 且没有行尾换行；这里必须跟它一致，
+            # 否则单跑一次语文构建就把 79 万行的题库整体重排。
+            json.dump(data, f, ensure_ascii=False, indent=1)
+            return
         json.dump(data, f, ensure_ascii=False, indent=2)
         f.write("\n")
 
@@ -146,8 +159,14 @@ def main():
     by_vol = Counter("%d%s" % (t["grade"], t["semester"]) for t in TOPICS)
     for k in VOLUMES:
         n = by_vol[k]
-        # 一上至六下已按统编目录逐课覆盖。
-        lo, hi = (30, 48) if k in ("1上", "1下", "2上", "2下", "3上", "3下", "4上", "4下", "5上", "5下", "6上", "6下") else (18, 22)
+        bound = BOUNDS.get(k)
+        if bound is None:
+            # 初中册次的每册点数上下界要等目录双源核对后才能写；没有依据就先把这一册判为未覆盖。
+            if n:
+                print("%s 有 %d 个知识点，但每册点数边界未登记（先核对教材目录）" % (k, n), file=sys.stderr)
+                return 1
+            continue
+        lo, hi = bound
         if n < lo or n > hi:
             print("%s 有 %d 个知识点，每册应为 %d–%d" % (k, n, lo, hi), file=sys.stderr)
             return 1
@@ -198,8 +217,20 @@ def main():
     new_topics = []
     new_questions = []
     id_of = {}
+    n_primary = 0
+    n_junior = 0
     for i, spec in enumerate(TOPICS, start=1):
-        tid = "cnc_p%03d" % i
+        # 小学段用 cnc_p、初中段用 cnc_j，各自连续编号。小学点必须全部排在初中点前面，
+        # 这样 registry 里已登记的 cnc_p 编号不会因新增初中内容而整体后移。
+        if spec["grade"] >= 7:
+            n_junior += 1
+            tid = "cnc_j%03d" % n_junior
+        else:
+            n_primary += 1
+            if i != n_primary:
+                print("小学知识点必须排在初中前面：%s 在第 %d 位" % (spec["key"], i), file=sys.stderr)
+                return 1
+            tid = "cnc_p%03d" % n_primary
         id_of[spec["key"]] = tid
         if spec["std"] not in id_of_std:
             print("%s 课标 %s 不存在" % (spec["key"], spec["std"]), file=sys.stderr)
@@ -302,7 +333,7 @@ def main():
         "title": "义务教育语文课程标准（2022年版）",
         "issuer": "中华人民共和国教育部",
         "year": 2022,
-        "stage": "第一至第三学段",
+        "stage": stage_label(),
         "note": "条目是对第一至第三学段学习要求的公开转述，不是逐页核对的原文。verbatim 为 false，page_or_ref 为「待核」。编号 ccs-2022 是本图谱编的，不是教育部原编号。一年级按2024年起修订的统编教材编排，二上、三上按2025秋修订目录编排，二下、三下按2026春修订目录编排，四上按2024修订统编目录逐课覆盖，四下按统编现行目录逐课覆盖，五上按2026秋统编目录逐课覆盖，五下按统编现行目录逐课覆盖，六上按2026秋统编目录逐课覆盖，六下按统编现行目录逐课覆盖，没有写入页码。",
     }
     for k, v in kept_std.items():
@@ -321,12 +352,39 @@ def main():
     for k, v in by_dom.most_common():
         print("  %s %d" % (k, v))
     print("语文边写入 %d（约简删去 %d）；hard %d，soft %d" % (len(zh_edges), dropped, n_hard, n_soft))
-    print("题目 %d" % len(new_questions))
-    print("课标条目 %d" % len(new_items))
+    # 四个数据文件都按 key 原地合并：生成器只覆盖自己产出的条目，其他学科的内容、补题阶段
+    # 加进来的题目（带 source / accept / figure 等字段）原样保留、原位不动。重跑构建因此是
+    # 幂等的，diff 里只剩真实变化。只有知识点被删掉时，它名下的题目才跟着删。
+    dropped_topics = ({t["id"] for t in topics if is_zh_topic_id(t.get("id"))}
+                      - {t["id"] for t in new_topics})
+    topics_out, _ = merge_generated(topics, new_topics, lambda t: t["id"],
+                                    lambda t: is_zh_topic_id(t.get("id")))
+    gen_qids = {q["id"] for q in new_questions}
+    questions_out, dropped_questions = merge_generated(
+        questions, new_questions, lambda q: q["id"],
+        lambda q: q["id"] in gen_qids or q.get("topicId") in dropped_topics)
+    lost = [q["id"] for q in dropped_questions if q.get("topicId") not in dropped_topics]
+    if lost:
+        print("重写题库时丢了 %d 道已有题目：%s" % (len(lost), "、".join(lost[:10])), file=sys.stderr)
+        return 1
+    deps_out, _ = merge_generated(
+        deps, zh_edges, lambda e: (e["topicId"], e["prerequisiteId"]),
+        lambda e: is_zh_topic_id(e.get("topicId")) or is_zh_topic_id(e.get("prerequisiteId")))
+    if {(e["topicId"], e["prerequisiteId"]) for e in deps_out} != \
+       {(e["topicId"], e["prerequisiteId"]) for e in merged_deps}:
+        print("原地合并后的先修图与约简结果不一致", file=sys.stderr)
+        return 1
+    items_out, _ = merge_generated(standards.get("items", []), new_items, lambda i: i["id"],
+                                   lambda i: str(i.get("id", "")).startswith("ccs-"))
+    standards_out["items"] = items_out
+    n_extra = sum(1 for q in questions_out
+                  if q["id"] not in gen_qids and is_zh_topic_id(q.get("topicId")))
+    print("题目 %d（生成器写 %d，保留本科补题 %d）" % (len(questions_out), len(new_questions), n_extra))
+    print("课标条目 %d" % len(items_out))
 
-    dump("topics.json", base_topics + new_topics)
-    dump("dependencies.json", merged_deps)
-    dump("questions.json", base_questions + new_questions)
+    dump("topics.json", topics_out)
+    dump("dependencies.json", deps_out)
+    dump("questions.json", questions_out)
     dump("cn-curriculum-standards.json", standards_out)
 
     again_t = load("topics.json")
@@ -339,6 +397,9 @@ def main():
     again_items = [it for it in again_s.get("items", []) if not str(it.get("id", "")).startswith("ccs-")]
     if again_topics != base_topics or again_deps != base_deps or again_qs != base_questions or again_items != base_items:
         print("数学、英语或物理数据在写回后发生了变化", file=sys.stderr)
+        return 1
+    if len(again_q) != len(questions_out):
+        print("写回后的题目条数与合并结果不一致（%d ≠ %d）" % (len(again_q), len(questions_out)), file=sys.stderr)
         return 1
     if [(t["id"], t["name"]) for t in again_t if str(t["id"]).startswith("cnm_")] != math_before:
         print("数学知识点 id 或名称变了", file=sys.stderr)

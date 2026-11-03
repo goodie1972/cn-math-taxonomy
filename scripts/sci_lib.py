@@ -54,6 +54,7 @@ UNITS = {
 }
 
 DOMAINS = ("物质科学", "生命科学", "地球与宇宙科学", "技术与工程")
+GRADE_CN = ["", "一", "二", "三", "四", "五", "六", "七", "八", "九"]
 CODE_OF = {"WZ": "物质科学", "SM": "生命科学", "DQ": "地球与宇宙科学", "JG": "技术与工程"}
 
 # 课标条目是《义务教育科学课程标准（2022年版）》学段要求的公开转述，不是逐页核对的原文。
@@ -97,10 +98,19 @@ CRIT = {
     "技术与工程": ["能说出工具、结构或作品要解决的问题", "能按设计、制作、测试、改进的顺序完成任务"],
 }
 NOTE = "教科版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+LEVEL_CN = {"1": "一", "2": "二", "3": "三", "4": "四"}
+LEVEL_GRADES = {"1": "1–2", "2": "3–4", "3": "5–6", "4": "7–9"}
+
+
+def stage_label():
+    """课标对象里的学段说明按已登记的 STANDARD_ROWS 学段推出来，加了第四学段条目就不会写错。"""
+    levels = sorted({row[1] for row in STANDARD_ROWS})
+    return "第%s至第%s学段（%s年级）" % (
+        LEVEL_CN[levels[0]], LEVEL_CN[levels[-1]], "、".join(LEVEL_GRADES[l] for l in levels))
 
 
 def chapter(grade, sem, unit):
-    cn = "零一二三四五六"[grade]
+    cn = GRADE_CN[grade]
     title = UNITS[(grade, sem, unit)][0]
     return "%s年级%s册 第%d单元 %s" % (cn, sem, unit, title)
 

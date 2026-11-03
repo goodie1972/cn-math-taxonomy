@@ -64,6 +64,7 @@ UNITS = {
 }
 
 DOMAINS = ("生活与安全", "学校生活", "家庭与亲情", "社会规则", "公民与国家", "自然与环境")
+GRADE_CN = ["", "一", "二", "三", "四", "五", "六", "七", "八", "九"]
 CODE_OF = {"LS": "生活与安全", "XX": "学校生活", "JT": "家庭与亲情", "SH": "社会规则", "GM": "公民与国家", "ZR": "自然与环境"}
 
 # 课标条目是《义务教育道德与法治课程标准（2022年版）》相关学段要求的公开转述，不是逐页核对的原文。
@@ -98,10 +99,19 @@ CRIT = {
     "自然与环境": ["能说出爱护自然或节约资源的做法", "能在生活中选择环保行为"],
 }
 NOTE = "统编版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+LEVEL_CN = {"1": "一", "2": "二", "3": "三", "4": "四"}
+LEVEL_GRADES = {"1": "1–2", "2": "3–4", "3": "5–6", "4": "7–9"}
+
+
+def stage_label():
+    """课标对象里的学段说明按已登记的 STANDARD_ROWS 学段推出来，加了第四学段条目就不会写错。"""
+    levels = sorted({row[1] for row in STANDARD_ROWS})
+    return "第%s至第%s学段（%s年级）" % (
+        LEVEL_CN[levels[0]], LEVEL_CN[levels[-1]], "、".join(LEVEL_GRADES[l] for l in levels))
 
 
 def chapter(grade, sem, unit):
-    cn = "零一二三四五六"[grade]
+    cn = GRADE_CN[grade]
     title = UNITS[(grade, sem, unit)][0]
     return "%s年级%s册 第%d单元 %s" % (cn, sem, unit, title)
 

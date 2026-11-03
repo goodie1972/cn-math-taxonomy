@@ -1,18 +1,21 @@
 # -*- coding: utf-8 -*-
-"""小学语文数据的登记与题目生成。由 scripts/zh_build.py 调用。"""
+"""语文（小学 1–6 年级 ＋ 初中 7–9 年级）数据的登记与题目生成。由 scripts/zh_build.py 调用。"""
 
 import re
 
 TOPICS = []
 HARD = []
 
+GRADE_CN = ["", "一", "二", "三", "四", "五", "六", "七", "八", "九"]
+
 # 单元名按册使用。一年级上册按 2024 秋修订的统编教材，一下按 2025 春使用的下册，
 # 二上、三上按 2025 秋修订目录，二下、三下按 2026 春修订目录，
 # 四上按 2024 修订/2026 秋统编目录，四下按统编现行/2026 春常用目录，
 # 五上按 2026 秋统编目录，五下按统编现行/2026 春常用目录，
 # 六上按 2026 秋统编目录，六下按统编现行目录，并与 2026 秋六上对齐。同一单元可以挂多个知识点。
+# 初中各册默认沿用「第N单元」，目录取证后如需主题名再在下面的 UNITS.update 里覆盖。
 UNITS = {}
-for _g in range(1, 7):
+for _g in range(1, 10):
     for _s in ("上", "下"):
         for _u in range(1, 9):
             UNITS[(_g, _s, _u)] = "第%d单元" % _u
@@ -162,6 +165,13 @@ STANDARD_ROWS = [
 ]
 
 NOTE = "统编版该册的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+LEVEL_CN = {"1": "一", "2": "二", "3": "三", "4": "四"}
+
+
+def stage_label():
+    """课标对象里的学段说明按已登记的 STANDARD_ROWS 学段推出来，加了第四学段条目就不会写错。"""
+    levels = sorted({row[1] for row in STANDARD_ROWS})
+    return "第%s至第%s学段" % (LEVEL_CN[levels[0]], LEVEL_CN[levels[-1]])
 CRIT = {
     "拼音": ["能分辨声母、韵母和声调", "能拼读常见音节"],
     "识字写字": ["能分辨形近字和同音字", "能按偏旁和结构识记生字"],
@@ -174,7 +184,7 @@ CRIT = {
 
 
 def chapter(grade, sem, unit):
-    cn = "零一二三四五六"[grade]
+    cn = GRADE_CN[grade]
     title = UNITS[(grade, sem, unit)]
     return "%s年级%s册 第%d单元 %s" % (cn, sem, unit, title)
 
