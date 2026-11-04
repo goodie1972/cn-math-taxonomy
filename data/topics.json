@@ -91086,5 +91086,3732 @@
         "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
       }
     ]
+  },
+  {
+    "id": "cns_j001",
+    "name": "物质的性质及检测",
+    "domain": "物质科学",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第1单元 变化的物质世界",
+    "type": "conceptual",
+    "description": "沪六上第1单元第1课：认识物质的颜色、气味、状态、软硬、导电性等性质，学习用观察、测量、实验等方法检测物质的性质。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "要判断一杯无色液体是不是水，下列哪种做法属于「检测物质的性质」？",
+      "answer": "测出它的沸点和密度，与水的标准对照"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ],
+    "root_reason": "初中科学从沪六上册认识物质的性质开始，前面没有更早的初中科学知识点。"
+  },
+  {
+    "id": "cns_j002",
+    "name": "物质的变化",
+    "domain": "物质科学",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第1单元 变化的物质世界",
+    "type": "conceptual",
+    "description": "沪六上第1单元第2课：区分物理变化与化学变化，知道化学变化常伴随颜色、气体、沉淀、发光发热等现象，且往往生成新物质。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "下列变化中，属于化学变化的是？",
+      "answer": "铁钉生锈"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j003",
+    "name": "生活中的热传递",
+    "domain": "物质科学",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第2单元 能与生活",
+    "type": "conceptual",
+    "description": "沪六上第2单元第1课：热会从高温物体传向低温物体，认识传导、对流、辐射三种热传递方式，知道保温与散热的常见做法。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "用金属勺搅拌热汤，不一会儿勺柄也烫手，这主要是什么热传递方式？",
+      "answer": "热传导"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.04",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j004",
+    "name": "生活中的声与光",
+    "domain": "物质科学",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第2单元 能与生活",
+    "type": "conceptual",
+    "description": "沪六上第2单元第2课：声音由振动产生、靠介质传播；光沿直线传播，遇到物体发生反射，认识声音与光在日常生活中的应用。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "敲击音叉后，把音叉放入水中，水花四溅，这说明？",
+      "answer": "音叉在振动"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.03",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j005",
+    "name": "生活中的电",
+    "domain": "物质科学",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第2单元 能与生活",
+    "type": "conceptual",
+    "description": "沪六上第2单元第3课：认识电路的基本组成（电源、导线、用电器、开关），区分导体与绝缘体，了解安全用电常识。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "一个完整电路至少要包括哪几部分？",
+      "answer": "电源、导线、用电器、开关"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.04",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j006",
+    "name": "能源及其利用",
+    "domain": "物质科学",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第2单元 能与生活",
+    "type": "conceptual",
+    "description": "沪六上第2单元第4课：认识常见能源（煤、石油、天然气、太阳能、风能等），知道不可再生能源与可再生能源的区别，树立节约能源的意识。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "下列能源中，属于不可再生能源的是？",
+      "answer": "石油"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.04",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j007",
+    "name": "细胞与生殖",
+    "domain": "生命科学",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第3单元 生命的延续",
+    "type": "conceptual",
+    "description": "沪六上第3单元第1课：知道生物体由细胞构成，认识细胞的基本结构（细胞膜、细胞质、细胞核），了解动物和植物的生殖方式。",
+    "mastery_criteria": [
+      "能说明生命系统的层次与调节机制",
+      "能解释稳态、进化与适应的关系"
+    ],
+    "diagnostic_question": {
+      "question": "绝大多数生物体结构和功能的基本单位是？",
+      "answer": "细胞"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.SM.04",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j008",
+    "name": "多种多样的生物",
+    "domain": "生命科学",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第3单元 生命的延续",
+    "type": "conceptual",
+    "description": "沪六上第3单元第2课：认识生物的分类，知道植物、动物、微生物的主要类群和特征，体会生物多样性。",
+    "mastery_criteria": [
+      "能说明生命系统的层次与调节机制",
+      "能解释稳态、进化与适应的关系"
+    ],
+    "diagnostic_question": {
+      "question": "下列生物中，属于微生物的是？",
+      "answer": "乳酸菌"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.SM.01",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j009",
+    "name": "生物的进化",
+    "domain": "生命科学",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第3单元 生命的延续",
+    "type": "conceptual",
+    "description": "沪六上第3单元第3课：知道化石是生物进化的直接证据，了解生物由简单到复杂、由低等到高等的进化趋势，认识自然选择。",
+    "mastery_criteria": [
+      "能说明生命系统的层次与调节机制",
+      "能解释稳态、进化与适应的关系"
+    ],
+    "diagnostic_question": {
+      "question": "研究生物进化最直接、最重要的证据是？",
+      "answer": "化石"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.SM.04",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j010",
+    "name": "确定节能小屋的工程问题",
+    "domain": "技术与工程",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第4单元 小小工程师——节能小屋",
+    "type": "procedural",
+    "description": "沪六上第4单元第1课：明确工程任务，学会把模糊需求转化为可检验的具体问题，了解工程的第一步是「明确问题」。",
+    "mastery_criteria": [
+      "能说明科学与工程的关系",
+      "能按设计、制作、测试、改进的流程完成任务"
+    ],
+    "diagnostic_question": {
+      "question": "工程活动开始时，第一步应该是？",
+      "answer": "明确要解决的问题和任务要求"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.JG.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j011",
+    "name": "节能小屋的设计和优化",
+    "domain": "技术与工程",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第4单元 小小工程师——节能小屋",
+    "type": "reasoning",
+    "description": "沪六上第4单元第2课：学习设计方案，比较不同方案的优劣，从保温、采光、材料等方面优化节能小屋的设计。",
+    "mastery_criteria": [
+      "能说明科学与工程的关系",
+      "能按设计、制作、测试、改进的流程完成任务"
+    ],
+    "diagnostic_question": {
+      "question": "节能小屋最需要优先考虑的设计目标是？",
+      "answer": "减少热量散失、充分利用太阳能"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.JG.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j012",
+    "name": "制作节能小屋模型",
+    "domain": "技术与工程",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第4单元 小小工程师——节能小屋",
+    "type": "procedural",
+    "description": "沪六上第4单元第3课：按设计图制作节能小屋模型，学会安全使用工具，按计划分步完成制作，并在制作中落实设计要求。",
+    "mastery_criteria": [
+      "能说明科学与工程的关系",
+      "能按设计、制作、测试、改进的流程完成任务"
+    ],
+    "diagnostic_question": {
+      "question": "制作模型前，先要做什么准备？",
+      "answer": "看懂设计图，准备好工具材料，规划制作步骤"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.JG.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j013",
+    "name": "发布节能小屋设计成果",
+    "domain": "技术与工程",
+    "grade": 6,
+    "semester": "上",
+    "chapter": "六年级上册 第4单元 小小工程师——节能小屋",
+    "type": "application",
+    "description": "沪六上第4单元第4课：学会介绍自己的设计成果，用数据说明效果，听取意见并记录改进方向，完成工程的最后一步——发布与改进。",
+    "mastery_criteria": [
+      "能说明科学与工程的关系",
+      "能按设计、制作、测试、改进的流程完成任务"
+    ],
+    "diagnostic_question": {
+      "question": "向同学介绍节能小屋时，最能说明设计效果的是？",
+      "answer": "用测量数据（如保温温差、省电比例）说明它比普通小屋好"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.JG.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j014",
+    "name": "食物与营养",
+    "domain": "生命科学",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第1单元 人体与健康",
+    "type": "conceptual",
+    "description": "沪六下第1单元第1课：认识食物中的主要营养素（糖类、蛋白质、脂肪、维生素、无机盐、水），懂得均衡膳食。",
+    "mastery_criteria": [
+      "能说明生命系统的层次与调节机制",
+      "能解释稳态、进化与适应的关系"
+    ],
+    "diagnostic_question": {
+      "question": "人体最主要的供能物质是？",
+      "answer": "糖类（淀粉、糖）"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.SM.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j015",
+    "name": "脑与协调",
+    "domain": "生命科学",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第1单元 人体与健康",
+    "type": "conceptual",
+    "description": "沪六下第1单元第2课：认识脑的结构与功能（大脑、小脑、脑干），知道脑通过神经协调全身活动，学会保护脑。",
+    "mastery_criteria": [
+      "能说明生命系统的层次与调节机制",
+      "能解释稳态、进化与适应的关系"
+    ],
+    "diagnostic_question": {
+      "question": "负责人的思维、记忆和语言的是？",
+      "answer": "大脑"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.SM.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j016",
+    "name": "平衡与健康",
+    "domain": "生命科学",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第1单元 人体与健康",
+    "type": "application",
+    "description": "沪六下第1单元第3课：把营养、运动、睡眠、情绪综合起来，养成健康的生活方式，学会判断生活方式是否健康。",
+    "mastery_criteria": [
+      "能说明生命系统的层次与调节机制",
+      "能解释稳态、进化与适应的关系"
+    ],
+    "diagnostic_question": {
+      "question": "下列生活方式中，比较健康的是？",
+      "answer": "每天适量运动、按时作息、饮食均衡"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.SM.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j017",
+    "name": "从新生命走向成熟",
+    "domain": "生命科学",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第2单元 步入青春期",
+    "type": "conceptual",
+    "description": "沪六下第2单元第1课：了解受精、胚胎发育与出生过程，知道新生命从受精卵开始，理解个体从出生走向成熟的过程。",
+    "mastery_criteria": [
+      "能说明生命系统的层次与调节机制",
+      "能解释稳态、进化与适应的关系"
+    ],
+    "diagnostic_question": {
+      "question": "新生命开始的标志是？",
+      "answer": "精子与卵细胞结合形成受精卵"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.SM.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j018",
+    "name": "青春期的变化",
+    "domain": "生命科学",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第2单元 步入青春期",
+    "type": "conceptual",
+    "description": "沪六下第2单元第2课：认识青春期身体发育（身高、体重、第二性征）与心理变化的特点，学会正确看待这些变化。",
+    "mastery_criteria": [
+      "能说明生命系统的层次与调节机制",
+      "能解释稳态、进化与适应的关系"
+    ],
+    "diagnostic_question": {
+      "question": "青春期的身体变化，下列描述正确的是？",
+      "answer": "身高体重迅速增加，出现第二性征"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.SM.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j019",
+    "name": "青春期保健",
+    "domain": "生命科学",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第2单元 步入青春期",
+    "type": "application",
+    "description": "沪六下第2单元第3课：学习青春期卫生保健知识，包括营养、睡眠、体育锻炼和个人卫生，养成良好习惯。",
+    "mastery_criteria": [
+      "能说明生命系统的层次与调节机制",
+      "能解释稳态、进化与适应的关系"
+    ],
+    "diagnostic_question": {
+      "question": "青春期保证正常发育，最重要的营养措施是？",
+      "answer": "保证蛋白质、钙、铁等摄入充足"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.SM.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j020",
+    "name": "太阳系",
+    "domain": "地球与宇宙科学",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第3单元 宇宙探秘",
+    "type": "conceptual",
+    "description": "沪六下第3单元第1课：认识太阳系的组成（太阳、八大行星及其卫星、小行星、彗星等），了解行星由近到远的排列。",
+    "mastery_criteria": [
+      "能运用日地月模型解释自然现象",
+      "能说明人类活动与环境问题的关系"
+    ],
+    "diagnostic_question": {
+      "question": "太阳系的中心天体是？",
+      "answer": "太阳"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.DQ.01",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j021",
+    "name": "恒星与星座",
+    "domain": "地球与宇宙科学",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第3单元 宇宙探秘",
+    "type": "conceptual",
+    "description": "沪六下第3单元第2课：知道恒星是自身发光发热的天体，认识星座是人为划分的天区，学会识别常见星座（北斗七星、北极星）。",
+    "mastery_criteria": [
+      "能运用日地月模型解释自然现象",
+      "能说明人类活动与环境问题的关系"
+    ],
+    "diagnostic_question": {
+      "question": "下列天体中，自身能够发光发热的是？",
+      "answer": "恒星（如太阳）"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.DQ.01",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j022",
+    "name": "太空探索",
+    "domain": "地球与宇宙科学",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第3单元 宇宙探秘",
+    "type": "conceptual",
+    "description": "沪六下第3单元第3课：了解人类航天历程（人造卫星、载人航天、空间站、探月工程），知道我国航天事业的重大成就，关注航天强国建设。",
+    "mastery_criteria": [
+      "能运用日地月模型解释自然现象",
+      "能说明人类活动与环境问题的关系"
+    ],
+    "diagnostic_question": {
+      "question": "我国第一颗人造地球卫星是？",
+      "answer": "东方红一号"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.DQ.01",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j023",
+    "name": "确定火星车的工程问题",
+    "domain": "技术与工程",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第4单元 小小工程师——火星车",
+    "type": "procedural",
+    "description": "沪六下第4单元第1课：明确火星车模型要解决的工程问题——在模拟火星地形上行驶并完成探测任务，学会把任务转化为设计要求。",
+    "mastery_criteria": [
+      "能说明科学与工程的关系",
+      "能按设计、制作、测试、改进的流程完成任务"
+    ],
+    "diagnostic_question": {
+      "question": "火星车模型首先要满足的核心要求是？",
+      "answer": "能在模拟的火星地形（沙地、坡面、障碍）上行驶"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.JG.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j024",
+    "name": "设计火星车方案",
+    "domain": "技术与工程",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第4单元 小小工程师——火星车",
+    "type": "reasoning",
+    "description": "沪六下第4单元第2课：比较不同底盘、轮子与动力方案，从稳定性、通过性、成本等角度优化火星车设计，画出设计图。",
+    "mastery_criteria": [
+      "能说明科学与工程的关系",
+      "能按设计、制作、测试、改进的流程完成任务"
+    ],
+    "diagnostic_question": {
+      "question": "比较两个火星车底盘方案，下列做法最合理的是？",
+      "answer": "对照「行驶、越障、稳定」等要求分别测试，选整体更优的"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.JG.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j025",
+    "name": "制作火星车",
+    "domain": "技术与工程",
+    "grade": 6,
+    "semester": "下",
+    "chapter": "六年级下册 第4单元 小小工程师——火星车",
+    "type": "procedural",
+    "description": "沪六下第4单元第3课：按设计图制作火星车模型，连接电机与电池，调试行驶性能，反复改进直到通过测试。",
+    "mastery_criteria": [
+      "能说明科学与工程的关系",
+      "能按设计、制作、测试、改进的流程完成任务"
+    ],
+    "diagnostic_question": {
+      "question": "制作火星车时，电机、电池和车轮的连接顺序应当是？",
+      "answer": "电池→导线→电机→齿轮→车轮"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.JG.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j026",
+    "name": "科学并不神秘",
+    "domain": "物质科学",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第1章 探索自然的科学",
+    "type": "conceptual",
+    "description": "浙七上第1章第1节：了解科学是研究自然现象、发现和运用规律的学问，知道科学就在身边，激发探究兴趣。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "科学研究的对象是？",
+      "answer": "自然现象及其规律"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.03",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j027",
+    "name": "科学测量",
+    "domain": "物质科学",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第1章 探索自然的科学",
+    "type": "procedural",
+    "description": "浙七上第1章第2节：学会长度、体积、温度、质量的测量，认识测量工具（刻度尺、量筒、温度计、天平）与单位。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "用刻度尺测量课本长度，读数时正确的视线方向是？",
+      "answer": "视线与刻度尺刻度面垂直"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.03",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j028",
+    "name": "像科学家那样探究",
+    "domain": "物质科学",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第1章 探索自然的科学",
+    "type": "procedural",
+    "description": "浙七上第1章第3节：知道科学探究的一般过程（提出问题、建立假设、设计实验、收集证据、得出结论），初步学会控制变量。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "科学探究的第一步通常是？",
+      "answer": "观察现象并提出问题"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.03",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j029",
+    "name": "生物体的基本单位",
+    "domain": "生命科学",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第2章 丰富多彩的生命世界",
+    "type": "conceptual",
+    "description": "浙七上第2章第1节：知道细胞是生物体结构和功能的基本单位，认识动植物细胞的基本结构，学会使用显微镜观察细胞。",
+    "mastery_criteria": [
+      "能说明生命系统的层次与调节机制",
+      "能解释稳态、进化与适应的关系"
+    ],
+    "diagnostic_question": {
+      "question": "使用显微镜观察时，先用什么对光？",
+      "answer": "低倍物镜，转动反光镜使视野明亮"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.SM.01",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j030",
+    "name": "形形色色的植物",
+    "domain": "生命科学",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第2章 丰富多彩的生命世界",
+    "type": "conceptual",
+    "description": "浙七上第2章第2节：认识苔藓植物、蕨类植物、种子植物的主要特征，区分裸子植物与被子植物。",
+    "mastery_criteria": [
+      "能说明生命系统的层次与调节机制",
+      "能解释稳态、进化与适应的关系"
+    ],
+    "diagnostic_question": {
+      "question": "下列植物中，用孢子繁殖的是？",
+      "answer": "蕨类植物（如蕨、铁线蕨）"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.SM.01",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j031",
+    "name": "多姿多彩的动物",
+    "domain": "生命科学",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第2章 丰富多彩的生命世界",
+    "type": "conceptual",
+    "description": "浙七上第2章第3节：认识动物的分类，区分脊椎动物与无脊椎动物，了解鱼类、两栖类、爬行类、鸟类、哺乳类的主要特征。",
+    "mastery_criteria": [
+      "能说明生命系统的层次与调节机制",
+      "能解释稳态、进化与适应的关系"
+    ],
+    "diagnostic_question": {
+      "question": "下列动物中属于无脊椎动物的是？",
+      "answer": "蝗虫"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.SM.01",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j032",
+    "name": "生物的分类",
+    "domain": "生命科学",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第2章 丰富多彩的生命世界",
+    "type": "conceptual",
+    "description": "浙七上第2章第4节：知道生物分类的等级（界、门、纲、目、科、属、种），理解分类等级越高包含生物越多、亲缘关系越远。",
+    "mastery_criteria": [
+      "能说明生命系统的层次与调节机制",
+      "能解释稳态、进化与适应的关系"
+    ],
+    "diagnostic_question": {
+      "question": "生物分类等级由大到小依次是？",
+      "answer": "界、门、纲、目、科、属、种"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.SM.01",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j033",
+    "name": "生物多样性",
+    "domain": "生命科学",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第2章 丰富多彩的生命世界",
+    "type": "conceptual",
+    "description": "浙七上第2章第5节：知道生物多样性包括物种多样性、遗传多样性和生态系统多样性，认识保护生物多样性的意义与措施。",
+    "mastery_criteria": [
+      "能说明生命系统的层次与调节机制",
+      "能解释稳态、进化与适应的关系"
+    ],
+    "diagnostic_question": {
+      "question": "生物多样性包括哪三个方面？",
+      "answer": "物种多样性、遗传多样性、生态系统多样性"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.SM.03",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j034",
+    "name": "认识地球",
+    "domain": "地球与宇宙科学",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第3章 广袤浩瀚的宇宙",
+    "type": "conceptual",
+    "description": "浙七上第3章第1节：认识地球的形状（球体）、大小与内部结构（地壳、地幔、地核），了解地球仪与经纬线的意义。",
+    "mastery_criteria": [
+      "能运用日地月模型解释自然现象",
+      "能说明人类活动与环境问题的关系"
+    ],
+    "diagnostic_question": {
+      "question": "证明地球是球体的最直观现象是？",
+      "answer": "远去的帆船船身先消失、桅杆后消失"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.DQ.01",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j035",
+    "name": "太阳系的组成与结构",
+    "domain": "地球与宇宙科学",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第3章 广袤浩瀚的宇宙",
+    "type": "conceptual",
+    "description": "浙七上第3章第2节：知道太阳系的组成（太阳、行星、卫星、小行星、彗星），记住八大行星的排列顺序。",
+    "mastery_criteria": [
+      "能运用日地月模型解释自然现象",
+      "能说明人类活动与环境问题的关系"
+    ],
+    "diagnostic_question": {
+      "question": "太阳系中体积最大的行星是？",
+      "answer": "木星"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.DQ.01",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j036",
+    "name": "人类对宇宙的探索",
+    "domain": "地球与宇宙科学",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第3章 广袤浩瀚的宇宙",
+    "type": "conceptual",
+    "description": "浙七上第3章第3节：了解人类探索宇宙的历程（望远镜、航天器、载人航天、空间站），知道宇宙是由大量星系组成的广阔空间。",
+    "mastery_criteria": [
+      "能运用日地月模型解释自然现象",
+      "能说明人类活动与环境问题的关系"
+    ],
+    "diagnostic_question": {
+      "question": "人类借助什么工具发现了更多的星系？",
+      "answer": "天文望远镜"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.DQ.01",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j037",
+    "name": "机械运动",
+    "domain": "物质科学",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第4章 多种多样的运动",
+    "type": "conceptual",
+    "description": "浙七上第4章第1节：知道机械运动是物体位置的变化，参照物是判断运动与静止的标准，会用速度描述运动快慢。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "判断物体运动还是静止，必须先确定？",
+      "answer": "参照物"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.03",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j038",
+    "name": "地球的转动",
+    "domain": "物质科学",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第4章 多种多样的运动",
+    "type": "conceptual",
+    "description": "浙七上第4章第2节：知道地球自转产生昼夜交替，公转与地轴倾斜产生四季，理解太阳直射点的移动。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "昼夜交替现象是由什么引起的？",
+      "answer": "地球自转"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.DQ.01",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j039",
+    "name": "日地月的相对运动",
+    "domain": "物质科学",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第4章 多种多样的运动",
+    "type": "conceptual",
+    "description": "浙七上第4章第3节：知道月球绕地球公转产生月相变化，理解日食与月食的成因。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "月相变化的原因是？",
+      "answer": "月球绕地球公转，日地月相对位置变化"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.DQ.01",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j040",
+    "name": "地球板块的缓慢运动",
+    "domain": "物质科学",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第4章 多种多样的运动",
+    "type": "conceptual",
+    "description": "浙七上第4章第4节：知道大陆漂移学说与板块构造学说，理解火山、地震与板块运动的联系。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "提出大陆漂移学说的科学家是？",
+      "answer": "魏格纳"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.DQ.01",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j041",
+    "name": "认识技术与工程",
+    "domain": "技术与工程",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第5章 探索技术与工程的世界",
+    "type": "conceptual",
+    "description": "浙七上第5章第1节：知道技术是人类改造自然的工具与方法，工程是运用科学和技术解决实际问题的活动，理解两者的关系。",
+    "mastery_criteria": [
+      "能说明科学与工程的关系",
+      "能按设计、制作、测试、改进的流程完成任务"
+    ],
+    "diagnostic_question": {
+      "question": "下列属于「工程」活动的是？",
+      "answer": "设计和建造一座大桥"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.JG.01",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j042",
+    "name": "像工程师那样实践",
+    "domain": "技术与工程",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第5章 探索技术与工程的世界",
+    "type": "procedural",
+    "description": "浙七上第5章第2节：经历「明确问题—设计方案—制作—测试—改进」的工程实践流程，完成一个简单作品。",
+    "mastery_criteria": [
+      "能说明科学与工程的关系",
+      "能按设计、制作、测试、改进的流程完成任务"
+    ],
+    "diagnostic_question": {
+      "question": "工程实践的正确流程是？",
+      "answer": "明确问题→设计方案→制作→测试→改进"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.JG.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j043",
+    "name": "生物体的结构层次",
+    "domain": "生命科学",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第1章 生物的结构与生殖",
+    "type": "conceptual",
+    "description": "浙七下第1章第1节：知道细胞分化形成组织，组织构成器官，器官构成系统，人体由八大系统组成，理解生命系统的层次性。",
+    "mastery_criteria": [
+      "能说明生命系统的层次与调节机制",
+      "能解释稳态、进化与适应的关系"
+    ],
+    "diagnostic_question": {
+      "question": "生物体结构的层次由小到大排列正确的是？",
+      "answer": "细胞→组织→器官→系统→生物体"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.SM.01",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j044",
+    "name": "人和动物的生殖与发育",
+    "domain": "生命科学",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第1章 生物的结构与生殖",
+    "type": "conceptual",
+    "description": "浙七下第1章第2节：知道精子和卵细胞结合形成受精卵，受精卵在子宫内发育成胎儿，理解生殖系统的主要结构。",
+    "mastery_criteria": [
+      "能说明生命系统的层次与调节机制",
+      "能解释稳态、进化与适应的关系"
+    ],
+    "diagnostic_question": {
+      "question": "受精卵形成的部位是？",
+      "answer": "输卵管"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.SM.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j045",
+    "name": "植物的生殖与发育",
+    "domain": "生命科学",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第1章 生物的结构与生殖",
+    "type": "conceptual",
+    "description": "浙七下第1章第3节：知道花的主要结构，理解传粉、受精与果实种子的形成，了解种子萌发的条件。",
+    "mastery_criteria": [
+      "能说明生命系统的层次与调节机制",
+      "能解释稳态、进化与适应的关系"
+    ],
+    "diagnostic_question": {
+      "question": "花的主要生殖结构是？",
+      "answer": "雄蕊和雌蕊"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.SM.04",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j046",
+    "name": "微生物的结构与生殖",
+    "domain": "生命科学",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第1章 生物的结构与生殖",
+    "type": "conceptual",
+    "description": "浙七下第1章第4节：知道细菌、真菌、病毒的主要特征，了解微生物在自然界和生活中的作用。",
+    "mastery_criteria": [
+      "能说明生命系统的层次与调节机制",
+      "能解释稳态、进化与适应的关系"
+    ],
+    "diagnostic_question": {
+      "question": "下列生物中属于微生物的是？",
+      "answer": "大肠杆菌（细菌）"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.SM.01",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j047",
+    "name": "走进微观世界",
+    "domain": "物质科学",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第2章 物质的微观结构",
+    "type": "conceptual",
+    "description": "浙七下第2章第1节：知道物质由分子、原子等微粒构成，认识分子、原子的大小与运动，理解扩散现象。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "物质是由什么构成的？",
+      "answer": "分子、原子等微观粒子"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.01",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j048",
+    "name": "建构分子模型",
+    "domain": "物质科学",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第2章 物质的微观结构",
+    "type": "modeling",
+    "description": "浙七下第2章第2节：用模型方法认识分子的结构，知道不同物质分子构成不同，理解分子模型的意义。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "用小球模型表示水分子（H2O），正确的是？",
+      "answer": "两个氢原子和一个氧原子结合"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.01",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j049",
+    "name": "建构原子模型",
+    "domain": "物质科学",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第2章 物质的微观结构",
+    "type": "modeling",
+    "description": "浙七下第2章第3节：知道原子的结构（原子核、电子），原子核由质子和中子构成，理解原子的电中性。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "原子由什么构成？",
+      "answer": "原子核和核外电子"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.01",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j050",
+    "name": "探究物质组成的奥秘",
+    "domain": "物质科学",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第2章 物质的微观结构",
+    "type": "reasoning",
+    "description": "浙七下第2章第4节：知道元素的概念，认识常见元素（氢、氧、碳、铁等）在物质中的存在，理解物质由元素组成。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "元素是？",
+      "answer": "具有相同核电荷数（质子数）的一类原子的总称"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.01",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j051",
+    "name": "用化学式表示物质",
+    "domain": "物质科学",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第2章 物质的微观结构",
+    "type": "conceptual",
+    "description": "浙七下第2章第5节：学会书写和读化学式，知道化学式表示物质组成，能根据化学式判断元素组成与原子个数。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "化学式 H2O 表示的意义是？",
+      "answer": "水由氢元素和氧元素组成，一个水分子含两个氢原子和一个氧原子"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.01",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j052",
+    "name": "质量和密度",
+    "domain": "物质科学",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第3章 物质的特性",
+    "type": "conceptual",
+    "description": "浙七下第3章第1节：理解密度的概念（单位体积物质的质量），掌握密度公式 ρ=m/V，能解释常见密度现象。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "密度是？",
+      "answer": "单位体积物质的质量（ρ=m/V）"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.01",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j053",
+    "name": "物态变化",
+    "domain": "物质科学",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第3章 物质的特性",
+    "type": "conceptual",
+    "description": "浙七下第3章第2节：认识熔化、凝固、汽化、液化、升华、凝华等物态变化及条件，能解释生活中的物态变化现象。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "冰化成水是？",
+      "answer": "熔化（吸热）"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.01",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j054",
+    "name": "物质的变化与性质",
+    "domain": "物质科学",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第3章 物质的特性",
+    "type": "conceptual",
+    "description": "浙七下第3章第3节：区分物理变化与化学变化、物理性质与化学性质，认识化学变化的常见现象。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "下列属于化学变化的是？",
+      "answer": "铁在潮湿空气中生锈"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j055",
+    "name": "探索地球表面",
+    "domain": "地球与宇宙科学",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第4章 我们生活的大地",
+    "type": "conceptual",
+    "description": "浙七下第4章第1节：认识地形类型（山地、丘陵、平原、高原、盆地），知道地形的成因（内力作用与外力作用）。",
+    "mastery_criteria": [
+      "能运用日地月模型解释自然现象",
+      "能说明人类活动与环境问题的关系"
+    ],
+    "diagnostic_question": {
+      "question": "下列属于地形类型的是？",
+      "answer": "山地、高原、平原、盆地、丘陵"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.DQ.01",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j056",
+    "name": "土壤的结构和质地",
+    "domain": "地球与宇宙科学",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第4章 我们生活的大地",
+    "type": "conceptual",
+    "description": "浙七下第4章第2节：知道土壤的组成（矿物质、有机质、水分、空气），认识砂土、壤土、黏土的质地差异。",
+    "mastery_criteria": [
+      "能运用日地月模型解释自然现象",
+      "能说明人类活动与环境问题的关系"
+    ],
+    "diagnostic_question": {
+      "question": "土壤主要由什么组成？",
+      "answer": "矿物质、有机质、水分、空气"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.DQ.01",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j057",
+    "name": "土壤与植物生长",
+    "domain": "地球与宇宙科学",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第4章 我们生活的大地",
+    "type": "reasoning",
+    "description": "浙七下第4章第3节：知道植物根系从土壤吸收水分和养分，理解土壤肥力与植物生长的关系。",
+    "mastery_criteria": [
+      "能运用日地月模型解释自然现象",
+      "能说明人类活动与环境问题的关系"
+    ],
+    "diagnostic_question": {
+      "question": "植物主要通过什么器官从土壤吸收水分和无机盐？",
+      "answer": "根（根尖的根毛区）"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.SM.03",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j058",
+    "name": "保护土壤",
+    "domain": "地球与宇宙科学",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第4章 我们生活的大地",
+    "type": "application",
+    "description": "浙七下第4章第4节：认识水土流失、土壤污染等土壤问题，知道保护土壤的措施。",
+    "mastery_criteria": [
+      "能运用日地月模型解释自然现象",
+      "能说明人类活动与环境问题的关系"
+    ],
+    "diagnostic_question": {
+      "question": "造成水土流失的主要人为原因是？",
+      "answer": "乱砍滥伐、过度放牧、不合理耕作"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.DQ.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j059",
+    "name": "走进制造",
+    "domain": "技术与工程",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第5章 制造技术与工程",
+    "type": "conceptual",
+    "description": "浙七下第5章第1节：了解制造的含义与常见制造方法（成形、切削、连接、装配等），认识材料与工艺。",
+    "mastery_criteria": [
+      "能说明科学与工程的关系",
+      "能按设计、制作、测试、改进的流程完成任务"
+    ],
+    "diagnostic_question": {
+      "question": "「制造」是指？",
+      "answer": "把原材料加工成产品的过程"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.JG.01",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j060",
+    "name": "我们一起来制造",
+    "domain": "技术与工程",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第5章 制造技术与工程",
+    "type": "procedural",
+    "description": "浙七下第5章第2节：经历完整的制造流程（设计—选材—加工—组装—检测），完成一件简单产品并评价改进。",
+    "mastery_criteria": [
+      "能说明科学与工程的关系",
+      "能按设计、制作、测试、改进的流程完成任务"
+    ],
+    "diagnostic_question": {
+      "question": "小组合作制造产品的正确顺序是？",
+      "answer": "明确任务→设计→准备材料工具→加工→组装→检测改进"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.JG.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j061",
+    "name": "感觉世界",
+    "domain": "生命科学",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第1章 对环境的察觉",
+    "type": "conceptual",
+    "description": "浙八上第1章第1节：知道眼、耳、鼻、舌、皮肤等感觉器官及其功能，理解感觉的形成需要刺激与神经传导。",
+    "mastery_criteria": [
+      "能说明生命系统的层次与调节机制",
+      "能解释稳态、进化与适应的关系"
+    ],
+    "diagnostic_question": {
+      "question": "人的五种基本感觉及对应的感觉器官，正确的是？",
+      "answer": "视觉（眼）、听觉（耳）、嗅觉（鼻）、味觉（舌）、触觉（皮肤）"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.SM.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j062",
+    "name": "声与听觉",
+    "domain": "生命科学",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第1章 对环境的察觉",
+    "type": "conceptual",
+    "description": "浙八上第1章第2节：知道声音由物体振动产生，靠介质传播（真空不能传声），理解回声与声速。",
+    "mastery_criteria": [
+      "能说明生命系统的层次与调节机制",
+      "能解释稳态、进化与适应的关系"
+    ],
+    "diagnostic_question": {
+      "question": "声音是由什么产生的？",
+      "answer": "物体振动"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.03",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j063",
+    "name": "声音的特性与应用",
+    "domain": "生命科学",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第1章 对环境的察觉",
+    "type": "conceptual",
+    "description": "浙八上第1章第3节：认识音调（频率）、响度（振幅）、音色三个声音特性，了解超声波、次声波及其应用。",
+    "mastery_criteria": [
+      "能说明生命系统的层次与调节机制",
+      "能解释稳态、进化与适应的关系"
+    ],
+    "diagnostic_question": {
+      "question": "声音的三个特性是？",
+      "answer": "音调、响度、音色"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.03",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j064",
+    "name": "光的反射和折射",
+    "domain": "生命科学",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第1章 对环境的察觉",
+    "type": "conceptual",
+    "description": "浙八上第1章第4节：理解光的反射定律（三线共面、反射角等于入射角）与折射规律，认识平面镜成像的特点。",
+    "mastery_criteria": [
+      "能说明生命系统的层次与调节机制",
+      "能解释稳态、进化与适应的关系"
+    ],
+    "diagnostic_question": {
+      "question": "光的反射定律中，反射角与入射角的关系是？",
+      "answer": "反射角等于入射角"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.03",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j065",
+    "name": "透镜和视觉",
+    "domain": "生命科学",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第1章 对环境的察觉",
+    "type": "conceptual",
+    "description": "浙八上第1章第5节：认识凸透镜、凹透镜的成像特点，知道眼睛的成像原理与近视、远视的矫正。",
+    "mastery_criteria": [
+      "能说明生命系统的层次与调节机制",
+      "能解释稳态、进化与适应的关系"
+    ],
+    "diagnostic_question": {
+      "question": "凸透镜对光线的作用是？",
+      "answer": "会聚作用"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.03",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j066",
+    "name": "力",
+    "domain": "物质科学",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第2章 力与空间探索",
+    "type": "conceptual",
+    "description": "浙八上第2章第1节：知道力的作用效果（改变运动状态、改变形状），力的三要素，重力及其方向，认识力的作用是相互的。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "力的作用效果是？",
+      "answer": "改变物体的运动状态或形状"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.03",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j067",
+    "name": "运动与相互作用",
+    "domain": "物质科学",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第2章 力与空间探索",
+    "type": "conceptual",
+    "description": "浙八上第2章第2节：知道牛顿第一定律（惯性），理解力是改变运动状态的原因而非维持原因，认识二力平衡。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "牛顿第一定律指出，不受力的物体将？",
+      "answer": "保持静止或匀速直线运动状态"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.03",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j068",
+    "name": "压强",
+    "domain": "物质科学",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第2章 力与空间探索",
+    "type": "conceptual",
+    "description": "浙八上第2章第3节：理解压强的概念（压力与受力面积之比），知道增大减小压强的方法，认识液体压强与大气压强。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "压强表示？",
+      "answer": "单位面积上受到的压力"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.03",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j069",
+    "name": "空间探索",
+    "domain": "物质科学",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第2章 力与空间探索",
+    "type": "conceptual",
+    "description": "浙八上第2章第4节：了解火箭发射原理（反冲）、卫星运行与航天发展，知道我国航天成就与空间探索的意义。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "火箭升空的原理是？",
+      "answer": "燃料喷出燃气产生反作用力（反冲）"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.DQ.01",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j070",
+    "name": "电荷与电流",
+    "domain": "物质科学",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第3章 电路探秘",
+    "type": "conceptual",
+    "description": "浙八上第3章第1节：认识摩擦起电、电荷间的相互作用（同种排斥异种吸引），知道电流是电荷的定向移动。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "用丝绸摩擦玻璃棒，玻璃棒带什么电？",
+      "answer": "正电"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.04",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j071",
+    "name": "物质的导电性",
+    "domain": "物质科学",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第3章 电路探秘",
+    "type": "conceptual",
+    "description": "浙八上第3章第2节：区分导体、绝缘体、半导体，知道导体导电的原因（有自由电荷），了解安全用电。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "下列物质中属于半导体的是？",
+      "answer": "硅"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.04",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j072",
+    "name": "电压及其测量",
+    "domain": "物质科学",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第3章 电路探秘",
+    "type": "conceptual",
+    "description": "浙八上第3章第3节：理解电压是使电流流动的原因，知道电压表的使用方法与常见电压值。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "电压的作用是？",
+      "answer": "使电路中的电荷定向移动形成电流"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.04",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j073",
+    "name": "欧姆定律及其应用",
+    "domain": "物质科学",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第3章 电路探秘",
+    "type": "reasoning",
+    "description": "浙八上第3章第4节：掌握欧姆定律 I=U/R，理解电阻的概念，能计算简单电路中的电流、电压、电阻。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "欧姆定律的表达式是？",
+      "answer": "I=U/R"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.04",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j074",
+    "name": "人类家园中的水",
+    "domain": "地球与宇宙科学",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第4章 水与人类",
+    "type": "conceptual",
+    "description": "浙八上第4章第1节：知道水的分布（海洋、冰川、地下水等），水的循环过程，淡水资源的重要性。",
+    "mastery_criteria": [
+      "能运用日地月模型解释自然现象",
+      "能说明人类活动与环境问题的关系"
+    ],
+    "diagnostic_question": {
+      "question": "地球上的水主要分布在？",
+      "answer": "海洋（约占地球总水量的97%）"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.DQ.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j075",
+    "name": "生活中的水溶液",
+    "domain": "地球与宇宙科学",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第4章 水与人类",
+    "type": "conceptual",
+    "description": "浙八上第4章第2节：理解溶液的概念（溶质、溶剂），知道溶解性与饱和溶液，了解溶解度。",
+    "mastery_criteria": [
+      "能运用日地月模型解释自然现象",
+      "能说明人类活动与环境问题的关系"
+    ],
+    "diagnostic_question": {
+      "question": "溶液的特点是？",
+      "answer": "均一、稳定，由溶质和溶剂组成"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.01",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j076",
+    "name": "海洋的探索",
+    "domain": "地球与宇宙科学",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第4章 水与人类",
+    "type": "conceptual",
+    "description": "浙八上第4章第3节：知道海水的主要成分（氯化钠等盐类），了解海水资源的利用与海洋探索。",
+    "mastery_criteria": [
+      "能运用日地月模型解释自然现象",
+      "能说明人类活动与环境问题的关系"
+    ],
+    "diagnostic_question": {
+      "question": "海水又咸又苦，主要含？",
+      "answer": "氯化钠（食盐）等盐类"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.DQ.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j077",
+    "name": "水的浮力",
+    "domain": "地球与宇宙科学",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第4章 水与人类",
+    "type": "reasoning",
+    "description": "浙八上第4章第4节：理解浮力及其方向，掌握阿基米德原理（F浮=G排），能解释物体浮沉条件。",
+    "mastery_criteria": [
+      "能运用日地月模型解释自然现象",
+      "能说明人类活动与环境问题的关系"
+    ],
+    "diagnostic_question": {
+      "question": "浸在液体中的物体受到的浮力方向是？",
+      "answer": "竖直向上"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.03",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j078",
+    "name": "水资源的利用和保护",
+    "domain": "地球与宇宙科学",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第4章 水与人类",
+    "type": "application",
+    "description": "浙八上第4章第5节：知道水资源的短缺与污染问题，树立节约用水和保护水资源的意识。",
+    "mastery_criteria": [
+      "能运用日地月模型解释自然现象",
+      "能说明人类活动与环境问题的关系"
+    ],
+    "diagnostic_question": {
+      "question": "下列属于水资源污染源的是？",
+      "answer": "工业废水排放、农药化肥随水流入、生活污水"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.DQ.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j079",
+    "name": "建筑结构与功能",
+    "domain": "技术与工程",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第5章 建筑结构与工程",
+    "type": "conceptual",
+    "description": "浙八上第5章第1节：认识建筑结构（承重结构、框架结构等），理解结构稳定性的因素与建筑与工程的关系。",
+    "mastery_criteria": [
+      "能说明科学与工程的关系",
+      "能按设计、制作、测试、改进的流程完成任务"
+    ],
+    "diagnostic_question": {
+      "question": "建筑物的主要作用是？",
+      "answer": "提供居住和活动的空间，承受自身与外部荷载"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.JG.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j080",
+    "name": "桥梁的结构与制作",
+    "domain": "技术与工程",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第5章 建筑结构与工程",
+    "type": "reasoning",
+    "description": "浙八上第5章第2节：了解桥梁的类型（梁桥、拱桥、斜拉桥等），分析桥梁结构如何承受荷载，动手制作桥梁模型。",
+    "mastery_criteria": [
+      "能说明科学与工程的关系",
+      "能按设计、制作、测试、改进的流程完成任务"
+    ],
+    "diagnostic_question": {
+      "question": "拱桥（如赵州桥）的主要优点是？",
+      "answer": "用拱形结构把荷载传给桥墩，跨度较大且承重强"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.JG.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j081",
+    "name": "搭建一座简易人行浮桥",
+    "domain": "技术与工程",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第5章 建筑结构与工程",
+    "type": "procedural",
+    "description": "浙八上第5章第3节：经历浮桥的设计与搭建：利用浮力原理，用空瓶等浮材搭桥，测试承重与稳定，完成工程任务。",
+    "mastery_criteria": [
+      "能说明科学与工程的关系",
+      "能按设计、制作、测试、改进的流程完成任务"
+    ],
+    "diagnostic_question": {
+      "question": "用空塑料瓶做浮桥，浮桥能浮在水面靠的是？",
+      "answer": "瓶子排开水受到浮力（浮力等于桥重）"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.JG.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j082",
+    "name": "空气的成分",
+    "domain": "物质科学",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第1章 我们呼吸的空气",
+    "type": "conceptual",
+    "description": "浙八下第1章第1节：知道空气的组成（氮气约78%、氧气约21%、稀有气体、二氧化碳等），会检验氧气与二氧化碳。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "空气中含量最多的气体是？",
+      "answer": "氮气（约78%）"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j083",
+    "name": "燃烧的奥秘",
+    "domain": "物质科学",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第1章 我们呼吸的空气",
+    "type": "reasoning",
+    "description": "浙八下第1章第2节：理解燃烧的条件（可燃物、氧气、达到着火点），灭火的原理，认识爆炸与安全。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "燃烧需要的三个条件是？",
+      "answer": "可燃物、氧气（空气）、温度达到着火点"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j084",
+    "name": "化学反应中物质质量的关系",
+    "domain": "物质科学",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第1章 我们呼吸的空气",
+    "type": "reasoning",
+    "description": "浙八下第1章第3节：掌握质量守恒定律，理解化学反应前后原子种类、数目、质量不变，学会配平简单的化学方程式。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "质量守恒定律的内容是？",
+      "answer": "参加化学反应的各物质的质量总和等于生成的各物质的质量总和"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j085",
+    "name": "保护我们呼吸的空气",
+    "domain": "物质科学",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第1章 我们呼吸的空气",
+    "type": "application",
+    "description": "浙八下第1章第4节：认识空气污染（二氧化硫、氮氧化物、PM2.5等）及其危害，知道防治空气污染的措施。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "下列属于空气污染物的是？",
+      "answer": "二氧化硫、氮氧化物、可吸入颗粒物（PM2.5）"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.DQ.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j086",
+    "name": "天气与气候",
+    "domain": "地球与宇宙科学",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第2章 大气与气候变化",
+    "type": "conceptual",
+    "description": "浙八下第2章第1节：区分天气（短时间）与气候（长时间平均），认识影响气候的因素（纬度、海陆、地形等）。",
+    "mastery_criteria": [
+      "能运用日地月模型解释自然现象",
+      "能说明人类活动与环境问题的关系"
+    ],
+    "diagnostic_question": {
+      "question": "天气与气候的区别是？",
+      "answer": "天气是短时间的阴晴雨雪等，气候是多年平均的状况"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.DQ.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j087",
+    "name": "大气压强",
+    "domain": "地球与宇宙科学",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第2章 大气与气候变化",
+    "type": "conceptual",
+    "description": "浙八下第2章第2节：知道大气压强的存在（马德堡半球实验）、大小（约1.01×10⁵Pa）、随高度变化，认识气压的应用。",
+    "mastery_criteria": [
+      "能运用日地月模型解释自然现象",
+      "能说明人类活动与环境问题的关系"
+    ],
+    "diagnostic_question": {
+      "question": "证明大气压强存在的最著名实验是？",
+      "answer": "马德堡半球实验"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.03",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j088",
+    "name": "大气中的二氧化碳",
+    "domain": "地球与宇宙科学",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第2章 大气与气候变化",
+    "type": "reasoning",
+    "description": "浙八下第2章第3节：知道二氧化碳的性质（密度比空气大、不助燃、使石灰水变浑浊），认识温室效应及其影响。",
+    "mastery_criteria": [
+      "能运用日地月模型解释自然现象",
+      "能说明人类活动与环境问题的关系"
+    ],
+    "diagnostic_question": {
+      "question": "二氧化碳的性质，正确的是？",
+      "answer": "密度比空气大，不能燃烧也不支持燃烧"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j089",
+    "name": "大气圈中氧、碳的循环",
+    "domain": "地球与宇宙科学",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第2章 大气与气候变化",
+    "type": "conceptual",
+    "description": "浙八下第2章第4节：理解光合作用吸收CO2释放O2、呼吸作用吸收O2释放CO2，认识氧循环与碳循环。",
+    "mastery_criteria": [
+      "能运用日地月模型解释自然现象",
+      "能说明人类活动与环境问题的关系"
+    ],
+    "diagnostic_question": {
+      "question": "植物光合作用对大气的影响是？",
+      "answer": "吸收二氧化碳、释放氧气"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.SM.03",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j090",
+    "name": "大气对气候的影响",
+    "domain": "地球与宇宙科学",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第2章 大气与气候变化",
+    "type": "conceptual",
+    "description": "浙八下第2章第5节：认识季风、台风、寒潮等天气现象及其影响，理解大气与气候的关系。",
+    "mastery_criteria": [
+      "能运用日地月模型解释自然现象",
+      "能说明人类活动与环境问题的关系"
+    ],
+    "diagnostic_question": {
+      "question": "我国夏季主要吹什么风？",
+      "answer": "东南季风（来自海洋，带来降水）"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.DQ.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j091",
+    "name": "磁体的磁场",
+    "domain": "物质科学",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第3章 电磁及其应用",
+    "type": "conceptual",
+    "description": "浙八下第3章第1节：知道磁体、磁极（N、S）、磁极间的相互作用，理解磁场的存在与磁感线。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "磁体的磁极是？",
+      "answer": "N极（北极）和S极（南极）"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.04",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j092",
+    "name": "电流的磁场",
+    "domain": "物质科学",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第3章 电磁及其应用",
+    "type": "conceptual",
+    "description": "浙八下第3章第2节：知道奥斯特实验（电流产生磁场）、通电螺线管与电磁铁，理解电磁铁的应用。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "发现电流周围存在磁场的科学家是？",
+      "answer": "奥斯特"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.04",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j093",
+    "name": "电动机及其应用",
+    "domain": "物质科学",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第3章 电磁及其应用",
+    "type": "conceptual",
+    "description": "浙八下第3章第3节：知道电动机的原理（通电线圈在磁场中受力转动），理解换向器的作用与电能的转化。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "电动机的工作原理是？",
+      "answer": "通电导体（线圈）在磁场中受力转动"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.04",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j094",
+    "name": "磁生电",
+    "domain": "物质科学",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第3章 电磁及其应用",
+    "type": "reasoning",
+    "description": "浙八下第3章第4节：知道电磁感应现象（法拉第）、产生感应电流的条件，理解发电机原理。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "发现电磁感应现象的科学家是？",
+      "answer": "法拉第"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.04",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j095",
+    "name": "家庭用电",
+    "domain": "物质科学",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第3章 电磁及其应用",
+    "type": "conceptual",
+    "description": "浙八下第3章第5节：认识家庭电路的组成（火线、零线、保险丝、开关），了解安全用电常识。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "家庭电路的电压和组成部分，正确的是？",
+      "answer": "220V 交流电，火线、零线、保险丝、开关、用电器并联"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.04",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j096",
+    "name": "运动与保健",
+    "domain": "生命科学",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第4章 人体的系统",
+    "type": "conceptual",
+    "description": "浙八下第4章第1节：认识人体的运动系统（骨、关节、骨骼肌），知道运动系统的组成与保健。",
+    "mastery_criteria": [
+      "能说明生命系统的层次与调节机制",
+      "能解释稳态、进化与适应的关系"
+    ],
+    "diagnostic_question": {
+      "question": "人体的运动系统由什么组成？",
+      "answer": "骨、关节、骨骼肌"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.SM.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j097",
+    "name": "食物与消化",
+    "domain": "生命科学",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第4章 人体的系统",
+    "type": "conceptual",
+    "description": "浙八下第4章第2节：认识消化系统的组成（口腔、食道、胃、小肠、大肠等），理解食物在体内的消化与吸收。",
+    "mastery_criteria": [
+      "能说明生命系统的层次与调节机制",
+      "能解释稳态、进化与适应的关系"
+    ],
+    "diagnostic_question": {
+      "question": "食物消化和吸收的主要器官是？",
+      "answer": "小肠"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.SM.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j098",
+    "name": "血液与循环",
+    "domain": "生命科学",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第4章 人体的系统",
+    "type": "conceptual",
+    "description": "浙八下第4章第3节：认识血液的组成（血浆、红细胞、白细胞、血小板）与血液循环，知道心脏和血管的作用。",
+    "mastery_criteria": [
+      "能说明生命系统的层次与调节机制",
+      "能解释稳态、进化与适应的关系"
+    ],
+    "diagnostic_question": {
+      "question": "血液的组成是？",
+      "answer": "血浆和血细胞（红细胞、白细胞、血小板）"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.SM.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j099",
+    "name": "呼吸与排泄",
+    "domain": "生命科学",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第4章 人体的系统",
+    "type": "conceptual",
+    "description": "浙八下第4章第4节：认识呼吸系统的组成与气体交换，知道泌尿系统的功能（肾脏形成尿液），理解排泄的意义。",
+    "mastery_criteria": [
+      "能说明生命系统的层次与调节机制",
+      "能解释稳态、进化与适应的关系"
+    ],
+    "diagnostic_question": {
+      "question": "呼吸系统的主要器官是？",
+      "answer": "肺（气体交换的场所）"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.SM.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j100",
+    "name": "自动控制系统",
+    "domain": "技术与工程",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第5章 控制系统与工程",
+    "type": "conceptual",
+    "description": "浙八下第5章第1节：认识自动控制系统的基本组成（传感器、控制器、执行器），了解它在生活中的应用。",
+    "mastery_criteria": [
+      "能说明科学与工程的关系",
+      "能按设计、制作、测试、改进的流程完成任务"
+    ],
+    "diagnostic_question": {
+      "question": "自动控制系统的基本组成部分是？",
+      "answer": "传感器、控制器、执行器"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.JG.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j101",
+    "name": "设计和制作控制系统",
+    "domain": "技术与工程",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第5章 控制系统与工程",
+    "type": "procedural",
+    "description": "浙八下第5章第2节：经历设计和制作一个简单的控制系统（如光控灯），理解设计—制作—调试的工程流程。",
+    "mastery_criteria": [
+      "能说明科学与工程的关系",
+      "能按设计、制作、测试、改进的流程完成任务"
+    ],
+    "diagnostic_question": {
+      "question": "制作光控灯（有光照自动熄灭）系统，正确的流程是？",
+      "answer": "明确功能→选择传感器→设计电路→制作→调试"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.JG.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j102",
+    "name": "物质的酸碱性",
+    "domain": "物质科学",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第1章 酸碱盐的性质及其变化",
+    "type": "conceptual",
+    "description": "浙九上第1章第1节：会用酸碱指示剂（石蕊、酚酞）判断溶液的酸碱性，知道常见酸、碱及pH的含义。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "检验溶液是不是酸性的常用指示剂是？",
+      "answer": "紫色石蕊试液（遇酸变红）"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j103",
+    "name": "酸的性质及其变化",
+    "domain": "物质科学",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第1章 酸碱盐的性质及其变化",
+    "type": "reasoning",
+    "description": "浙九上第1章第2节：知道常见酸（盐酸、硫酸）的性质：与指示剂、活泼金属、碱、碳酸盐的反应。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "盐酸与大理石（碳酸钙）反应，产生的现象是？",
+      "answer": "产生气泡（二氧化碳），固体逐渐溶解"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j104",
+    "name": "碱的性质及其变化",
+    "domain": "物质科学",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第1章 酸碱盐的性质及其变化",
+    "type": "reasoning",
+    "description": "浙九上第1章第3节：知道常见碱（氢氧化钠、氢氧化钙）的性质：与指示剂、酸、非金属氧化物反应。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "氢氧化钠（NaOH）的俗称是？",
+      "answer": "烧碱（火碱、苛性钠）"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j105",
+    "name": "盐的性质及其变化",
+    "domain": "物质科学",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第1章 酸碱盐的性质及其变化",
+    "type": "reasoning",
+    "description": "浙九上第1章第4节：认识常见盐（氯化钠、碳酸钠、碳酸氢钠）的用途，知道盐与酸、碱、盐的反应规律。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "食盐（氯化钠）的主要用途是？",
+      "answer": "调味、生理盐水、防腐"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j106",
+    "name": "功和机械能",
+    "domain": "物质科学",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第2章 能的转化与能量守恒",
+    "type": "conceptual",
+    "description": "浙九上第2章第1节：理解功的概念（力与沿力方向位移的乘积），认识动能、势能及其转化，知道简单机械省力原理。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "功的计算公式是？",
+      "answer": "W = F × s（力与沿力方向通过距离的乘积）"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.04",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j107",
+    "name": "物体的内能",
+    "domain": "物质科学",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第2章 能的转化与能量守恒",
+    "type": "conceptual",
+    "description": "浙九上第2章第2节：理解内能的概念（物体内部分子动能与势能之和），知道改变内能的两种方式（做功、热传递）。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "内能是指？",
+      "answer": "物体内部所有分子的动能和势能的总和"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.04",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j108",
+    "name": "电能",
+    "domain": "物质科学",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第2章 能的转化与能量守恒",
+    "type": "reasoning",
+    "description": "浙九上第2章第3节：理解电功（W=UIt）与电功率（P=UI），会用P=W/t计算用电量，知道家庭用电计费。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "电功率的公式是？",
+      "answer": "P = UI（电压×电流）"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.04",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j109",
+    "name": "核能",
+    "domain": "物质科学",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第2章 能的转化与能量守恒",
+    "type": "conceptual",
+    "description": "浙九上第2章第4节：知道核能（裂变、聚变）及其利用，认识原子弹、核电站、氢弹的基本原理。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "核能来自？",
+      "answer": "原子核的变化（裂变或聚变释放的能量）"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.04",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j110",
+    "name": "能的转化与能量守恒",
+    "domain": "物质科学",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第2章 能的转化与能量守恒",
+    "type": "reasoning",
+    "description": "浙九上第2章第5节：理解能量转化与守恒定律，会分析常见能量转化过程，树立节能意识。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "能量守恒定律的内容是？",
+      "answer": "能量不会凭空产生或消失，只能从一种形式转化为另一种形式，总量保持不变"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.04",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j111",
+    "name": "神经调节",
+    "domain": "生命科学",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第3章 生命的稳态与调节",
+    "type": "conceptual",
+    "description": "浙九上第3章第1节：知道神经系统的组成（脑、脊髓、神经），理解反射与反射弧，认识条件反射。",
+    "mastery_criteria": [
+      "能说明生命系统的层次与调节机制",
+      "能解释稳态、进化与适应的关系"
+    ],
+    "diagnostic_question": {
+      "question": "神经系统的基本活动方式是？",
+      "answer": "反射"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.SM.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j112",
+    "name": "人体的激素调节",
+    "domain": "生命科学",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第3章 生命的稳态与调节",
+    "type": "conceptual",
+    "description": "浙九上第3章第2节：知道人体主要内分泌腺及其激素（甲状腺激素、胰岛素等），理解激素调节与血糖调节。",
+    "mastery_criteria": [
+      "能说明生命系统的层次与调节机制",
+      "能解释稳态、进化与适应的关系"
+    ],
+    "diagnostic_question": {
+      "question": "胰岛分泌的激素是？",
+      "answer": "胰岛素（降低血糖）"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.SM.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j113",
+    "name": "动物行为和植物的感应性",
+    "domain": "生命科学",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第3章 生命的稳态与调节",
+    "type": "conceptual",
+    "description": "浙九上第3章第3节：认识动物的先天性行为与学习行为，知道植物的向光性、向地性等感应性。",
+    "mastery_criteria": [
+      "能说明生命系统的层次与调节机制",
+      "能解释稳态、进化与适应的关系"
+    ],
+    "diagnostic_question": {
+      "question": "动物的先天性行为（本能）的特点是？",
+      "answer": "生来就有、由遗传决定（如蜜蜂采蜜、婴儿吃奶）"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.SM.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j114",
+    "name": "生命的起源",
+    "domain": "生命科学",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第4章 生命的起源与变化",
+    "type": "conceptual",
+    "description": "浙九上第4章第1节：了解生命起源的主要学说（化学进化说），知道原始地球环境与生命起源的历程。",
+    "mastery_criteria": [
+      "能说明生命系统的层次与调节机制",
+      "能解释稳态、进化与适应的关系"
+    ],
+    "diagnostic_question": {
+      "question": "关于生命起源，目前多数科学家支持的观点是？",
+      "answer": "化学进化说：从无机小分子到有机小分子再到生命，由简单到复杂"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.SM.04",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j115",
+    "name": "生物的进化",
+    "domain": "生命科学",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第4章 生命的起源与变化",
+    "type": "reasoning",
+    "description": "浙九上第4章第2节：知道生物进化的证据（化石、比较解剖、胚胎等）与自然选择学说，理解进化的历程。",
+    "mastery_criteria": [
+      "能说明生命系统的层次与调节机制",
+      "能解释稳态、进化与适应的关系"
+    ],
+    "diagnostic_question": {
+      "question": "生物进化的主要证据是？",
+      "answer": "化石（以及比较解剖学、胚胎学、分子证据）"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.SM.04",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j116",
+    "name": "遗传和变异",
+    "domain": "生命科学",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第4章 生命的起源与变化",
+    "type": "conceptual",
+    "description": "浙九上第4章第3节：知道遗传物质（DNA、基因、染色体）的关系，理解基因控制性状、遗传病与变异。",
+    "mastery_criteria": [
+      "能说明生命系统的层次与调节机制",
+      "能解释稳态、进化与适应的关系"
+    ],
+    "diagnostic_question": {
+      "question": "遗传物质的载体是？",
+      "answer": "染色体（由DNA和蛋白质组成，DNA是主要遗传物质）"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.SM.04",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j117",
+    "name": "认识能源",
+    "domain": "物质科学",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第5章 能源及其利用",
+    "type": "conceptual",
+    "description": "浙九上第5章第1节：知道能源的分类（一次能源、二次能源；可再生能源、不可再生能源），认识常见能源。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "下列属于不可再生能源的是？",
+      "answer": "煤、石油、天然气（化石能源）"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.04",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j118",
+    "name": "能源的利用与开发",
+    "domain": "物质科学",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第5章 能源及其利用",
+    "type": "application",
+    "description": "浙九上第5章第2节：了解能源利用方式（发电、供热、交通）与开发趋势（清洁低碳），树立节能减排意识。",
+    "mastery_criteria": [
+      "能说出物质变化与能的转化的本质",
+      "能用模型或证据解释力、运动与相互作用"
+    ],
+    "diagnostic_question": {
+      "question": "火力发电的能量转化过程是？",
+      "answer": "化学能→热能→机械能→电能"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.04",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j119",
+    "name": "人类对宇宙的认识",
+    "domain": "地球与宇宙科学",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第1章 演化的自然",
+    "type": "conceptual",
+    "description": "浙九下第1章第1节：了解从地心说到日心说的宇宙观发展，认识宇宙由大量星系组成并不断膨胀。",
+    "mastery_criteria": [
+      "能运用日地月模型解释自然现象",
+      "能说明人类活动与环境问题的关系"
+    ],
+    "diagnostic_question": {
+      "question": "提出日心说的科学家是？",
+      "answer": "哥白尼"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.DQ.01",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j120",
+    "name": "太阳系的形成和恒星的演化",
+    "domain": "地球与宇宙科学",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第1章 演化的自然",
+    "type": "conceptual",
+    "description": "浙九下第1章第2节：知道太阳系由星际物质（星云）收缩形成，了解恒星（太阳）的演化历程。",
+    "mastery_criteria": [
+      "能运用日地月模型解释自然现象",
+      "能说明人类活动与环境问题的关系"
+    ],
+    "diagnostic_question": {
+      "question": "太阳系是由什么演化而来的？",
+      "answer": "星际物质（星云）收缩聚积"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.DQ.01",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j121",
+    "name": "地球的演化和生命的起源",
+    "domain": "地球与宇宙科学",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第1章 演化的自然",
+    "type": "conceptual",
+    "description": "浙九下第1章第3节：了解地球的演化历程（约46亿年）与生命起源，知道原始大气与现代大气的区别。",
+    "mastery_criteria": [
+      "能运用日地月模型解释自然现象",
+      "能说明人类活动与环境问题的关系"
+    ],
+    "diagnostic_question": {
+      "question": "地球的年龄大约是？",
+      "answer": "46 亿年"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.SM.04",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j122",
+    "name": "生物的进化",
+    "domain": "地球与宇宙科学",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第1章 演化的自然",
+    "type": "reasoning",
+    "description": "浙九下第1章第4节：理解自然选择学说，知道进化的证据与历程（由简单到复杂、由水生到陆生）。",
+    "mastery_criteria": [
+      "能运用日地月模型解释自然现象",
+      "能说明人类活动与环境问题的关系"
+    ],
+    "diagnostic_question": {
+      "question": "生物进化的总体趋势是？",
+      "answer": "由简单到复杂、由低等到高等、由水生到陆生"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.SM.04",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j123",
+    "name": "遗传与进化",
+    "domain": "地球与宇宙科学",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第1章 演化的自然",
+    "type": "conceptual",
+    "description": "浙九下第1章第5节：知道基因突变、遗传病与人类进化，理解遗传变异是进化的基础。",
+    "mastery_criteria": [
+      "能运用日地月模型解释自然现象",
+      "能说明人类活动与环境问题的关系"
+    ],
+    "diagnostic_question": {
+      "question": "基因突变是指？",
+      "answer": "基因结构的改变（可遗传的变异）"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.SM.04",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j124",
+    "name": "生物与环境的相互关系",
+    "domain": "生命科学",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第2章 生物与环境",
+    "type": "conceptual",
+    "description": "浙九下第2章第1节：知道环境对生物的影响（非生物因素、生物因素）与生物对环境的适应，理解保护色的意义。",
+    "mastery_criteria": [
+      "能说明生命系统的层次与调节机制",
+      "能解释稳态、进化与适应的关系"
+    ],
+    "diagnostic_question": {
+      "question": "影响生物生活的非生物因素包括？",
+      "answer": "光、温度、水、空气、土壤"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.SM.03",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j125",
+    "name": "种群",
+    "domain": "生命科学",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第2章 生物与环境",
+    "type": "conceptual",
+    "description": "浙九下第2章第2节：理解种群的概念（同一地区同种生物个体的集合），知道种群特征（密度、数量变化）。",
+    "mastery_criteria": [
+      "能说明生命系统的层次与调节机制",
+      "能解释稳态、进化与适应的关系"
+    ],
+    "diagnostic_question": {
+      "question": "下列属于一个种群的是？",
+      "answer": "一个池塘中所有的鲫鱼"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.SM.03",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j126",
+    "name": "生物群落",
+    "domain": "生命科学",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第2章 生物与环境",
+    "type": "conceptual",
+    "description": "浙九下第2章第3节：理解群落的概念（一定区域内所有生物种群的总和），认识群落中的种间关系（捕食、竞争、共生）。",
+    "mastery_criteria": [
+      "能说明生命系统的层次与调节机制",
+      "能解释稳态、进化与适应的关系"
+    ],
+    "diagnostic_question": {
+      "question": "群落是指？",
+      "answer": "一定区域内所有生物种群的总和"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.SM.03",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j127",
+    "name": "生态系统的结构和功能",
+    "domain": "生命科学",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第2章 生物与环境",
+    "type": "conceptual",
+    "description": "浙九下第2章第4节：知道生态系统的组成（生产者、消费者、分解者、非生物成分），理解食物链与能量流动。",
+    "mastery_criteria": [
+      "能说明生命系统的层次与调节机制",
+      "能解释稳态、进化与适应的关系"
+    ],
+    "diagnostic_question": {
+      "question": "生态系统的组成，正确的是？",
+      "answer": "生物部分（生产者、消费者、分解者）与非生物部分"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.SM.03",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j128",
+    "name": "生态系统的稳定性",
+    "domain": "生命科学",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第2章 生物与环境",
+    "type": "reasoning",
+    "description": "浙九下第2章第5节：理解生态平衡（生态系统稳定性），知道自我调节能力与限度，认识破坏生态平衡的因素。",
+    "mastery_criteria": [
+      "能说明生命系统的层次与调节机制",
+      "能解释稳态、进化与适应的关系"
+    ],
+    "diagnostic_question": {
+      "question": "生态系统具有一定的自我调节能力，其基础是？",
+      "answer": "营养结构复杂（食物网中的负反馈调节）"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.SM.03",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j129",
+    "name": "健康",
+    "domain": "生命科学",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第3章 人的健康",
+    "type": "conceptual",
+    "description": "浙九下第3章第1节：理解健康的含义（身体、心理、社会适应），知道健康的生活方式。",
+    "mastery_criteria": [
+      "能说明生命系统的层次与调节机制",
+      "能解释稳态、进化与适应的关系"
+    ],
+    "diagnostic_question": {
+      "question": "健康的完整含义是？",
+      "answer": "身体健康、心理健康、良好的社会适应能力"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.SM.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j130",
+    "name": "来自微生物的威胁",
+    "domain": "生命科学",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第3章 人的健康",
+    "type": "conceptual",
+    "description": "浙九下第3章第2节：知道传染病（细菌、病毒等引起）的传播途径与预防措施，了解常见传染病。",
+    "mastery_criteria": [
+      "能说明生命系统的层次与调节机制",
+      "能解释稳态、进化与适应的关系"
+    ],
+    "diagnostic_question": {
+      "question": "传染病流行的三个基本环节是？",
+      "answer": "传染源、传播途径、易感人群"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.SM.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j131",
+    "name": "身体的防卫",
+    "domain": "生命科学",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第3章 人的健康",
+    "type": "conceptual",
+    "description": "浙九下第3章第3节：知道人体免疫的组成（皮肤、吞噬细胞、抗体），区分特异性免疫与非特异性免疫。",
+    "mastery_criteria": [
+      "能说明生命系统的层次与调节机制",
+      "能解释稳态、进化与适应的关系"
+    ],
+    "diagnostic_question": {
+      "question": "人体的第一道防线是？",
+      "answer": "皮肤和黏膜"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.SM.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j132",
+    "name": "非传染性疾病",
+    "domain": "生命科学",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第3章 人的健康",
+    "type": "conceptual",
+    "description": "浙九下第3章第4节：认识心血管疾病、癌症等非传染性疾病的成因与预防，知道健康体检的意义。",
+    "mastery_criteria": [
+      "能说明生命系统的层次与调节机制",
+      "能解释稳态、进化与适应的关系"
+    ],
+    "diagnostic_question": {
+      "question": "下列属于非传染性疾病的是？",
+      "answer": "高血压、冠心病、糖尿病、癌症"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.SM.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j133",
+    "name": "人的运动系统和保健",
+    "domain": "生命科学",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第3章 人的健康",
+    "type": "conceptual",
+    "description": "浙九下第3章第5节：认识运动系统的组成（骨、关节、肌肉）与功能，知道运动保健。",
+    "mastery_criteria": [
+      "能说明生命系统的层次与调节机制",
+      "能解释稳态、进化与适应的关系"
+    ],
+    "diagnostic_question": {
+      "question": "人的运动系统包括？",
+      "answer": "骨、关节、骨骼肌"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.SM.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j134",
+    "name": "健康生活",
+    "domain": "生命科学",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第3章 人的健康",
+    "type": "application",
+    "description": "浙九下第3章第6节：综合运用健康知识，制订健康计划，学会应对常见健康问题。",
+    "mastery_criteria": [
+      "能说明生命系统的层次与调节机制",
+      "能解释稳态、进化与适应的关系"
+    ],
+    "diagnostic_question": {
+      "question": "制订个人健康计划，首先要？",
+      "answer": "了解自己的健康状况，明确要改进的目标"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.SM.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j135",
+    "name": "人类发展与环境问题",
+    "domain": "地球与宇宙科学",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第4章 可持续发展",
+    "type": "conceptual",
+    "description": "浙九下第4章第1节：认识人口增长、资源消耗与环境问题（污染、生态破坏），理解可持续发展的重要性。",
+    "mastery_criteria": [
+      "能运用日地月模型解释自然现象",
+      "能说明人类活动与环境问题的关系"
+    ],
+    "diagnostic_question": {
+      "question": "当前全球面临的主要环境问题包括？",
+      "answer": "全球变暖、臭氧层破坏、酸雨、水体污染、生物多样性锐减"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.DQ.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j136",
+    "name": "能源及其利用",
+    "domain": "地球与宇宙科学",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第4章 可持续发展",
+    "type": "conceptual",
+    "description": "浙九下第4章第2节：知道能源的分类与现状，认识节约能源、开发新能源的意义。",
+    "mastery_criteria": [
+      "能运用日地月模型解释自然现象",
+      "能说明人类活动与环境问题的关系"
+    ],
+    "diagnostic_question": {
+      "question": "下列属于可再生能源的是？",
+      "answer": "水能、风能、太阳能、生物质能"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.WZ.04",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j137",
+    "name": "低碳生活",
+    "domain": "地球与宇宙科学",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第4章 可持续发展",
+    "type": "application",
+    "description": "浙九下第4章第3节：理解低碳生活的含义（减少碳排放），学会在衣食住行中践行低碳。",
+    "mastery_criteria": [
+      "能运用日地月模型解释自然现象",
+      "能说明人类活动与环境问题的关系"
+    ],
+    "diagnostic_question": {
+      "question": "「低碳生活」的核心是？",
+      "answer": "减少二氧化碳等温室气体排放"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.DQ.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
+  },
+  {
+    "id": "cns_j138",
+    "name": "实现可持续发展",
+    "domain": "地球与宇宙科学",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第4章 可持续发展",
+    "type": "application",
+    "description": "浙九下第4章第4节：理解可持续发展的行动（绿色经济、循环利用、生态保护），树立人与自然和谐的观念。",
+    "mastery_criteria": [
+      "能运用日地月模型解释自然现象",
+      "能说明人类活动与环境问题的关系"
+    ],
+    "diagnostic_question": {
+      "question": "循环经济（废物再利用）的核心是？",
+      "answer": "把废弃物作为资源循环利用，减少浪费和污染"
+    },
+    "external": false,
+    "subject": "science",
+    "standards": [
+      {
+        "id": "css-2022:4.DQ.02",
+        "confidence": "inferred",
+        "note": "浙教版/沪科技版该节（课）的常见教学内容。条目是公开转述，不是逐页核对的原文。"
+      }
+    ]
   }
 ]

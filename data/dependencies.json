@@ -30412,5 +30412,989 @@
     "prerequisiteId": "cnc_j252",
     "strength": "hard",
     "reason": "九上读过张养浩《山坡羊·潼关怀古》，本册读他《山坡羊·骊山怀古》：同用《山坡羊》调，同为怀古，一叹兴亡皆苦，一叹奢华成灰。"
+  },
+  {
+    "topicId": "cns_j010",
+    "prerequisiteId": "cns_j009",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「生物的进化」，再学「确定节能小屋的工程问题」。"
+  },
+  {
+    "topicId": "cns_j014",
+    "prerequisiteId": "cns_j013",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「发布节能小屋设计成果」，再学「食物与营养」。"
+  },
+  {
+    "topicId": "cns_j020",
+    "prerequisiteId": "cns_j019",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「青春期保健」，再学「太阳系」。"
+  },
+  {
+    "topicId": "cns_j023",
+    "prerequisiteId": "cns_j022",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「太空探索」，再学「确定火星车的工程问题」。"
+  },
+  {
+    "topicId": "cns_j026",
+    "prerequisiteId": "cns_j025",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「制作火星车」，再学「科学并不神秘」。"
+  },
+  {
+    "topicId": "cns_j031",
+    "prerequisiteId": "cns_j030",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「形形色色的植物」，再学「多姿多彩的动物」。"
+  },
+  {
+    "topicId": "cns_j034",
+    "prerequisiteId": "cns_j033",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「生物多样性」，再学「认识地球」。"
+  },
+  {
+    "topicId": "cns_j037",
+    "prerequisiteId": "cns_j036",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「人类对宇宙的探索」，再学「机械运动」。"
+  },
+  {
+    "topicId": "cns_j041",
+    "prerequisiteId": "cns_j040",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「地球板块的缓慢运动」，再学「认识技术与工程」。"
+  },
+  {
+    "topicId": "cns_j043",
+    "prerequisiteId": "cns_j042",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「像工程师那样实践」，再学「生物体的结构层次」。"
+  },
+  {
+    "topicId": "cns_j045",
+    "prerequisiteId": "cns_j044",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「人和动物的生殖与发育」，再学「植物的生殖与发育」。"
+  },
+  {
+    "topicId": "cns_j046",
+    "prerequisiteId": "cns_j045",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「植物的生殖与发育」，再学「微生物的结构与生殖」。"
+  },
+  {
+    "topicId": "cns_j047",
+    "prerequisiteId": "cns_j046",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「微生物的结构与生殖」，再学「走进微观世界」。"
+  },
+  {
+    "topicId": "cns_j052",
+    "prerequisiteId": "cns_j051",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「用化学式表示物质」，再学「质量和密度」。"
+  },
+  {
+    "topicId": "cns_j055",
+    "prerequisiteId": "cns_j054",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「物质的变化与性质」，再学「探索地球表面」。"
+  },
+  {
+    "topicId": "cns_j059",
+    "prerequisiteId": "cns_j058",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「保护土壤」，再学「走进制造」。"
+  },
+  {
+    "topicId": "cns_j061",
+    "prerequisiteId": "cns_j060",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「我们一起来制造」，再学「感觉世界」。"
+  },
+  {
+    "topicId": "cns_j066",
+    "prerequisiteId": "cns_j065",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「透镜和视觉」，再学「力」。"
+  },
+  {
+    "topicId": "cns_j069",
+    "prerequisiteId": "cns_j068",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「压强」，再学「空间探索」。"
+  },
+  {
+    "topicId": "cns_j070",
+    "prerequisiteId": "cns_j069",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「空间探索」，再学「电荷与电流」。"
+  },
+  {
+    "topicId": "cns_j074",
+    "prerequisiteId": "cns_j073",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「欧姆定律及其应用」，再学「人类家园中的水」。"
+  },
+  {
+    "topicId": "cns_j077",
+    "prerequisiteId": "cns_j076",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「海洋的探索」，再学「水的浮力」。"
+  },
+  {
+    "topicId": "cns_j078",
+    "prerequisiteId": "cns_j077",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「水的浮力」，再学「水资源的利用和保护」。"
+  },
+  {
+    "topicId": "cns_j079",
+    "prerequisiteId": "cns_j078",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「水资源的利用和保护」，再学「建筑结构与功能」。"
+  },
+  {
+    "topicId": "cns_j082",
+    "prerequisiteId": "cns_j081",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「搭建一座简易人行浮桥」，再学「空气的成分」。"
+  },
+  {
+    "topicId": "cns_j085",
+    "prerequisiteId": "cns_j084",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「化学反应中物质质量的关系」，再学「保护我们呼吸的空气」。"
+  },
+  {
+    "topicId": "cns_j086",
+    "prerequisiteId": "cns_j085",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「保护我们呼吸的空气」，再学「天气与气候」。"
+  },
+  {
+    "topicId": "cns_j087",
+    "prerequisiteId": "cns_j086",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「天气与气候」，再学「大气压强」。"
+  },
+  {
+    "topicId": "cns_j088",
+    "prerequisiteId": "cns_j087",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「大气压强」，再学「大气中的二氧化碳」。"
+  },
+  {
+    "topicId": "cns_j090",
+    "prerequisiteId": "cns_j089",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「大气圈中氧、碳的循环」，再学「大气对气候的影响」。"
+  },
+  {
+    "topicId": "cns_j091",
+    "prerequisiteId": "cns_j090",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「大气对气候的影响」，再学「磁体的磁场」。"
+  },
+  {
+    "topicId": "cns_j094",
+    "prerequisiteId": "cns_j093",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「电动机及其应用」，再学「磁生电」。"
+  },
+  {
+    "topicId": "cns_j095",
+    "prerequisiteId": "cns_j094",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「磁生电」，再学「家庭用电」。"
+  },
+  {
+    "topicId": "cns_j096",
+    "prerequisiteId": "cns_j095",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「家庭用电」，再学「运动与保健」。"
+  },
+  {
+    "topicId": "cns_j100",
+    "prerequisiteId": "cns_j099",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「呼吸与排泄」，再学「自动控制系统」。"
+  },
+  {
+    "topicId": "cns_j102",
+    "prerequisiteId": "cns_j101",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「设计和制作控制系统」，再学「物质的酸碱性」。"
+  },
+  {
+    "topicId": "cns_j104",
+    "prerequisiteId": "cns_j103",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「酸的性质及其变化」，再学「碱的性质及其变化」。"
+  },
+  {
+    "topicId": "cns_j105",
+    "prerequisiteId": "cns_j104",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「碱的性质及其变化」，再学「盐的性质及其变化」。"
+  },
+  {
+    "topicId": "cns_j106",
+    "prerequisiteId": "cns_j105",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「盐的性质及其变化」，再学「功和机械能」。"
+  },
+  {
+    "topicId": "cns_j108",
+    "prerequisiteId": "cns_j107",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「物体的内能」，再学「电能」。"
+  },
+  {
+    "topicId": "cns_j109",
+    "prerequisiteId": "cns_j108",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「电能」，再学「核能」。"
+  },
+  {
+    "topicId": "cns_j110",
+    "prerequisiteId": "cns_j109",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「核能」，再学「能的转化与能量守恒」。"
+  },
+  {
+    "topicId": "cns_j111",
+    "prerequisiteId": "cns_j110",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「能的转化与能量守恒」，再学「神经调节」。"
+  },
+  {
+    "topicId": "cns_j114",
+    "prerequisiteId": "cns_j113",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「动物行为和植物的感应性」，再学「生命的起源」。"
+  },
+  {
+    "topicId": "cns_j117",
+    "prerequisiteId": "cns_j116",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「遗传和变异」，再学「认识能源」。"
+  },
+  {
+    "topicId": "cns_j119",
+    "prerequisiteId": "cns_j118",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「能源的利用与开发」，再学「人类对宇宙的认识」。"
+  },
+  {
+    "topicId": "cns_j122",
+    "prerequisiteId": "cns_j121",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「地球的演化和生命的起源」，再学「生物的进化」。"
+  },
+  {
+    "topicId": "cns_j123",
+    "prerequisiteId": "cns_j122",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「生物的进化」，再学「遗传与进化」。"
+  },
+  {
+    "topicId": "cns_j124",
+    "prerequisiteId": "cns_j123",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「遗传与进化」，再学「生物与环境的相互关系」。"
+  },
+  {
+    "topicId": "cns_j129",
+    "prerequisiteId": "cns_j128",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「生态系统的稳定性」，再学「健康」。"
+  },
+  {
+    "topicId": "cns_j132",
+    "prerequisiteId": "cns_j131",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「身体的防卫」，再学「非传染性疾病」。"
+  },
+  {
+    "topicId": "cns_j133",
+    "prerequisiteId": "cns_j132",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「非传染性疾病」，再学「人的运动系统和保健」。"
+  },
+  {
+    "topicId": "cns_j134",
+    "prerequisiteId": "cns_j133",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「人的运动系统和保健」，再学「健康生活」。"
+  },
+  {
+    "topicId": "cns_j135",
+    "prerequisiteId": "cns_j134",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「健康生活」，再学「人类发展与环境问题」。"
+  },
+  {
+    "topicId": "cns_j136",
+    "prerequisiteId": "cns_j135",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「人类发展与环境问题」，再学「能源及其利用」。"
+  },
+  {
+    "topicId": "cns_j137",
+    "prerequisiteId": "cns_j136",
+    "strength": "soft",
+    "reason": "按初中科学的常见教学顺序，先学「能源及其利用」，再学「低碳生活」。"
+  },
+  {
+    "topicId": "cns_j002",
+    "prerequisiteId": "cns_j001",
+    "strength": "hard",
+    "reason": "判断物理变化与化学变化之前，要先会检测物质的性质。"
+  },
+  {
+    "topicId": "cns_j003",
+    "prerequisiteId": "cns_j002",
+    "strength": "hard",
+    "reason": "认识热传递与能量之前，要先知道物质会发生变化并伴随能量。"
+  },
+  {
+    "topicId": "cns_j004",
+    "prerequisiteId": "cns_j003",
+    "strength": "hard",
+    "reason": "从生活中的热进到声与光，都是对能量与运动的初步认识。"
+  },
+  {
+    "topicId": "cns_j005",
+    "prerequisiteId": "cns_j004",
+    "strength": "hard",
+    "reason": "认识生活中的电之前，先有声音与光的能量概念打底。"
+  },
+  {
+    "topicId": "cns_j006",
+    "prerequisiteId": "cns_j005",
+    "strength": "hard",
+    "reason": "认识能源之前，先知道电是日常生活中用到的能量形式。"
+  },
+  {
+    "topicId": "cns_j007",
+    "prerequisiteId": "cns_j006",
+    "strength": "hard",
+    "reason": "从能量转向生命，先认识生物体由细胞构成。"
+  },
+  {
+    "topicId": "cns_j008",
+    "prerequisiteId": "cns_j007",
+    "strength": "hard",
+    "reason": "给生物分类之前，要先知道细胞是生物体的基本单位。"
+  },
+  {
+    "topicId": "cns_j009",
+    "prerequisiteId": "cns_j008",
+    "strength": "hard",
+    "reason": "理解生物进化之前，要先认识多种多样的生物。"
+  },
+  {
+    "topicId": "cns_j011",
+    "prerequisiteId": "cns_j010",
+    "strength": "hard",
+    "reason": "设计方案之前，要先明确工程的问题与需求。"
+  },
+  {
+    "topicId": "cns_j012",
+    "prerequisiteId": "cns_j011",
+    "strength": "hard",
+    "reason": "制作模型之前，要先完成设计与优化。"
+  },
+  {
+    "topicId": "cns_j013",
+    "prerequisiteId": "cns_j012",
+    "strength": "hard",
+    "reason": "发布与改进之前，要先按设计要求完成制作与检验。"
+  },
+  {
+    "topicId": "cns_j015",
+    "prerequisiteId": "cns_j014",
+    "strength": "hard",
+    "reason": "认识脑与协调之前，要先知道食物提供营养。"
+  },
+  {
+    "topicId": "cns_j016",
+    "prerequisiteId": "cns_j015",
+    "strength": "hard",
+    "reason": "综合讨论健康生活方式之前，要先知道营养与脑的功能。"
+  },
+  {
+    "topicId": "cns_j017",
+    "prerequisiteId": "cns_j016",
+    "strength": "hard",
+    "reason": "从新生命走向成熟之前，先有健康生活方式的基础。"
+  },
+  {
+    "topicId": "cns_j018",
+    "prerequisiteId": "cns_j017",
+    "strength": "hard",
+    "reason": "认识青春期变化之前，要先知道个体怎样走向成熟。"
+  },
+  {
+    "topicId": "cns_j019",
+    "prerequisiteId": "cns_j018",
+    "strength": "hard",
+    "reason": "青春期保健之前，要先了解青春期的生理与心理变化。"
+  },
+  {
+    "topicId": "cns_j021",
+    "prerequisiteId": "cns_j020",
+    "strength": "hard",
+    "reason": "认识恒星与星座之前，要先知道太阳系的组成。"
+  },
+  {
+    "topicId": "cns_j022",
+    "prerequisiteId": "cns_j021",
+    "strength": "hard",
+    "reason": "了解太空探索之前，要先知道太阳系与恒星。"
+  },
+  {
+    "topicId": "cns_j024",
+    "prerequisiteId": "cns_j023",
+    "strength": "hard",
+    "reason": "设计火星车方案之前，要先明确火星车的工程问题。"
+  },
+  {
+    "topicId": "cns_j025",
+    "prerequisiteId": "cns_j024",
+    "strength": "hard",
+    "reason": "制作火星车之前，要先比较方案并画出设计图。"
+  },
+  {
+    "topicId": "cns_j014",
+    "prerequisiteId": "cns_j007",
+    "strength": "hard",
+    "reason": "从细胞与生殖进到人体营养，生命主题在六年级两册间衔接。"
+  },
+  {
+    "topicId": "cns_j027",
+    "prerequisiteId": "cns_j026",
+    "strength": "hard",
+    "reason": "学会科学测量之前，先有科学并不神秘、观察现象的基础。"
+  },
+  {
+    "topicId": "cns_j028",
+    "prerequisiteId": "cns_j027",
+    "strength": "hard",
+    "reason": "像科学家那样探究之前，要先会用工具测量。"
+  },
+  {
+    "topicId": "cns_j029",
+    "prerequisiteId": "cns_j028",
+    "strength": "hard",
+    "reason": "用显微镜观察细胞之前，要先经历科学探究的步骤。"
+  },
+  {
+    "topicId": "cns_j030",
+    "prerequisiteId": "cns_j029",
+    "strength": "hard",
+    "reason": "认识形形色色的植物之前，要先知道细胞是生命的基本单位。"
+  },
+  {
+    "topicId": "cns_j031",
+    "prerequisiteId": "cns_j029",
+    "strength": "hard",
+    "reason": "认识多姿多彩的动物之前，要先知道细胞与生命活动。"
+  },
+  {
+    "topicId": "cns_j032",
+    "prerequisiteId": "cns_j031",
+    "strength": "hard",
+    "reason": "给生物分类之前，要先认识动物和植物的主要类群。"
+  },
+  {
+    "topicId": "cns_j033",
+    "prerequisiteId": "cns_j032",
+    "strength": "hard",
+    "reason": "认识生物多样性之前，要先会按特征给生物分类。"
+  },
+  {
+    "topicId": "cns_j035",
+    "prerequisiteId": "cns_j034",
+    "strength": "hard",
+    "reason": "认识太阳系的组成之前，要先认识地球。"
+  },
+  {
+    "topicId": "cns_j036",
+    "prerequisiteId": "cns_j035",
+    "strength": "hard",
+    "reason": "了解人类对宇宙的探索之前，先知道太阳系的成员。"
+  },
+  {
+    "topicId": "cns_j038",
+    "prerequisiteId": "cns_j037",
+    "strength": "hard",
+    "reason": "认识地球的转动之前，先有机械运动中相对运动的概念。"
+  },
+  {
+    "topicId": "cns_j039",
+    "prerequisiteId": "cns_j038",
+    "strength": "hard",
+    "reason": "认识日地月的相对运动之前，要先知道地球的转动。"
+  },
+  {
+    "topicId": "cns_j040",
+    "prerequisiteId": "cns_j039",
+    "strength": "hard",
+    "reason": "认识板块运动之前，要先了解日地月之间的相对运动。"
+  },
+  {
+    "topicId": "cns_j042",
+    "prerequisiteId": "cns_j041",
+    "strength": "hard",
+    "reason": "像工程师那样实践之前，要先认识技术与工程。"
+  },
+  {
+    "topicId": "cns_j044",
+    "prerequisiteId": "cns_j043",
+    "strength": "hard",
+    "reason": "认识人和动物的生殖发育之前，要先知道生物体的结构层次。"
+  },
+  {
+    "topicId": "cns_j045",
+    "prerequisiteId": "cns_j043",
+    "strength": "hard",
+    "reason": "认识植物的生殖发育之前，要先知道生物体的结构层次。"
+  },
+  {
+    "topicId": "cns_j046",
+    "prerequisiteId": "cns_j029",
+    "strength": "hard",
+    "reason": "认识微生物之前，要先知道细胞是生物体的基本单位。"
+  },
+  {
+    "topicId": "cns_j048",
+    "prerequisiteId": "cns_j047",
+    "strength": "hard",
+    "reason": "建构分子模型之前，要先走进微观世界。"
+  },
+  {
+    "topicId": "cns_j049",
+    "prerequisiteId": "cns_j048",
+    "strength": "hard",
+    "reason": "建构原子模型之前，要先认识分子。"
+  },
+  {
+    "topicId": "cns_j050",
+    "prerequisiteId": "cns_j049",
+    "strength": "hard",
+    "reason": "探究物质组成的奥秘之前，要先知道原子的结构。"
+  },
+  {
+    "topicId": "cns_j051",
+    "prerequisiteId": "cns_j050",
+    "strength": "hard",
+    "reason": "用化学式表示物质之前，要先知道元素的概念。"
+  },
+  {
+    "topicId": "cns_j052",
+    "prerequisiteId": "cns_j027",
+    "strength": "hard",
+    "reason": "认识质量和密度之前，要先学会科学测量。"
+  },
+  {
+    "topicId": "cns_j053",
+    "prerequisiteId": "cns_j052",
+    "strength": "hard",
+    "reason": "认识物态变化之前，要先知道质量与密度。"
+  },
+  {
+    "topicId": "cns_j054",
+    "prerequisiteId": "cns_j053",
+    "strength": "hard",
+    "reason": "区分物质的变化与性质之前，先要认识物态变化。"
+  },
+  {
+    "topicId": "cns_j056",
+    "prerequisiteId": "cns_j055",
+    "strength": "hard",
+    "reason": "认识土壤的结构之前，要先了解地球表面。"
+  },
+  {
+    "topicId": "cns_j057",
+    "prerequisiteId": "cns_j056",
+    "strength": "hard",
+    "reason": "认识土壤与植物生长之前，先要知道土壤的结构和质地。"
+  },
+  {
+    "topicId": "cns_j058",
+    "prerequisiteId": "cns_j057",
+    "strength": "hard",
+    "reason": "讨论保护土壤之前，要先知道土壤与植物生长的关系。"
+  },
+  {
+    "topicId": "cns_j060",
+    "prerequisiteId": "cns_j059",
+    "strength": "hard",
+    "reason": "动手制造之前，要先了解制造的基本方法。"
+  },
+  {
+    "topicId": "cns_j062",
+    "prerequisiteId": "cns_j061",
+    "strength": "hard",
+    "reason": "认识声音之前，要先知道感觉世界（听觉）。"
+  },
+  {
+    "topicId": "cns_j063",
+    "prerequisiteId": "cns_j062",
+    "strength": "hard",
+    "reason": "认识声音的特性之前，要先知道声音的产生与传播。"
+  },
+  {
+    "topicId": "cns_j064",
+    "prerequisiteId": "cns_j063",
+    "strength": "hard",
+    "reason": "认识光的反射折射之前，要先会描述声音的特性。"
+  },
+  {
+    "topicId": "cns_j065",
+    "prerequisiteId": "cns_j064",
+    "strength": "hard",
+    "reason": "认识透镜和视觉之前，要先知道光的反射与折射。"
+  },
+  {
+    "topicId": "cns_j067",
+    "prerequisiteId": "cns_j066",
+    "strength": "hard",
+    "reason": "认识运动与相互作用之前，要先知道力。"
+  },
+  {
+    "topicId": "cns_j068",
+    "prerequisiteId": "cns_j067",
+    "strength": "hard",
+    "reason": "认识压强之前，要先会分析力与运动。"
+  },
+  {
+    "topicId": "cns_j069",
+    "prerequisiteId": "cns_j067",
+    "strength": "hard",
+    "reason": "了解空间探索之前，先有运动与相互作用的概念。"
+  },
+  {
+    "topicId": "cns_j070",
+    "prerequisiteId": "cns_j005",
+    "strength": "hard",
+    "reason": "沪六已认识生活中的电，本册进一步学习电荷与电流。"
+  },
+  {
+    "topicId": "cns_j071",
+    "prerequisiteId": "cns_j070",
+    "strength": "hard",
+    "reason": "认识物质的导电性之前，要先知道电荷与电流。"
+  },
+  {
+    "topicId": "cns_j072",
+    "prerequisiteId": "cns_j071",
+    "strength": "hard",
+    "reason": "认识电压之前，要先知道电流与导电性。"
+  },
+  {
+    "topicId": "cns_j073",
+    "prerequisiteId": "cns_j072",
+    "strength": "hard",
+    "reason": "学习欧姆定律之前，要先会测电压和电流。"
+  },
+  {
+    "topicId": "cns_j075",
+    "prerequisiteId": "cns_j074",
+    "strength": "hard",
+    "reason": "认识生活中的水溶液之前，要先知道水的分布。"
+  },
+  {
+    "topicId": "cns_j076",
+    "prerequisiteId": "cns_j075",
+    "strength": "hard",
+    "reason": "了解海洋之前，先会区分溶液与悬浊液。"
+  },
+  {
+    "topicId": "cns_j077",
+    "prerequisiteId": "cns_j074",
+    "strength": "hard",
+    "reason": "认识水的浮力之前，先有水的知识基础。"
+  },
+  {
+    "topicId": "cns_j078",
+    "prerequisiteId": "cns_j074",
+    "strength": "hard",
+    "reason": "讨论水资源保护之前，先要知道水的分布。"
+  },
+  {
+    "topicId": "cns_j080",
+    "prerequisiteId": "cns_j079",
+    "strength": "hard",
+    "reason": "了解桥梁结构之前，要先认识建筑结构与功能。"
+  },
+  {
+    "topicId": "cns_j081",
+    "prerequisiteId": "cns_j080",
+    "strength": "hard",
+    "reason": "搭建浮桥之前，要先会分析桥梁结构。"
+  },
+  {
+    "topicId": "cns_j083",
+    "prerequisiteId": "cns_j082",
+    "strength": "hard",
+    "reason": "认识燃烧之前，要先知道空气的成分。"
+  },
+  {
+    "topicId": "cns_j084",
+    "prerequisiteId": "cns_j083",
+    "strength": "hard",
+    "reason": "学习质量守恒之前，要先认识燃烧这种化学变化。"
+  },
+  {
+    "topicId": "cns_j085",
+    "prerequisiteId": "cns_j082",
+    "strength": "hard",
+    "reason": "讨论保护空气之前，要先知道空气的成分。"
+  },
+  {
+    "topicId": "cns_j087",
+    "prerequisiteId": "cns_j068",
+    "strength": "hard",
+    "reason": "八上已学过压强的概念，本册把它用于大气。"
+  },
+  {
+    "topicId": "cns_j088",
+    "prerequisiteId": "cns_j082",
+    "strength": "hard",
+    "reason": "认识二氧化碳之前，先知道空气的成分。"
+  },
+  {
+    "topicId": "cns_j089",
+    "prerequisiteId": "cns_j088",
+    "strength": "hard",
+    "reason": "认识氧碳循环之前，要先知道二氧化碳的性质。"
+  },
+  {
+    "topicId": "cns_j090",
+    "prerequisiteId": "cns_j086",
+    "strength": "hard",
+    "reason": "认识大气对气候的影响之前，要先区分天气与气候。"
+  },
+  {
+    "topicId": "cns_j092",
+    "prerequisiteId": "cns_j091",
+    "strength": "hard",
+    "reason": "认识电流的磁场之前，要先知道磁体的磁场。"
+  },
+  {
+    "topicId": "cns_j093",
+    "prerequisiteId": "cns_j092",
+    "strength": "hard",
+    "reason": "认识电动机之前，要先知道电流能产生磁场。"
+  },
+  {
+    "topicId": "cns_j094",
+    "prerequisiteId": "cns_j092",
+    "strength": "hard",
+    "reason": "认识磁生电之前，先有电流磁场的基础。"
+  },
+  {
+    "topicId": "cns_j095",
+    "prerequisiteId": "cns_j072",
+    "strength": "hard",
+    "reason": "八上已学过电压的测量，本册用它认识家庭用电。"
+  },
+  {
+    "topicId": "cns_j097",
+    "prerequisiteId": "cns_j096",
+    "strength": "hard",
+    "reason": "认识食物与消化之前，要先知道运动系统。"
+  },
+  {
+    "topicId": "cns_j098",
+    "prerequisiteId": "cns_j097",
+    "strength": "hard",
+    "reason": "认识血液与循环之前，要先知道食物怎样消化。"
+  },
+  {
+    "topicId": "cns_j099",
+    "prerequisiteId": "cns_j098",
+    "strength": "hard",
+    "reason": "认识呼吸与排泄之前，先要知道血液循环。"
+  },
+  {
+    "topicId": "cns_j101",
+    "prerequisiteId": "cns_j100",
+    "strength": "hard",
+    "reason": "设计制作控制系统之前，要先认识自动控制系统。"
+  },
+  {
+    "topicId": "cns_j103",
+    "prerequisiteId": "cns_j102",
+    "strength": "hard",
+    "reason": "认识酸的性质之前，要先会用指示剂判断酸碱性。"
+  },
+  {
+    "topicId": "cns_j104",
+    "prerequisiteId": "cns_j102",
+    "strength": "hard",
+    "reason": "认识碱的性质之前，要先知道物质的酸碱性。"
+  },
+  {
+    "topicId": "cns_j105",
+    "prerequisiteId": "cns_j103",
+    "strength": "hard",
+    "reason": "认识盐的性质之前，先要熟悉酸的性质。"
+  },
+  {
+    "topicId": "cns_j107",
+    "prerequisiteId": "cns_j106",
+    "strength": "hard",
+    "reason": "认识物体的内能之前，先要有功和机械能的概念。"
+  },
+  {
+    "topicId": "cns_j108",
+    "prerequisiteId": "cns_j073",
+    "strength": "hard",
+    "reason": "八上已学过欧姆定律，本册用它认识电能。"
+  },
+  {
+    "topicId": "cns_j109",
+    "prerequisiteId": "cns_j107",
+    "strength": "hard",
+    "reason": "认识核能之前，先要知道物体的内能。"
+  },
+  {
+    "topicId": "cns_j110",
+    "prerequisiteId": "cns_j107",
+    "strength": "hard",
+    "reason": "认识能的转化与守恒之前，先要有内能的概念。"
+  },
+  {
+    "topicId": "cns_j112",
+    "prerequisiteId": "cns_j111",
+    "strength": "hard",
+    "reason": "认识激素调节之前，先要知道神经调节。"
+  },
+  {
+    "topicId": "cns_j113",
+    "prerequisiteId": "cns_j112",
+    "strength": "hard",
+    "reason": "认识动物行为与植物感应性之前，先要会分析激素调节。"
+  },
+  {
+    "topicId": "cns_j115",
+    "prerequisiteId": "cns_j114",
+    "strength": "hard",
+    "reason": "认识生物的进化之前，先要知道生命的起源。"
+  },
+  {
+    "topicId": "cns_j116",
+    "prerequisiteId": "cns_j115",
+    "strength": "hard",
+    "reason": "认识遗传和变异之前，先要理解生物的进化。"
+  },
+  {
+    "topicId": "cns_j118",
+    "prerequisiteId": "cns_j117",
+    "strength": "hard",
+    "reason": "认识能源的利用开发之前，先要知道能源的分类。"
+  },
+  {
+    "topicId": "cns_j120",
+    "prerequisiteId": "cns_j119",
+    "strength": "hard",
+    "reason": "认识太阳系的形成之前，先要知道人类对宇宙的认识历程。"
+  },
+  {
+    "topicId": "cns_j121",
+    "prerequisiteId": "cns_j120",
+    "strength": "hard",
+    "reason": "认识地球演化与生命起源之前，先要知道太阳系的演化。"
+  },
+  {
+    "topicId": "cns_j122",
+    "prerequisiteId": "cns_j115",
+    "strength": "hard",
+    "reason": "九上已学过生物的进化，本册进一步讨论演化的自然。"
+  },
+  {
+    "topicId": "cns_j123",
+    "prerequisiteId": "cns_j116",
+    "strength": "hard",
+    "reason": "认识遗传与进化之前，先要学过遗传和变异。"
+  },
+  {
+    "topicId": "cns_j125",
+    "prerequisiteId": "cns_j124",
+    "strength": "hard",
+    "reason": "认识种群之前，先要知道生物与环境的相互关系。"
+  },
+  {
+    "topicId": "cns_j126",
+    "prerequisiteId": "cns_j125",
+    "strength": "hard",
+    "reason": "认识生物群落之前，先要知道种群。"
+  },
+  {
+    "topicId": "cns_j127",
+    "prerequisiteId": "cns_j126",
+    "strength": "hard",
+    "reason": "认识生态系统的结构与功能之前，先要知道生物群落。"
+  },
+  {
+    "topicId": "cns_j128",
+    "prerequisiteId": "cns_j127",
+    "strength": "hard",
+    "reason": "认识生态系统的稳定性之前，先要知道生态系统的结构。"
+  },
+  {
+    "topicId": "cns_j130",
+    "prerequisiteId": "cns_j129",
+    "strength": "hard",
+    "reason": "认识微生物的威胁之前，先要知道健康的概念。"
+  },
+  {
+    "topicId": "cns_j131",
+    "prerequisiteId": "cns_j130",
+    "strength": "hard",
+    "reason": "认识身体的防卫之前，先要知道微生物对健康的威胁。"
+  },
+  {
+    "topicId": "cns_j132",
+    "prerequisiteId": "cns_j129",
+    "strength": "hard",
+    "reason": "认识非传染性疾病之前，先要有健康的概念。"
+  },
+  {
+    "topicId": "cns_j133",
+    "prerequisiteId": "cns_j096",
+    "strength": "hard",
+    "reason": "八下已学过运动系统，本册进一步谈运动保健。"
+  },
+  {
+    "topicId": "cns_j134",
+    "prerequisiteId": "cns_j132",
+    "strength": "hard",
+    "reason": "综合谈健康生活之前，先要知道非传染性疾病。"
+  },
+  {
+    "topicId": "cns_j136",
+    "prerequisiteId": "cns_j117",
+    "strength": "hard",
+    "reason": "九上已学过能源及其利用，本册再谈能源与环境。"
+  },
+  {
+    "topicId": "cns_j137",
+    "prerequisiteId": "cns_j135",
+    "strength": "hard",
+    "reason": "认识低碳生活之前，先要知道人类发展与环境问题。"
+  },
+  {
+    "topicId": "cns_j138",
+    "prerequisiteId": "cns_j137",
+    "strength": "hard",
+    "reason": "讨论实现可持续发展之前，先要会低碳生活。"
   }
 ]

@@ -413,8 +413,8 @@ def check_topics(topics):
         if subj == "science":
             if str(tid).startswith("cns_p") and g not in (1, 2, 3, 4, 5, 6):
                 err("%s 小学科学 grade 必须是 1–6" % where)
-            elif str(tid).startswith("cns_j") and g not in (7, 8, 9):
-                err("%s 初中科学 grade 必须是 7–9" % where)
+            elif str(tid).startswith("cns_j") and g not in (6, 7, 8, 9):
+                err("%s 初中科学 grade 必须是 6–9（6 为沪科技版五四制六年级，属初中段）" % where)
         if subj == "morality":
             if str(tid).startswith("cnd_p") and g not in (1, 2, 3, 4, 5, 6):
                 err("%s 小学道德与法治 grade 必须是 1–6" % where)

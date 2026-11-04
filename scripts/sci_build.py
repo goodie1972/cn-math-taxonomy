@@ -61,7 +61,8 @@ def dump(name, data):
 
 
 def is_zh_topic_id(tid):
-    return str(tid).startswith("cns_")
+    # 小学科学只维护 cns_p；初中科学（cns_j）由 scripts/sci_jr_build.py 维护。
+    return str(tid).startswith("cns_p")
 
 
 def reaches(adj, src, dst, hard_only):
@@ -195,7 +196,9 @@ def main():
     base_topics = [t for t in topics if not is_zh_topic_id(t.get("id"))]
     base_deps = [e for e in deps if not is_zh_topic_id(e.get("topicId")) and not is_zh_topic_id(e.get("prerequisiteId"))]
     base_questions = [q for q in questions if not is_zh_topic_id(q.get("topicId"))]
-    base_items = [it for it in standards.get("items", []) if not str(it.get("id", "")).startswith("css-")]
+    base_items = [it for it in standards.get("items", [])
+                  if not str(it.get("id", "")).startswith("css-")
+                  or str(it.get("id", "")).startswith("css-2022:4.")]
     if any(is_zh_topic_id(t.get("id")) for t in base_topics):
         print("剥离科学知识点失败", file=sys.stderr)
         return 1
@@ -400,7 +403,8 @@ def main():
         print("原地合并后的先修图与约简结果不一致", file=sys.stderr)
         return 1
     items_out, _ = merge_generated(standards.get("items", []), new_items, lambda i: i["id"],
-                                   lambda i: str(i.get("id", "")).startswith("css-"))
+                                   lambda i: str(i.get("id", "")).startswith("css-")
+                                   and not str(i.get("id", "")).startswith("css-2022:4."))
     standards_out["items"] = items_out
     n_extra = sum(1 for q in questions_out
                   if q["id"] not in gen_qids and is_zh_topic_id(q.get("topicId")))
