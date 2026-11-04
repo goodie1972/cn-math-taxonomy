@@ -88548,5 +88548,1409 @@
         "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
       }
     ]
+  },
+  {
+    "id": "cnc_j209",
+    "name": "字音字形：本册易错读写的字",
+    "domain": "识字写字",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第1单元 活动·探究单元（现代诗）",
+    "type": "procedural",
+    "description": "整理本册课文里最容易读错写错的音与形：谪、汤、淫、霏、汀、偕、滁、壑、辄、蔌、觥、伛偻、暝、拏、毳、凇、沆砀、芥、阙、琼、绮、娉婷、妍、冕、戚、汗等。",
+    "mastery_criteria": [
+      "能读准本册字音并写对易错字形",
+      "能按字义和语境辨析多音字、形近字"
+    ],
+    "diagnostic_question": {
+      "question": "「浩浩汤汤」出自《岳阳楼记》，形容水势浩大，这个词里的「汤」该读什么？",
+      "answer": "读 shāng，不读常音 tāng"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.SZ.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j210",
+    "name": "阅读《沁园春·雪》",
+    "domain": "阅读理解",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第1单元 活动·探究单元（现代诗）",
+    "type": "reasoning",
+    "description": "读毛泽东这首词：上阕写北国雪景，由千里冰封写到山原舞驰，再转入红装素裹的晴日之想；下阕评论历代帝王，最后落到「数风流人物，还看今朝」。词牌是沁园春，题目是雪。",
+    "mastery_criteria": [
+      "能概括主要内容并理清行文思路",
+      "能体会关键语句的情感与写法的作用"
+    ],
+    "diagnostic_question": {
+      "question": "词的上阕写雪景，先大笔勾出「千里冰封，万里雪飘」，再分写长城、大河、山、原，最后的「须晴日」三句又写雪后天晴，层次是怎样安排的？",
+      "answer": "先总写北国雪景的广大，再分写具体的山河与丘陵，最后转入想象中的晴日之景"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.YD.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j211",
+    "name": "阅读《周总理，你在哪里》",
+    "domain": "阅读理解",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第1单元 活动·探究单元（现代诗）",
+    "type": "reasoning",
+    "description": "读柯岩这首抒情诗：诗人以反复的呼唤与回答，让山谷、大地、森林、广场都来作证，写人民寻找总理、怀念总理的深情；全诗在「你在哪里」的追问与「在这里」的应答之间推进。",
+    "mastery_criteria": [
+      "能概括主要内容并理清行文思路",
+      "能体会关键语句的情感与写法的作用"
+    ],
+    "diagnostic_question": {
+      "question": "全诗以「周总理，我们的好总理，你在哪里啊，你在哪里」反复发问，这种反复的作用是什么？",
+      "answer": "把一腔思念一层层推高，并使全诗一节一节有可循的骨架"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.YD.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j212",
+    "name": "阅读《我爱这土地》",
+    "domain": "阅读理解",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第1单元 活动·探究单元（现代诗）",
+    "type": "reasoning",
+    "description": "读艾青这首短诗：假定自己是一只鸟，用嘶哑的喉咙歌唱土地、河流、风与黎明，末了自问自答，说出对土地的爱；诗写于抗日战争初期。",
+    "mastery_criteria": [
+      "能概括主要内容并理清行文思路",
+      "能体会关键语句的情感与写法的作用"
+    ],
+    "diagnostic_question": {
+      "question": "诗开头说「假如我是一只鸟」，这只鸟为什么要用「嘶哑」的喉咙歌唱？",
+      "answer": "唱得持久、唱得竭尽，声音才哑；哑而仍唱，爱得更深"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.YD.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j213",
+    "name": "阅读《乡愁》",
+    "domain": "阅读理解",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第1单元 活动·探究单元（现代诗）",
+    "type": "reasoning",
+    "description": "读余光中这首短诗：四节各取一物——邮票、船票、坟墓、海峡——把少年、青年、壮年的离别逐层放大，最后落到海峡两岸的乡愁。",
+    "mastery_criteria": [
+      "能概括主要内容并理清行文思路",
+      "能体会关键语句的情感与写法的作用"
+    ],
+    "diagnostic_question": {
+      "question": "四节诗各用一件东西作依托，这样选材的好处是什么？",
+      "answer": "把抽象的思念落到可看可触的小物上，一层比一层重"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.YD.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j214",
+    "name": "阅读《你是人间的四月天》",
+    "domain": "阅读理解",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第1单元 活动·探究单元（现代诗）",
+    "type": "reasoning",
+    "description": "读林徽因这首抒情诗：以「人间的四月天」为核心喻体，用云烟、星子、细雨、百花、白莲、月圆一串春日意象，写一种轻盈明净的喜悦；题下另有一行「一句爱的赞颂」。",
+    "mastery_criteria": [
+      "能概括主要内容并理清行文思路",
+      "能体会关键语句的情感与写法的作用"
+    ],
+    "diagnostic_question": {
+      "question": "题下标明「一句爱的赞颂」，全篇却几乎不直说爱，它靠什么把这份赞颂说出来？",
+      "answer": "靠一连串四月里的轻快意象，把情感藏在景物与语气里"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.YD.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j215",
+    "name": "阅读《我看》",
+    "domain": "阅读理解",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第1单元 活动·探究单元（现代诗）",
+    "type": "reasoning",
+    "description": "读穆旦这首早期抒情诗：两节写向晚的春风、青草、飞鸟、流云与大地，再由「哦」转入对生命与时间的感悟，末了愿「让我的呼吸与自然合流」；诗作于 1938 年，选自《穆旦诗文集》。",
+    "mastery_criteria": [
+      "能概括主要内容并理清行文思路",
+      "能体会关键语句的情感与写法的作用"
+    ],
+    "diagnostic_question": {
+      "question": "题目是「我看」，诗中主要看到了什么？",
+      "answer": "春风揉过青草、飞鸟吸入晴空、流云红晕了凝望它的大地——一幅恬静而充满生机的春景"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.YD.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j216",
+    "name": "表达任务：尝试创作",
+    "domain": "习作基础",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第1单元 活动·探究单元（现代诗）",
+    "type": "procedural",
+    "description": "本单元「活动·探究」的落点：读过数首现代诗以后学写诗——找到触发情感的景或事，选取意象承载情绪，用分行与节奏安排呼吸，写完朗读给同学听并据反馈修改。",
+    "mastery_criteria": [
+      "能按写作要求审题立意并选取材料",
+      "能判断段落是否围绕中心、条理是否清楚"
+    ],
+    "diagnostic_question": {
+      "question": "写现代诗前先要找到「触发点」，下面哪一种更适合作为一首诗的起点？",
+      "answer": "一件让自己心里一动、却一下说不清的具体的景或事"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.XZ.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j217",
+    "name": "阅读《培养德智体美劳全面发展的社会主义建设者和接班人》",
+    "domain": "阅读理解",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第2单元 课文·培养德智体美劳全面发展的社会主义建设者和接班人",
+    "type": "reasoning",
+    "description": "读这篇讲话（节选）：开篇提出「培养什么人，是教育的首要问题」，继而阐明我国教育的根本任务是培养德智体美劳全面发展的社会主义建设者和接班人，又从六个「下功夫」和体育、美育、劳动教育、教育评价几方面论述怎样培养人。",
+    "mastery_criteria": [
+      "能概括主要内容并理清行文思路",
+      "能体会关键语句的情感与写法的作用"
+    ],
+    "diagnostic_question": {
+      "question": "文章一开头就说「培养什么人，是教育的首要问题」，这句话在全文里起什么作用？",
+      "answer": "立起全文要回答的根本问题，下文六个「下功夫」都是对它的具体回答"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.YD.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j218",
+    "name": "阅读《中国人失掉自信力了吗》",
+    "domain": "阅读理解",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第2单元 课文·培养德智体美劳全面发展的社会主义建设者和接班人",
+    "type": "reasoning",
+    "description": "读鲁迅这篇驳论文：先摆出对方的论据与论点，指出自夸『地大物博』、寄望国联都不是自信力，一味求神拜佛只是「他信力」与「自欺力」，进而提出「我们有并不失掉自信力的中国人在」，收束于「要自己去看地底下」。",
+    "mastery_criteria": [
+      "能概括主要内容并理清行文思路",
+      "能体会关键语句的情感与写法的作用"
+    ],
+    "diagnostic_question": {
+      "question": "作者为什么说对方所列举的事实「并不能证明中国人失掉了自信力」？",
+      "answer": "因为那些事实恰好证明先前信的是外物（地大物博、国联），本就不是自信力"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.YD.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j219",
+    "name": "阅读《谈骨气》",
+    "domain": "阅读理解",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第2单元 课文·培养德智体美劳全面发展的社会主义建设者和接班人",
+    "type": "reasoning",
+    "description": "读吴晗这篇短文：开篇立下「我们中国人是有骨气的」，引孟子的话为「骨气」作出三个方面的界说，再用文天祥、不食嗟来之食、闻一多三件事例加以证明，末了说明骨气在今天仍有现实意义。",
+    "mastery_criteria": [
+      "能概括主要内容并理清行文思路",
+      "能体会关键语句的情感与写法的作用"
+    ],
+    "diagnostic_question": {
+      "question": "作者一开头就引孟子的「富贵不能淫，贫贱不能移，威武不能屈」，引用在这篇议论里起什么作用？",
+      "answer": "给「骨气」下定义，同时为后文的事例立起可以对应的纲领"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.YD.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j220",
+    "name": "阅读《创造宣言》",
+    "domain": "阅读理解",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第2单元 课文·培养德智体美劳全面发展的社会主义建设者和接班人",
+    "type": "reasoning",
+    "description": "读陶行知这篇演讲式的宣言：先提出「我们要创造」，再批驳「环境太平凡」「生活太单调」「年纪太小」「太无能了」「陷入绝境」五种「不能创造」的说法，得出「处处是创造之地，天天是创造之时，人人是创造之人」，末了呼吁珍惜创造的力量。",
+    "mastery_criteria": [
+      "能概括主要内容并理清行文思路",
+      "能体会关键语句的情感与写法的作用"
+    ],
+    "diagnostic_question": {
+      "question": "作者把五种「不能创造」的说法逐一摆出来再逐一批驳，这种结构属于哪一种？",
+      "answer": "先破后立的驳论：破掉借口，自己的主张才站得住"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.YD.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j221",
+    "name": "写作：观点要明确",
+    "domain": "习作基础",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第2单元 课文·培养德智体美劳全面发展的社会主义建设者和接班人",
+    "type": "procedural",
+    "description": "本单元的写作要求：写议论性文章要先想清楚自己赞成什么、反对什么，开门见山把主张说出来；判断要准确，不模棱两可；观点与材料要对得上，段末不要再改口。",
+    "mastery_criteria": [
+      "能按写作要求审题立意并选取材料",
+      "能判断段落是否围绕中心、条理是否清楚"
+    ],
+    "diagnostic_question": {
+      "question": "「观点要明确」第一条要落实的是哪一步？",
+      "answer": "动笔前先把主张写成一句完整的判断句，知道自己赞成什么、反对什么"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.XZ.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j222",
+    "name": "专题学习活动：君子自强不息",
+    "domain": "阅读理解",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第2单元 课文·培养德智体美劳全面发展的社会主义建设者和接班人",
+    "type": "conceptual",
+    "description": "围绕「自强不息」开展专题学习：追溯「天行健，君子以自强不息」的出处与含义，搜集古今自强不息的名言与人物事迹，采访身边可亲可学的人和事，并整理成讲稿在班里交流。",
+    "mastery_criteria": [
+      "能概括主要内容并理清行文思路",
+      "能体会关键语句的情感与写法的作用"
+    ],
+    "diagnostic_question": {
+      "question": "「天行健，君子以自强不息」这句话通常被用来说明「自强不息」的精神来源，它的出处是哪一部书？",
+      "answer": "《周易》"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.YD.02",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j223",
+    "name": "文言文《岳阳楼记》",
+    "domain": "古诗文积累",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第3单元 文言文·岳阳楼记",
+    "type": "conceptual",
+    "description": "背诵并理解范仲淹这篇「记」：应滕子京之嘱而作，先写洞庭大观，再转写迁客骚人面对阴晴之景的悲喜，最后以「不以物喜，不以己悲」与「先天下之忧而忧，后天下之乐而乐」立论。",
+    "mastery_criteria": [
+      "能默写本册要求背诵的诗文且不错字",
+      "能借助注释解释重点文言词并译出关键句"
+    ],
+    "diagnostic_question": {
+      "question": "「属予作文以记之」中的「属」与「予」解释正确的一项是？",
+      "answer": "「属」通「嘱」，嘱托；「予」是第一人称，我"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.GS.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j224",
+    "name": "文言文《醉翁亭记》",
+    "domain": "古诗文积累",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第3单元 文言文·岳阳楼记",
+    "type": "conceptual",
+    "description": "背诵并理解欧阳修这篇记：自「环滁皆山」层层收到酿泉与亭，写出山间四时之景与滁人游、太守宴的乐，末以「醉能同其乐，醒能述以文」点出太守之乐其乐。",
+    "mastery_criteria": [
+      "能默写本册要求背诵的诗文且不错字",
+      "能借助注释解释重点文言词并译出关键句"
+    ],
+    "diagnostic_question": {
+      "question": "「醉翁之意不在酒，在乎山水之间也」一句中「意」的正确解释是？",
+      "answer": "情趣、意趣"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.GS.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j225",
+    "name": "文言文《湖心亭看雪》",
+    "domain": "古诗文积累",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第3单元 文言文·岳阳楼记",
+    "type": "conceptual",
+    "description": "背诵并理解张岱这篇小品：大雪三日、人鸟声绝之后，更定时分独往湖心亭看雪，以「一痕」「一点」「一芥」「两三粒」白描湖上之影，末借舟子之口说一个「痴」字。",
+    "mastery_criteria": [
+      "能默写本册要求背诵的诗文且不错字",
+      "能借助注释解释重点文言词并译出关键句"
+    ],
+    "diagnostic_question": {
+      "question": "「余拏一小舟，拥毳衣炉火」中「拏」「毳」解释正确的是？",
+      "answer": "「拏」同「桡」之类，此处作牵引、撑（船）解；「毳」指鸟兽的细毛，毳衣即毛皮衣"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.GS.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j226",
+    "name": "古诗《行路难（其一）》",
+    "domain": "古诗文积累",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第3单元 文言文·岳阳楼记",
+    "type": "conceptual",
+    "description": "背诵并理解李白这首乐府旧题之作：从华筵中的停杯拔剑写起，以冰塞黄河、雪拥太行喻前路之阻，再用垂钓碧溪、乘舟梦日两个典故存希望，末以「长风破浪」振起。",
+    "mastery_criteria": [
+      "能默写本册要求背诵的诗文且不错字",
+      "能借助注释解释重点文言词并译出关键句"
+    ],
+    "diagnostic_question": {
+      "question": "「金樽清酒斗十千，玉盘珍羞直万钱」中「羞」「直」二字应解释为？",
+      "answer": "「羞」同「馐」，指美味的食品；「直」同「值」，价值"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.GS.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j227",
+    "name": "古诗《酬乐天扬州初逢席上见赠》",
+    "domain": "古诗文积累",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第3单元 文言文·岳阳楼记",
+    "type": "conceptual",
+    "description": "背诵并理解刘禹锡这首酬答诗：先自叙「二十三年弃置身」的贬谪生涯，再用闻笛、烂柯两个典故写旧友凋零与人事全非，以「沉舟侧畔千帆过，病树前头万木春」回应白居易的赠诗，末回到一杯酒上。",
+    "mastery_criteria": [
+      "能默写本册要求背诵的诗文且不错字",
+      "能借助注释解释重点文言词并译出关键句"
+    ],
+    "diagnostic_question": {
+      "question": "题目中的「酬乐天」应当怎样理解？",
+      "answer": "酬答白居易：白有《醉赠刘二十八使君》一诗相赠，故以此篇作答"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.GS.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j228",
+    "name": "古诗《水调歌头·明月几时有》",
+    "domain": "古诗文积累",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第3单元 文言文·岳阳楼记",
+    "type": "conceptual",
+    "description": "背诵并理解苏轼此词：丙辰中秋欢饮达旦大醉而作，兼怀子由。上阕问月、欲归而恐寒，终以「何似在人间」收住；下阕由月之离合悟人之聚散，末以「但愿人长久，千里共婵娟」寄意。",
+    "mastery_criteria": [
+      "能默写本册要求背诵的诗文且不错字",
+      "能借助注释解释重点文言词并译出关键句"
+    ],
+    "diagnostic_question": {
+      "question": "词前小序「丙辰中秋，欢饮达旦，大醉，作此篇，兼怀子由」中「子由」指的是？",
+      "answer": "苏辙，字子由，是作者的弟弟"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.GS.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j229",
+    "name": "写作：议论要言之有据",
+    "domain": "习作基础",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第3单元 文言文·岳阳楼记",
+    "type": "procedural",
+    "description": "本单元的写作要求：观点要由可靠的根据撑住——事实论据须真实、典型，道理论据须准确并交代出处；材料要与观点相称，不夸大不以偏概全；举例之后要有一步分析，把事理说透。",
+    "mastery_criteria": [
+      "能按写作要求审题立意并选取材料",
+      "能判断段落是否围绕中心、条理是否清楚"
+    ],
+    "diagnostic_question": {
+      "question": "下面四种做法中，哪一种才叫「言之有据」？",
+      "answer": "选真实、典型并能经得起核对的材料，并说明它为什么能证明这个观点"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.XZ.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j230",
+    "name": "古诗《月夜忆舍弟》",
+    "domain": "古诗文积累",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第3单元 文言文·岳阳楼记",
+    "type": "conceptual",
+    "description": "背诵并理解杜甫这首五律：戍鼓声里秋雁初过，白露既白、故乡月明，诸弟分散而无家可问生死，寄书不达又逢战乱未休，忆弟之情与乱世之悲合一。",
+    "mastery_criteria": [
+      "能默写本册要求背诵的诗文且不错字",
+      "能借助注释解释重点文言词并译出关键句"
+    ],
+    "diagnostic_question": {
+      "question": "「露从今夜白，月是故乡明」一联历来传诵，妙处主要在？",
+      "answer": "由白露节的实景说到心理的真实：同一个月，偏觉得故乡的最亮"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.GS.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j231",
+    "name": "古诗《长沙过贾谊宅》",
+    "domain": "古诗文积累",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第3单元 文言文·岳阳楼记",
+    "type": "conceptual",
+    "description": "背诵并理解刘长卿这首七律：过贾谊贬所而寻其宅，秋草寒林、斜日江山，写万古楚客之悲；「汉文有道恩犹薄」由古及今，怜贾谊亦自怜，末以「怜君何事到天涯」作结。",
+    "mastery_criteria": [
+      "能默写本册要求背诵的诗文且不错字",
+      "能借助注释解释重点文言词并译出关键句"
+    ],
+    "diagnostic_question": {
+      "question": "「三年谪宦此栖迟，万古惟留楚客悲」中「楚客」指的是？",
+      "answer": "被贬到楚地的贾谊，兼指后世同样身世飘零的人"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.GS.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j232",
+    "name": "古诗《左迁至蓝关示侄孙湘》",
+    "domain": "古诗文积累",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第3单元 文言文·岳阳楼记",
+    "type": "conceptual",
+    "description": "背诵并理解韩愈这首七律：朝奏夕贬，因谏迎佛骨而远谪潮州；秦岭云横、蓝关雪拥，家与路俱断，末以「好收吾骨瘴江边」付托侄孙，悲愤而不失刚直。",
+    "mastery_criteria": [
+      "能默写本册要求背诵的诗文且不错字",
+      "能借助注释解释重点文言词并译出关键句"
+    ],
+    "diagnostic_question": {
+      "question": "题目里「左迁」的意思是？",
+      "answer": "贬官、降职"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.GS.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j233",
+    "name": "古诗《商山早行》",
+    "domain": "古诗文积累",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第3单元 文言文·岳阳楼记",
+    "type": "conceptual",
+    "description": "背诵并理解温庭筠这首五律：晨起闻车铎而动客愁，鸡声残月、人迹板霜，槲叶满路、枳花照墙，一路早行景色由眼前引到杜陵之梦，羁旅之思自见。",
+    "mastery_criteria": [
+      "能默写本册要求背诵的诗文且不错字",
+      "能借助注释解释重点文言词并译出关键句"
+    ],
+    "diagnostic_question": {
+      "question": "「鸡声茅店月，人迹板桥霜」一联只用六个名词，这样写的好处是？",
+      "answer": "不加说明地并置景物，早行的清寒与辛苦由读者自己拼出"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.GS.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j234",
+    "name": "阅读《故乡》",
+    "domain": "阅读理解",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第4单元 课文·故乡",
+    "type": "reasoning",
+    "description": "读鲁迅这篇小说（收入小说集《呐喊》）：「我」因出售老屋、迁居外地而回到别了二十年的故乡，见到杨二嫂的变化与中年闰土的一声「老爷」，末了在离乡的船上由宏儿与水生的交谊想到「希望」。",
+    "mastery_criteria": [
+      "能概括主要内容并理清行文思路",
+      "能体会关键语句的情感与写法的作用"
+    ],
+    "diagnostic_question": {
+      "question": "小说以「我」回故乡的见闻为线索，中间插入记忆里的少年闰土。这种写法的作用是什么？",
+      "answer": "把二十年前的闰土与眼下的中年闰土并置，人物的变化不必说明便自见"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.YD.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j235",
+    "name": "阅读《我的叔叔于勒》",
+    "domain": "阅读理解",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第4单元 课文·故乡",
+    "type": "reasoning",
+    "description": "读莫泊桑这篇小说：菲利普一家把远走美洲的于勒盼作救星，二姐的婚事也因这封信而定；一家人出游船上，却发现那个卖牡蛎的老水手就是于勒，父亲与母亲立刻换了脸色，躲开他回程。",
+    "mastery_criteria": [
+      "能概括主要内容并理清行文思路",
+      "能体会关键语句的情感与写法的作用"
+    ],
+    "diagnostic_question": {
+      "question": "小说通篇写父母对于勒的态度前后巨变，作者是怎样让这巨变显出来的？",
+      "answer": "用同一封信、同一船上的两次相遇作对照，前倨后恭全凭于勒有没有钱"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.YD.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j236",
+    "name": "阅读《孤独之旅》",
+    "domain": "阅读理解",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第4单元 课文·故乡",
+    "type": "reasoning",
+    "description": "读曹文轩这篇小说（节选自《草房子》）：杜小康家道忽然变故，失学的他跟随父亲到芦荡深处放鸭；芦荡的空旷与无人应答把孤独放大，一场暴风雨里找鸭，让他第一次觉出自己长大了。",
+    "mastery_criteria": [
+      "能概括主要内容并理清行文思路",
+      "能体会关键语句的情感与写法的作用"
+    ],
+    "diagnostic_question": {
+      "question": "小说题目叫「孤独之旅」，文中是怎样把「孤独」写出来的？",
+      "answer": "用望不到边的芦荡、听不见人声的空寂与鸭子长大的细节，把孤独落在景物与事上"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.YD.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j237",
+    "name": "阅读《蒲柳人家（节选）》",
+    "domain": "阅读理解",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第4单元 课文·故乡",
+    "type": "reasoning",
+    "description": "读刘绍棠这篇中篇小说的节选：北运河边的普通农家，六岁的何满子是串故事的线索；奶奶「一丈青大娘」个高脚大、泼辣热心，大闹运河滩；爷爷「何大学问」貌似关公、仗义轻财，又好戴高帽、为孙子请师。",
+    "mastery_criteria": [
+      "能概括主要内容并理清行文思路",
+      "能体会关键语句的情感与写法的作用"
+    ],
+    "diagnostic_question": {
+      "question": "奶奶为什么号称「一丈青大娘」、爷爷为什么号称「何大学问」？",
+      "answer": "奶奶的豪爽泼辣像《水浒传》里的一丈青扈三娘，爷爷爱讲排场、善编故事，乡人以此戏称"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.YD.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j238",
+    "name": "写作：学写小小说",
+    "domain": "习作基础",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第4单元 课文·故乡",
+    "type": "procedural",
+    "description": "本单元的写作要求：学写小小说——立一个有意味的核心事件，人物不宜多；场景要集中，开头尽快进入；用细节与对话显出性格，不作说明式的介绍；结尾可以出人意料，也要能回头站得住。",
+    "mastery_criteria": [
+      "能按写作要求审题立意并选取材料",
+      "能判断段落是否围绕中心、条理是否清楚"
+    ],
+    "diagnostic_question": {
+      "question": "关于小小说的选材，下列哪一条更合要求？",
+      "answer": "取一个能牵出人物命运的片段，宁可小而不散"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.XZ.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j239",
+    "name": "整本书阅读：《简·爱》",
+    "domain": "阅读理解",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第4单元 课文·故乡",
+    "type": "procedural",
+    "description": "通读《简·爱》并做读书笔记：跟踪简·爱由盖茨黑德、洛伍德学校到桑菲尔德庄园的经历，梳理她在依附与自立之间的选择，摘记关键独白，讨论她所说的平等究竟指什么。",
+    "mastery_criteria": [
+      "能概括主要内容并理清行文思路",
+      "能体会关键语句的情感与写法的作用"
+    ],
+    "diagnostic_question": {
+      "question": "把简·爱的成长按地点排一遍，下列顺序正确的是？",
+      "answer": "盖茨黑德舅妈家—洛伍德学校—桑菲尔德庄园做家庭教师—离开后到荒原庄—重回桑菲尔德"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.YD.02",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j240",
+    "name": "阅读《想和做》",
+    "domain": "阅读理解",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第5单元 课文·想和做",
+    "type": "reasoning",
+    "description": "读胡绳这篇议论文：作者把不动脑筋的人分成「空想」与「死做」两班，又以拉磨的牛、学游泳为例，说明想与做互相依存，末尾劝人「一面做，一面想」，做一件事总要「抽点工夫来想一想」。",
+    "mastery_criteria": [
+      "能概括主要内容并理清行文思路",
+      "能体会关键语句的情感与写法的作用"
+    ],
+    "diagnostic_question": {
+      "question": "这篇课文的中心论点是哪一句？",
+      "answer": "想和做是分不开的，一定要联结起来"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.YD.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j241",
+    "name": "阅读《怀疑与学问》",
+    "domain": "阅读理解",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第5单元 课文·想和做",
+    "type": "reasoning",
+    "description": "读顾颉刚这篇议论文：文章引程颐、张载的话立下「学则须疑」的主张，再从「消极方面辨伪去妄」与「积极方面建设新学说、启迪新发明」两层论开，途中举了三皇五帝、腐草为萤、戴震质疑问难等例。",
+    "mastery_criteria": [
+      "能概括主要内容并理清行文思路",
+      "能体会关键语句的情感与写法的作用"
+    ],
+    "diagnostic_question": {
+      "question": "这篇课文的中心论点是什么？",
+      "answer": "治学必须有怀疑的精神"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.YD.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j242",
+    "name": "阅读《就英法联军远征中国致巴特勒上尉的信》",
+    "domain": "阅读理解",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第5单元 课文·想和做",
+    "type": "reasoning",
+    "description": "读雨果这封回信：英法联军攻入北京、劫掠焚毁圆明园之后，巴特勒上尉指望这位法国文豪为远征歌功颂德；雨果先极写圆明园是世界奇迹，再把两个国家称为两个强盗，末尾把希望寄在未来的、干净的法兰西。",
+    "mastery_criteria": [
+      "能概括主要内容并理清行文思路",
+      "能体会关键语句的情感与写法的作用"
+    ],
+    "diagnostic_question": {
+      "question": "这封信的写法，最突出的是下面哪一项？",
+      "answer": "用反语讽刺：把劫掠说成「胜利」，把强盗称为「文明人」"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.YD.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j243",
+    "name": "阅读《精神的三间小屋》",
+    "domain": "阅读理解",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第5单元 课文·想和做",
+    "type": "reasoning",
+    "description": "读毕淑敏这篇散文：作者说人要为自己的精神修三间小屋，第一间盛爱和恨，第二间盛事业，第三间安放自身；末了说小屋建得美观结实之后，还可以增修新舍，矗立精神的大厦。",
+    "mastery_criteria": [
+      "能概括主要内容并理清行文思路",
+      "能体会关键语句的情感与写法的作用"
+    ],
+    "diagnostic_question": {
+      "question": "三间小屋依次盛放的是什么？",
+      "answer": "爱与恨、事业、自身"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.YD.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j244",
+    "name": "写作：论证要合理",
+    "domain": "习作基础",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第5单元 课文·想和做",
+    "type": "procedural",
+    "description": "本单元的写作要求是论证要合理：论点要有明白的界定，论据要与论点相称，推理要合于逻辑，并且能照顾相反的说法，不把话说尽。",
+    "mastery_criteria": [
+      "能按写作要求审题立意并选取材料",
+      "能判断段落是否围绕中心、条理是否清楚"
+    ],
+    "diagnostic_question": {
+      "question": "下面哪一种毛病属于「论据与论点不相称」？",
+      "answer": "论点是「勤能补拙」，论据却举一个人善于向人请教而获益"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.XZ.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j245",
+    "name": "专题学习活动：我们的数字时代",
+    "domain": "阅读理解",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第5单元 课文·想和做",
+    "type": "conceptual",
+    "description": "这一专题以「数字时代的公民」为题展开：借资料夹里的搜索方法、网络安全法规与对人工智能的种种说法，分别做信息检索的「智寻者」、网络安全的「守护者」与观点表达的「思辨者」，中间有搜索示范与小组比赛、写倡议书与自由辩论。",
+    "mastery_criteria": [
+      "能概括主要内容并理清行文思路",
+      "能体会关键语句的情感与写法的作用"
+    ],
+    "diagnostic_question": {
+      "question": "本专题中「智寻者」「守护者」「思辨者」三个名色，依次指的是什么本事？",
+      "answer": "会检索与甄别信息，会守规则与保护自己，会提出观点并回应异议"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.YD.02",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j246",
+    "name": "文言文《曹刿论战》",
+    "domain": "古诗文积累",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第6单元 文言文·曹刿论战",
+    "type": "conceptual",
+    "description": "读《左传》记齐鲁长勺之战这一篇：曹刿请见，先问「何以战」，只肯定鲁庄公「小大之狱，虽不能察，必以情」一条；战中待齐人三鼓而后击，又下视其辙、登轼而望，然后允逐；末了自解「一鼓作气，再而衰，三而竭」。",
+    "mastery_criteria": [
+      "能默写本册要求背诵的诗文且不错字",
+      "能借助注释解释重点文言词并译出关键句"
+    ],
+    "diagnostic_question": {
+      "question": "课文一开头写曹刿请见，理由只是「肉食者鄙，未能远谋」。这八个字在全文起什么作用？",
+      "answer": "立下通篇的筋节：下文所有应对都证明此言不虚"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.GS.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j247",
+    "name": "文言文《邹忌讽齐王纳谏》",
+    "domain": "古诗文积累",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第6单元 文言文·曹刿论战",
+    "type": "conceptual",
+    "description": "读《战国策》这一篇：邹忌身长八尺、形貌昳丽，问妻、妾、客自己与城北徐公谁美，三人皆答其不如；次日熟视徐公，自知远不如，暮寝而思，悟出私、畏、有求三种用心；入朝向齐威王说出「王之蔽甚矣」，王下令纳谏，期年之后无可进者。",
+    "mastery_criteria": [
+      "能默写本册要求背诵的诗文且不错字",
+      "能借助注释解释重点文言词并译出关键句"
+    ],
+    "diagnostic_question": {
+      "question": "「讽」字是这篇的关目。邹忌是怎样「讽」的？",
+      "answer": "先说自己被妻妾客蒙蔽的一件家事，再推到宫妇、朝臣、四境皆有所私于王，比类以见意"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.GS.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j248",
+    "name": "文言文《陈涉世家》",
+    "domain": "古诗文积累",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第6单元 文言文·曹刿论战",
+    "type": "conceptual",
+    "description": "读司马迁《史记》这一篇的节选：陈少时与人佣耕，叹「燕雀安知鸿鹄之志」；与吴广谪戍渔阳，会天大雨失期，法皆斩，遂谋举大计，以「天下苦秦久矣」立论，诈称公子扶苏、项燕，又置书鱼腹、篝火狐鸣，杀两尉而召令徒属，发出「王侯将相宁有种乎」一呼。",
+    "mastery_criteria": [
+      "能默写本册要求背诵的诗文且不错字",
+      "能借助注释解释重点文言词并译出关键句"
+    ],
+    "diagnostic_question": {
+      "question": "陈胜在发动起义时说了两句关键的话：「天下苦秦久矣」与「今亡亦死，举大计亦死」。这两句各说明了什么？",
+      "answer": "前者是起义的根本原因，后者是眼下不得不行的直接处境"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.GS.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j249",
+    "name": "文言文《出师表》",
+    "domain": "古诗文积累",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第6单元 文言文·曹刿论战",
+    "type": "conceptual",
+    "description": "读诸葛亮这篇表文：开篇以「先帝创业未半而中道崩殂」「此诚危急存亡之秋」警策后主，继进开张圣听、赏罚不宜异同、亲贤臣远小人三事，举郭攸之、费祎、董允、向宠以实其言；又自陈「臣本布衣，躬耕于南阳」，感先帝三顾，末以「北定中原，兴复汉室，还于旧都」与「临表涕零，不知所言」作结。",
+    "mastery_criteria": [
+      "能默写本册要求背诵的诗文且不错字",
+      "能借助注释解释重点文言词并译出关键句"
+    ],
+    "diagnostic_question": {
+      "question": "上表论北伐，却不先说兵事，开篇先写「危急存亡之秋」。这样的起法有什么用意？",
+      "answer": "先以形势警醒后主，使其知所惧而后肯听下文所陈"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.GS.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j250",
+    "name": "古诗《十五从军征》",
+    "domain": "古诗文积累",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第6单元 文言文·曹刿论战",
+    "type": "conceptual",
+    "description": "读这首汉乐府：「十五从军征，八十始得归。」路上遇见乡里人，问家中还有谁，答以「遥看是君家，松柏冢累累」。到家则兔入狗窦、雉飞梁上，庭中生旅谷、井上生旅葵；舂谷采葵作羹饭，饭熟却「不知贻阿谁」，出门东望，泪落沾衣。",
+    "mastery_criteria": [
+      "能默写本册要求背诵的诗文且不错字",
+      "能借助注释解释重点文言词并译出关键句"
+    ],
+    "diagnostic_question": {
+      "question": "首二句只用「十五」「八十」两个数字与一个「始」字，为什么分量极重？",
+      "answer": "六十五年一役，「始」字见生还之侥幸，归期与青春同尽"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.GS.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j251",
+    "name": "古诗《白雪歌送武判官归京》",
+    "domain": "古诗文积累",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第6单元 文言文·曹刿论战",
+    "type": "conceptual",
+    "description": "读岑参这首歌行：北风卷地，胡天八月飞雪，「忽如一夜春风来，千树万树梨花开」；雪入罗幕，狐裘不暖，将军金甲夜不脱，瀚海百丈冰而愁云万里凝；中军置酒，胡琴琵琶与羌笛；暮雪下辕门，风掣红旗冻不翻；轮台东门送君去，去时雪满天山路，山回路转不见君，雪上空留马行处。",
+    "mastery_criteria": [
+      "能默写本册要求背诵的诗文且不错字",
+      "能借助注释解释重点文言词并译出关键句"
+    ],
+    "diagnostic_question": {
+      "question": "「忽如一夜春风来，千树万树梨花开」历来称咏雪名句，其妙何在？",
+      "answer": "以春花之繁骤比冬雪之积，既得其形与势，又把苦寒写得有生意"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.GS.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j252",
+    "name": "古诗《南乡子·登京口北固亭有怀》",
+    "domain": "古诗文积累",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第6单元 文言文·曹刿论战",
+    "type": "conceptual",
+    "description": "读辛弃疾这首词：「何处望神州？满眼风光北固楼。千古兴亡多少事？悠悠。不尽长江滚滚流。」「年少万兜鍪，坐断东南战未休。天下英雄谁敌手？曹刘。生子当如孙仲谋。」",
+    "mastery_criteria": [
+      "能默写本册要求背诵的诗文且不错字",
+      "能借助注释解释重点文言词并译出关键句"
+    ],
+    "diagnostic_question": {
+      "question": "此词两处以问句起、以答句收（何处望神州、天下英雄谁敌手），这种自问自答的效果是什么？",
+      "answer": "把一腔不平气逼出为喝问，答语又斩截，读来有笔力"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.GS.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j253",
+    "name": "古诗《过零丁洋》",
+    "domain": "古诗文积累",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第6单元 文言文·曹刿论战",
+    "type": "conceptual",
+    "description": "读文天祥这首七律：「辛苦遭逢起一经，干戈寥落四周星。山河破碎风飘絮，身世浮沉雨打萍。惶恐滩头说惶恐，零丁洋里叹零丁。人生自古谁无死？留取丹心照汗青。」此诗作于兵败被俘、经过零丁洋之时。",
+    "mastery_criteria": [
+      "能默写本册要求背诵的诗文且不错字",
+      "能借助注释解释重点文言词并译出关键句"
+    ],
+    "diagnostic_question": {
+      "question": "首联「辛苦遭逢起一经，干戈寥落四周星」自述的两件事是？",
+      "answer": "以通经选加入仕，与其后起兵抗元、征战四年"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.GS.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j254",
+    "name": "古诗《山坡羊·潼关怀古》",
+    "domain": "古诗文积累",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第6单元 文言文·曹刿论战",
+    "type": "conceptual",
+    "description": "读张养浩这首散曲：「峰峦如聚，波涛如怒，山河表里潼关路。望西都，意踌躇。伤心秦汉经行处，宫阙万间都做了土。兴，百姓苦；亡，百姓苦。」",
+    "mastery_criteria": [
+      "能默写本册要求背诵的诗文且不错字",
+      "能借助注释解释重点文言词并译出关键句"
+    ],
+    "diagnostic_question": {
+      "question": "「峰峦如聚，波涛如怒」两句炼字之妙，下列解说最准确的是？",
+      "answer": "山本静而曰聚，水本无声而曰怒，潼关之险遂有奔涌之声势"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.GS.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j255",
+    "name": "写作：学会深入思考",
+    "domain": "习作基础",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第6单元 文言文·曹刿论战",
+    "type": "procedural",
+    "description": "本单元的写作要求是学会深入思考：不停在表面的现象与流行的说法上，一层层追问原委，辨清概念的边界，换角度与换条件来检验自己的判断，最后把思考的过程按层次写成文字。",
+    "mastery_criteria": [
+      "能按写作要求审题立意并选取材料",
+      "能判断段落是否围绕中心、条理是否清楚"
+    ],
+    "diagnostic_question": {
+      "question": "与「停在表面」相比，「深入思考」首先多做了哪一步？",
+      "answer": "由「是什么」追问到「为什么、凭什么、在什么条件下才成立」"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.XZ.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j256",
+    "name": "整本书阅读：《唐诗三百首》",
+    "domain": "阅读理解",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第6单元 文言文·曹刿论战",
+    "type": "procedural",
+    "description": "这一部唐诗选本由清代蘅塘退士（孙洙）编成，选录唐代诸家诗三百余首，按体裁分为古诗、乐府、律诗、绝句等类，同类中以作者时代为次；编者欲使此书可作家塾诵习之本，故取「诗三百」之意以名其书，世间遂有「熟唐诗三百首，不会作诗也会吟」之说。",
+    "mastery_criteria": [
+      "能概括主要内容并理清行文思路",
+      "能体会关键语句的情感与写法的作用"
+    ],
+    "diagnostic_question": {
+      "question": "这部选本的编排体例，下列说明正确的是哪一项？",
+      "answer": "先按体裁（古诗、乐府、律诗、绝句）分类，各类之中再以作者时代先后为序"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.YD.02",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j257",
+    "name": "古诗《咸阳城东楼》",
+    "domain": "古诗文积累",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第6单元 文言文·曹刿论战",
+    "type": "conceptual",
+    "description": "读许浑这首七律：「一上高城万里愁，蒹葭杨柳似汀洲。溪云初起日沉阁，山雨欲来风满楼。鸟下绿芜秦苑夕，蝉鸣黄叶汉宫秋。行人莫问当年事，故国东来渭水流。」",
+    "mastery_criteria": [
+      "能默写本册要求背诵的诗文且不错字",
+      "能借助注释解释重点文言词并译出关键句"
+    ],
+    "diagnostic_question": {
+      "question": "起句「一上高城万里愁」的笔法，下列分析最贴切的是？",
+      "answer": "一「上」便愁，愁以「万里」言其阔，全篇之情由此一句笼罩"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.GS.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j258",
+    "name": "古诗《无题·相见时难别亦难》",
+    "domain": "古诗文积累",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第6单元 文言文·曹刿论战",
+    "type": "conceptual",
+    "description": "读李商隐这首七律：「相见时难别亦难，东风无力百花残。春蚕到死丝方尽，蜡炬成灰泪始干。晓镜但愁云鬓改，夜吟应觉月光寒。蓬山此去无多路，青鸟殷勤为探看。」",
+    "mastery_criteria": [
+      "能默写本册要求背诵的诗文且不错字",
+      "能借助注释解释重点文言词并译出关键句"
+    ],
+    "diagnostic_question": {
+      "question": "起句连用两个「难」字，其义是否相同？",
+      "answer": "不同：一句话说相会之不易，一说既别则难以为怀，两难相激"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.GS.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j259",
+    "name": "古诗《浣溪沙·漠漠轻寒上小楼》",
+    "domain": "古诗文积累",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第6单元 文言文·曹刿论战",
+    "type": "conceptual",
+    "description": "读秦观这首小令：「漠漠轻寒上小楼，晓阴无赖似穷秋。淡烟流水画屏幽。」「自在飞花轻似梦，无边丝雨细如愁。宝帘闲挂小银钩。」全词只写春晓登楼的一片闲愁，不说愁之所为。",
+    "mastery_criteria": [
+      "能默写本册要求背诵的诗文且不错字",
+      "能借助注释解释重点文言词并译出关键句"
+    ],
+    "diagnostic_question": {
+      "question": "这首词通篇不道愁之缘由，这样写的好处是什么？",
+      "answer": "只以轻寒、晓阴、淡烟、飞花、丝雨布置其境，读者先感其情，不必先知其事"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.GS.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
+  },
+  {
+    "id": "cnc_j260",
+    "name": "古诗《丑奴儿·书博山道中壁》",
+    "domain": "古诗文积累",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第6单元 文言文·曹刿论战",
+    "type": "conceptual",
+    "description": "读辛弃疾这首词：「少年不识愁滋味，爱上层楼。爱上层楼，为赋新词强说愁。」「而今识尽愁滋味，欲说还休。欲说还休，却道天凉好个秋。」此词题于博山道中之壁，作于作者闲居之时。",
+    "mastery_criteria": [
+      "能默写本册要求背诵的诗文且不错字",
+      "能借助注释解释重点文言词并译出关键句"
+    ],
+    "diagnostic_question": {
+      "question": "上片「为赋新词强说愁」与下片「欲说还休」相对，写出的是什么？",
+      "answer": "少年之愁出于模仿、无事可据，而今真有所愁，反说不出口"
+    },
+    "external": false,
+    "subject": "chinese",
+    "standards": [
+      {
+        "id": "ccs-2022:4.GS.01",
+        "confidence": "inferred",
+        "note": "统编版初中语文该册按 2024—2026 修订目录（逐册双源核对，见 _scratch/junior_toc/zh_junior.json）一课一点；课文内容的表述按教材通行本，未逐页核对课本原文。"
+      }
+    ]
   }
 ]
