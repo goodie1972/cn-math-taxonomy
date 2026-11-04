@@ -9,11 +9,11 @@
   - physics：9 册（八上 八下 九全 必修一 必修二 必修三 选必一 选必二 选必三） ｜ origin=native status=verified ｜ 初中按人教版（2024/2025 修订）八上、八下、九全到节（scripts/phy_build.py）；高中按人教版 2019 审定必修一二三、选必一二三，印次未逐册核对（scripts/phy_hs_build.py）。
   - geography：4 册（七上 七下 八上 八下） ｜ origin=native status=verified ｜ 七上~八下按 2024 审定人教版目录（scripts/geo_build.py、scripts/geo_lib.py）。
 
-## cn_tongbian | 统编版 | native | 通用 | 共 786 点
+## cn_tongbian | 统编版 | native | 通用 | 共 853 点
 - note: 本项目的知识点池子就是按这套教材的目录编排的，所以该学科全量挂载。语文、历史、道德与法治全国统编，上海同样用这套。
   - chinese：12 册（一上 一下 二上 二下 三上 三下 四上 四下 五上 五下 六上 六下） ｜ origin=native status=verified ｜ 一上~六下按统编教材 2024~2026 修订目录逐课覆盖（scripts/zh_build.py）。
   - history：6 册（七上 七下 八上 八下 九上 九下） ｜ origin=native status=verified ｜ 七上~九下按统编《中国历史》2024~2026 修订目录；九下修订目录未上线，暂按现行统编（scripts/his_build.py）。
-  - morality：12 册（一上 一下 二上 二下 三上 三下 四上 四下 五上 五下 六上 六下） ｜ origin=native status=verified ｜ 一上~六下按统编《道德与法治》2024~2026 修订目录；四下、五下、六下按现行统编（scripts/mor_build.py）。
+  - morality：18 册（一上 一下 二上 二下 三上 三下 四上 四下 五上 五下 六上 六下 七上 七下 八上 八下 九上 九下） ｜ origin=native status=verified ｜ 一上~六下按统编《道德与法治》2024~2026 修订目录；四下、五下、六下按现行统编。七上~九下按统编初中目录逐课建点（`cnd_j*`，scripts/mor_g7.py ~ mor_g9.py），九上按 2026 秋修订目录、九下修订版未出版故按现行 2018 年 12 月第 1 版（scripts/mor_build.py）。
 
 ## cn_jiaoke | 教科版 | native | 六三制 | 共 222 点
 - note: 本项目的知识点池子就是按这套教材的目录编排的，所以该学科全量挂载。教育科学出版社《科学》，小学科学的主流版本。

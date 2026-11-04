@@ -81123,5 +81123,1814 @@
         "note": "人教版该课的常见教学内容。条目是公开转述，不是逐页核对的原文。"
       }
     ]
+  },
+  {
+    "id": "cnd_j001",
+    "name": "开启初中生活",
+    "domain": "学校生活",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第1单元 少年有梦",
+    "type": "conceptual",
+    "description": "认识初中生活的新变化，主动适应新环境并学会规划自己的学习与生活。",
+    "mastery_criteria": [
+      "能说明中学阶段学习规划与集体生活的要求",
+      "能针对具体情境提出做法并说明理由"
+    ],
+    "diagnostic_question": {
+      "question": "进入初中，我们的身份和生活方式都发生了变化。下列认识正确的是？",
+      "answer": "初中是我们生命成长的新阶段，需要主动适应"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.XX.01",
+        "confidence": "inferred",
+        "note": "统编版七年级上册按 2024 秋修订目录（4 单元 13 课），旧版为 4 单元 10 课；目录经扫描 PDF 与教研站多源核对。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j002",
+    "name": "正确认识自我",
+    "domain": "生活与安全",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第1单元 少年有梦",
+    "type": "conceptual",
+    "description": "通过自我评价与他人评价认识自己，理性对待别人的看法，主动改正缺点、做更好的自己。",
+    "mastery_criteria": [
+      "能说出青春期身心发展与自我保护的基本要求",
+      "能在具体情境中判断行为后果并作出正确选择"
+    ],
+    "diagnostic_question": {
+      "question": "认识自己的途径包括？",
+      "answer": "通过自我评价、他人评价，也在集体和实践中认识自己"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.LS.02",
+        "confidence": "inferred",
+        "note": "统编版七年级上册按 2024 秋修订目录（4 单元 13 课），旧版为 4 单元 10 课；目录经扫描 PDF 与教研站多源核对。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j003",
+    "name": "梦想始于当下",
+    "domain": "学校生活",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第1单元 少年有梦",
+    "type": "reasoning",
+    "description": "理解少年梦想与个人目标、时代发展的联系，懂得梦想靠当下的学习和努力来实现。",
+    "mastery_criteria": [
+      "能说明中学阶段学习规划与集体生活的要求",
+      "能针对具体情境提出做法并说明理由"
+    ],
+    "diagnostic_question": {
+      "question": "“做有梦想的少年”，少年梦想的特点是？",
+      "answer": "与个人的人生目标紧密相连，也与时代的脉搏紧密相连"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.XX.01",
+        "confidence": "inferred",
+        "note": "统编版七年级上册按 2024 秋修订目录（4 单元 13 课），旧版为 4 单元 10 课；目录经扫描 PDF 与教研站多源核对。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j004",
+    "name": "幸福和睦的家庭",
+    "domain": "家庭与亲情",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第2单元 成长的时空",
+    "type": "conceptual",
+    "description": "理解家的意味，主动承担家庭责任，用沟通和理解化解家庭矛盾、让家更美好。",
+    "mastery_criteria": [
+      "能理解家的意义并说明自己承担家庭责任的方式",
+      "能用沟通与换位思考处理家庭或师生矛盾"
+    ],
+    "diagnostic_question": {
+      "question": "“家的意味”告诉我们，家最重要的是？",
+      "answer": "家是身心的寄居之所，更是血脉相连、充满温暖的生活共同体"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.JT.01",
+        "confidence": "inferred",
+        "note": "统编版七年级上册按 2024 秋修订目录（4 单元 13 课），旧版为 4 单元 10 课；目录经扫描 PDF 与教研站多源核对。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j005",
+    "name": "和谐的师生关系",
+    "domain": "学校生活",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第2单元 成长的时空",
+    "type": "application",
+    "description": "承认老师风格的差异并发现其长处，尊重老师、把握沟通时机，理解教学相长。",
+    "mastery_criteria": [
+      "能说明中学阶段学习规划与集体生活的要求",
+      "能针对具体情境提出做法并说明理由"
+    ],
+    "diagnostic_question": {
+      "question": "不同老师的讲课风格不一样，正确的态度是？",
+      "answer": "承认差异，发现不同风格老师的长处，主动适应"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.XX.01",
+        "confidence": "inferred",
+        "note": "统编版七年级上册按 2024 秋修订目录（4 单元 13 课），旧版为 4 单元 10 课；目录经扫描 PDF 与教研站多源核对。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j006",
+    "name": "友谊之树常青",
+    "domain": "社会规则",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第2单元 成长的时空",
+    "type": "reasoning",
+    "description": "理解友谊是平等双向的关系，学会交友的智慧，懂得友谊需要原则、也能与竞争共处。",
+    "mastery_criteria": [
+      "能说明规则、道德与法律在社会生活中的作用",
+      "能评价社会现象并作出负责任的选择"
+    ],
+    "diagnostic_question": {
+      "question": "“友谊的真谛”在于？",
+      "answer": "友谊是平等、双向的亲密关系，超越物质与功利"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.SH.01",
+        "confidence": "inferred",
+        "note": "统编版七年级上册按 2024 秋修订目录（4 单元 13 课），旧版为 4 单元 10 课；目录经扫描 PDF 与教研站多源核对。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j007",
+    "name": "在集体中成长",
+    "domain": "学校生活",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第2单元 成长的时空",
+    "type": "application",
+    "description": "理解集体对个人成长的作用，遵守共同规则、承担班级事务，把小群体融入集体。",
+    "mastery_criteria": [
+      "能说明中学阶段学习规划与集体生活的要求",
+      "能针对具体情境提出做法并说明理由"
+    ],
+    "diagnostic_question": {
+      "question": "“集体生活成就我”，集体对个人的作用是？",
+      "answer": "提供安全感和归属感，培养责任感与交往能力"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.XX.01",
+        "confidence": "inferred",
+        "note": "统编版七年级上册按 2024 秋修订目录（4 单元 13 课），旧版为 4 单元 10 课；目录经扫描 PDF 与教研站多源核对。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j008",
+    "name": "生命可贵",
+    "domain": "生活与安全",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第3单元 珍爱我们的生命",
+    "type": "conceptual",
+    "description": "认识生命的独特、不可逆与有限，敬畏生命、关怀他人生命，理解生命价值不只在长度。",
+    "mastery_criteria": [
+      "能说出青春期身心发展与自我保护的基本要求",
+      "能在具体情境中判断行为后果并作出正确选择"
+    ],
+    "diagnostic_question": {
+      "question": "“认识生命”：生命的特点是？",
+      "answer": "生命是独特的、不可逆转的，也是有限的"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.LS.01",
+        "confidence": "inferred",
+        "note": "统编版七年级上册按 2024 秋修订目录（4 单元 13 课），旧版为 4 单元 10 课；目录经扫描 PDF 与教研站多源核对。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j009",
+    "name": "守护生命安全",
+    "domain": "生活与安全",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第3单元 珍爱我们的生命",
+    "type": "procedural",
+    "description": "增强安全意识，掌握火灾、人身威胁等情境中的自救与求助方法。",
+    "mastery_criteria": [
+      "能说出青春期身心发展与自我保护的基本要求",
+      "能在具体情境中判断行为后果并作出正确选择"
+    ],
+    "diagnostic_question": {
+      "question": "“增强安全意识”：下列行为存在安全隐患的是？",
+      "answer": "在楼梯扶手上滑行下楼"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.LS.01",
+        "confidence": "inferred",
+        "note": "统编版七年级上册按 2024 秋修订目录（4 单元 13 课），旧版为 4 单元 10 课；目录经扫描 PDF 与教研站多源核对。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j010",
+    "name": "保持身心健康",
+    "domain": "生活与安全",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第3单元 珍爱我们的生命",
+    "type": "application",
+    "description": "爱护身体、滋养心灵，理解健康的完整含义，学会面对挫折时调节身心。",
+    "mastery_criteria": [
+      "能说出青春期身心发展与自我保护的基本要求",
+      "能在具体情境中判断行为后果并作出正确选择"
+    ],
+    "diagnostic_question": {
+      "question": "“爱护身体”，下列做法正确的是？",
+      "answer": "规律作息、均衡饮食、坚持锻炼"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.LS.01",
+        "confidence": "inferred",
+        "note": "统编版七年级上册按 2024 秋修订目录（4 单元 13 课），旧版为 4 单元 10 课；目录经扫描 PDF 与教研站多源核对。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j011",
+    "name": "确立人生目标",
+    "domain": "生活与安全",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第4单元 追求美好人生",
+    "type": "reasoning",
+    "description": "理解人生目标对当下的引导作用，把个人兴趣、能力与社会需要结合起来树立目标。",
+    "mastery_criteria": [
+      "能说出青春期身心发展与自我保护的基本要求",
+      "能在具体情境中判断行为后果并作出正确选择"
+    ],
+    "diagnostic_question": {
+      "question": "“探问人生目标”：人生目标的意义在于？",
+      "answer": "为人生指明方向，让每天的努力有持续的动力"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.LS.02",
+        "confidence": "inferred",
+        "note": "统编版七年级上册按 2024 秋修订目录（4 单元 13 课），旧版为 4 单元 10 课；目录经扫描 PDF 与教研站多源核对。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j012",
+    "name": "端正人生态度",
+    "domain": "生活与安全",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第4单元 追求美好人生",
+    "type": "application",
+    "description": "以积极态度面对生活，正确对待顺境与逆境，在磨砺中自强不息。",
+    "mastery_criteria": [
+      "能说出青春期身心发展与自我保护的基本要求",
+      "能在具体情境中判断行为后果并作出正确选择"
+    ],
+    "diagnostic_question": {
+      "question": "“拥有积极的人生态度”表现为？",
+      "answer": "面对困难主动想办法，看到生活中的可能性"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.LS.02",
+        "confidence": "inferred",
+        "note": "统编版七年级上册按 2024 秋修订目录（4 单元 13 课），旧版为 4 单元 10 课；目录经扫描 PDF 与教研站多源核对。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j013",
+    "name": "实现人生价值",
+    "domain": "社会规则",
+    "grade": 7,
+    "semester": "上",
+    "chapter": "七年级上册 第4单元 追求美好人生",
+    "type": "reasoning",
+    "description": "理解人生价值在劳动与奉献中创造，在平凡岗位上同样可以实现价值。",
+    "mastery_criteria": [
+      "能说明规则、道德与法律在社会生活中的作用",
+      "能评价社会现象并作出负责任的选择"
+    ],
+    "diagnostic_question": {
+      "question": "“在劳动中创造人生价值”告诉我们？",
+      "answer": "人生价值是在诚实劳动和具体创造中实现的"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.SH.03",
+        "confidence": "inferred",
+        "note": "统编版七年级上册按 2024 秋修订目录（4 单元 13 课），旧版为 4 单元 10 课；目录经扫描 PDF 与教研站多源核对。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j014",
+    "name": "青春正当时",
+    "domain": "生活与安全",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第1单元 珍惜青春时光",
+    "type": "conceptual",
+    "description": "正视青春期身心变化，正确看待性别差异，学会在网络与现实中自我保护。",
+    "mastery_criteria": [
+      "能说出青春期身心发展与自我保护的基本要求",
+      "能在具体情境中判断行为后果并作出正确选择"
+    ],
+    "diagnostic_question": {
+      "question": "“青春的邀约”：对待青春期身心变化的正确态度是？",
+      "answer": "正视变化、悦纳自己，通过锻炼和良好习惯促进发育"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.LS.01",
+        "confidence": "inferred",
+        "note": "统编版七年级下册按 2025 春修订目录（4 单元 11 课），旧版为 4 单元 10 课；新增第三单元「传承中华优秀传统文化」，第四单元补入民法典与违法犯罪内容。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j015",
+    "name": "做情绪情感的主人",
+    "domain": "生活与安全",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第1单元 珍惜青春时光",
+    "type": "application",
+    "description": "认识情绪的作用与特点，学会调节情绪，区分情绪与情感并品味美好情感。",
+    "mastery_criteria": [
+      "能说出青春期身心发展与自我保护的基本要求",
+      "能在具体情境中判断行为后果并作出正确选择"
+    ],
+    "diagnostic_question": {
+      "question": "“揭开情绪的面纱”：情绪的作用包括？",
+      "answer": "影响我们的观念和行动，可能激励也可能阻碍"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.LS.01",
+        "confidence": "inferred",
+        "note": "统编版七年级下册按 2025 春修订目录（4 单元 11 课），旧版为 4 单元 10 课；新增第三单元「传承中华优秀传统文化」，第四单元补入民法典与违法犯罪内容。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j016",
+    "name": "人贵自尊",
+    "domain": "生活与安全",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第2单元 焕发青春活力",
+    "type": "conceptual",
+    "description": "理解自尊是自己尊重自己、维护人格并知错能改，既不向人卑躬屈膝也不允许别人歧视侮辱。",
+    "mastery_criteria": [
+      "能说出青春期身心发展与自我保护的基本要求",
+      "能在具体情境中判断行为后果并作出正确选择"
+    ],
+    "diagnostic_question": {
+      "question": "“人须有自尊”：自尊是指？",
+      "answer": "自己尊重自己、维护自己的人格与名誉，并知耻而后改"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.LS.02",
+        "confidence": "inferred",
+        "note": "统编版七年级下册按 2025 春修订目录（4 单元 11 课），旧版为 4 单元 10 课；新增第三单元「传承中华优秀传统文化」，第四单元补入民法典与违法犯罪内容。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j017",
+    "name": "自信给人力量",
+    "domain": "生活与安全",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第2单元 焕发青春活力",
+    "type": "reasoning",
+    "description": "理解自信是对自身能力的确信，在与自负、自卑的区别中把握自信，靠实力增强自信。",
+    "mastery_criteria": [
+      "能说出青春期身心发展与自我保护的基本要求",
+      "能在具体情境中判断行为后果并作出正确选择"
+    ],
+    "diagnostic_question": {
+      "question": "“人要有自信”：自信的表现是？",
+      "answer": "相信自己能行，并为之付出实际努力"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.LS.02",
+        "confidence": "inferred",
+        "note": "统编版七年级下册按 2025 春修订目录（4 单元 11 课），旧版为 4 单元 10 课；新增第三单元「传承中华优秀传统文化」，第四单元补入民法典与违法犯罪内容。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j018",
+    "name": "人生当自强",
+    "domain": "生活与安全",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第2单元 焕发青春活力",
+    "type": "application",
+    "description": "理解自强是奋发进取、超越自我，懂得个人自强与民族自强相连，做自强不息的中国人。",
+    "mastery_criteria": [
+      "能说出青春期身心发展与自我保护的基本要求",
+      "能在具体情境中判断行为后果并作出正确选择"
+    ],
+    "diagnostic_question": {
+      "question": "“人要自强”：自强的表现是？",
+      "answer": "在困难面前不低头，靠自己的努力把事情做好"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.LS.02",
+        "confidence": "inferred",
+        "note": "统编版七年级下册按 2025 春修订目录（4 单元 11 课），旧版为 4 单元 10 课；新增第三单元「传承中华优秀传统文化」，第四单元补入民法典与违法犯罪内容。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j019",
+    "name": "传承核心思想理念",
+    "domain": "公民与国家",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第3单元 传承中华优秀传统文化",
+    "type": "conceptual",
+    "description": "了解中华文化的核心思想理念，理解其当代价值，在批判继承中做传承者。",
+    "mastery_criteria": [
+      "能准确说出相关概念、原则与制度要点",
+      "能运用所学观点分析现实情境并说明依据"
+    ],
+    "diagnostic_question": {
+      "question": "“历久弥新的思想理念”：中华优秀传统文化的核心思想理念包括？",
+      "answer": "如“天人合一”“民为邦本”“革故鼎新”等"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.GM.07",
+        "confidence": "inferred",
+        "note": "统编版七年级下册按 2025 春修订目录（4 单元 11 课），旧版为 4 单元 10 课；新增第三单元「传承中华优秀传统文化」，第四单元补入民法典与违法犯罪内容。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j020",
+    "name": "弘扬中华人文精神",
+    "domain": "公民与国家",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第3单元 传承中华优秀传统文化",
+    "type": "reasoning",
+    "description": "理解中华人文精神重视人、关怀人、讲究道德修养的内涵，并在日常生活中弘扬。",
+    "mastery_criteria": [
+      "能准确说出相关概念、原则与制度要点",
+      "能运用所学观点分析现实情境并说明依据"
+    ],
+    "diagnostic_question": {
+      "question": "“影响深远的人文精神”强调？",
+      "answer": "重视人、尊重人，关心人的道德修养与精神境界"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.GM.07",
+        "confidence": "inferred",
+        "note": "统编版七年级下册按 2025 春修订目录（4 单元 11 课），旧版为 4 单元 10 课；新增第三单元「传承中华优秀传统文化」，第四单元补入民法典与违法犯罪内容。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j021",
+    "name": "践行中华传统美德",
+    "domain": "公民与国家",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第3单元 传承中华优秀传统文化",
+    "type": "application",
+    "description": "了解薪火相传的中华传统美德，从小事做起践行美德，理解美德的当代价值。",
+    "mastery_criteria": [
+      "能准确说出相关概念、原则与制度要点",
+      "能运用所学观点分析现实情境并说明依据"
+    ],
+    "diagnostic_question": {
+      "question": "“薪火相传的传统美德”包括？",
+      "answer": "孝老爱亲、诚信守则、见义勇为、敬业乐群等"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.GM.07",
+        "confidence": "inferred",
+        "note": "统编版七年级下册按 2025 春修订目录（4 单元 11 课），旧版为 4 单元 10 课；新增第三单元「传承中华优秀传统文化」，第四单元补入民法典与违法犯罪内容。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j022",
+    "name": "法律为我们护航",
+    "domain": "公民与国家",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第4单元 生活在法治社会",
+    "type": "conceptual",
+    "description": "了解我国法律体系的完善，理解法律的规范与保护作用，懂得法治与德治相辅相成。",
+    "mastery_criteria": [
+      "能准确说出相关概念、原则与制度要点",
+      "能运用所学观点分析现实情境并说明依据"
+    ],
+    "diagnostic_question": {
+      "question": "“日益完善的法律体系”：中国特色社会主义法律体系以？",
+      "answer": "宪法为核心"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.GM.02",
+        "confidence": "inferred",
+        "note": "统编版七年级下册按 2025 春修订目录（4 单元 11 课），旧版为 4 单元 10 课；新增第三单元「传承中华优秀传统文化」，第四单元补入民法典与违法犯罪内容。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j023",
+    "name": "走近民法典",
+    "domain": "公民与国家",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第4单元 生活在法治社会",
+    "type": "conceptual",
+    "description": "认识民法典的地位与意义，了解人身权、财产权的基本内容，能用其分析身边纠纷。",
+    "mastery_criteria": [
+      "能准确说出相关概念、原则与制度要点",
+      "能运用所学观点分析现实情境并说明依据"
+    ],
+    "diagnostic_question": {
+      "question": "关于民法典，下列说法正确的是？",
+      "answer": "它是新中国第一部以“法典”命名的法律，被称为“社会生活的百科全书”"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.GM.03",
+        "confidence": "inferred",
+        "note": "统编版七年级下册按 2025 春修订目录（4 单元 11 课），旧版为 4 单元 10 课；新增第三单元「传承中华优秀传统文化」，第四单元补入民法典与违法犯罪内容。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j024",
+    "name": "远离违法犯罪",
+    "domain": "公民与国家",
+    "grade": 7,
+    "semester": "下",
+    "chapter": "七年级下册 第4单元 生活在法治社会",
+    "type": "reasoning",
+    "description": "区分违法行为的类型与犯罪的特征，了解刑事责任年龄，懂得防微杜渐、预防犯罪。",
+    "mastery_criteria": [
+      "能准确说出相关概念、原则与制度要点",
+      "能运用所学观点分析现实情境并说明依据"
+    ],
+    "diagnostic_question": {
+      "question": "“法不可违”：违法行为按照所违反的法律可分为？",
+      "answer": "民事违法、行政违法和刑事违法"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.GM.02",
+        "confidence": "inferred",
+        "note": "统编版七年级下册按 2025 春修订目录（4 单元 11 课），旧版为 4 单元 10 课；新增第三单元「传承中华优秀传统文化」，第四单元补入民法典与违法犯罪内容。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j025",
+    "name": "丰富的社会生活",
+    "domain": "社会规则",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第1单元 走进社会生活",
+    "type": "conceptual",
+    "description": "认识社会生活的绚丽多彩，理解人的身份在社会关系中确定，主动了解社会。",
+    "mastery_criteria": [
+      "能说明规则、道德与法律在社会生活中的作用",
+      "能评价社会现象并作出负责任的选择"
+    ],
+    "diagnostic_question": {
+      "question": "“我们都是社会的一员”：人的身份是？",
+      "answer": "在社会关系中确定的，不同的社会关系中有不同的身份"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.SH.02",
+        "confidence": "inferred",
+        "note": "统编版八年级上册按 2025 秋修订目录（4 单元 12 课），旧版为 4 单元 10 课；原八下「自由平等」「公平正义」两课移入本册第三单元，新增「军强才能国安」。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j026",
+    "name": "在社会中健康成长",
+    "domain": "社会规则",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第1单元 走进社会生活",
+    "type": "reasoning",
+    "description": "理解人的成长是不断社会化的过程，学会养成亲社会行为。",
+    "mastery_criteria": [
+      "能说明规则、道德与法律在社会生活中的作用",
+      "能评价社会现象并作出负责任的选择"
+    ],
+    "diagnostic_question": {
+      "question": "“人的社会化”是指？",
+      "answer": "个人在与社会互动中学习知识、技能与规范，逐渐适应社会的过程"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.SH.02",
+        "confidence": "inferred",
+        "note": "统编版八年级上册按 2025 秋修订目录（4 单元 12 课），旧版为 4 单元 10 课；原八下「自由平等」「公平正义」两课移入本册第三单元，新增「军强才能国安」。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j027",
+    "name": "共建网络美好家园",
+    "domain": "社会规则",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第1单元 走进社会生活",
+    "type": "application",
+    "description": "理解网络改变世界，也带来新的问题；学会理性参与网络生活、营造清朗空间。",
+    "mastery_criteria": [
+      "能说明规则、道德与法律在社会生活中的作用",
+      "能评价社会现象并作出负责任的选择"
+    ],
+    "diagnostic_question": {
+      "question": "“网络改变世界”：网络的积极作用包括？",
+      "answer": "让信息传递和交流更方便，促进人际交往，推动社会进步"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.SH.02",
+        "confidence": "inferred",
+        "note": "统编版八年级上册按 2025 秋修订目录（4 单元 12 课），旧版为 4 单元 10 课；原八下「自由平等」「公平正义」两课移入本册第三单元，新增「军强才能国安」。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j028",
+    "name": "遵守社会规则",
+    "domain": "社会规则",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第2单元 维护社会秩序",
+    "type": "conceptual",
+    "description": "理解社会秩序离不开规则，懂得遵守规则需要自律与他律，并坚定维护规则。",
+    "mastery_criteria": [
+      "能说明规则、道德与法律在社会生活中的作用",
+      "能评价社会现象并作出负责任的选择"
+    ],
+    "diagnostic_question": {
+      "question": "“维护秩序靠规则”：社会规则的作用在于？",
+      "answer": "明确社会秩序的内容，保障社会秩序的实现"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.SH.02",
+        "confidence": "inferred",
+        "note": "统编版八年级上册按 2025 秋修订目录（4 单元 12 课），旧版为 4 单元 10 课；原八下「自由平等」「公平正义」两课移入本册第三单元，新增「军强才能国安」。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j029",
+    "name": "社会生活讲道德",
+    "domain": "社会规则",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第2单元 维护社会秩序",
+    "type": "application",
+    "description": "做到文明有礼、诚实守信、友善待人，理解道德是维系社会生活的重要方式。",
+    "mastery_criteria": [
+      "能说明规则、道德与法律在社会生活中的作用",
+      "能评价社会现象并作出负责任的选择"
+    ],
+    "diagnostic_question": {
+      "question": "“文明有礼”的意义在于？",
+      "answer": "是个人立身处世的前提，也促进社会和谐、体现民族素质"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.SH.02",
+        "confidence": "inferred",
+        "note": "统编版八年级上册按 2025 秋修订目录（4 单元 12 课），旧版为 4 单元 10 课；原八下「自由平等」「公平正义」两课移入本册第三单元，新增「军强才能国安」。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j030",
+    "name": "提升法治素养",
+    "domain": "公民与国家",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第2单元 维护社会秩序",
+    "type": "reasoning",
+    "description": "树立法治观念，学会依法办事，懂得法律既是行为规范也是维权依据。",
+    "mastery_criteria": [
+      "能准确说出相关概念、原则与制度要点",
+      "能运用所学观点分析现实情境并说明依据"
+    ],
+    "diagnostic_question": {
+      "question": "“树立法治观念”要求我们？",
+      "answer": "发自内心地认可、崇尚、遵守和运用法律"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.GM.02",
+        "confidence": "inferred",
+        "note": "统编版八年级上册按 2025 秋修订目录（4 单元 12 课），旧版为 4 单元 10 课；原八下「自由平等」「公平正义」两课移入本册第三单元，新增「军强才能国安」。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j031",
+    "name": "追求自由平等",
+    "domain": "公民与国家",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第3单元 勇担社会责任",
+    "type": "conceptual",
+    "description": "理解自由是法律之内的自由，懂得法律面前一律平等，反对特权、践行平等。",
+    "mastery_criteria": [
+      "能准确说出相关概念、原则与制度要点",
+      "能运用所学观点分析现实情境并说明依据"
+    ],
+    "diagnostic_question": {
+      "question": "“珍视自由”：法治与自由的关系是？",
+      "answer": "自由是法律之内的自由，法治既规范自由又保障自由"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.GM.02",
+        "confidence": "inferred",
+        "note": "统编版八年级上册按 2025 秋修订目录（4 单元 12 课），旧版为 4 单元 10 课；原八下「自由平等」「公平正义」两课移入本册第三单元，新增「军强才能国安」。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j032",
+    "name": "维护公平正义",
+    "domain": "公民与国家",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第3单元 勇担社会责任",
+    "type": "reasoning",
+    "description": "理解公平与正义的价值，会用恰当方式维护公平，做有正义感的人。",
+    "mastery_criteria": [
+      "能准确说出相关概念、原则与制度要点",
+      "能运用所学观点分析现实情境并说明依据"
+    ],
+    "diagnostic_question": {
+      "question": "“坚守公平”：公平通常指？",
+      "answer": "基于一定标准，处理事情合情合理、不偏不倚"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.GM.02",
+        "confidence": "inferred",
+        "note": "统编版八年级上册按 2025 秋修订目录（4 单元 12 课），旧版为 4 单元 10 课；原八下「自由平等」「公平正义」两课移入本册第三单元，新增「军强才能国安」。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j033",
+    "name": "积极奉献社会",
+    "domain": "社会规则",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第3单元 勇担社会责任",
+    "type": "application",
+    "description": "理解责任与角色的关系，主动承担社会责任，在服务和奉献社会中实现价值。",
+    "mastery_criteria": [
+      "能说明规则、道德与法律在社会生活中的作用",
+      "能评价社会现象并作出负责任的选择"
+    ],
+    "diagnostic_question": {
+      "question": "“社会责任我担当”：下列对责任的理解正确的是？",
+      "answer": "责任是一个人分内应该做的事情，由所处角色带来"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.SH.03",
+        "confidence": "inferred",
+        "note": "统编版八年级上册按 2025 秋修订目录（4 单元 12 课），旧版为 4 单元 10 课；原八下「自由平等」「公平正义」两课移入本册第三单元，新增「军强才能国安」。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j034",
+    "name": "国家利益至上",
+    "domain": "公民与国家",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第4单元 维护国家利益",
+    "type": "conceptual",
+    "description": "认识国家利益的内容与特点，理解国家利益与人民利益根本一致，自觉捍卫国家利益。",
+    "mastery_criteria": [
+      "能准确说出相关概念、原则与制度要点",
+      "能运用所学观点分析现实情境并说明依据"
+    ],
+    "diagnostic_question": {
+      "question": "国家利益涉及多个领域，其中最为核心的是？",
+      "answer": "安全利益、政治利益、经济利益等关系全局、长远的利益"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.GM.06",
+        "confidence": "inferred",
+        "note": "统编版八年级上册按 2025 秋修订目录（4 单元 12 课），旧版为 4 单元 10 课；原八下「自由平等」「公平正义」两课移入本册第三单元，新增「军强才能国安」。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j035",
+    "name": "军强才能国安",
+    "domain": "公民与国家",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第4单元 维护国家利益",
+    "type": "conceptual",
+    "description": "认识人民军队的性质与使命，理解党对人民军队的绝对领导，关注国防和军队现代化。",
+    "mastery_criteria": [
+      "能准确说出相关概念、原则与制度要点",
+      "能运用所学观点分析现实情境并说明依据"
+    ],
+    "diagnostic_question": {
+      "question": "“党和人民信赖的英雄军队”指的是？",
+      "answer": "中国人民解放军等人民军队"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.GM.06",
+        "confidence": "inferred",
+        "note": "统编版八年级上册按 2025 秋修订目录（4 单元 12 课），旧版为 4 单元 10 课；原八下「自由平等」「公平正义」两课移入本册第三单元，新增「军强才能国安」。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j036",
+    "name": "树立总体国家安全观",
+    "domain": "公民与国家",
+    "grade": 8,
+    "semester": "上",
+    "chapter": "八年级上册 第4单元 维护国家利益",
+    "type": "reasoning",
+    "description": "认识国家安全的内涵与总体国家安全观的要求，自觉履行维护国家安全的义务。",
+    "mastery_criteria": [
+      "能准确说出相关概念、原则与制度要点",
+      "能运用所学观点分析现实情境并说明依据"
+    ],
+    "diagnostic_question": {
+      "question": "“认识国家安全”：国家安全是？",
+      "answer": "国家政权、主权、统一和领土完整、人民福祉、经济社会可持续发展和国家其他重大利益相对处于没有危险和不受内外威胁的状态"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.GM.06",
+        "confidence": "inferred",
+        "note": "统编版八年级上册按 2025 秋修订目录（4 单元 12 课），旧版为 4 单元 10 课；原八下「自由平等」「公平正义」两课移入本册第三单元，新增「军强才能国安」。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j037",
+    "name": "治国安邦的总章程",
+    "domain": "公民与国家",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第1单元 坚持宪法至上",
+    "type": "conceptual",
+    "description": "了解宪法的制定与内容，理解宪法规定国家生活中带有全局性、根本性的问题及其作用。",
+    "mastery_criteria": [
+      "能准确说出相关概念、原则与制度要点",
+      "能运用所学观点分析现实情境并说明依据"
+    ],
+    "diagnostic_question": {
+      "question": "我国宪法是？",
+      "answer": "党领导人民制定和确认的根本法，是治国安邦的总章程"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.GM.01",
+        "confidence": "inferred",
+        "note": "统编版八年级下册按 2026 春修订目录（5 单元 14 课），旧版为 4 单元 8 课；原第四单元「崇尚法治精神」移入八上，新增「走近国家机构」单元与「建设法治中国」单元。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j038",
+    "name": "维护宪法权威",
+    "domain": "公民与国家",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第1单元 坚持宪法至上",
+    "type": "reasoning",
+    "description": "理解坚持依法治国首先要坚持依宪治国，懂得尊崇宪法、加强宪法监督。",
+    "mastery_criteria": [
+      "能准确说出相关概念、原则与制度要点",
+      "能运用所学观点分析现实情境并说明依据"
+    ],
+    "diagnostic_question": {
+      "question": "“依宪治国”：坚持依法治国，首先要坚持？",
+      "answer": "依宪治国；坚持依法执政，首先要坚持依宪执政"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.GM.01",
+        "confidence": "inferred",
+        "note": "统编版八年级下册按 2026 春修订目录（5 单元 14 课），旧版为 4 单元 8 课；原第四单元「崇尚法治精神」移入八上，新增「走近国家机构」单元与「建设法治中国」单元。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j039",
+    "name": "公民的基本权利和义务",
+    "domain": "公民与国家",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第2单元 理解权利义务",
+    "type": "conceptual",
+    "description": "了解宪法规定的公民基本权利与基本义务的主要内容和分类。",
+    "mastery_criteria": [
+      "能准确说出相关概念、原则与制度要点",
+      "能运用所学观点分析现实情境并说明依据"
+    ],
+    "diagnostic_question": {
+      "question": "下列属于公民基本权利的是？",
+      "answer": "平等权、政治权利和自由、人身自由、社会经济与文化教育权利"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.GM.02",
+        "confidence": "inferred",
+        "note": "统编版八年级下册按 2026 春修订目录（5 单元 14 课），旧版为 4 单元 8 课；原第四单元「崇尚法治精神」移入八上，新增「走近国家机构」单元与「建设法治中国」单元。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j040",
+    "name": "依法行使权利和履行义务",
+    "domain": "公民与国家",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第2单元 理解权利义务",
+    "type": "application",
+    "description": "坚持权利与义务相统一，依法行使权利、自觉履行义务。",
+    "mastery_criteria": [
+      "能准确说出相关概念、原则与制度要点",
+      "能运用所学观点分析现实情境并说明依据"
+    ],
+    "diagnostic_question": {
+      "question": "“权利与义务相统一”是指？",
+      "answer": "二者相互依存、相互促进，享有权利的同时必须履行义务"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.GM.02",
+        "confidence": "inferred",
+        "note": "统编版八年级下册按 2026 春修订目录（5 单元 14 课），旧版为 4 单元 8 课；原第四单元「崇尚法治精神」移入八上，新增「走近国家机构」单元与「建设法治中国」单元。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j041",
+    "name": "我国的政治制度",
+    "domain": "公民与国家",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第3单元 认识国家制度",
+    "type": "conceptual",
+    "description": "区分根本政治制度与基本政治制度，把握各制度的地位与作用。",
+    "mastery_criteria": [
+      "能准确说出相关概念、原则与制度要点",
+      "能运用所学观点分析现实情境并说明依据"
+    ],
+    "diagnostic_question": {
+      "question": "我国的根本政治制度是？",
+      "answer": "人民代表大会制度"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.GM.04",
+        "confidence": "inferred",
+        "note": "统编版八年级下册按 2026 春修订目录（5 单元 14 课），旧版为 4 单元 8 课；原第四单元「崇尚法治精神」移入八上，新增「走近国家机构」单元与「建设法治中国」单元。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j042",
+    "name": "我国的基本经济制度",
+    "domain": "公民与国家",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第3单元 认识国家制度",
+    "type": "reasoning",
+    "description": "了解我国社会主义基本经济制度的三项内容及其意义。",
+    "mastery_criteria": [
+      "能准确说出相关概念、原则与制度要点",
+      "能运用所学观点分析现实情境并说明依据"
+    ],
+    "diagnostic_question": {
+      "question": "下列属于我国社会主义基本经济制度内容的是？",
+      "answer": "公有制为主体、多种所有制经济共同发展，按劳分配为主体、多种分配方式并存，社会主义市场经济体制"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.GM.04",
+        "confidence": "inferred",
+        "note": "统编版八年级下册按 2026 春修订目录（5 单元 14 课），旧版为 4 单元 8 课；原第四单元「崇尚法治精神」移入八上，新增「走近国家机构」单元与「建设法治中国」单元。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j043",
+    "name": "国家权力机关",
+    "domain": "公民与国家",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第4单元 走近国家机构",
+    "type": "conceptual",
+    "description": "认识人民代表大会的组成、地位与职权，理解国家一切权力属于人民。",
+    "mastery_criteria": [
+      "能准确说出相关概念、原则与制度要点",
+      "能运用所学观点分析现实情境并说明依据"
+    ],
+    "diagnostic_question": {
+      "question": "我国的国家权力机关是？",
+      "answer": "全国人民代表大会和地方各级人民代表大会"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.GM.04",
+        "confidence": "inferred",
+        "note": "统编版八年级下册按 2026 春修订目录（5 单元 14 课），旧版为 4 单元 8 课；原第四单元「崇尚法治精神」移入八上，新增「走近国家机构」单元与「建设法治中国」单元。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j044",
+    "name": "中华人民共和国主席",
+    "domain": "公民与国家",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第4单元 走近国家机构",
+    "type": "conceptual",
+    "description": "了解国家主席的产生、地位与主要职权。",
+    "mastery_criteria": [
+      "能准确说出相关概念、原则与制度要点",
+      "能运用所学观点分析现实情境并说明依据"
+    ],
+    "diagnostic_question": {
+      "question": "中华人民共和国主席、副主席由？",
+      "answer": "全国人民代表大会选举产生"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.GM.04",
+        "confidence": "inferred",
+        "note": "统编版八年级下册按 2026 春修订目录（5 单元 14 课），旧版为 4 单元 8 课；原第四单元「崇尚法治精神」移入八上，新增「走近国家机构」单元与「建设法治中国」单元。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j045",
+    "name": "国家行政机关",
+    "domain": "公民与国家",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第4单元 走近国家机构",
+    "type": "reasoning",
+    "description": "认识行政机关的性质与职权，理解依法行政、建设法治政府的要求。",
+    "mastery_criteria": [
+      "能准确说出相关概念、原则与制度要点",
+      "能运用所学观点分析现实情境并说明依据"
+    ],
+    "diagnostic_question": {
+      "question": "我国最高国家行政机关是？",
+      "answer": "中华人民共和国国务院，即中央人民政府"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.GM.04",
+        "confidence": "inferred",
+        "note": "统编版八年级下册按 2026 春修订目录（5 单元 14 课），旧版为 4 单元 8 课；原第四单元「崇尚法治精神」移入八上，新增「走近国家机构」单元与「建设法治中国」单元。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j046",
+    "name": "中央军事委员会",
+    "domain": "公民与国家",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第4单元 走近国家机构",
+    "type": "conceptual",
+    "description": "了解中华人民共和国中央军事委员会的性质、产生与领导体制。",
+    "mastery_criteria": [
+      "能准确说出相关概念、原则与制度要点",
+      "能运用所学观点分析现实情境并说明依据"
+    ],
+    "diagnostic_question": {
+      "question": "中华人民共和国中央军事委员会领导？",
+      "answer": "全国武装力量"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.GM.04",
+        "confidence": "inferred",
+        "note": "统编版八年级下册按 2026 春修订目录（5 单元 14 课），旧版为 4 单元 8 课；原第四单元「崇尚法治精神」移入八上，新增「走近国家机构」单元与「建设法治中国」单元。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j047",
+    "name": "国家监察机关",
+    "domain": "公民与国家",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第4单元 走近国家机构",
+    "type": "conceptual",
+    "description": "认识监察委员会的产生、性质与职责，理解监察对象覆盖所有行使公权力的公职人员。",
+    "mastery_criteria": [
+      "能准确说出相关概念、原则与制度要点",
+      "能运用所学观点分析现实情境并说明依据"
+    ],
+    "diagnostic_question": {
+      "question": "国家监察机关是？",
+      "answer": "各级监察委员会"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.GM.04",
+        "confidence": "inferred",
+        "note": "统编版八年级下册按 2026 春修订目录（5 单元 14 课），旧版为 4 单元 8 课；原第四单元「崇尚法治精神」移入八上，新增「走近国家机构」单元与「建设法治中国」单元。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j048",
+    "name": "国家司法机关",
+    "domain": "公民与国家",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第4单元 走近国家机构",
+    "type": "reasoning",
+    "description": "区分人民法院与人民检察院的性质、职权，理解依法独立行使审判权、检察权。",
+    "mastery_criteria": [
+      "能准确说出相关概念、原则与制度要点",
+      "能运用所学观点分析现实情境并说明依据"
+    ],
+    "diagnostic_question": {
+      "question": "中华人民共和国人民法院是？",
+      "answer": "国家的审判机关"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.GM.04",
+        "confidence": "inferred",
+        "note": "统编版八年级下册按 2026 春修订目录（5 单元 14 课），旧版为 4 单元 8 课；原第四单元「崇尚法治精神」移入八上，新增「走近国家机构」单元与「建设法治中国」单元。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j049",
+    "name": "坚持全面依法治国",
+    "domain": "公民与国家",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第5单元 建设法治中国",
+    "type": "conceptual",
+    "description": "了解全面依法治国的指导思想与总目标，把握科学立法、严格执法、公正司法、全民守法的要求。",
+    "mastery_criteria": [
+      "能准确说出相关概念、原则与制度要点",
+      "能运用所学观点分析现实情境并说明依据"
+    ],
+    "diagnostic_question": {
+      "question": "全面依法治国的总目标是？",
+      "answer": "建设中国特色社会主义法治体系，建设社会主义法治国家"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.GM.01",
+        "confidence": "inferred",
+        "note": "统编版八年级下册按 2026 春修订目录（5 单元 14 课），旧版为 4 单元 8 课；原第四单元「崇尚法治精神」移入八上，新增「走近国家机构」单元与「建设法治中国」单元。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j050",
+    "name": "以法治推进国家治理现代化",
+    "domain": "公民与国家",
+    "grade": 8,
+    "semester": "下",
+    "chapter": "八年级下册 第5单元 建设法治中国",
+    "type": "reasoning",
+    "description": "理解法治与改革相互促进、法治与德治相得益彰，认识法治在国家治理中的地位。",
+    "mastery_criteria": [
+      "能准确说出相关概念、原则与制度要点",
+      "能运用所学观点分析现实情境并说明依据"
+    ],
+    "diagnostic_question": {
+      "question": "法治与改革的关系是？",
+      "answer": "改革和法治如鸟之两翼、车之两轮，相互促进、缺一不可"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.GM.01",
+        "confidence": "inferred",
+        "note": "统编版八年级下册按 2026 春修订目录（5 单元 14 课），旧版为 4 单元 8 课；原第四单元「崇尚法治精神」移入八上，新增「走近国家机构」单元与「建设法治中国」单元。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j051",
+    "name": "百年大党风华正茂",
+    "domain": "公民与国家",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第1单元 坚持党的全面领导",
+    "type": "conceptual",
+    "description": "了解党的百年奋斗重大成就和历史经验，理解伟大建党精神的内涵，自觉学党史、知党情。",
+    "mastery_criteria": [
+      "能准确说出相关概念、原则与制度要点",
+      "能运用所学观点分析现实情境并说明依据"
+    ],
+    "diagnostic_question": {
+      "question": "“书写恢宏史诗”：党领导人民创造了新民主主义革命、社会主义革命和建设、改革开放和社会主义现代化建设、中国特色社会主义新时代的伟大成就。“彻底结束了旧中国半殖民地半封建社会的历史”属于？",
+      "answer": "新民主主义革命时期的成就"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.GM.05",
+        "confidence": "inferred",
+        "note": "统编版九年级上册按 2026 秋修订目录（4 单元 10 课），旧版为 4 单元 8 课；第8课课名取「实现高质量发展」（多数来源）。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j052",
+    "name": "坚持以人民为中心",
+    "domain": "公民与国家",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第1单元 坚持党的全面领导",
+    "type": "reasoning",
+    "description": "牢记党的初心使命，理解以人民为中心的发展思想，站稳人民立场。",
+    "mastery_criteria": [
+      "能准确说出相关概念、原则与制度要点",
+      "能运用所学观点分析现实情境并说明依据"
+    ],
+    "diagnostic_question": {
+      "question": "中国共产党人的初心和使命是？",
+      "answer": "为中国人民谋幸福，为中华民族谋复兴"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.GM.05",
+        "confidence": "inferred",
+        "note": "统编版九年级上册按 2026 秋修订目录（4 单元 10 课），旧版为 4 单元 8 课；第8课课名取「实现高质量发展」（多数来源）。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j053",
+    "name": "党是领导一切的",
+    "domain": "公民与国家",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第1单元 坚持党的全面领导",
+    "type": "application",
+    "description": "认识中国共产党是最高政治领导力量，理解坚持和加强党的全面领导的要求。",
+    "mastery_criteria": [
+      "能准确说出相关概念、原则与制度要点",
+      "能运用所学观点分析现实情境并说明依据"
+    ],
+    "diagnostic_question": {
+      "question": "中国特色社会主义最本质的特征是？",
+      "answer": "中国共产党的领导"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.GM.05",
+        "confidence": "inferred",
+        "note": "统编版九年级上册按 2026 秋修订目录（4 单元 10 课），旧版为 4 单元 8 课；第8课课名取「实现高质量发展」（多数来源）。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j054",
+    "name": "新的历史方位",
+    "domain": "公民与国家",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第2单元 进入新时代",
+    "type": "conceptual",
+    "description": "理解我国社会主要矛盾的转化，把握中国特色社会主义进入新时代的含义与意义。",
+    "mastery_criteria": [
+      "能准确说出相关概念、原则与制度要点",
+      "能运用所学观点分析现实情境并说明依据"
+    ],
+    "diagnostic_question": {
+      "question": "中国特色社会主义进入新时代，我国社会主要矛盾转化为？",
+      "answer": "人民日益增长的美好生活需要和不平衡不充分的发展之间的矛盾"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.GM.05",
+        "confidence": "inferred",
+        "note": "统编版九年级上册按 2026 秋修订目录（4 单元 10 课），旧版为 4 单元 8 课；第8课课名取「实现高质量发展」（多数来源）。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j055",
+    "name": "新时代的思想旗帜",
+    "domain": "公民与国家",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第2单元 进入新时代",
+    "type": "reasoning",
+    "description": "认识习近平新时代中国特色社会主义思想是系统科学的理论体系，是必须长期坚持的指导思想。",
+    "mastery_criteria": [
+      "能准确说出相关概念、原则与制度要点",
+      "能运用所学观点分析现实情境并说明依据"
+    ],
+    "diagnostic_question": {
+      "question": "新时代中国特色社会主义思想是？",
+      "answer": "当代中国马克思主义、二十一世纪马克思主义，是中华文化和中国精神的时代精华"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.GM.05",
+        "confidence": "inferred",
+        "note": "统编版九年级上册按 2026 秋修订目录（4 单元 10 课），旧版为 4 单元 8 课；第8课课名取「实现高质量发展」（多数来源）。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j056",
+    "name": "中国腾飞谱新篇",
+    "domain": "公民与国家",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第2单元 进入新时代",
+    "type": "application",
+    "description": "从经济、民主政治、文化、民生、生态五个方面了解新时代十年的重大成就。",
+    "mastery_criteria": [
+      "能准确说出相关概念、原则与制度要点",
+      "能运用所学观点分析现实情境并说明依据"
+    ],
+    "diagnostic_question": {
+      "question": "“经济实力大幅跃升”的典型表现是？",
+      "answer": "我国国内生产总值稳步增长，成为世界第二大经济体，制造业规模位居世界前列"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.GM.05",
+        "confidence": "inferred",
+        "note": "统编版九年级上册按 2026 秋修订目录（4 单元 10 课），旧版为 4 单元 8 课；第8课课名取「实现高质量发展」（多数来源）。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j057",
+    "name": "擘画宏伟蓝图",
+    "domain": "公民与国家",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第3单元 奋进新征程",
+    "type": "reasoning",
+    "description": "把握“两步走”战略安排，理解中国式现代化的中国特色。",
+    "mastery_criteria": [
+      "能准确说出相关概念、原则与制度要点",
+      "能运用所学观点分析现实情境并说明依据"
+    ],
+    "diagnostic_question": {
+      "question": "从2020年到本世纪中叶分“两步走”。第一步是？",
+      "answer": "从2020年到2035年基本实现社会主义现代化"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.GM.05",
+        "confidence": "inferred",
+        "note": "统编版九年级上册按 2026 秋修订目录（4 单元 10 课），旧版为 4 单元 8 课；第8课课名取「实现高质量发展」（多数来源）。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j058",
+    "name": "实现高质量发展",
+    "domain": "公民与国家",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第3单元 奋进新征程",
+    "type": "conceptual",
+    "description": "贯彻新发展理念，构建新发展格局，理解高质量发展是全面建设社会主义现代化国家的首要任务。",
+    "mastery_criteria": [
+      "能准确说出相关概念、原则与制度要点",
+      "能运用所学观点分析现实情境并说明依据"
+    ],
+    "diagnostic_question": {
+      "question": "新发展理念的内容是？",
+      "answer": "创新、协调、绿色、开放、共享"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.GM.05",
+        "confidence": "inferred",
+        "note": "统编版九年级上册按 2026 秋修订目录（4 单元 10 课），旧版为 4 单元 8 课；第8课课名取「实现高质量发展」（多数来源）。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j059",
+    "name": "凝聚团结伟力",
+    "domain": "公民与国家",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第4单元 共圆中国梦",
+    "type": "conceptual",
+    "description": "铸牢中华民族共同体意识，理解实现祖国完全统一是全体中华儿女的共同愿望。",
+    "mastery_criteria": [
+      "能准确说出相关概念、原则与制度要点",
+      "能运用所学观点分析现实情境并说明依据"
+    ],
+    "diagnostic_question": {
+      "question": "新时代党的民族工作的主线是？",
+      "answer": "铸牢中华民族共同体意识"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.GM.06",
+        "confidence": "inferred",
+        "note": "统编版九年级上册按 2026 秋修订目录（4 单元 10 课），旧版为 4 单元 8 课；第8课课名取「实现高质量发展」（多数来源）。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j060",
+    "name": "实现伟大梦想",
+    "domain": "公民与国家",
+    "grade": 9,
+    "semester": "上",
+    "chapter": "九年级上册 第4单元 共圆中国梦",
+    "type": "reasoning",
+    "description": "理解中国梦的内涵与本质，把个人追求融入民族复兴，做新时代的追梦人。",
+    "mastery_criteria": [
+      "能准确说出相关概念、原则与制度要点",
+      "能运用所学观点分析现实情境并说明依据"
+    ],
+    "diagnostic_question": {
+      "question": "中国梦的本质是？",
+      "answer": "国家富强、民族振兴、人民幸福"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.GM.05",
+        "confidence": "inferred",
+        "note": "统编版九年级上册按 2026 秋修订目录（4 单元 10 课），旧版为 4 单元 8 课；第8课课名取「实现高质量发展」（多数来源）。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j061",
+    "name": "同住地球村",
+    "domain": "公民与国家",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第1单元 我们共同的世界",
+    "type": "conceptual",
+    "description": "认识世界是开放互动的，理解国际关系复杂多变，以全球视野观察身边现象。",
+    "mastery_criteria": [
+      "能准确说出相关概念、原则与制度要点",
+      "能运用所学观点分析现实情境并说明依据"
+    ],
+    "diagnostic_question": {
+      "question": "“开放互动的世界”的表现包括？",
+      "answer": "商品、资本、人员、信息在全球范围内流动，各国联系空前紧密"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.GM.08",
+        "confidence": "inferred",
+        "note": "统编版九年级下册修订版尚未公开出版（预计 2027 春启用），本册按现行 2018 年 12 月第 1 版目录（3 单元 7 课）建点。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j062",
+    "name": "构建人类命运共同体",
+    "domain": "公民与国家",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第1单元 我们共同的世界",
+    "type": "reasoning",
+    "description": "理解和平与发展是当今时代的主题，懂得构建人类命运共同体的意义与路径。",
+    "mastery_criteria": [
+      "能准确说出相关概念、原则与制度要点",
+      "能运用所学观点分析现实情境并说明依据"
+    ],
+    "diagnostic_question": {
+      "question": "当今时代的主题是？",
+      "answer": "和平与发展"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.GM.08",
+        "confidence": "inferred",
+        "note": "统编版九年级下册修订版尚未公开出版（预计 2027 春启用），本册按现行 2018 年 12 月第 1 版目录（3 单元 7 课）建点。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j063",
+    "name": "与世界紧相连",
+    "domain": "公民与国家",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第2单元 世界舞台上的中国",
+    "type": "application",
+    "description": "认识中国担当的具体表现，理解中国与世界深度互动、互利共赢的关系。",
+    "mastery_criteria": [
+      "能准确说出相关概念、原则与制度要点",
+      "能运用所学观点分析现实情境并说明依据"
+    ],
+    "diagnostic_question": {
+      "question": "“中国担当”的表现包括？",
+      "answer": "积极参与全球治理体系改革和建设，在维和、抗疫、减贫等领域履行大国责任"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.GM.08",
+        "confidence": "inferred",
+        "note": "统编版九年级下册修订版尚未公开出版（预计 2027 春启用），本册按现行 2018 年 12 月第 1 版目录（3 单元 7 课）建点。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j064",
+    "name": "与世界共发展",
+    "domain": "公民与国家",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第2单元 世界舞台上的中国",
+    "type": "reasoning",
+    "description": "把握我国发展面临的机遇与挑战，理解携手促发展的主张与做法。",
+    "mastery_criteria": [
+      "能准确说出相关概念、原则与制度要点",
+      "能运用所学观点分析现实情境并说明依据"
+    ],
+    "diagnostic_question": {
+      "question": "我国发展面临的外部机遇包括？",
+      "answer": "和平、发展、合作、共赢的时代潮流，以及新一轮科技革命和产业变革"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.GM.08",
+        "confidence": "inferred",
+        "note": "统编版九年级下册修订版尚未公开出版（预计 2027 春启用），本册按现行 2018 年 12 月第 1 版目录（3 单元 7 课）建点。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j065",
+    "name": "少年的担当",
+    "domain": "生活与安全",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第3单元 走向未来的少年",
+    "type": "conceptual",
+    "description": "认识青少年的命运与世界紧密相连，明确少年当自强的要求，全面提升个人素养。",
+    "mastery_criteria": [
+      "能说出青春期身心发展与自我保护的基本要求",
+      "能在具体情境中判断行为后果并作出正确选择"
+    ],
+    "diagnostic_question": {
+      "question": "“走向世界大舞台”告诉我们，青少年的成长与世界的关系是？",
+      "answer": "我们同世界共成长，走向世界需要开阔视野、增强沟通与合作的能力"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.LS.02",
+        "confidence": "inferred",
+        "note": "统编版九年级下册修订版尚未公开出版（预计 2027 春启用），本册按现行 2018 年 12 月第 1 版目录（3 单元 7 课）建点。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j066",
+    "name": "我的毕业季",
+    "domain": "学校生活",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第3单元 走向未来的少年",
+    "type": "application",
+    "description": "树立学无止境的理念，了解职业分工的特点，学会做好职业准备与生涯规划。",
+    "mastery_criteria": [
+      "能说明中学阶段学习规划与集体生活的要求",
+      "能针对具体情境提出做法并说明理由"
+    ],
+    "diagnostic_question": {
+      "question": "“学无止境”的依据是？",
+      "answer": "知识更新加快、社会持续发展，学习没有终点，需要树立终身学习的理念"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.XX.01",
+        "confidence": "inferred",
+        "note": "统编版九年级下册修订版尚未公开出版（预计 2027 春启用），本册按现行 2018 年 12 月第 1 版目录（3 单元 7 课）建点。"
+      }
+    ]
+  },
+  {
+    "id": "cnd_j067",
+    "name": "从这里出发",
+    "domain": "社会规则",
+    "grade": 9,
+    "semester": "下",
+    "chapter": "九年级下册 第3单元 走向未来的少年",
+    "type": "reasoning",
+    "description": "回望初中成长，明确未来方向，把个人理想与国家需要结合起来走向未来。",
+    "mastery_criteria": [
+      "能说明规则、道德与法律在社会生活中的作用",
+      "能评价社会现象并作出负责任的选择"
+    ],
+    "diagnostic_question": {
+      "question": "回望初中三年，我们在“学会做事、学会做人”中的主要收获是？",
+      "answer": "知识视野拓展、品格得到磨炼、能力提升，并学会对自己和社会负责"
+    },
+    "external": false,
+    "subject": "morality",
+    "standards": [
+      {
+        "id": "cds-2022:4.SH.03",
+        "confidence": "inferred",
+        "note": "统编版九年级下册修订版尚未公开出版（预计 2027 春启用），本册按现行 2018 年 12 月第 1 版目录（3 单元 7 课）建点。"
+      }
+    ]
   }
 ]

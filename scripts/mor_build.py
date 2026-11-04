@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
-"""把小学道德与法治草稿编译进 data/topics.json、dependencies.json、questions.json、课标文件。
+"""把小学与初中道德与法治草稿编译进 data/topics.json、dependencies.json、questions.json、课标文件。
 
 可以重复运行：先去掉已有的 cnd_ 知识点和 cds- 课标条目，再按脚本重新写入。
 不改数学、英语、物理、语文、科学的知识点、先修、题目和课标。先修边只对道德与法治边做传递约简。
+
+小学按 2022 年版课标第一至第三学段、初中按第四学段；初中目录依据 _scratch/junior_toc/mor_junior.json
+（六三制统编版，逐册双源以上核对）。
 
 用法：python3 scripts/mor_build.py
 """
@@ -23,7 +26,11 @@ import mor_g3  # noqa: E402,F401
 import mor_g4  # noqa: E402,F401
 import mor_g5  # noqa: E402,F401
 import mor_g6  # noqa: E402,F401
+import mor_g7  # noqa: E402,F401
+import mor_g8  # noqa: E402,F401
+import mor_g9  # noqa: E402,F401
 import mor_edges  # noqa: E402,F401
+import mor_j_edges  # noqa: E402,F401
 from mor_lib import HARD, CODE_OF, STANDARD_ROWS, TOPICS, chapter, check_question, materialise_questions, stage_label  # noqa: E402
 from build_merge import merge_generated  # noqa: E402
 from verify_questions import verify_all  # noqa: E402
@@ -39,7 +46,9 @@ VOLUMES = PRIMARY_VOLUMES + JUNIOR_VOLUMES
 # 每册知识点数上下界（每册约 10–16 课）。初中的界（JUNIOR_BOUNDS）要等目录双源核对后再填，
 # 留空就等于「这一册还没覆盖」，不许凭印象给一个数。
 BOUNDS = {k: (10, 20) for k in PRIMARY_VOLUMES}
-JUNIOR_BOUNDS = {}
+# 初中按「一课一点」建点，所以上下界直接取双源核对后的各册课数：多一课少一课都说明与目录不符。
+JUNIOR_BOUNDS = {"7上": (13, 13), "7下": (11, 11), "8上": (12, 12),
+                 "8下": (14, 14), "9上": (10, 10), "9下": (7, 7)}
 BOUNDS.update(JUNIOR_BOUNDS)
 
 
@@ -341,7 +350,7 @@ def main():
         "issuer": "中华人民共和国教育部",
         "year": 2022,
         "stage": stage_label(),
-        "note": "条目是对道德与法治课标学段内容要求的公开转述，不是逐页核对的原文。verbatim 为 false，page_or_ref 为「待核」。编号 cds-2022 是本图谱编的，不是教育部原编号。一上按2024秋修订统编目录，一下按2025春，二上按2025秋，二下按2026春，三上按2025秋，三下按2026春，四上/五上/六上按2026秋修订目录；四下、五下、六下修订版公开目录仍按现行统编版编排。",
+        "note": "条目是对道德与法治课标学段内容要求的公开转述，不是逐页核对的原文。verbatim 为 false，page_or_ref 为「待核」。编号 cds-2022 是本图谱编的，不是教育部原编号。小学：一上按2024秋修订统编目录，一下按2025春，二上按2025秋，二下按2026春，三上按2025秋，三下按2026春，四上/五上/六上按2026秋修订目录；四下、五下、六下修订版公开目录仍按现行统编版编排。初中（第四学段）：七上按2024秋、七下按2025春、八上按2025秋、八下按2026春、九上按2026秋修订目录；九下修订版已审定列入教育部2024年目录但截至2026-11-03未公开出版，仍按现行2018年12月第1版目录建点。",
     }
     for k, v in kept_std.items():
         standards_out[k] = v
@@ -355,7 +364,7 @@ def main():
     n_soft = sum(1 for e in zh_edges if e["strength"] == "soft")
     by_dom = Counter(t["domain"] for t in new_topics)
     print("道德与法治知识点 %d" % len(new_topics))
-    for k in ["1上", "1下", "2上", "2下", "3上", "3下", "4上", "4下", "5上", "5下", "6上", "6下"]:
+    for k in VOLUMES:
         print("  %s %d" % (k, by_vol[k]))
     for k, v in by_dom.most_common():
         print("  %s %d" % (k, v))

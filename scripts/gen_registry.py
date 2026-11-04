@@ -49,7 +49,9 @@ POOL_EDITION = {
     "geography": ("renjiao", "七上~八下按 2024 审定人教版目录（scripts/geo_build.py、scripts/geo_lib.py）。"),
     "chinese": ("tongbian", "一上~六下按统编教材 2024~2026 修订目录逐课覆盖（scripts/zh_build.py）。"),
     "history": ("tongbian", "七上~九下按统编《中国历史》2024~2026 修订目录；九下修订目录未上线，暂按现行统编（scripts/his_build.py）。"),
-    "morality": ("tongbian", "一上~六下按统编《道德与法治》2024~2026 修订目录；四下、五下、六下按现行统编（scripts/mor_build.py）。"),
+    "morality": ("tongbian", "一上~六下按统编《道德与法治》2024~2026 修订目录；四下、五下、六下按现行统编。"
+                            "七上~九下按统编初中目录逐课建点（`cnd_j*`，scripts/mor_g7.py ~ mor_g9.py），"
+                            "九上按 2026 秋修订目录、九下修订版未出版故按现行 2018 年 12 月第 1 版（scripts/mor_build.py）。"),
     "science": ("jiaoke", "一上~六下按教科版（教育科学出版社）2024~2026 修订目录；四下、五下、六下修订版未发行，暂按现行教科版（scripts/sci_build.py）。"),
 }
 
@@ -314,7 +316,7 @@ def main():
                 "mapping": "有 data/mappings 逐点对照表，含该版的册次与单元名。",
                 "borrowed": "无该版目录，仅按人教版册键圈定的同年级范围，章名与顺序非该版。",
             },
-            "generated": "2026-11-03",
+            "generated": "2026-11-04",
             "generator": "scripts/gen_registry.py",
             "corrections": [
                 "2026-11-03 sd54_math：原条目同时挂着山东全部「青岛版」格值，把六三制青岛版与五四制青岛版"
@@ -323,6 +325,10 @@ def main():
                 "lujiao54_junior（鲁教版五四制初中段）。"
                 "证据：docs/province_textbook_map.md 的学段粒度订正表 + _scratch/province_map/luyu.md "
                 "（烟台/东营 2025-2026 官方目录、青岛 2025 秋免费教科书目录）。",
+                "2026-11-04 统编版 道德与法治：池子新增初中段 67 点（`cnd_j001`–`cnd_j067`，七上~九下一课一点），"
+                "native 全量挂载后该学科从 159 点变 226 点；此前 7、8、9 年级的道法格「版本可选但池子无点」，现在有点。"
+                "九下按现行 2018 年 12 月第 1 版（修订版列入教育部 2024 年目录但未出版，预计 2027 春启用）。"
+                "证据：_scratch/junior_toc/mor_junior.json（逐册双源以上）+ _scratch/junior_toc/_cross_mor_jr.txt（逐课比对 mismatch=0）。",
             ],
             "source": "data/topics.json（池子编排版本见各学科建库脚本自述）+ data/mappings/*.json（逐点对照表）"
                       "+ ChinaStudyFree 目录（仅作题源，其 outlines 为 LLM 归纳，不作目录用）",

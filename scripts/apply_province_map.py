@@ -222,7 +222,7 @@ def main():
             if sd:
                 sd["provinces"] = provs
 
-    reg["meta"]["generated"] = "2026-11-03"
+    reg["meta"]["generated"] = "2026-11-04"
     reg["meta"]["province_map"] = "docs/province_textbook_map.md；provinces 字段=该版该学科在取证表里出现于哪些省"
     json.dump(reg, io.open(REG, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     # 取证矩阵入库：_scratch 不进版本库，registry 要能重建

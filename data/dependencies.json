@@ -26734,5 +26734,587 @@
     "prerequisiteId": "cng_j045",
     "strength": "hard",
     "reason": "奋进中的中国所谈的挑战与责任，建立在环境保护和可持续发展的基础上。"
+  },
+  {
+    "topicId": "cnd_j001",
+    "prerequisiteId": "cnd_p159",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「我们爱和平」，再学「开启初中生活」。"
+  },
+  {
+    "topicId": "cnd_j003",
+    "prerequisiteId": "cnd_j002",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「正确认识自我」，再学「梦想始于当下」。"
+  },
+  {
+    "topicId": "cnd_j004",
+    "prerequisiteId": "cnd_j003",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「梦想始于当下」，再学「幸福和睦的家庭」。"
+  },
+  {
+    "topicId": "cnd_j005",
+    "prerequisiteId": "cnd_j004",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「幸福和睦的家庭」，再学「和谐的师生关系」。"
+  },
+  {
+    "topicId": "cnd_j006",
+    "prerequisiteId": "cnd_j005",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「和谐的师生关系」，再学「友谊之树常青」。"
+  },
+  {
+    "topicId": "cnd_j007",
+    "prerequisiteId": "cnd_j006",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「友谊之树常青」，再学「在集体中成长」。"
+  },
+  {
+    "topicId": "cnd_j008",
+    "prerequisiteId": "cnd_j007",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「在集体中成长」，再学「生命可贵」。"
+  },
+  {
+    "topicId": "cnd_j011",
+    "prerequisiteId": "cnd_j010",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「保持身心健康」，再学「确立人生目标」。"
+  },
+  {
+    "topicId": "cnd_j013",
+    "prerequisiteId": "cnd_j012",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「端正人生态度」，再学「实现人生价值」。"
+  },
+  {
+    "topicId": "cnd_j014",
+    "prerequisiteId": "cnd_j013",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「实现人生价值」，再学「青春正当时」。"
+  },
+  {
+    "topicId": "cnd_j016",
+    "prerequisiteId": "cnd_j015",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「做情绪情感的主人」，再学「人贵自尊」。"
+  },
+  {
+    "topicId": "cnd_j019",
+    "prerequisiteId": "cnd_j018",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「人生当自强」，再学「传承核心思想理念」。"
+  },
+  {
+    "topicId": "cnd_j021",
+    "prerequisiteId": "cnd_j020",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「弘扬中华人文精神」，再学「践行中华传统美德」。"
+  },
+  {
+    "topicId": "cnd_j022",
+    "prerequisiteId": "cnd_j021",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「践行中华传统美德」，再学「法律为我们护航」。"
+  },
+  {
+    "topicId": "cnd_j024",
+    "prerequisiteId": "cnd_j023",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「走近民法典」，再学「远离违法犯罪」。"
+  },
+  {
+    "topicId": "cnd_j025",
+    "prerequisiteId": "cnd_j024",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「远离违法犯罪」，再学「丰富的社会生活」。"
+  },
+  {
+    "topicId": "cnd_j027",
+    "prerequisiteId": "cnd_j026",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「在社会中健康成长」，再学「共建网络美好家园」。"
+  },
+  {
+    "topicId": "cnd_j028",
+    "prerequisiteId": "cnd_j027",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「共建网络美好家园」，再学「遵守社会规则」。"
+  },
+  {
+    "topicId": "cnd_j029",
+    "prerequisiteId": "cnd_j028",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「遵守社会规则」，再学「社会生活讲道德」。"
+  },
+  {
+    "topicId": "cnd_j030",
+    "prerequisiteId": "cnd_j029",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「社会生活讲道德」，再学「提升法治素养」。"
+  },
+  {
+    "topicId": "cnd_j031",
+    "prerequisiteId": "cnd_j030",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「提升法治素养」，再学「追求自由平等」。"
+  },
+  {
+    "topicId": "cnd_j033",
+    "prerequisiteId": "cnd_j032",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「维护公平正义」，再学「积极奉献社会」。"
+  },
+  {
+    "topicId": "cnd_j034",
+    "prerequisiteId": "cnd_j033",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「积极奉献社会」，再学「国家利益至上」。"
+  },
+  {
+    "topicId": "cnd_j036",
+    "prerequisiteId": "cnd_j035",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「军强才能国安」，再学「树立总体国家安全观」。"
+  },
+  {
+    "topicId": "cnd_j037",
+    "prerequisiteId": "cnd_j036",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「树立总体国家安全观」，再学「治国安邦的总章程」。"
+  },
+  {
+    "topicId": "cnd_j039",
+    "prerequisiteId": "cnd_j038",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「维护宪法权威」，再学「公民的基本权利和义务」。"
+  },
+  {
+    "topicId": "cnd_j041",
+    "prerequisiteId": "cnd_j040",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「依法行使权利和履行义务」，再学「我国的政治制度」。"
+  },
+  {
+    "topicId": "cnd_j042",
+    "prerequisiteId": "cnd_j041",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「我国的政治制度」，再学「我国的基本经济制度」。"
+  },
+  {
+    "topicId": "cnd_j043",
+    "prerequisiteId": "cnd_j042",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「我国的基本经济制度」，再学「国家权力机关」。"
+  },
+  {
+    "topicId": "cnd_j044",
+    "prerequisiteId": "cnd_j043",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「国家权力机关」，再学「中华人民共和国主席」。"
+  },
+  {
+    "topicId": "cnd_j045",
+    "prerequisiteId": "cnd_j044",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「中华人民共和国主席」，再学「国家行政机关」。"
+  },
+  {
+    "topicId": "cnd_j046",
+    "prerequisiteId": "cnd_j045",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「国家行政机关」，再学「中央军事委员会」。"
+  },
+  {
+    "topicId": "cnd_j047",
+    "prerequisiteId": "cnd_j046",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「中央军事委员会」，再学「国家监察机关」。"
+  },
+  {
+    "topicId": "cnd_j048",
+    "prerequisiteId": "cnd_j047",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「国家监察机关」，再学「国家司法机关」。"
+  },
+  {
+    "topicId": "cnd_j049",
+    "prerequisiteId": "cnd_j048",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「国家司法机关」，再学「坚持全面依法治国」。"
+  },
+  {
+    "topicId": "cnd_j051",
+    "prerequisiteId": "cnd_j050",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「以法治推进国家治理现代化」，再学「百年大党风华正茂」。"
+  },
+  {
+    "topicId": "cnd_j054",
+    "prerequisiteId": "cnd_j053",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「党是领导一切的」，再学「新的历史方位」。"
+  },
+  {
+    "topicId": "cnd_j056",
+    "prerequisiteId": "cnd_j055",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「新时代的思想旗帜」，再学「中国腾飞谱新篇」。"
+  },
+  {
+    "topicId": "cnd_j057",
+    "prerequisiteId": "cnd_j056",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「中国腾飞谱新篇」，再学「擘画宏伟蓝图」。"
+  },
+  {
+    "topicId": "cnd_j059",
+    "prerequisiteId": "cnd_j058",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「实现高质量发展」，再学「凝聚团结伟力」。"
+  },
+  {
+    "topicId": "cnd_j060",
+    "prerequisiteId": "cnd_j059",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「凝聚团结伟力」，再学「实现伟大梦想」。"
+  },
+  {
+    "topicId": "cnd_j061",
+    "prerequisiteId": "cnd_j060",
+    "strength": "soft",
+    "reason": "按统编版道德与法治的常见教学顺序，先学「实现伟大梦想」，再学「同住地球村」。"
+  },
+  {
+    "topicId": "cnd_j002",
+    "prerequisiteId": "cnd_j001",
+    "strength": "hard",
+    "reason": "要在适应初中新生活之后，才谈得上进一步认识自己、规划自己。"
+  },
+  {
+    "topicId": "cnd_j003",
+    "prerequisiteId": "cnd_j001",
+    "strength": "hard",
+    "reason": "少年梦想与学习目标建立在已经开始的初中生活与规划之上。"
+  },
+  {
+    "topicId": "cnd_j004",
+    "prerequisiteId": "cnd_p128",
+    "strength": "hard",
+    "reason": "初中「家的意味」直接接在小学「让我们的家更美好」的家庭责任认识之上。"
+  },
+  {
+    "topicId": "cnd_j005",
+    "prerequisiteId": "cnd_p005",
+    "strength": "hard",
+    "reason": "理解师生关系、珍惜师生情谊，先要有小学「老师，您好」的尊重老师意识。"
+  },
+  {
+    "topicId": "cnd_j007",
+    "prerequisiteId": "cnd_p090",
+    "strength": "hard",
+    "reason": "集体生活成就我、共建美好集体，建立在小学热爱班集体的经验之上。"
+  },
+  {
+    "topicId": "cnd_j008",
+    "prerequisiteId": "cnd_p094",
+    "strength": "hard",
+    "reason": "初中的认识生命与敬畏生命，在小学「生命最宝贵」之上进一步讲生命的不可逆与有限。"
+  },
+  {
+    "topicId": "cnd_j009",
+    "prerequisiteId": "cnd_j008",
+    "strength": "hard",
+    "reason": "掌握自救求助方法的前提是懂得生命可贵、需要敬畏生命。"
+  },
+  {
+    "topicId": "cnd_j010",
+    "prerequisiteId": "cnd_j009",
+    "strength": "hard",
+    "reason": "爱护身体、滋养心灵以先守住生命安全为底线。"
+  },
+  {
+    "topicId": "cnd_j012",
+    "prerequisiteId": "cnd_j011",
+    "strength": "hard",
+    "reason": "人生态度回答「怎样面对」，先要有人生目标回答「走向哪里」。"
+  },
+  {
+    "topicId": "cnd_j013",
+    "prerequisiteId": "cnd_j011",
+    "strength": "hard",
+    "reason": "在劳动与奉献中实现价值，是确立目标之后的落实环节。"
+  },
+  {
+    "topicId": "cnd_j014",
+    "prerequisiteId": "cnd_p049",
+    "strength": "hard",
+    "reason": "正视青春期身心变化，建立在小学「身心健康很重要」的健康意识上。"
+  },
+  {
+    "topicId": "cnd_j015",
+    "prerequisiteId": "cnd_j014",
+    "strength": "hard",
+    "reason": "情绪与情感的管理以青春期的身心变化认识为背景。"
+  },
+  {
+    "topicId": "cnd_j017",
+    "prerequisiteId": "cnd_j016",
+    "strength": "hard",
+    "reason": "自信以自尊为前提：先懂得尊重自己的人格，才能谈确信自己的能力。"
+  },
+  {
+    "topicId": "cnd_j018",
+    "prerequisiteId": "cnd_j017",
+    "strength": "hard",
+    "reason": "自强要在自信的基础上不断进取、超越自我。"
+  },
+  {
+    "topicId": "cnd_j020",
+    "prerequisiteId": "cnd_j019",
+    "strength": "hard",
+    "reason": "中华人文精神的理解以核心思想理念的认识为思想背景。"
+  },
+  {
+    "topicId": "cnd_j021",
+    "prerequisiteId": "cnd_j019",
+    "strength": "hard",
+    "reason": "践行传统美德要把思想理念的理解落到日常行为上。"
+  },
+  {
+    "topicId": "cnd_j022",
+    "prerequisiteId": "cnd_p139",
+    "strength": "hard",
+    "reason": "初中的法律保障生活，在小学「法律是什么」的初步认识之上展开。"
+  },
+  {
+    "topicId": "cnd_j023",
+    "prerequisiteId": "cnd_j022",
+    "strength": "hard",
+    "reason": "认识民法典的具体制度，先要理解法律的一般规范与保护作用。"
+  },
+  {
+    "topicId": "cnd_j024",
+    "prerequisiteId": "cnd_j022",
+    "strength": "hard",
+    "reason": "区分违法与犯罪、预防犯罪，以懂得法律保障生活为前提。"
+  },
+  {
+    "topicId": "cnd_j026",
+    "prerequisiteId": "cnd_j025",
+    "strength": "hard",
+    "reason": "人的社会化与亲社会行为，要在认识社会生活、确认社会成员身份之后才讲得通。"
+  },
+  {
+    "topicId": "cnd_j027",
+    "prerequisiteId": "cnd_p098",
+    "strength": "hard",
+    "reason": "营造清朗空间在小学「安全文明上网」的媒介素养之上。"
+  },
+  {
+    "topicId": "cnd_j028",
+    "prerequisiteId": "cnd_p076",
+    "strength": "hard",
+    "reason": "初中讲规则与秩序的关系，接续小学「生活离不开规则」。"
+  },
+  {
+    "topicId": "cnd_j029",
+    "prerequisiteId": "cnd_p089",
+    "strength": "hard",
+    "reason": "社会生活讲道德以小学「待人要诚信」的品德认识为基础。"
+  },
+  {
+    "topicId": "cnd_j030",
+    "prerequisiteId": "cnd_p149",
+    "strength": "hard",
+    "reason": "提升法治素养在小学「做守法公民」的依法维权与守法意识之上。"
+  },
+  {
+    "topicId": "cnd_j032",
+    "prerequisiteId": "cnd_j031",
+    "strength": "hard",
+    "reason": "公平正义的追求以自由平等的观念为前提。"
+  },
+  {
+    "topicId": "cnd_j033",
+    "prerequisiteId": "cnd_p132",
+    "strength": "hard",
+    "reason": "服务社会、奉献社会接续小学「我参与 我奉献」的公益体验。"
+  },
+  {
+    "topicId": "cnd_j035",
+    "prerequisiteId": "cnd_j034",
+    "strength": "hard",
+    "reason": "认识国防和军队建设，先要理解国家利益高于一切。"
+  },
+  {
+    "topicId": "cnd_j036",
+    "prerequisiteId": "cnd_j034",
+    "strength": "hard",
+    "reason": "总体国家安全观是国家利益至上观念的具体展开。"
+  },
+  {
+    "topicId": "cnd_j037",
+    "prerequisiteId": "cnd_p141",
+    "strength": "hard",
+    "reason": "初中讲宪法是治国安邦的总章程，建立在小学「宪法是根本法」的认识上。"
+  },
+  {
+    "topicId": "cnd_j038",
+    "prerequisiteId": "cnd_j037",
+    "strength": "hard",
+    "reason": "维护宪法权威首先要知道宪法规定了什么、起什么作用。"
+  },
+  {
+    "topicId": "cnd_j039",
+    "prerequisiteId": "cnd_p143",
+    "strength": "hard",
+    "reason": "初中系统学习公民基本权利与义务，接续小学的同类主题。"
+  },
+  {
+    "topicId": "cnd_j040",
+    "prerequisiteId": "cnd_j039",
+    "strength": "hard",
+    "reason": "依法行使权利、履行义务，要先知道权利与义务的内容和分类。"
+  },
+  {
+    "topicId": "cnd_j041",
+    "prerequisiteId": "cnd_j037",
+    "strength": "hard",
+    "reason": "我国的政治制度由宪法确立，理解制度以宪法内容为依据。"
+  },
+  {
+    "topicId": "cnd_j042",
+    "prerequisiteId": "cnd_j037",
+    "strength": "hard",
+    "reason": "基本经济制度同样由宪法规定，需先掌握宪法的地位与作用。"
+  },
+  {
+    "topicId": "cnd_j043",
+    "prerequisiteId": "cnd_j041",
+    "strength": "hard",
+    "reason": "人民代表大会的组成与职权，要在理解人民代表大会制度之后才准确。"
+  },
+  {
+    "topicId": "cnd_j045",
+    "prerequisiteId": "cnd_j043",
+    "strength": "hard",
+    "reason": "行政机关由人民代表大会产生、对它负责，先要认识国家权力机关。"
+  },
+  {
+    "topicId": "cnd_j047",
+    "prerequisiteId": "cnd_j043",
+    "strength": "hard",
+    "reason": "监察机关由人大产生、受其监督，以认识权力机关为前提。"
+  },
+  {
+    "topicId": "cnd_j048",
+    "prerequisiteId": "cnd_j043",
+    "strength": "hard",
+    "reason": "人民法院、人民检察院同样由人大产生，需先明确权力机关的地位。"
+  },
+  {
+    "topicId": "cnd_j049",
+    "prerequisiteId": "cnd_j038",
+    "strength": "hard",
+    "reason": "全面依法治国首先要坚持依宪治国、维护宪法权威。"
+  },
+  {
+    "topicId": "cnd_j050",
+    "prerequisiteId": "cnd_j049",
+    "strength": "hard",
+    "reason": "法治推进国家治理现代化，以依法治国的总目标与基本要求为前提。"
+  },
+  {
+    "topicId": "cnd_j051",
+    "prerequisiteId": "cnd_p135",
+    "strength": "hard",
+    "reason": "初中的百年党史叙述，建立在小学「中国有了共产党」的史实认识上。"
+  },
+  {
+    "topicId": "cnd_j052",
+    "prerequisiteId": "cnd_j051",
+    "strength": "hard",
+    "reason": "理解党的人民立场，要先了解党百年奋斗取得的成就与经验。"
+  },
+  {
+    "topicId": "cnd_j053",
+    "prerequisiteId": "cnd_j052",
+    "strength": "hard",
+    "reason": "从党的历史贡献与人民立场出发，才能理解党是领导一切的。"
+  },
+  {
+    "topicId": "cnd_j055",
+    "prerequisiteId": "cnd_j054",
+    "strength": "hard",
+    "reason": "新时代的思想旗帜回应新时代课题，要先把握新的历史方位。"
+  },
+  {
+    "topicId": "cnd_j056",
+    "prerequisiteId": "cnd_j054",
+    "strength": "hard",
+    "reason": "十年成就的展开以进入新时代这一历史方位为背景。"
+  },
+  {
+    "topicId": "cnd_j057",
+    "prerequisiteId": "cnd_j054",
+    "strength": "hard",
+    "reason": "战略安排与中国式现代化的蓝图，是立足新的历史方位作出的。"
+  },
+  {
+    "topicId": "cnd_j058",
+    "prerequisiteId": "cnd_j057",
+    "strength": "hard",
+    "reason": "高质量发展是实现宏伟蓝图的路径，需先明确目标任务。"
+  },
+  {
+    "topicId": "cnd_j059",
+    "prerequisiteId": "cnd_p123",
+    "strength": "hard",
+    "reason": "民族共同体与祖国统一的内容，接续小学「祖国统一大业不断推进」。"
+  },
+  {
+    "topicId": "cnd_j060",
+    "prerequisiteId": "cnd_j057",
+    "strength": "hard",
+    "reason": "中国梦的追梦行动以「两步走」战略和中国式现代化目标为坐标。"
+  },
+  {
+    "topicId": "cnd_j062",
+    "prerequisiteId": "cnd_j061",
+    "strength": "hard",
+    "reason": "构建人类命运共同体，要从认识世界的开放互动与关系复杂多变起步。"
+  },
+  {
+    "topicId": "cnd_j063",
+    "prerequisiteId": "cnd_j062",
+    "strength": "hard",
+    "reason": "中国担当与深度互动，是命运共同体理念在中国身上的展开。"
+  },
+  {
+    "topicId": "cnd_j064",
+    "prerequisiteId": "cnd_j063",
+    "strength": "hard",
+    "reason": "携手促发展需要先在具体互动中理解中国与世界相连。"
+  },
+  {
+    "topicId": "cnd_j065",
+    "prerequisiteId": "cnd_j064",
+    "strength": "hard",
+    "reason": "少年的担当以认识中国与世界的共同发展为视野背景。"
+  },
+  {
+    "topicId": "cnd_j066",
+    "prerequisiteId": "cnd_j065",
+    "strength": "hard",
+    "reason": "毕业季的职业与学习选择，是少年担当在自身成长中的落实。"
+  },
+  {
+    "topicId": "cnd_j067",
+    "prerequisiteId": "cnd_j066",
+    "strength": "hard",
+    "reason": "回望成长、走向未来，要先处理升学与职业的现实选择。"
   }
 ]

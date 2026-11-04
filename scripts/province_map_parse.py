@@ -478,6 +478,9 @@ def emit_durable(prov_meta, cell, registry, outdir_docs, out_json):
                   "取证未核 %d 格。" % (total, ok, 100.0 * ok / max(total, 1), unknown))
     lines.append("- 要每格都有版本可选，需要新增的「版本 × 学科」登记：**%d** 对（多数按同年级范围先落成 borrowed）。"
                  % len(gap_pairs))
+    lines.append("- 上面是学段口径。年级口径（32 省区 × 10 个年档 × 已建库 8 科 = 2560 格，判成「可选且该年档确实有点 / "
+                 "版本已登记但该年档池子缺点 / 未登记 / 取证未核空白」四类）由 `scripts/coverage_grid.py` 计算，"
+                 "重跑即出当前计数，本文件不复制数字以免走旧。")
     lines.append("")
     lines.append("| 需新增（版本 × 学科） | 涉及省 | 涉及省数 |")
     lines.append("|---|---|---|")

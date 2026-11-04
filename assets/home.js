@@ -87,9 +87,9 @@
       sdemo.textContent = '先看一遍演示：一年级上册科学';
     }
   } else if (subject === 'morality') {
-    document.title = '小学道德与法治 · 中小学·高中知识图谱';
+    document.title = '道德与法治（小学 + 初中） · 中小学·高中知识图谱';
     var meye = document.querySelector('.eyebrow');
-    if (meye) meye.textContent = '道德与法治：小学一至六年级 · 统编版';
+    if (meye) meye.textContent = '道德与法治：小学一至六年级 + 初中七至九年级 · 统编版';
     var mprimary = document.querySelector('.hero-actions a.btn-primary');
     var mbrowse = document.querySelector('.hero-actions a.btn:not(.btn-primary)');
     if (mprimary) mprimary.setAttribute('href', 'diagnose/?subject=morality');
@@ -233,7 +233,7 @@
     }
     var wantEnglish = subject === 'english';
     var wantPhysics = subject === 'physics';
-    var wantChinese = subject === 'chinese' || subject === 'science' || subject === 'morality';
+    var wantPrimaryOnly = subject === 'chinese' || subject === 'science';
     var wantHistory = subject === 'history';
     var wantGeography = subject === 'geography';
     topics = topics.filter(function (topic) { return (topic.subject || subjectOfId(topic.id)) === subject; });
@@ -269,7 +269,7 @@
       grades.append(link);
     }
     var from = wantPhysics ? 8 : (wantEnglish ? 3 : (wantHistory || wantGeography ? 7 : 1));
-    var to = wantChinese ? 6 : (wantGeography ? 8 : 9);
+    var to = wantPrimaryOnly ? 6 : (wantGeography ? 8 : 9);
     for (var g = from; g <= to; g++) {
       var list = topics.filter(function (topic) { return topic.grade === g; });
       var up = list.filter(function (topic) { return topic.semester === '上'; }).length;
@@ -279,8 +279,8 @@
       var href = subject !== 'math' ? 'explore/?subject=' + subject + '&grade=' + g : 'explore/?grade=' + g;
       addCard(g, g <= 6 ? '小学' : (wantPhysics ? '初中物理' : '初中'), CN[g] + '年级', g <= 6 ? 'is-primary' : 'is-junior', splitText, href);
     }
-    if (wantChinese) {
-      /* 小学语文、小学科学、小学道德与法治只到六年级 */
+    if (wantPrimaryOnly) {
+      /* 小学语文、小学科学只到六年级；道德与法治小学 + 初中，年级卡一路到九年级 */
     } else if (wantHistory) {
       /* 初中历史只到九年级 */
     } else if (wantGeography) {

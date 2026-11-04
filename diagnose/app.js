@@ -183,8 +183,8 @@
       if (volSel === '全') volSel = '';
     }
     if (subject === 'morality') {
-      document.title = '诊断 · 小学道德与法治';
-      if ('一二三四五六'.indexOf(gradeSel) < 0) gradeSel = '一';
+      document.title = '诊断 · 道德与法治';
+      if ('一二三四五六七八九'.indexOf(gradeSel) < 0) gradeSel = '一';
       if (volSel === '全') volSel = '';
     }
     if (subject === 'history') {
@@ -748,8 +748,10 @@
         ? '七八九'.split('').map(function (x) { return [x, x + '年级']; })
         : subject === 'geography'
         ? '七八'.split('').map(function (x) { return [x, x + '年级']; })
-        : subject === 'chinese' || subject === 'science' || subject === 'morality'
+        : subject === 'chinese' || subject === 'science'
         ? '一二三四五六'.split('').map(function (x) { return [x, x + '年级']; })
+        : subject === 'morality'
+        ? '一二三四五六七八九'.split('').map(function (x) { return [x, x + '年级']; })
         : GRADES.map(function (x) { return [x, x + '年级']; }).concat([
           ['高一', '高一'], ['高二', '高二'], ['选必一', '选必一'], ['选必二', '选必二'], ['选必三', '选必三']
         ]);
@@ -1399,7 +1401,7 @@
         : subject === 'science'
         ? '目标与学习路径上的知识点对应的《义务教育科学课程标准（2022年版）》第一至第三学段学习内容的公开转述。'
         : subject === 'morality'
-        ? '目标与学习路径上的知识点对应的《义务教育道德与法治课程标准（2022年版）》第一至第三学段内容要求的公开转述。'
+        ? '目标与学习路径上的知识点对应的《义务教育道德与法治课程标准（2022年版）》第一至第四学段内容要求的公开转述。'
         : subject === 'history'
         ? '目标与学习路径上的知识点对应的《义务教育历史课程标准（2022年版）》第四学段内容要求的公开转述。'
         : subject === 'geography'
