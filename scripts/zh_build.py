@@ -26,6 +26,7 @@ import zh_g6  # noqa: E402,F401
 import zh_g7a  # noqa: E402,F401
 import zh_g7b  # noqa: E402,F401
 import zh_g8a  # noqa: E402,F401
+import zh_g8b  # noqa: E402,F401
 import zh_edges  # noqa: E402,F401
 import zh_j_edges  # noqa: E402,F401
 from zh_lib import HARD, STANDARD_ROWS, TOPICS, chapter, check_question, materialise_questions, stage_label  # noqa: E402
@@ -50,6 +51,7 @@ JUNIOR_BOUNDS = {
     "7上": (51, 51),
     "7下": (50, 50),
     "8上": (58, 58),
+    "8下": (49, 49),
 }
 BOUNDS.update(JUNIOR_BOUNDS)
 
