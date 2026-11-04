@@ -23,7 +23,9 @@ import zh_g3  # noqa: E402,F401
 import zh_g4  # noqa: E402,F401
 import zh_g5  # noqa: E402,F401
 import zh_g6  # noqa: E402,F401
+import zh_g7a  # noqa: E402,F401
 import zh_edges  # noqa: E402,F401
+import zh_j_edges  # noqa: E402,F401
 from zh_lib import HARD, STANDARD_ROWS, TOPICS, chapter, check_question, materialise_questions, stage_label  # noqa: E402
 from build_merge import merge_generated  # noqa: E402
 from verify_questions import verify_all  # noqa: E402
@@ -39,7 +41,12 @@ VOLUMES = PRIMARY_VOLUMES + JUNIOR_VOLUMES
 # 每册知识点数上下界。小学十二册按已核对的统编目录填；初中六册的界（JUNIOR_BOUNDS）要等目录
 # 双源核对后再填，留空就等于「这一册还没覆盖」，不许凭印象给一个数。
 BOUNDS = {k: (30, 48) for k in PRIMARY_VOLUMES}
-JUNIOR_BOUNDS = {}
+# 初中各册的点数由目录逐册推导（_scratch/_zhjr_expect.py → _scratch/zh_jr_plan.json）：
+# 一课一点、课外古诗一首一点、写作/整本书/专题各一点，每册再加一点「字音字形」；
+# 与前面册次重复的篇目（过渡期两册同收）不重复建点。上下界取同值，少一点或多一点都构建失败。
+JUNIOR_BOUNDS = {
+    "7上": (51, 51),
+}
 BOUNDS.update(JUNIOR_BOUNDS)
 
 

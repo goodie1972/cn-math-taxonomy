@@ -804067,5 +804067,5717 @@
   "answer": "C",
   "explanation": "规划的价值在于方向感与准备度，而不是把未来写死。",
   "verify": "\"未来不可能全部预知，但规划能让人分清主次、准备好能力，面对变化更有底气\""
+ },
+ {
+  "id": "cnc_j001_q1",
+  "topicId": "cnc_j001",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「黄晕」的「晕」在这里读什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "一声 yūn"
+   },
+   {
+    "key": "B",
+    "text": "二声 yún"
+   },
+   {
+    "key": "C",
+    "text": "三声 yǔn"
+   },
+   {
+    "key": "D",
+    "text": "四声 yùn"
+   }
+  ],
+  "answer": "D",
+  "explanation": "指光影模糊的圆圈时读四声；读一声是头晕、晕倒的意思。",
+  "verify": "\"四声 yùn\""
+ },
+ {
+  "id": "cnc_j001_q2",
+  "topicId": "cnc_j001",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "下列词语中没有错别字的是哪一项？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "美不胜收"
+   },
+   {
+    "key": "B",
+    "text": "美不盛收"
+   },
+   {
+    "key": "C",
+    "text": "美不相收"
+   },
+   {
+    "key": "D",
+    "text": "美不成收"
+   }
+  ],
+  "answer": "A",
+  "explanation": "「胜」是尽的意思，「美不胜收」指好的东西多得收不完，不能写成「盛」「相」。",
+  "verify": "\"美不胜收\""
+ },
+ {
+  "id": "cnc_j001_q3",
+  "topicId": "cnc_j001",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "「拈轻怕重」的「拈」怎么读、是什么意思？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "读 zhān，粘贴"
+   },
+   {
+    "key": "B",
+    "text": "读 niān，用两指取，这里指挑选"
+   },
+   {
+    "key": "C",
+    "text": "读 niàn，惦念"
+   },
+   {
+    "key": "D",
+    "text": "读 diān，掂量"
+   }
+  ],
+  "answer": "B",
+  "explanation": "「拈」是取、挑的动作，提手旁加「占」；这个词常被误读成与「占」相同的音。",
+  "verify": "\"读 niān，用两指取，这里指挑选\""
+ },
+ {
+  "id": "cnc_j001_q4",
+  "topicId": "cnc_j001",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "「参差不齐」的「参差」读音是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "shēn chā"
+   },
+   {
+    "key": "B",
+    "text": "cān chā"
+   },
+   {
+    "key": "C",
+    "text": "cēn cī"
+   },
+   {
+    "key": "D",
+    "text": "cēn chā"
+   }
+  ],
+  "answer": "C",
+  "explanation": "「参差」是不齐的样子，读 cēn cī；「参」在这里既不读 cān 也不读 shēn。",
+  "verify": "\"cēn cī\""
+ },
+ {
+  "id": "cnc_j002_q1",
+  "topicId": "cnc_j002",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "《春》的作者是谁？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "朱自清"
+   },
+   {
+    "key": "B",
+    "text": "老舍"
+   },
+   {
+    "key": "C",
+    "text": "鲁迅"
+   },
+   {
+    "key": "D",
+    "text": "刘湛秋"
+   }
+  ],
+  "answer": "A",
+  "explanation": "《春》是朱自清的写景抒情散文。老舍写的是《济南的冬天》。",
+  "verify": "\"朱自清\""
+ },
+ {
+  "id": "cnc_j002_q2",
+  "topicId": "cnc_j002",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「吹面不寒杨柳风」在课文里引用的是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "杜甫《春夜喜雨》里的诗句"
+   },
+   {
+    "key": "B",
+    "text": "南宋僧人志南《绝句》里的诗句"
+   },
+   {
+    "key": "C",
+    "text": "白居易《钱塘湖春行》里的诗句"
+   },
+   {
+    "key": "D",
+    "text": "韩愈《早春呈水部张十八员外》里的诗句"
+   }
+  ],
+  "answer": "B",
+  "explanation": "课文注里说明这句出自南宋志南和尚的《绝句》，用来写春风的柔和。",
+  "verify": "\"南宋僧人志南《绝句》里的诗句\""
+ },
+ {
+  "id": "cnc_j002_q3",
+  "topicId": "cnc_j002",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "「红的像火，粉的像霞，白的像雪」写的是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "春草的茂密"
+   },
+   {
+    "key": "B",
+    "text": "春雨的细密"
+   },
+   {
+    "key": "C",
+    "text": "春花开放的样子和颜色"
+   },
+   {
+    "key": "D",
+    "text": "春天风的声音"
+   }
+  ],
+  "answer": "C",
+  "explanation": "这一句写树上的花，用三个比喻排比出春花的色与闹。",
+  "verify": "\"春花开放的样子和颜色\""
+ },
+ {
+  "id": "cnc_j002_q4",
+  "topicId": "cnc_j002",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "课文结尾把春天依次比成什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "小姑娘、娃娃、健壮的青年"
+   },
+   {
+    "key": "B",
+    "text": "健壮的青年、小姑娘、娃娃"
+   },
+   {
+    "key": "C",
+    "text": "娃娃、健壮的青年、小姑娘"
+   },
+   {
+    "key": "D",
+    "text": "刚落地的娃娃、小姑娘、健壮的青年"
+   }
+  ],
+  "answer": "D",
+  "explanation": "顺序是新的（娃娃）—美的（小姑娘）—有力量的（青年），一层递进，不能颠倒。",
+  "verify": "\"刚落地的娃娃、小姑娘、健壮的青年\""
+ },
+ {
+  "id": "cnc_j003_q1",
+  "topicId": "cnc_j003",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "《济南的冬天》的作者是谁？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "朱自清"
+   },
+   {
+    "key": "B",
+    "text": "老舍"
+   },
+   {
+    "key": "C",
+    "text": "梁实秋"
+   },
+   {
+    "key": "D",
+    "text": "冰心"
+   }
+  ],
+  "answer": "B",
+  "explanation": "这篇是老舍写的散文。写《春》的是朱自清。",
+  "verify": "\"老舍\""
+ },
+ {
+  "id": "cnc_j003_q2",
+  "topicId": "cnc_j003",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "课文说济南的冬天是什么地方？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "是个风筝的城"
+   },
+   {
+    "key": "B",
+    "text": "是个四季如春的城"
+   },
+   {
+    "key": "C",
+    "text": "是个宝地"
+   },
+   {
+    "key": "D",
+    "text": "是个水上的城"
+   }
+  ],
+  "answer": "C",
+  "explanation": "作者拿北平的寒、伦敦的雾来比，说济南是个暖而晴的宝地。",
+  "verify": "\"是个宝地\""
+ },
+ {
+  "id": "cnc_j003_q3",
+  "topicId": "cnc_j003",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "济南冬天天气的总特点，课文用哪两个字概括？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "寒冷"
+   },
+   {
+    "key": "B",
+    "text": "干燥"
+   },
+   {
+    "key": "C",
+    "text": "多雾"
+   },
+   {
+    "key": "D",
+    "text": "温晴"
+   }
+  ],
+  "answer": "D",
+  "explanation": "全文围绕温晴来写：温是暖，晴是不阴不雾。",
+  "verify": "\"温晴\""
+ },
+ {
+  "id": "cnc_j003_q4",
+  "topicId": "cnc_j003",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "写水藻时，课文说它们怎么样？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "把终年贮蓄的绿色全拿出来了"
+   },
+   {
+    "key": "B",
+    "text": "把水面都盖住了"
+   },
+   {
+    "key": "C",
+    "text": "在冰下睡着"
+   },
+   {
+    "key": "D",
+    "text": "黄了大半"
+   }
+  ],
+  "answer": "A",
+  "explanation": "水藻的绿衬托水的清亮，是济南冬天水最活的画面。",
+  "verify": "\"把终年贮蓄的绿色全拿出来了\""
+ },
+ {
+  "id": "cnc_j004_q1",
+  "topicId": "cnc_j004",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "《雨的四季》的作者是谁？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "朱自清"
+   },
+   {
+    "key": "B",
+    "text": "老舍"
+   },
+   {
+    "key": "C",
+    "text": "刘湛秋"
+   },
+   {
+    "key": "D",
+    "text": "泰戈尔"
+   }
+  ],
+  "answer": "C",
+  "explanation": "这篇散文出自刘湛秋。",
+  "verify": "\"刘湛秋\""
+ },
+ {
+  "id": "cnc_j004_q2",
+  "topicId": "cnc_j004",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "课文开头一句表明了作者怎样的态度？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "我只喜欢春天的雨"
+   },
+   {
+    "key": "B",
+    "text": "雨令人烦闷"
+   },
+   {
+    "key": "C",
+    "text": "夏天的雨最值得写"
+   },
+   {
+    "key": "D",
+    "text": "我喜欢雨，无论什么季节的雨"
+   }
+  ],
+  "answer": "D",
+  "explanation": "开篇就说喜欢雨，全文按四季依次写，情感是统一的。",
+  "verify": "\"我喜欢雨，无论什么季节的雨\""
+ },
+ {
+  "id": "cnc_j004_q3",
+  "topicId": "cnc_j004",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "课文里夏雨的性格是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "热烈而又粗犷"
+   },
+   {
+    "key": "B",
+    "text": "文静而端庄"
+   },
+   {
+    "key": "C",
+    "text": "娇媚而羞涩"
+   },
+   {
+    "key": "D",
+    "text": "平静而自然"
+   }
+  ],
+  "answer": "A",
+  "explanation": "夏雨来势急、声音大，作者用热烈、粗犷形容它。",
+  "verify": "\"热烈而又粗犷\""
+ },
+ {
+  "id": "cnc_j004_q4",
+  "topicId": "cnc_j004",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "被形容为端庄沉静的，是哪一季的雨？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "春雨"
+   },
+   {
+    "key": "B",
+    "text": "秋雨"
+   },
+   {
+    "key": "C",
+    "text": "夏雨"
+   },
+   {
+    "key": "D",
+    "text": "冬雨"
+   }
+  ],
+  "answer": "B",
+  "explanation": "春雨娇媚，夏雨粗犷，秋雨沉静，冬雨则化作另一种自然的形态。",
+  "verify": "\"秋雨\""
+ },
+ {
+  "id": "cnc_j005_q1",
+  "topicId": "cnc_j005",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "《观沧海》的作者是谁？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "曹植"
+   },
+   {
+    "key": "B",
+    "text": "刘备"
+   },
+   {
+    "key": "C",
+    "text": "陶渊明"
+   },
+   {
+    "key": "D",
+    "text": "曹操"
+   }
+  ],
+  "answer": "D",
+  "explanation": "这首诗是曹操北征乌桓时所作，是他四言乐府的代表。",
+  "verify": "\"曹操\""
+ },
+ {
+  "id": "cnc_j005_q2",
+  "topicId": "cnc_j005",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「水何澹澹」的下一句是哪一句？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "山岛竦峙"
+   },
+   {
+    "key": "B",
+    "text": "百草丰茂"
+   },
+   {
+    "key": "C",
+    "text": "洪波涌起"
+   },
+   {
+    "key": "D",
+    "text": "星汉灿烂"
+   }
+  ],
+  "answer": "A",
+  "explanation": "先写水波，再写矗立的海岛，顺序不能串。",
+  "verify": "\"山岛竦峙\""
+ },
+ {
+  "id": "cnc_j005_q3",
+  "topicId": "cnc_j005",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "「日月之行，若出其中」的下一句是哪一句？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "秋风萧瑟，洪波涌起"
+   },
+   {
+    "key": "B",
+    "text": "星汉灿烂，若出其里"
+   },
+   {
+    "key": "C",
+    "text": "树木丛生，百草丰茂"
+   },
+   {
+    "key": "D",
+    "text": "水何澹澹，山岛竦峙"
+   }
+  ],
+  "answer": "B",
+  "explanation": "这四句是想象之景，写大海吞吐日月星辰的气象。",
+  "verify": "\"星汉灿烂，若出其里\""
+ },
+ {
+  "id": "cnc_j005_q4",
+  "topicId": "cnc_j005",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "《观沧海》的体裁是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "五言律诗"
+   },
+   {
+    "key": "B",
+    "text": "七言绝句"
+   },
+   {
+    "key": "C",
+    "text": "四言诗，属乐府"
+   },
+   {
+    "key": "D",
+    "text": "词"
+   }
+  ],
+  "answer": "C",
+  "explanation": "全诗句式四字为主，选自《乐府诗集》，是乐府诗。",
+  "verify": "\"四言诗，属乐府\""
+ },
+ {
+  "id": "cnc_j006_q1",
+  "topicId": "cnc_j006",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "《次北固山下》的作者是谁？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "王湾"
+   },
+   {
+    "key": "B",
+    "text": "王勃"
+   },
+   {
+    "key": "C",
+    "text": "王维"
+   },
+   {
+    "key": "D",
+    "text": "李白"
+   }
+  ],
+  "answer": "A",
+  "explanation": "这是唐代诗人王湾的行旅之作。",
+  "verify": "\"王湾\""
+ },
+ {
+  "id": "cnc_j006_q2",
+  "topicId": "cnc_j006",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「潮平两岸阔」的下一句是哪一句？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "江春入旧年"
+   },
+   {
+    "key": "B",
+    "text": "风正一帆悬"
+   },
+   {
+    "key": "C",
+    "text": "海日生残夜"
+   },
+   {
+    "key": "D",
+    "text": "归雁洛阳边"
+   }
+  ],
+  "answer": "B",
+  "explanation": "写江面开阔、风顺帆悬，是颔联。",
+  "verify": "\"风正一帆悬\""
+ },
+ {
+  "id": "cnc_j006_q3",
+  "topicId": "cnc_j006",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "「海日生残夜，江春入旧年」历来被称道，好在哪里？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "只用对偶，没有意思"
+   },
+   {
+    "key": "B",
+    "text": "写的是夜里的海景"
+   },
+   {
+    "key": "C",
+    "text": "写时序交替，把新旧相生的道理含在景里"
+   },
+   {
+    "key": "D",
+    "text": "抒发做官不得志的愁"
+   }
+  ],
+  "answer": "C",
+  "explanation": "残夜未尽而红日已升，旧年未过而江上已有春意，景中寓理。",
+  "verify": "\"写时序交替，把新旧相生的道理含在景里\""
+ },
+ {
+  "id": "cnc_j006_q4",
+  "topicId": "cnc_j006",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "尾联「乡书何处达」的下一句是哪一句？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "风正一帆悬"
+   },
+   {
+    "key": "B",
+    "text": "青山横北郭"
+   },
+   {
+    "key": "C",
+    "text": "落日故人情"
+   },
+   {
+    "key": "D",
+    "text": "归雁洛阳边"
+   }
+  ],
+  "answer": "D",
+  "explanation": "诗人托北归的大雁把家书捎到洛阳，点出思乡。",
+  "verify": "\"归雁洛阳边\""
+ },
+ {
+  "id": "cnc_j007_q1",
+  "topicId": "cnc_j007",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "诗题里的「左迁」是什么意思？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "升官"
+   },
+   {
+    "key": "B",
+    "text": "贬官、降职"
+   },
+   {
+    "key": "C",
+    "text": "调任京官"
+   },
+   {
+    "key": "D",
+    "text": "辞官回乡"
+   }
+  ],
+  "answer": "B",
+  "explanation": "古人以右为尊，左迁是降职，王昌龄被贬到龙标。",
+  "verify": "\"贬官、降职\""
+ },
+ {
+  "id": "cnc_j007_q2",
+  "topicId": "cnc_j007",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「杨花落尽子规啼」的下一句是哪一句？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "我寄愁心与明月"
+   },
+   {
+    "key": "B",
+    "text": "随君直到夜郎西"
+   },
+   {
+    "key": "C",
+    "text": "闻道龙标过五溪"
+   },
+   {
+    "key": "D",
+    "text": "月落乌啼霜满天"
+   }
+  ],
+  "answer": "C",
+  "explanation": "首句写景点时，次句才叙事点出友人被贬之地。",
+  "verify": "\"闻道龙标过五溪\""
+ },
+ {
+  "id": "cnc_j007_q3",
+  "topicId": "cnc_j007",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "「我寄愁心与明月」的下一句是哪一句？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "闻道龙标过五溪"
+   },
+   {
+    "key": "B",
+    "text": "西出阳关无故人"
+   },
+   {
+    "key": "C",
+    "text": "一片冰心在玉壶"
+   },
+   {
+    "key": "D",
+    "text": "随君直到夜郎西"
+   }
+  ],
+  "answer": "D",
+  "explanation": "把愁心托给明月，让它一路跟着友人到夜郎以西。",
+  "verify": "\"随君直到夜郎西\""
+ },
+ {
+  "id": "cnc_j007_q4",
+  "topicId": "cnc_j007",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "这首诗的体裁是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "七言绝句"
+   },
+   {
+    "key": "B",
+    "text": "五言律诗"
+   },
+   {
+    "key": "C",
+    "text": "乐府诗"
+   },
+   {
+    "key": "D",
+    "text": "词"
+   }
+  ],
+  "answer": "A",
+  "explanation": "四句、每句七字，是七绝。",
+  "verify": "\"七言绝句\""
+ },
+ {
+  "id": "cnc_j008_q1",
+  "topicId": "cnc_j008",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "《天净沙·秋思》的作者是谁？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "张养浩"
+   },
+   {
+    "key": "B",
+    "text": "关汉卿"
+   },
+   {
+    "key": "C",
+    "text": "马致远"
+   },
+   {
+    "key": "D",
+    "text": "白朴"
+   }
+  ],
+  "answer": "C",
+  "explanation": "这是元代马致远的散曲小令，被称为秋思之祖。",
+  "verify": "\"马致远\""
+ },
+ {
+  "id": "cnc_j008_q2",
+  "topicId": "cnc_j008",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "题目里的「天净沙」是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "词牌名"
+   },
+   {
+    "key": "B",
+    "text": "题目"
+   },
+   {
+    "key": "C",
+    "text": "宫调名"
+   },
+   {
+    "key": "D",
+    "text": "曲牌名"
+   }
+  ],
+  "answer": "D",
+  "explanation": "天净沙是曲牌，秋思才是这篇的题目。",
+  "verify": "\"曲牌名\""
+ },
+ {
+  "id": "cnc_j008_q3",
+  "topicId": "cnc_j008",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "「枯藤老树昏鸦」的下一句是哪一句？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "小桥流水人家"
+   },
+   {
+    "key": "B",
+    "text": "古道西风瘦马"
+   },
+   {
+    "key": "C",
+    "text": "夕阳西下"
+   },
+   {
+    "key": "D",
+    "text": "断肠人在天涯"
+   }
+  ],
+  "answer": "A",
+  "explanation": "前三句依次是枯藤老树昏鸦、小桥流水人家、古道西风瘦马。",
+  "verify": "\"小桥流水人家\""
+ },
+ {
+  "id": "cnc_j008_q4",
+  "topicId": "cnc_j008",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "末句「断肠人在天涯」在全曲中的作用是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "补足格律需要的字数"
+   },
+   {
+    "key": "B",
+    "text": "点出游子漂泊之愁，景语到此变成情语"
+   },
+   {
+    "key": "C",
+    "text": "描写傍晚的天气"
+   },
+   {
+    "key": "D",
+    "text": "另写一个新的人物"
+   }
+  ],
+  "answer": "B",
+  "explanation": "前面九个意象都是铺排，最后一句才说出看景的人和他的心情。",
+  "verify": "\"点出游子漂泊之愁，景语到此变成情语\""
+ },
+ {
+  "id": "cnc_j009_q1",
+  "topicId": "cnc_j009",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "这一单元写作训练强调的第一件事是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "背多篇范文来仿写"
+   },
+   {
+    "key": "B",
+    "text": "先把字数写够"
+   },
+   {
+    "key": "C",
+    "text": "尽量用华丽的词"
+   },
+   {
+    "key": "D",
+    "text": "养成观察生活的习惯，从身边取材"
+   }
+  ],
+  "answer": "D",
+  "explanation": "写作先解决写什么：热爱生活、学会观察，材料才有着落。",
+  "verify": "\"养成观察生活的习惯，从身边取材\""
+ },
+ {
+  "id": "cnc_j009_q2",
+  "topicId": "cnc_j009",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "观察一处景物，最要抓住的是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "它区别于别处的特征"
+   },
+   {
+    "key": "B",
+    "text": "它的名字来历"
+   },
+   {
+    "key": "C",
+    "text": "它的全部数据"
+   },
+   {
+    "key": "D",
+    "text": "所有游人的评价"
+   }
+  ],
+  "answer": "A",
+  "explanation": "《春》《济南的冬天》都因抓住特征而有面目，观察不是什么都记。",
+  "verify": "\"它区别于别处的特征\""
+ },
+ {
+  "id": "cnc_j009_q3",
+  "topicId": "cnc_j009",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "想让读者如见其景，观察和描写时应该怎么做？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "只写看到的东西"
+   },
+   {
+    "key": "B",
+    "text": "调动视觉、听觉、嗅觉、触觉等多种感觉"
+   },
+   {
+    "key": "C",
+    "text": "只写心里的感想"
+   },
+   {
+    "key": "D",
+    "text": "只写颜色的变化"
+   }
+  ],
+  "answer": "B",
+  "explanation": "多感官描写使景物立体，课文里花香、鸟鸣、风的触感就是这样写的。",
+  "verify": "\"调动视觉、听觉、嗅觉、触觉等多种感觉\""
+ },
+ {
+  "id": "cnc_j009_q4",
+  "topicId": "cnc_j009",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "下面哪种做法更利于把文章写真实？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "把别人的作文改一改当自己的"
+   },
+   {
+    "key": "B",
+    "text": "编一个没人能查证的故事"
+   },
+   {
+    "key": "C",
+    "text": "写自己真实的感受，不硬编动人情节"
+   },
+   {
+    "key": "D",
+    "text": "只挑大词来抒情"
+   }
+  ],
+  "answer": "C",
+  "explanation": "真情实感来自自己的生活体验，硬编的内容一读就假。",
+  "verify": "\"写自己真实的感受，不硬编动人情节\""
+ },
+ {
+  "id": "cnc_j010_q1",
+  "topicId": "cnc_j010",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "《秋天的怀念》的作者是谁？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "史铁生"
+   },
+   {
+    "key": "B",
+    "text": "莫怀戚"
+   },
+   {
+    "key": "C",
+    "text": "冰心"
+   },
+   {
+    "key": "D",
+    "text": "张之路"
+   }
+  ],
+  "answer": "A",
+  "explanation": "这篇是史铁生怀念母亲的散文。",
+  "verify": "\"史铁生\""
+ },
+ {
+  "id": "cnc_j010_q2",
+  "topicId": "cnc_j010",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「我」双腿瘫痪后脾气变得怎样？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "沉默寡言但不恼人"
+   },
+   {
+    "key": "B",
+    "text": "暴怒无常"
+   },
+   {
+    "key": "C",
+    "text": "依旧平和"
+   },
+   {
+    "key": "D",
+    "text": "忽然变得爱热闹"
+   }
+  ],
+  "answer": "B",
+  "explanation": "开头写自己砸东西、喊叫，正是母亲的艰难处境。",
+  "verify": "\"暴怒无常\""
+ },
+ {
+  "id": "cnc_j010_q3",
+  "topicId": "cnc_j010",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "母亲多次说「咱们去北海看看菊花吧」，她为什么要「挡」在“我”前面说话？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "怕邻居知道家里的事"
+   },
+   {
+    "key": "B",
+    "text": "她自己特别爱花"
+   },
+   {
+    "key": "C",
+    "text": "怕“我”看见她病得厉害而难受，也盼“我”肯出去走走"
+   },
+   {
+    "key": "D",
+    "text": "想让妹妹跟着一起去"
+   }
+  ],
+  "answer": "C",
+  "explanation": "她小心地措辞、悄悄地躲出去，都是怕刺激儿子，又盼他能重新面对生活。",
+  "verify": "\"怕“我”看见她病得厉害而难受，也盼“我”肯出去走走\""
+ },
+ {
+  "id": "cnc_j010_q4",
+  "topicId": "cnc_j010",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "结尾写菊花「泼泼洒洒，秋风中正开得烂漫」，用意是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "说明菊花比北海更美"
+   },
+   {
+    "key": "B",
+    "text": "表示秋天不适合出游"
+   },
+   {
+    "key": "C",
+    "text": "交代妹妹也瘫痪了"
+   },
+   {
+    "key": "D",
+    "text": "写出「我」懂得了母亲的话，要坚强地活下去"
+   }
+  ],
+  "answer": "D",
+  "explanation": "母亲没等到看花，兄妹俩替她去看；花开得烂漫，正是生命的态度。",
+  "verify": "\"写出「我」懂得了母亲的话，要坚强地活下去\""
+ },
+ {
+  "id": "cnc_j011_q1",
+  "topicId": "cnc_j011",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "《散步》的作者是谁？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "史铁生"
+   },
+   {
+    "key": "B",
+    "text": "莫怀戚"
+   },
+   {
+    "key": "C",
+    "text": "朱自清"
+   },
+   {
+    "key": "D",
+    "text": "刘湛秋"
+   }
+  ],
+  "answer": "B",
+  "explanation": "这篇散文作者是莫怀戚。",
+  "verify": "\"莫怀戚\""
+ },
+ {
+  "id": "cnc_j011_q2",
+  "topicId": "cnc_j011",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "散步时的分歧是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "母亲要走小路，儿子要走大路"
+   },
+   {
+    "key": "B",
+    "text": "两个人都要走大路"
+   },
+   {
+    "key": "C",
+    "text": "母亲要走平顺的大路，儿子要走有趣的小路"
+   },
+   {
+    "key": "D",
+    "text": "走哪条路都一样，没有分歧"
+   }
+  ],
+  "answer": "C",
+  "explanation": "分歧不在远近，而在母亲的平顺与孩子的趣味不能两全。",
+  "verify": "\"母亲要走平顺的大路，儿子要走有趣的小路\""
+ },
+ {
+  "id": "cnc_j011_q3",
+  "topicId": "cnc_j011",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "「我」最后的决定是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "依从儿子走小路"
+   },
+   {
+    "key": "B",
+    "text": "自己一个人先走"
+   },
+   {
+    "key": "C",
+    "text": "干脆回家不散步了"
+   },
+   {
+    "key": "D",
+    "text": "委屈儿子，依从母亲走大路"
+   }
+  ],
+  "answer": "D",
+  "explanation": "“我”是承上启下的一代，选的是对母亲的体恤。",
+  "verify": "\"委屈儿子，依从母亲走大路\""
+ },
+ {
+  "id": "cnc_j011_q4",
+  "topicId": "cnc_j011",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "结尾说「我好像背着的，就是整个世界」，这句该怎么理解？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "由一件小事写出中年人担负着赡养老人、抚育孩子的责任"
+   },
+   {
+    "key": "B",
+    "text": "背的东西太重了"
+   },
+   {
+    "key": "C",
+    "text": "路实在不好走"
+   },
+   {
+    "key": "D",
+    "text": "儿子和母亲都很沉"
+   }
+  ],
+  "answer": "A",
+  "explanation": "以小见大：背负的是两代人的分量与生命的延续。",
+  "verify": "\"由一件小事写出中年人担负着赡养老人、抚育孩子的责任\""
+ },
+ {
+  "id": "cnc_j012_q1",
+  "topicId": "cnc_j012",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "《金色花》的作者是谁？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "冰心"
+   },
+   {
+    "key": "B",
+    "text": "普希金"
+   },
+   {
+    "key": "C",
+    "text": "泰戈尔"
+   },
+   {
+    "key": "D",
+    "text": "郑振铎"
+   }
+  ],
+  "answer": "C",
+  "explanation": "泰戈尔是印度诗人，诗集《新月集》里有这一首散文诗。",
+  "verify": "\"泰戈尔\""
+ },
+ {
+  "id": "cnc_j012_q2",
+  "topicId": "cnc_j012",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "孩子假设自己变成了什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "一只小蝴蝶"
+   },
+   {
+    "key": "B",
+    "text": "母亲窗前的一盆茉莉"
+   },
+   {
+    "key": "C",
+    "text": "一棵小小的树"
+   },
+   {
+    "key": "D",
+    "text": "一朵开在高枝上的金色花"
+   }
+  ],
+  "answer": "D",
+  "explanation": "变成金色花才好悄悄地陪着母亲，又不被发现。",
+  "verify": "\"一朵开在高枝上的金色花\""
+ },
+ {
+  "id": "cnc_j012_q3",
+  "topicId": "cnc_j012",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "母亲做祷告时，孩子做了什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "把香气悄悄地散给她"
+   },
+   {
+    "key": "B",
+    "text": "把花戴在她头上"
+   },
+   {
+    "key": "C",
+    "text": "在她身边唱歌"
+   },
+   {
+    "key": "D",
+    "text": "拉她的衣角"
+   }
+  ],
+  "answer": "A",
+  "explanation": "孩子只用香气、影子陪母亲，这是全文的温柔处。",
+  "verify": "\"把香气悄悄地散给她\""
+ },
+ {
+  "id": "cnc_j012_q4",
+  "topicId": "cnc_j012",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "孩子为什么不让母亲知道那是自己？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "怕母亲责怪他贪玩"
+   },
+   {
+    "key": "B",
+    "text": "想在不打扰母亲的前提下陪伴她，带着孩子的调皮与依恋"
+   },
+   {
+    "key": "C",
+    "text": "母亲不认识金色花"
+   },
+   {
+    "key": "D",
+    "text": "他要去更远的地方"
+   }
+  ],
+  "answer": "B",
+  "explanation": "“暗暗地在那里匿笑，却一声儿不响”，正是童真与深情的写法。",
+  "verify": "\"想在不打扰母亲的前提下陪伴她，带着孩子的调皮与依恋\""
+ },
+ {
+  "id": "cnc_j013_q1",
+  "topicId": "cnc_j013",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "《荷叶·母亲》的作者是谁？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "泰戈尔"
+   },
+   {
+    "key": "B",
+    "text": "丁玲"
+   },
+   {
+    "key": "C",
+    "text": "萧红"
+   },
+   {
+    "key": "D",
+    "text": "冰心"
+   }
+  ],
+  "answer": "D",
+  "explanation": "冰心原名谢婉莹，这篇借荷叶护红莲写母爱。",
+  "verify": "\"冰心\""
+ },
+ {
+  "id": "cnc_j013_q2",
+  "topicId": "cnc_j013",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "文中被雨点打得左右欹斜的是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "白莲与红莲"
+   },
+   {
+    "key": "B",
+    "text": "荷叶与萍梗"
+   },
+   {
+    "key": "C",
+    "text": "池边的石兰"
+   },
+   {
+    "key": "D",
+    "text": "墙角的牵牛"
+   }
+  ],
+  "answer": "A",
+  "explanation": "雨越下越大，红莲在雨里左右摇，荷叶便慢慢倾侧，盖在它上面。",
+  "verify": "\"白莲与红莲\""
+ },
+ {
+  "id": "cnc_j013_q3",
+  "topicId": "cnc_j013",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "结尾「心中的雨点」指的是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "天空真的落雨"
+   },
+   {
+    "key": "B",
+    "text": "生活中的风浪、烦恼与苦闷"
+   },
+   {
+    "key": "C",
+    "text": "心里的悔意"
+   },
+   {
+    "key": "D",
+    "text": "记忆里的雨天"
+   }
+  ],
+  "answer": "B",
+  "explanation": "由自然界的雨转到人生上的雨，才把比喻落定。",
+  "verify": "\"生活中的风浪、烦恼与苦闷\""
+ },
+ {
+  "id": "cnc_j013_q4",
+  "topicId": "cnc_j013",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "这篇最突出的写法是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "按时间顺序记事"
+   },
+   {
+    "key": "B",
+    "text": "用大量对话推动情节"
+   },
+   {
+    "key": "C",
+    "text": "借景抒情，由荷叶护莲联想到母亲护我"
+   },
+   {
+    "key": "D",
+    "text": "先说理后写景"
+   }
+  ],
+  "answer": "C",
+  "explanation": "托物抒情：先细致写荷叶与红莲，最后一句才点出母亲。",
+  "verify": "\"借景抒情，由荷叶护莲联想到母亲护我\""
+ },
+ {
+  "id": "cnc_j014_q1",
+  "topicId": "cnc_j014",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "《咏雪》出自哪部书？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "《世说新语》"
+   },
+   {
+    "key": "B",
+    "text": "《论语》"
+   },
+   {
+    "key": "C",
+    "text": "《聊斋志异》"
+   },
+   {
+    "key": "D",
+    "text": "《吕氏春秋》"
+   }
+  ],
+  "answer": "A",
+  "explanation": "《世说新语》由南朝宋刘义庆组织编写，记魏晋人物言行。",
+  "verify": "\"《世说新语》\""
+ },
+ {
+  "id": "cnc_j014_q2",
+  "topicId": "cnc_j014",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「俄而雪骤」里的「俄而」是什么意思？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "立刻"
+   },
+   {
+    "key": "B",
+    "text": "不久，一会儿"
+   },
+   {
+    "key": "C",
+    "text": "傍晚"
+   },
+   {
+    "key": "D",
+    "text": "忽然下大"
+   }
+  ],
+  "answer": "B",
+  "explanation": "俄而表示时间很短；骤是急、大。",
+  "verify": "\"不久，一会儿\""
+ },
+ {
+  "id": "cnc_j014_q3",
+  "topicId": "cnc_j014",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "「撒盐空中差可拟」是谁说的？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "谢太傅"
+   },
+   {
+    "key": "B",
+    "text": "谢道韫"
+   },
+   {
+    "key": "C",
+    "text": "兄子胡儿"
+   },
+   {
+    "key": "D",
+    "text": "无奕女"
+   }
+  ],
+  "answer": "C",
+  "explanation": "兄子胡儿先比，把雪比成撒盐；柳絮之喻出自兄女。",
+  "verify": "\"兄子胡儿\""
+ },
+ {
+  "id": "cnc_j014_q4",
+  "topicId": "cnc_j014",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "后人更欣赏「未若柳絮因风起」，理由是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "字数更少更简洁"
+   },
+   {
+    "key": "B",
+    "text": "柳絮比盐更常见"
+   },
+   {
+    "key": "C",
+    "text": "说明当时真的没有风"
+   },
+   {
+    "key": "D",
+    "text": "既写出雪的颜色，又写出它轻盈飞舞的神态"
+   }
+  ],
+  "answer": "D",
+  "explanation": "盐只似其白，柳絮得其神，所以谢道韫一联被称咏絮之才。",
+  "verify": "\"既写出雪的颜色，又写出它轻盈飞舞的神态\""
+ },
+ {
+  "id": "cnc_j015_q1",
+  "topicId": "cnc_j015",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「陈太丘与友期行」里的「期」是什么意思？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "日期"
+   },
+   {
+    "key": "B",
+    "text": "约定"
+   },
+   {
+    "key": "C",
+    "text": "期望"
+   },
+   {
+    "key": "D",
+    "text": "期限"
+   }
+  ],
+  "answer": "B",
+  "explanation": "期是约定（时间）；期日中即约定在正午。",
+  "verify": "\"约定\""
+ },
+ {
+  "id": "cnc_j015_q2",
+  "topicId": "cnc_j015",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「过中不至，太丘舍去」里的「舍」怎么解释？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "房屋"
+   },
+   {
+    "key": "B",
+    "text": "施舍"
+   },
+   {
+    "key": "C",
+    "text": "舍弃，这里指不再等候"
+   },
+   {
+    "key": "D",
+    "text": "留住"
+   }
+  ],
+  "answer": "C",
+  "explanation": "过了正午友人不到，陈太丘就不再等他走了。",
+  "verify": "\"舍弃，这里指不再等候\""
+ },
+ {
+  "id": "cnc_j015_q3",
+  "topicId": "cnc_j015",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "元方批评友人，说的是哪两点？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "路远难行、车马不便"
+   },
+   {
+    "key": "B",
+    "text": "家贫无酒食待客"
+   },
+   {
+    "key": "C",
+    "text": "言而无信但礼数尚在"
+   },
+   {
+    "key": "D",
+    "text": "日中不至则是无信，对子骂父则是无礼"
+   }
+  ],
+  "answer": "D",
+  "explanation": "先讲失信，再讲失礼，一个七岁的回答把道理说得清楚。",
+  "verify": "\"日中不至则是无信，对子骂父则是无礼\""
+ },
+ {
+  "id": "cnc_j015_q4",
+  "topicId": "cnc_j015",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "「友人惭，下车引之」的「引」是什么意思？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "拉，表示亲近、致歉"
+   },
+   {
+    "key": "B",
+    "text": "引导他上车"
+   },
+   {
+    "key": "C",
+    "text": "告别"
+   },
+   {
+    "key": "D",
+    "text": "责备"
+   }
+  ],
+  "answer": "A",
+  "explanation": "友人下车想拉元方示好，元方却入门不顾。",
+  "verify": "\"拉，表示亲近、致歉\""
+ },
+ {
+  "id": "cnc_j016_q1",
+  "topicId": "cnc_j016",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "记事作文最容易犯的毛病是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "细节太多"
+   },
+   {
+    "key": "B",
+    "text": "开头太短"
+   },
+   {
+    "key": "C",
+    "text": "从头到尾平均用墨，写成流水账"
+   },
+   {
+    "key": "D",
+    "text": "字数太少"
+   }
+  ],
+  "answer": "C",
+  "explanation": "要把笔墨放在最能表现中心的片段上，其余交代即可。",
+  "verify": "\"从头到尾平均用墨，写成流水账\""
+ },
+ {
+  "id": "cnc_j016_q2",
+  "topicId": "cnc_j016",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "一件事的经过要写清楚，首先得交代什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "作者的心情"
+   },
+   {
+    "key": "B",
+    "text": "事情的结局"
+   },
+   {
+    "key": "C",
+    "text": "旁人的评论"
+   },
+   {
+    "key": "D",
+    "text": "时间、地点、人物和事情的起因"
+   }
+  ],
+  "answer": "D",
+  "explanation": "读者先要知道谁在何时何地为什么，才跟得上后面的过程。",
+  "verify": "\"时间、地点、人物和事情的起因\""
+ },
+ {
+  "id": "cnc_j016_q3",
+  "topicId": "cnc_j016",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "《秋天的怀念》里母亲「悄悄地躲出去」，这种写法叫什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "动作细节描写，用细微举动写出心理"
+   },
+   {
+    "key": "B",
+    "text": "环境描写"
+   },
+   {
+    "key": "C",
+    "text": "议论抒情"
+   },
+   {
+    "key": "D",
+    "text": "侧面烘托外貌"
+   }
+  ],
+  "answer": "A",
+  "explanation": "一个「悄悄」写尽母亲的克制与体谅，细节比空喊有情有力。",
+  "verify": "\"动作细节描写，用细微举动写出心理\""
+ },
+ {
+  "id": "cnc_j016_q4",
+  "topicId": "cnc_j016",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "记事之后要把文章写好，最重要的修改环节是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "多加成语"
+   },
+   {
+    "key": "B",
+    "text": "看段落是否围绕中心，删去与中心无关的话"
+   },
+   {
+    "key": "C",
+    "text": "把字写大"
+   },
+   {
+    "key": "D",
+    "text": "换一种字体"
+   }
+  ],
+  "answer": "B",
+  "explanation": "文从字顺、中心明确，才是记事作文要过关的地方。",
+  "verify": "\"看段落是否围绕中心，删去与中心无关的话\""
+ },
+ {
+  "id": "cnc_j017_q1",
+  "topicId": "cnc_j017",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「有朋自远方来，不亦乐乎」出自哪部书？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "《孟子》"
+   },
+   {
+    "key": "B",
+    "text": "《礼记》"
+   },
+   {
+    "key": "C",
+    "text": "《庄子》"
+   },
+   {
+    "key": "D",
+    "text": "《论语》"
+   }
+  ],
+  "answer": "D",
+  "explanation": "这是《论语·学而》开篇的一句话。",
+  "verify": "\"《论语》\""
+ },
+ {
+  "id": "cnc_j017_q2",
+  "topicId": "cnc_j017",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "送别朋友、劝他不要发愁，可以说哪一句？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "莫愁前路无知己，天下谁人不识君"
+   },
+   {
+    "key": "B",
+    "text": "劝君更尽一杯酒，西出阳关无故人"
+   },
+   {
+    "key": "C",
+    "text": "海内存知己，天涯若比邻"
+   },
+   {
+    "key": "D",
+    "text": "桃花潭水深千尺，不及汪伦送我情"
+   }
+  ],
+  "answer": "A",
+  "explanation": "高适这句是壮别，重在鼓气；王维那句重在惜别，王勃那句重在宽慰距离不是阻隔。",
+  "verify": "\"莫愁前路无知己，天下谁人不识君\""
+ },
+ {
+  "id": "cnc_j017_q3",
+  "topicId": "cnc_j017",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "「总角之交」指的是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "生死之交"
+   },
+   {
+    "key": "B",
+    "text": "童年时结下的友谊"
+   },
+   {
+    "key": "C",
+    "text": "一面之缘"
+   },
+   {
+    "key": "D",
+    "text": "酒肉朋友"
+   }
+  ],
+  "answer": "B",
+  "explanation": "总角是儿童发式，故称童年好友为总角之交；患难与共的叫刎颈之交。",
+  "verify": "\"童年时结下的友谊\""
+ },
+ {
+  "id": "cnc_j017_q4",
+  "topicId": "cnc_j017",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "向新同学做自我介绍，最得体的说法是哪一句？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "你们都不如我"
+   },
+   {
+    "key": "B",
+    "text": "我叫什么不重要"
+   },
+   {
+    "key": "C",
+    "text": "我叫小航，喜欢打篮球，希望能和大家一起玩"
+   },
+   {
+    "key": "D",
+    "text": "别问我的事"
+   }
+  ],
+  "answer": "C",
+  "explanation": "介绍要清楚、友善、有话可接，先让对方认识你。",
+  "verify": "\"我叫小航，喜欢打篮球，希望能和大家一起玩\""
+ },
+ {
+  "id": "cnc_j018_q1",
+  "topicId": "cnc_j018",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "《从百草园到三味书屋》的作者是谁？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "鲁迅"
+   },
+   {
+    "key": "B",
+    "text": "周作人"
+   },
+   {
+    "key": "C",
+    "text": "朱自清"
+   },
+   {
+    "key": "D",
+    "text": "老舍"
+   }
+  ],
+  "answer": "A",
+  "explanation": "这篇选自《朝花夕拾》，作者鲁迅。",
+  "verify": "\"鲁迅\""
+ },
+ {
+  "id": "cnc_j018_q2",
+  "topicId": "cnc_j018",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「不必说碧绿的菜畦……单是周围的短短的泥墙根一带，就有无限趣味」这句在结构上起什么作用？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "总写三味书屋的枯燥"
+   },
+   {
+    "key": "B",
+    "text": "先概写百草园的景物，再用「单是」转折，把趣味落到泥墙根"
+   },
+   {
+    "key": "C",
+    "text": "说明百草园其实很普通"
+   },
+   {
+    "key": "D",
+    "text": "只是为了凑字数"
+   }
+  ],
+  "answer": "B",
+  "explanation": "「不必说」一句横扫全景，「单是」一句把镜头推近，一退一进之间，园子的好处就说不完了。",
+  "verify": "\"先概写百草园的景物，再用「单是」转折，把趣味落到泥墙根\""
+ },
+ {
+  "id": "cnc_j018_q3",
+  "topicId": "cnc_j018",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "写雪地捕鸟时用了「扫、露、支、撒、系、牵、看、拉、罩」一串动词，这样写的好处是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "说明捕鸟很危险"
+   },
+   {
+    "key": "B",
+    "text": "表示作者很不耐烦"
+   },
+   {
+    "key": "C",
+    "text": "把过程分成连续动作，读起来像亲眼看见，也写出孩子的熟练与兴奋"
+   },
+   {
+    "key": "D",
+    "text": "只是为了让句子整齐"
+   }
+  ],
+  "answer": "C",
+  "explanation": "一连串短动词是这篇里最见功力的地方，过程清楚，儿童的好奇也在里面。",
+  "verify": "\"把过程分成连续动作，读起来像亲眼看见，也写出孩子的熟练与兴奋\""
+ },
+ {
+  "id": "cnc_j018_q4",
+  "topicId": "cnc_j018",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "三味书屋的生活在作者笔下是怎样的？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "只有痛苦，没有一点乐趣"
+   },
+   {
+    "key": "B",
+    "text": "比百草园更有意思"
+   },
+   {
+    "key": "C",
+    "text": "先生从不约束学生"
+   },
+   {
+    "key": "D",
+    "text": "有规矩也有些枯燥，但孩子们仍能偷出画画、捉虱子的乐趣"
+   }
+  ],
+  "answer": "D",
+  "explanation": "作者并不把书屋写成地狱：约束是真的，孩子在约束里找乐子也是真的。",
+  "verify": "\"有规矩也有些枯燥，但孩子们仍能偷出画画、捉虱子的乐趣\""
+ },
+ {
+  "id": "cnc_j019_q1",
+  "topicId": "cnc_j019",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "《往事依依》的作者是谁？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "冰心"
+   },
+   {
+    "key": "B",
+    "text": "于漪"
+   },
+   {
+    "key": "C",
+    "text": "宗璞"
+   },
+   {
+    "key": "D",
+    "text": "鲁迅"
+   }
+  ],
+  "answer": "B",
+  "explanation": "这篇是特级教师于漪写的回忆性散文。",
+  "verify": "\"于漪\""
+ },
+ {
+  "id": "cnc_j019_q2",
+  "topicId": "cnc_j019",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "文中回忆的往事与什么关系最紧？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "与旅行见闻有关"
+   },
+   {
+    "key": "B",
+    "text": "与家里做的事有关"
+   },
+   {
+    "key": "C",
+    "text": "与读的书、听过的课有关"
+   },
+   {
+    "key": "D",
+    "text": "与体育活动有关"
+   }
+  ],
+  "answer": "C",
+  "explanation": "这篇的线索不是人而是书和课：看图、读词、听课，都是读书的事。",
+  "verify": "\"与读的书、听过的课有关\""
+ },
+ {
+  "id": "cnc_j019_q3",
+  "topicId": "cnc_j019",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "作者写两位国文老师讲课时的样子，用意是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "批评老师讲得不好"
+   },
+   {
+    "key": "B",
+    "text": "说明上课很无聊"
+   },
+   {
+    "key": "C",
+    "text": "只为记录老师的姓名"
+   },
+   {
+    "key": "D",
+    "text": "写出好老师对一个人读书兴趣的塑造作用"
+   }
+  ],
+  "answer": "D",
+  "explanation": "老师朗诵时的情感投入，是学生爱上诗词的起点，这也是这篇最想说的道理。",
+  "verify": "\"写出好老师对一个人读书兴趣的塑造作用\""
+ },
+ {
+  "id": "cnc_j019_q4",
+  "topicId": "cnc_j019",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "这篇给我们的读书启示最接近下面哪一句？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "多读好书、勤做积累，能让一生的精神有所依托"
+   },
+   {
+    "key": "B",
+    "text": "读书只为考试拿分"
+   },
+   {
+    "key": "C",
+    "text": "书读得越多越苦恼"
+   },
+   {
+    "key": "D",
+    "text": "凡有插图的书都值得读"
+   }
+  ],
+  "answer": "A",
+  "explanation": "作者把童年与少年的阅读看成底子，好的阅读经历会影响一个人很久。",
+  "verify": "\"多读好书、勤做积累，能让一生的精神有所依托\""
+ },
+ {
+  "id": "cnc_j020_q1",
+  "topicId": "cnc_j020",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "《再塑生命的人》的作者是谁？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "马克·吐温"
+   },
+   {
+    "key": "B",
+    "text": "莎莉文"
+   },
+   {
+    "key": "C",
+    "text": "海伦·凯勒"
+   },
+   {
+    "key": "D",
+    "text": "蕾妮·拉康布"
+   }
+  ],
+  "answer": "C",
+  "explanation": "作者是自幼失去视力和听力的美国作家海伦·凯勒，文中的老师是莎莉文。",
+  "verify": "\"海伦·凯勒\""
+ },
+ {
+  "id": "cnc_j020_q2",
+  "topicId": "cnc_j020",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "标题「再塑生命」在文中的意思是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "医生治好了她的眼睛"
+   },
+   {
+    "key": "B",
+    "text": "她又长大了一岁"
+   },
+   {
+    "key": "C",
+    "text": "她学会了写字"
+   },
+   {
+    "key": "D",
+    "text": "老师用教育重新给了她认识世界的能力"
+   }
+  ],
+  "answer": "D",
+  "explanation": "失去视听的她在遇到老师前如处黑暗，认识语言之后世界才重新有了名字。",
+  "verify": "\"老师用教育重新给了她认识世界的能力\""
+ },
+ {
+  "id": "cnc_j020_q3",
+  "topicId": "cnc_j020",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "文中「water」那一刻的关键突破是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "她把流水的触感和「water」这个符号对应起来，懂得了万物都有名字"
+   },
+   {
+    "key": "B",
+    "text": "她第一次开口说话"
+   },
+   {
+    "key": "C",
+    "text": "她学会了游泳"
+   },
+   {
+    "key": "D",
+    "text": "她第一次摸到娃娃"
+   }
+  ],
+  "answer": "A",
+  "explanation": "水井房的瞬间是从「模仿手势」到「理解语言」的分界，这是全文的高潮。",
+  "verify": "\"她把流水的触感和「water」这个符号对应起来，懂得了万物都有名字\""
+ },
+ {
+  "id": "cnc_j020_q4",
+  "topicId": "cnc_j020",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "莎莉文老师教她的方法有什么特点？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "先把语法背熟"
+   },
+   {
+    "key": "B",
+    "text": "从身边的实物和触觉入手，顺着孩子兴趣一步步引导"
+   },
+   {
+    "key": "C",
+    "text": "只让她坐在桌前听讲"
+   },
+   {
+    "key": "D",
+    "text": "用惩罚逼她记住"
+   }
+  ],
+  "answer": "B",
+  "explanation": "对既看不见也听不见的学生，教育必须从可触摸的经验开始，这也是这篇写得动人的地方。",
+  "verify": "\"从身边的实物和触觉入手，顺着孩子兴趣一步步引导\""
+ },
+ {
+  "id": "cnc_j021_q1",
+  "topicId": "cnc_j021",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "《论语》记录的是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "孔子亲手写的书"
+   },
+   {
+    "key": "B",
+    "text": "孔子的官修史书"
+   },
+   {
+    "key": "C",
+    "text": "孔子的诗歌集"
+   },
+   {
+    "key": "D",
+    "text": "孔子及其弟子的言行"
+   }
+  ],
+  "answer": "D",
+  "explanation": "《论语》由孔子弟子及再传弟子编纂，属儒家经典，不是孔子自己写的。",
+  "verify": "\"孔子及其弟子的言行\""
+ },
+ {
+  "id": "cnc_j021_q2",
+  "topicId": "cnc_j021",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「学而不思则罔，思而不学则殆」中「殆」的意思是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "疑惑"
+   },
+   {
+    "key": "B",
+    "text": "危险"
+   },
+   {
+    "key": "C",
+    "text": "懈怠"
+   },
+   {
+    "key": "D",
+    "text": "失败"
+   }
+  ],
+  "answer": "A",
+  "explanation": "「罔」是迷而无所得，「殆」是疑而不定；两句讲学与思不可偏废。",
+  "verify": "\"疑惑\""
+ },
+ {
+  "id": "cnc_j021_q3",
+  "topicId": "cnc_j021",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "「三人行，必有我师焉」下一句是哪一句？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "温故而知新，可以为师矣"
+   },
+   {
+    "key": "B",
+    "text": "择其善者而从之，其不善者而改之"
+   },
+   {
+    "key": "C",
+    "text": "学而不思则罔，思而不学则殆"
+   },
+   {
+    "key": "D",
+    "text": "逝者如斯夫，不舍昼夜"
+   }
+  ],
+  "answer": "B",
+  "explanation": "前句说人多可学，后句说怎么学：好的跟着做，不好的对照改。",
+  "verify": "\"择其善者而从之，其不善者而改之\""
+ },
+ {
+  "id": "cnc_j021_q4",
+  "topicId": "cnc_j021",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "下面哪个成语不是出自这一组章句？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "不亦乐乎"
+   },
+   {
+    "key": "B",
+    "text": "三省吾身"
+   },
+   {
+    "key": "C",
+    "text": "刻舟求剑"
+   },
+   {
+    "key": "D",
+    "text": "择善而从"
+   }
+  ],
+  "answer": "C",
+  "explanation": "刻舟求剑出自《吕氏春秋》；其余三个都能在这十二章里找到源头。",
+  "verify": "\"刻舟求剑\""
+ },
+ {
+  "id": "cnc_j022_q1",
+  "topicId": "cnc_j022",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "动笔前怎样确定一篇文章的中心？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "用一句话说清自己想表达什么"
+   },
+   {
+    "key": "B",
+    "text": "先把字数写够"
+   },
+   {
+    "key": "C",
+    "text": "先想好一个华丽的题目"
+   },
+   {
+    "key": "D",
+    "text": "先抄一段别人的开头"
+   }
+  ],
+  "answer": "A",
+  "explanation": "中心能一句话说出来，材料与详略才有依据；说不清就是还没想清楚。",
+  "verify": "\"用一句话说清自己想表达什么\""
+ },
+ {
+  "id": "cnc_j022_q2",
+  "topicId": "cnc_j022",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "最能突出中心的一段应该怎么写？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "放在开头一笔带过"
+   },
+   {
+    "key": "B",
+    "text": "把它写成详写段，笔墨、细节都往这里集中"
+   },
+   {
+    "key": "C",
+    "text": "平均分配字数"
+   },
+   {
+    "key": "D",
+    "text": "删掉以免跑题"
+   }
+  ],
+  "answer": "B",
+  "explanation": "详略是突出中心最直接的手段：重要的地方慢下来写。",
+  "verify": "\"把它写成详写段，笔墨、细节都往这里集中\""
+ },
+ {
+  "id": "cnc_j022_q3",
+  "topicId": "cnc_j022",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "文中点明中心要注意什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "每段末尾都要重复一遍"
+   },
+   {
+    "key": "B",
+    "text": "全文不能出现中心句"
+   },
+   {
+    "key": "C",
+    "text": "在最合适的地方用简洁的话点出，不能处处喊口号"
+   },
+   {
+    "key": "D",
+    "text": "把中心写成一句口号"
+   }
+  ],
+  "answer": "C",
+  "explanation": "点睛一句够用；反复喊同一句话只会让文章变空。",
+  "verify": "\"在最合适的地方用简洁的话点出，不能处处喊口号\""
+ },
+ {
+  "id": "cnc_j022_q4",
+  "topicId": "cnc_j022",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "同学写《那次我真后悔》，通篇在写玩得开心的事，最大问题是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "字数太多"
+   },
+   {
+    "key": "B",
+    "text": "题目太长"
+   },
+   {
+    "key": "C",
+    "text": "开头太快"
+   },
+   {
+    "key": "D",
+    "text": "材料与中心不一致，写的和想表达的不是一回事"
+   }
+  ],
+  "answer": "D",
+  "explanation": "选材要为服务中心；如果材料指向另一件事，读者就接不到作者要说的意思。",
+  "verify": "\"材料与中心不一致，写的和想表达的不是一回事\""
+ },
+ {
+  "id": "cnc_j023_q1",
+  "topicId": "cnc_j023",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "《朝花夕拾》的体裁是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "长篇小说"
+   },
+   {
+    "key": "B",
+    "text": "回忆性散文集"
+   },
+   {
+    "key": "C",
+    "text": "诗歌集"
+   },
+   {
+    "key": "D",
+    "text": "文言短篇小说集"
+   }
+  ],
+  "answer": "B",
+  "explanation": "这是鲁迅回忆早年生活的散文集，共十篇，《从百草园到三味书屋》《阿长与〈山海经〉》都在里面。",
+  "verify": "\"回忆性散文集\""
+ },
+ {
+  "id": "cnc_j023_q2",
+  "topicId": "cnc_j023",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "下面哪一篇不在这本书里？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "《五猖会》"
+   },
+   {
+    "key": "B",
+    "text": "《父亲的病》"
+   },
+   {
+    "key": "C",
+    "text": "《社戏》"
+   },
+   {
+    "key": "D",
+    "text": "《琐记》"
+   }
+  ],
+  "answer": "C",
+  "explanation": "《社戏》是小说，收在小说集《呐喊》里；其余三篇都是《朝花夕拾》中的散文。",
+  "verify": "\"《社戏》\""
+ },
+ {
+  "id": "cnc_j023_q3",
+  "topicId": "cnc_j023",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "书中写了一位让「我」在日本学医时受到善待、又激励「我」继续求学的老师，他是谁？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "寿镜吾先生"
+   },
+   {
+    "key": "B",
+    "text": "范爱农"
+   },
+   {
+    "key": "C",
+    "text": "长妈妈"
+   },
+   {
+    "key": "D",
+    "text": "藤野先生"
+   }
+  ],
+  "answer": "D",
+  "explanation": "《藤野先生》写的是仙台医学专门学校的老师；寿镜吾是三味书屋的先生，长妈妈是家里的保姆。",
+  "verify": "\"藤野先生\""
+ },
+ {
+  "id": "cnc_j023_q4",
+  "topicId": "cnc_j023",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "读这本书时，「消除与经典的隔膜」最实用的做法是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "先查一查作者写作时的经历，再从每篇里抓一两件具体的事"
+   },
+   {
+    "key": "B",
+    "text": "背下全书的好词好句"
+   },
+   {
+    "key": "C",
+    "text": "只读带插图的部分"
+   },
+   {
+    "key": "D",
+    "text": "跳过所有议论段落"
+   }
+  ],
+  "answer": "A",
+  "explanation": "《朝花夕拾》是「回忆」，把人和事对上作者的人生阶段，读着就不觉得隔。",
+  "verify": "\"先查一查作者写作时的经历，再从每篇里抓一两件具体的事\""
+ },
+ {
+  "id": "cnc_j024_q1",
+  "topicId": "cnc_j024",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「峨眉山月半轮秋」的下一句是哪一句？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "思君不见下渝州"
+   },
+   {
+    "key": "B",
+    "text": "夜发清溪向三峡"
+   },
+   {
+    "key": "C",
+    "text": "影入平羌江水流"
+   },
+   {
+    "key": "D",
+    "text": "江心秋月白"
+   }
+  ],
+  "answer": "C",
+  "explanation": "首句写月，次句写月影随江水流动，为后面的行程做准备。",
+  "verify": "\"影入平羌江水流\""
+ },
+ {
+  "id": "cnc_j024_q2",
+  "topicId": "cnc_j024",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "这首诗里连用了五个地名，下列哪一项在诗中？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "金陵"
+   },
+   {
+    "key": "B",
+    "text": "扬州"
+   },
+   {
+    "key": "C",
+    "text": "汴州"
+   },
+   {
+    "key": "D",
+    "text": "渝州"
+   }
+  ],
+  "answer": "D",
+  "explanation": "诗中依次是峨眉山、平羌江、清溪、三峡、渝州，五个地名串出一路行舟。",
+  "verify": "\"渝州\""
+ },
+ {
+  "id": "cnc_j024_q3",
+  "topicId": "cnc_j024",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "「夜发清溪向三峡，思君不见下渝州」中的「君」一般理解为指什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "友人（或所思念的人），随行程而不得见"
+   },
+   {
+    "key": "B",
+    "text": "峨眉山上的月"
+   },
+   {
+    "key": "C",
+    "text": "唐玄宗"
+   },
+   {
+    "key": "D",
+    "text": "自己的妻子"
+   }
+  ],
+  "answer": "A",
+  "explanation": "一说指友人，一说指月；教材取思念之说，重在行程渐远、思念相随。",
+  "verify": "\"友人（或所思念的人），随行程而不得见\""
+ },
+ {
+  "id": "cnc_j024_q4",
+  "topicId": "cnc_j024",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "这首诗突出的写法是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "通篇描写月色不变"
+   },
+   {
+    "key": "B",
+    "text": "用地名连缀行程，把离别之情藏在行舟路线里"
+   },
+   {
+    "key": "C",
+    "text": "大量引用典故"
+   },
+   {
+    "key": "D",
+    "text": "以对话推动全诗"
+   }
+  ],
+  "answer": "B",
+  "explanation": "二十八字里五个地名而不觉得堆砌，是因为每个地名都是「走远一步」的标记。",
+  "verify": "\"用地名连缀行程，把离别之情藏在行舟路线里\""
+ },
+ {
+  "id": "cnc_j025_q1",
+  "topicId": "cnc_j025",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "《江南逢李龟年》的作者是谁？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "李白"
+   },
+   {
+    "key": "B",
+    "text": "白居易"
+   },
+   {
+    "key": "C",
+    "text": "王维"
+   },
+   {
+    "key": "D",
+    "text": "杜甫"
+   }
+  ],
+  "answer": "D",
+  "explanation": "这是杜甫晚年遇到旧时宫廷乐师李龟年后所作。",
+  "verify": "\"杜甫\""
+ },
+ {
+  "id": "cnc_j025_q2",
+  "topicId": "cnc_j025",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「岐王宅里寻常见」的下一句是哪一句？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "崔九堂前几度闻"
+   },
+   {
+    "key": "B",
+    "text": "落花时节又逢君"
+   },
+   {
+    "key": "C",
+    "text": "正是江南好风景"
+   },
+   {
+    "key": "D",
+    "text": "此曲只应天上有"
+   }
+  ],
+  "answer": "A",
+  "explanation": "前两句回忆在岐王宅、崔九堂听歌的太平年月。",
+  "verify": "\"崔九堂前几度闻\""
+ },
+ {
+  "id": "cnc_j025_q3",
+  "topicId": "cnc_j025",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "「落花时节」在诗里既点明时令，又暗指什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "春天的花很香"
+   },
+   {
+    "key": "B",
+    "text": "漂泊衰老的境遇与时世的衰败"
+   },
+   {
+    "key": "C",
+    "text": "李龟年的年纪"
+   },
+   {
+    "key": "D",
+    "text": "江南的风景太好"
+   }
+  ],
+  "answer": "B",
+  "explanation": "由盛时听歌写到乱后重逢，花落之语一语双关，全诗的感慨都在这一句里收住。",
+  "verify": "\"漂泊衰老的境遇与时世的衰败\""
+ },
+ {
+  "id": "cnc_j025_q4",
+  "topicId": "cnc_j025",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "这首诗的体裁是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "五言律诗"
+   },
+   {
+    "key": "B",
+    "text": "词"
+   },
+   {
+    "key": "C",
+    "text": "七言绝句"
+   },
+   {
+    "key": "D",
+    "text": "乐府"
+   }
+  ],
+  "answer": "C",
+  "explanation": "四句七字，是杜甫晚年的一首七绝。",
+  "verify": "\"七言绝句\""
+ },
+ {
+  "id": "cnc_j026_q1",
+  "topicId": "cnc_j026",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "诗题里的「九日」指哪一个节日？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "重阳节"
+   },
+   {
+    "key": "B",
+    "text": "元宵节"
+   },
+   {
+    "key": "C",
+    "text": "端午节"
+   },
+   {
+    "key": "D",
+    "text": "中秋节"
+   }
+  ],
+  "answer": "A",
+  "explanation": "九月初九重阳，有登高、饮菊花酒、赏菊的习俗。",
+  "verify": "\"重阳节\""
+ },
+ {
+  "id": "cnc_j026_q2",
+  "topicId": "cnc_j026",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「强欲登高去」下一句是哪一句？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "遥怜故园菊"
+   },
+   {
+    "key": "B",
+    "text": "无人送酒来"
+   },
+   {
+    "key": "C",
+    "text": "应傍战场开"
+   },
+   {
+    "key": "D",
+    "text": "遍插茱萸少一人"
+   }
+  ],
+  "answer": "B",
+  "explanation": "第二句化用陶渊明重阳无酒、王弘送酒的典故，写军旅中连过节也冷清。",
+  "verify": "\"无人送酒来\""
+ },
+ {
+  "id": "cnc_j026_q3",
+  "topicId": "cnc_j026",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "「遥怜故园菊，应傍战场开」的核心情感是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "为菊花之美高兴"
+   },
+   {
+    "key": "B",
+    "text": "抱怨酒不好喝"
+   },
+   {
+    "key": "C",
+    "text": "思念故乡，同时牵挂战乱中的长安"
+   },
+   {
+    "key": "D",
+    "text": "夸耀军功"
+   }
+  ],
+  "answer": "C",
+  "explanation": "怜的是故园，想的是被战事包围的长安，菊花开在战场边，思念里就有了忧国。",
+  "verify": "\"思念故乡，同时牵挂战乱中的长安\""
+ },
+ {
+  "id": "cnc_j026_q4",
+  "topicId": "cnc_j026",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "这首诗的作者属于哪一派？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "田园诗人"
+   },
+   {
+    "key": "B",
+    "text": "婉约词人"
+   },
+   {
+    "key": "C",
+    "text": "江西诗派"
+   },
+   {
+    "key": "D",
+    "text": "唐代边塞诗人"
+   }
+  ],
+  "answer": "D",
+  "explanation": "岑参与高适并称，以写边塞行旅著称。",
+  "verify": "\"唐代边塞诗人\""
+ },
+ {
+  "id": "cnc_j027_q1",
+  "topicId": "cnc_j027",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「回乐烽前沙似雪」的下一句是哪一句？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "不知何处吹芦管"
+   },
+   {
+    "key": "B",
+    "text": "受降城外月如霜"
+   },
+   {
+    "key": "C",
+    "text": "一夜征人尽望乡"
+   },
+   {
+    "key": "D",
+    "text": "秋夜重重似水凉"
+   }
+  ],
+  "answer": "B",
+  "explanation": "先以沙雪、月霜写夜色的清冷，为下面的笛声铺背景。",
+  "verify": "\"受降城外月如霜\""
+ },
+ {
+  "id": "cnc_j027_q2",
+  "topicId": "cnc_j027",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "诗中「芦管」是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "芦苇做的船"
+   },
+   {
+    "key": "B",
+    "text": "量水的工具"
+   },
+   {
+    "key": "C",
+    "text": "一种军中吹奏的乐器，声音悲凉"
+   },
+   {
+    "key": "D",
+    "text": "守城的号角"
+   }
+  ],
+  "answer": "C",
+  "explanation": "芦管即胡笳一类的管乐，笛声在夜里传出，触动了戍边人的乡思。",
+  "verify": "\"一种军中吹奏的乐器，声音悲凉\""
+ },
+ {
+  "id": "cnc_j027_q3",
+  "topicId": "cnc_j027",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "「一夜征人尽望乡」的「尽」字好在哪里？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "说明夜里很黑"
+   },
+   {
+    "key": "B",
+    "text": "表示时间很长"
+   },
+   {
+    "key": "C",
+    "text": "形容风很大"
+   },
+   {
+    "key": "D",
+    "text": "把一个人的思乡写成全部戍边将士的共同心情"
+   }
+  ],
+  "answer": "D",
+  "explanation": "一个「尽」字，从「我」扩大到所有戍边的人，个体感受变成群体的共同心事。",
+  "verify": "\"把一个人的思乡写成全部戍边将士的共同心情\""
+ },
+ {
+  "id": "cnc_j027_q4",
+  "topicId": "cnc_j027",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "这首诗的体裁是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "七言绝句"
+   },
+   {
+    "key": "B",
+    "text": "五言古诗"
+   },
+   {
+    "key": "C",
+    "text": "词"
+   },
+   {
+    "key": "D",
+    "text": "散曲"
+   }
+  ],
+  "answer": "A",
+  "explanation": "四句七字，是中唐李益的边塞七绝名篇。",
+  "verify": "\"七言绝句\""
+ },
+ {
+  "id": "cnc_j028_q1",
+  "topicId": "cnc_j028",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "《纪念白求恩》的作者是谁？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "周恩来"
+   },
+   {
+    "key": "B",
+    "text": "朱德"
+   },
+   {
+    "key": "C",
+    "text": "毛泽东"
+   },
+   {
+    "key": "D",
+    "text": "白求恩"
+   }
+  ],
+  "answer": "C",
+  "explanation": "这是毛泽东 1939 年为悼念国际主义战士白求恩写的文章。",
+  "verify": "\"毛泽东\""
+ },
+ {
+  "id": "cnc_j028_q2",
+  "topicId": "cnc_j028",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "白求恩是哪国人，来中国做什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "美国记者，来中国采访"
+   },
+   {
+    "key": "B",
+    "text": "苏联军官，来中国指挥作战"
+   },
+   {
+    "key": "C",
+    "text": "英国教师，来中国教书"
+   },
+   {
+    "key": "D",
+    "text": "加拿大医生，来中国解放区救助伤员"
+   }
+  ],
+  "answer": "D",
+  "explanation": "他是加拿大共产党员、胸外科医生，率医疗队到中国敌后根据地，因手术中感染牺牲。",
+  "verify": "\"加拿大医生，来中国解放区救助伤员\""
+ },
+ {
+  "id": "cnc_j028_q3",
+  "topicId": "cnc_j028",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "文章写白求恩「对工作的极端的负责任」，与一些人「不负责任、拈轻怕重」对照，这种写法是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "对比论证，用相反的表现显出高下"
+   },
+   {
+    "key": "B",
+    "text": "比喻论证"
+   },
+   {
+    "key": "C",
+    "text": "举例论证"
+   },
+   {
+    "key": "D",
+    "text": "引用论证"
+   }
+  ],
+  "answer": "A",
+  "explanation": "把两种态度放在一起，读者的判断自然跟着走，这是这篇说理最省力也最有力的地方。",
+  "verify": "\"对比论证，用相反的表现显出高下\""
+ },
+ {
+  "id": "cnc_j028_q4",
+  "topicId": "cnc_j028",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "下面哪一点不是文章对白求恩精神的概括？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "国际主义精神"
+   },
+   {
+    "key": "B",
+    "text": "善于经商的头脑"
+   },
+   {
+    "key": "C",
+    "text": "毫不利己专门利人"
+   },
+   {
+    "key": "D",
+    "text": "对技术精益求精"
+   }
+  ],
+  "answer": "B",
+  "explanation": "文章从政治精神、工作作风、业务态度三个层面立论，商业头脑不在其中。",
+  "verify": "\"善于经商的头脑\""
+ },
+ {
+  "id": "cnc_j029_q1",
+  "topicId": "cnc_j029",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "《回忆我的母亲》的作者是谁？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "毛泽东"
+   },
+   {
+    "key": "B",
+    "text": "彭德怀"
+   },
+   {
+    "key": "C",
+    "text": "鲁迅"
+   },
+   {
+    "key": "D",
+    "text": "朱德"
+   }
+  ],
+  "answer": "D",
+  "explanation": "这是朱德为纪念母亲钟太夫人写的回忆文章。",
+  "verify": "\"朱德\""
+ },
+ {
+  "id": "cnc_j029_q2",
+  "topicId": "cnc_j029",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "文章写母亲的主要线索是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "母亲一生从事的劳动与俭朴的品格"
+   },
+   {
+    "key": "B",
+    "text": "母亲的家族历史"
+   },
+   {
+    "key": "C",
+    "text": "家乡的风俗变化"
+   },
+   {
+    "key": "D",
+    "text": "作者的官职升迁"
+   }
+  ],
+  "answer": "A",
+  "explanation": "课文按时间顺序写母亲煮饭、种田、种菜、喂猪、养蚕、纺纱，把「劳动」写成她一生的底色。",
+  "verify": "\"母亲一生从事的劳动与俭朴的品格\""
+ },
+ {
+  "id": "cnc_j029_q3",
+  "topicId": "cnc_j029",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "文中写母亲节衣缩食还支持作者读书、后来支持他参加革命，这说明什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "母亲不懂家里困难"
+   },
+   {
+    "key": "B",
+    "text": "母亲有朴素的见识与远见，不只是吃苦的人"
+   },
+   {
+    "key": "C",
+    "text": "母亲希望儿子早点做官"
+   },
+   {
+    "key": "D",
+    "text": "母亲只是按吩咐办事"
+   }
+  ],
+  "answer": "B",
+  "explanation": "作者把敬意写在这里：母亲的勤劳与开通，是他革命品格的最初来源。",
+  "verify": "\"母亲有朴素的见识与远见，不只是吃苦的人\""
+ },
+ {
+  "id": "cnc_j029_q4",
+  "topicId": "cnc_j029",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "文章结尾把对母亲的爱推到「尽忠于民族和人民」，这样的收束有什么好处？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "说明作者不怀念母亲"
+   },
+   {
+    "key": "B",
+    "text": "让文章显得很长"
+   },
+   {
+    "key": "C",
+    "text": "把私人情感升华为公共志向，使文章立意更高"
+   },
+   {
+    "key": "D",
+    "text": "为了回避写家庭"
+   }
+  ],
+  "answer": "C",
+  "explanation": "回忆性散文常在结尾由一人及众人；本文的私情与革命者的责任感在这里合在一起。",
+  "verify": "\"把私人情感升华为公共志向，使文章立意更高\""
+ },
+ {
+  "id": "cnc_j030_q1",
+  "topicId": "cnc_j030",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "《梅岭三章》的作者是谁？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "陈毅"
+   },
+   {
+    "key": "B",
+    "text": "叶挺"
+   },
+   {
+    "key": "C",
+    "text": "朱德"
+   },
+   {
+    "key": "D",
+    "text": "贺龙"
+   }
+  ],
+  "answer": "A",
+  "explanation": "这是陈毅在南方三年游击战时期写的一组诗。",
+  "verify": "\"陈毅\""
+ },
+ {
+  "id": "cnc_j030_q2",
+  "topicId": "cnc_j030",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "这组诗写于怎样的处境？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "长征胜利后的庆祝会上"
+   },
+   {
+    "key": "B",
+    "text": "被围困、伤病中，估计自己难以脱身，写下绝笔式的三首"
+   },
+   {
+    "key": "C",
+    "text": "抗战胜利后出访时"
+   },
+   {
+    "key": "D",
+    "text": "建国后视察部队时"
+   }
+  ],
+  "answer": "B",
+  "explanation": "小序交代了「留衣底」的来历：当时以为必死，诗中就把生死置之度外。",
+  "verify": "\"被围困、伤病中，估计自己难以脱身，写下绝笔式的三首\""
+ },
+ {
+  "id": "cnc_j030_q3",
+  "topicId": "cnc_j030",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "三章的整体情感脉络是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "由忧愁到消沉"
+   },
+   {
+    "key": "B",
+    "text": "由写景到抒情"
+   },
+   {
+    "key": "C",
+    "text": "由回首征程，到勉励幸存者继续战斗，再到预示胜利后的告慰"
+   },
+   {
+    "key": "D",
+    "text": "由思乡到归隐"
+   }
+  ],
+  "answer": "C",
+  "explanation": "三首各有重心：第一首写自己此去与旧部，第二首首鼓励前线之人，第三首展望自由解放后的祭奠。",
+  "verify": "\"由回首征程，到勉励幸存者继续战斗，再到预示胜利后的告慰\""
+ },
+ {
+  "id": "cnc_j030_q4",
+  "topicId": "cnc_j030",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "这组诗的体裁是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "五言律诗"
+   },
+   {
+    "key": "B",
+    "text": "词"
+   },
+   {
+    "key": "C",
+    "text": "自由诗"
+   },
+   {
+    "key": "D",
+    "text": "七言绝句三首（组诗）"
+   }
+  ],
+  "answer": "D",
+  "explanation": "三首各四句、每句七字，形式上是七绝组诗。",
+  "verify": "\"七言绝句三首（组诗）\""
+ },
+ {
+  "id": "cnc_j031_q1",
+  "topicId": "cnc_j031",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "《诫子书》的作者是谁？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "曹操"
+   },
+   {
+    "key": "B",
+    "text": "诸葛亮"
+   },
+   {
+    "key": "C",
+    "text": "刘备"
+   },
+   {
+    "key": "D",
+    "text": "周瑜"
+   }
+  ],
+  "answer": "B",
+  "explanation": "这是诸葛亮写给八岁儿子的一封家书，全文不足百字。",
+  "verify": "\"诸葛亮\""
+ },
+ {
+  "id": "cnc_j031_q2",
+  "topicId": "cnc_j031",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「夫君子之行，静以修身，俭以养德」中的「静」是什么意思？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "一声不响"
+   },
+   {
+    "key": "B",
+    "text": "居住在山林"
+   },
+   {
+    "key": "C",
+    "text": "内心安定专一"
+   },
+   {
+    "key": "D",
+    "text": "年岁已高"
+   }
+  ],
+  "answer": "C",
+  "explanation": "「静」指心性不躁，是修身的前提，与后文的「险躁」相对。",
+  "verify": "\"内心安定专一\""
+ },
+ {
+  "id": "cnc_j031_q3",
+  "topicId": "cnc_j031",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "「非学无以广才，非志无以成学」讲的是什么关系？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "学与才无关"
+   },
+   {
+    "key": "B",
+    "text": "有才自然能学"
+   },
+   {
+    "key": "C",
+    "text": "立志比学习更重要，可不学习"
+   },
+   {
+    "key": "D",
+    "text": "立志、学习、成才三者互相依存"
+   }
+  ],
+  "answer": "D",
+  "explanation": "两句倒装递进：不学则才不长，无志则学不成，链条是志—学—才。",
+  "verify": "\"立志、学习、成才三者互相依存\""
+ },
+ {
+  "id": "cnc_j031_q4",
+  "topicId": "cnc_j031",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "「年与时驰，意与日去，遂成枯落，多不接世」告诫的是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "时光流逝、意志消磨，最终对社会无用"
+   },
+   {
+    "key": "B",
+    "text": "钱要及早积攒"
+   },
+   {
+    "key": "C",
+    "text": "读书要看很多闲书"
+   },
+   {
+    "key": "D",
+    "text": "做官要趁年轻"
+   }
+  ],
+  "answer": "A",
+  "explanation": "这一段是全篇的警告，用「枯落」比喻人老了才后悔不读书、不成才。",
+  "verify": "\"时光流逝、意志消磨，最终对社会无用\""
+ },
+ {
+  "id": "cnc_j032_q1",
+  "topicId": "cnc_j032",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "动笔前列提纲的主要作用是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "把字写工整"
+   },
+   {
+    "key": "B",
+    "text": "凑够字数"
+   },
+   {
+    "key": "C",
+    "text": "先安排内容的先后与详略，避免写到哪算哪"
+   },
+   {
+    "key": "D",
+    "text": "记住好词好句"
+   }
+  ],
+  "answer": "C",
+  "explanation": "提纲是把思路固定下来的办法，顺序与详略在动笔前就想清楚。",
+  "verify": "\"先安排内容的先后与详略，避免写到哪算哪\""
+ },
+ {
+  "id": "cnc_j032_q2",
+  "topicId": "cnc_j032",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "下面哪种顺序最不容易让读者糊涂？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "想到哪写到哪"
+   },
+   {
+    "key": "B",
+    "text": "同一件事反复说三遍"
+   },
+   {
+    "key": "C",
+    "text": "把结局放在开头然后又不说"
+   },
+   {
+    "key": "D",
+    "text": "按时间先后或空间位置推进，一段只说一层意思"
+   }
+  ],
+  "answer": "D",
+  "explanation": "一条清晰的线索加上分段的层次，读者才知道自己被带到哪里。",
+  "verify": "\"按时间先后或空间位置推进，一段只说一层意思\""
+ },
+ {
+  "id": "cnc_j032_q3",
+  "topicId": "cnc_j032",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "「总分总」「起承转合」这类结构说的是文章的什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "层次安排的套路，可参考但不能代替内容思考"
+   },
+   {
+    "key": "B",
+    "text": "字数要求"
+   },
+   {
+    "key": "C",
+    "text": "修辞手法"
+   },
+   {
+    "key": "D",
+    "text": "标点用法"
+   }
+  ],
+  "answer": "A",
+  "explanation": "结构是思路的外壳，若内容本身没有条理，套任何格式都不清楚。",
+  "verify": "\"层次安排的套路，可参考但不能代替内容思考\""
+ },
+ {
+  "id": "cnc_j032_q4",
+  "topicId": "cnc_j032",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "读完同学作文，你仍说不清他按什么顺序写，最该改的是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "多加几个成语"
+   },
+   {
+    "key": "B",
+    "text": "给全文定一个明确的顺序（时间、空间或事理），并据此重排段落"
+   },
+   {
+    "key": "C",
+    "text": "把段落数量增加"
+   },
+   {
+    "key": "D",
+    "text": "换一种字体排版"
+   }
+  ],
+  "answer": "B",
+  "explanation": "思路不清的常见表现就是顺序不定；先定顺序，再排材料，问题多半就解决。",
+  "verify": "\"给全文定一个明确的顺序（时间、空间或事理），并据此重排段落\""
+ },
+ {
+  "id": "cnc_j033_q1",
+  "topicId": "cnc_j033",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "做「少年正是读书时」这类调查，最合适的做法是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "凭印象猜一个数字"
+   },
+   {
+    "key": "B",
+    "text": "只统计老师推荐的书"
+   },
+   {
+    "key": "C",
+    "text": "把别人写的书名抄成自己的"
+   },
+   {
+    "key": "D",
+    "text": "设计问卷或统计表，记录同学的阅读时间与书目"
+   }
+  ],
+  "answer": "D",
+  "explanation": "专题学习活动要求用资料说话，先收集再整理，结论才站得住。",
+  "verify": "\"设计问卷或统计表，记录同学的阅读时间与书目\""
+ },
+ {
+  "id": "cnc_j033_q2",
+  "topicId": "cnc_j033",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "选书时最可取的做法是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "以兴趣为起点，同时兼顾文学、科普、历史等不同门类"
+   },
+   {
+    "key": "B",
+    "text": "只读薄一些的漫画"
+   },
+   {
+    "key": "C",
+    "text": "只读与考试直接有关的书"
+   },
+   {
+    "key": "D",
+    "text": "只挑同学都在读的"
+   }
+  ],
+  "answer": "A",
+  "explanation": "读书面要宽：兴趣能读进去，其他门类能补足短板。",
+  "verify": "\"以兴趣为起点，同时兼顾文学、科普、历史等不同门类\""
+ },
+ {
+  "id": "cnc_j033_q3",
+  "topicId": "cnc_j033",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "做读书笔记的常用方法不包括下面哪一项？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "摘录精彩语句"
+   },
+   {
+    "key": "B",
+    "text": "把整本书从头抄到尾"
+   },
+   {
+    "key": "C",
+    "text": "写下自己的疑问和感想"
+   },
+   {
+    "key": "D",
+    "text": "给重要段落做批注"
+   }
+  ],
+  "answer": "B",
+  "explanation": "笔记贵在取舍与自己想过的东西，全抄既费时又不动脑。",
+  "verify": "\"把整本书从头抄到尾\""
+ },
+ {
+  "id": "cnc_j033_q4",
+  "topicId": "cnc_j033",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "一位同学说「我读得快但记不住」，最有帮助的建议是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "再多买一些书"
+   },
+   {
+    "key": "B",
+    "text": "只看插图和目录"
+   },
+   {
+    "key": "C",
+    "text": "放慢速度，读完一章就用自己的话说说大意"
+   },
+   {
+    "key": "D",
+    "text": "把所有书读完再思考"
+   }
+  ],
+  "answer": "C",
+  "explanation": "复述大意是检查是否读懂的直接办法，也是读书方法里最省事的。",
+  "verify": "\"放慢速度，读完一章就用自己的话说说大意\""
+ },
+ {
+  "id": "cnc_j034_q1",
+  "topicId": "cnc_j034",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "《猫》的作者是谁？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "郑振铎"
+   },
+   {
+    "key": "B",
+    "text": "老舍"
+   },
+   {
+    "key": "C",
+    "text": "周作人"
+   },
+   {
+    "key": "D",
+    "text": "梁实秋"
+   }
+  ],
+  "answer": "A",
+  "explanation": "这篇是郑振铎的叙事散文，写家里先后养过的三只猫。",
+  "verify": "\"郑振铎\""
+ },
+ {
+  "id": "cnc_j034_q2",
+  "topicId": "cnc_j034",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "第三只猫的结局是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "病死在冬天"
+   },
+   {
+    "key": "B",
+    "text": "被误认为咬死了鸟，受了棒打后死在邻家屋脊上"
+   },
+   {
+    "key": "C",
+    "text": "被人偷走"
+   },
+   {
+    "key": "D",
+    "text": "跑了以后再没回来"
+   }
+  ],
+  "answer": "B",
+  "explanation": "后来发现真是黑猫吃的，第二次的冤屈便成了「我」永远的自责。",
+  "verify": "\"被误认为咬死了鸟，受了棒打后死在邻家屋脊上\""
+ },
+ {
+  "id": "cnc_j034_q3",
+  "topicId": "cnc_j034",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "前两只猫与第三只猫在家里的待遇为什么不同？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "因为第三只更会捉鼠"
+   },
+   {
+    "key": "B",
+    "text": "因为家里穷了"
+   },
+   {
+    "key": "C",
+    "text": "前两只活泼可爱、讨人喜欢，第三只模样不好看又忧郁"
+   },
+   {
+    "key": "D",
+    "text": "因为前两只更聪明"
+   }
+  ],
+  "answer": "C",
+  "explanation": "作者的用意正在这层对照：喜欢与不喜欢往往凭外表，偏见也就由此而生。",
+  "verify": "\"前两只活泼可爱、讨人喜欢，第三只模样不好看又忧郁\""
+ },
+ {
+  "id": "cnc_j034_q4",
+  "topicId": "cnc_j034",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "文章结尾说「自此，我家永不养猫」，这句话的分量在哪里？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "表示家里再没有地方"
+   },
+   {
+    "key": "B",
+    "text": "说明作者不喜欢动物"
+   },
+   {
+    "key": "C",
+    "text": "只是为了结束全文"
+   },
+   {
+    "key": "D",
+    "text": "写出无法补救的悔恨，也写出对弱小者的愧疚"
+   }
+  ],
+  "answer": "D",
+  "explanation": "第三只猫不能申辩，也不能复活；一句决绝的话是自我惩罚，全文的主题在此落定。",
+  "verify": "\"写出无法补救的悔恨，也写出对弱小者的愧疚\""
+ },
+ {
+  "id": "cnc_j035_q1",
+  "topicId": "cnc_j035",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "《我的白鸽》的作者是谁？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "贾平凹"
+   },
+   {
+    "key": "B",
+    "text": "陈忠实"
+   },
+   {
+    "key": "C",
+    "text": "路遥"
+   },
+   {
+    "key": "D",
+    "text": "郑振铎"
+   }
+  ],
+  "answer": "B",
+  "explanation": "这篇散文出自陈忠实，写他养鸽子的一段经历。",
+  "verify": "\"陈忠实\""
+ },
+ {
+  "id": "cnc_j035_q2",
+  "topicId": "cnc_j035",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "作者写白鸽最动人的地方是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "鸽子会替人送信"
+   },
+   {
+    "key": "B",
+    "text": "鸽子长得漂亮"
+   },
+   {
+    "key": "C",
+    "text": "飞出去以后仍认得家、回到窗前，写出生灵与人的相依"
+   },
+   {
+    "key": "D",
+    "text": "鸽子很能吃东西"
+   }
+  ],
+  "answer": "C",
+  "explanation": "全文的情感落点是「回来」：信任与依恋是相互养出来的。",
+  "verify": "\"飞出去以后仍认得家、回到窗前，写出生灵与人的相依\""
+ },
+ {
+  "id": "cnc_j035_q3",
+  "topicId": "cnc_j035",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "文中写「我」对白鸽的态度前后有变化，这种写法叫什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "伏笔"
+   },
+   {
+    "key": "B",
+    "text": "欲扬先抑"
+   },
+   {
+    "key": "C",
+    "text": "侧面烘托"
+   },
+   {
+    "key": "D",
+    "text": "以心理变化为线索组织材料"
+   }
+  ],
+  "answer": "D",
+  "explanation": "从不甚在意到牵挂、欢喜，心理线索让平淡的养鸽事有了起伏。",
+  "verify": "\"以心理变化为线索组织材料\""
+ },
+ {
+  "id": "cnc_j035_q4",
+  "topicId": "cnc_j035",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "这篇与《猫》放在一起读，共同的话题是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "人该怎样对待与自己共处的动物"
+   },
+   {
+    "key": "B",
+    "text": "怎样训练动物"
+   },
+   {
+    "key": "C",
+    "text": "怎样写动物外形"
+   },
+   {
+    "key": "D",
+    "text": "动物是否通人性"
+   }
+  ],
+  "answer": "A",
+  "explanation": "两篇都写人与动物的相处：《猫》写偏见与悔恨，《我的白鸽》写信任与相伴。",
+  "verify": "\"人该怎样对待与自己共处的动物\""
+ },
+ {
+  "id": "cnc_j036_q1",
+  "topicId": "cnc_j036",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "《大雁归来》的作者是哪国人？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "英国的达尔文"
+   },
+   {
+    "key": "B",
+    "text": "法国的法布尔"
+   },
+   {
+    "key": "C",
+    "text": "美国的利奥波德"
+   },
+   {
+    "key": "D",
+    "text": "苏联的普里什文"
+   }
+  ],
+  "answer": "C",
+  "explanation": "作者是美国生态学家利奥波德，这篇选自他的《沙乡年鉴》。",
+  "verify": "\"美国的利奥波德\""
+ },
+ {
+  "id": "cnc_j036_q2",
+  "topicId": "cnc_j036",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "这篇的写法最突出的一点是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "全是数据表格"
+   },
+   {
+    "key": "B",
+    "text": "纯虚构的故事"
+   },
+   {
+    "key": "C",
+    "text": "只议论不描写"
+   },
+   {
+    "key": "D",
+    "text": "既有准确的观察记录，又有抒情的笔调和伦理思考"
+   }
+  ],
+  "answer": "D",
+  "explanation": "科学随笔的特别处在于知识与情感同时在场：知道雁群什么时候到，也为它们的鸣叫动情。",
+  "verify": "\"既有准确的观察记录，又有抒情的笔调和伦理思考\""
+ },
+ {
+  "id": "cnc_j036_q3",
+  "topicId": "cnc_j036",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "作者为什么说大雁的啼叫是「联合」的声音？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "雁群以集体方式迁徙、觅食，一有动静全队呼应"
+   },
+   {
+    "key": "B",
+    "text": "因为大雁会说话"
+   },
+   {
+    "key": "C",
+    "text": "因为它们的叫声很难听"
+   },
+   {
+    "key": "D",
+    "text": "因为雁群彼此不争"
+   }
+  ],
+  "answer": "A",
+  "explanation": "文中反复写孤雁与雁队的关系，落点是生命属于群体这一点。",
+  "verify": "\"雁群以集体方式迁徙、觅食，一有动静全队呼应\""
+ },
+ {
+  "id": "cnc_j036_q4",
+  "topicId": "cnc_j036",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "这篇课文放在「人与动物」单元，最想让我们接受的观念是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "动物都是人类的资源"
+   },
+   {
+    "key": "B",
+    "text": "把人看作生物共同体中的一员，而不是自然的主宰"
+   },
+   {
+    "key": "C",
+    "text": "保护动物要靠打猎限制"
+   },
+   {
+    "key": "D",
+    "text": "野生动物应先被研究再保护"
+   }
+  ],
+  "answer": "B",
+  "explanation": "作者的生态伦理观是这一单元的关键概念：土地与动物不是单纯的物件。",
+  "verify": "\"把人看作生物共同体中的一员，而不是自然的主宰\""
+ },
+ {
+  "id": "cnc_j037_q1",
+  "topicId": "cnc_j037",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "《狼》的作者是谁？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "纪昀"
+   },
+   {
+    "key": "B",
+    "text": "吴敬梓"
+   },
+   {
+    "key": "C",
+    "text": "曹雪芹"
+   },
+   {
+    "key": "D",
+    "text": "蒲松龄"
+   }
+  ],
+  "answer": "D",
+  "explanation": "这篇选自文言短篇小说集《聊斋志异》。",
+  "verify": "\"蒲松龄\""
+ },
+ {
+  "id": "cnc_j037_q2",
+  "topicId": "cnc_j037",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「一狼得骨止，一狼仍从」中「从」是什么意思？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "跟从"
+   },
+   {
+    "key": "B",
+    "text": "顺从"
+   },
+   {
+    "key": "C",
+    "text": "从来"
+   },
+   {
+    "key": "D",
+    "text": "从事"
+   }
+  ],
+  "answer": "A",
+  "explanation": "两只狼轮流跟，骨头扔完而狼不止，紧张感就是这样一层层写出来的。",
+  "verify": "\"跟从\""
+ },
+ {
+  "id": "cnc_j037_q3",
+  "topicId": "cnc_j037",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "屠户最后杀死了两只狼。前面那只「犬坐于前」的狼在做什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "真的睡着了"
+   },
+   {
+    "key": "B",
+    "text": "假装闭眼睡觉，想从后面打洞偷袭"
+   },
+   {
+    "key": "C",
+    "text": "在看守骨头"
+   },
+   {
+    "key": "D",
+    "text": "准备逃走"
+   }
+  ],
+  "answer": "B",
+  "explanation": "「目似瞑，意暇甚」是伪装，作者点破它是「假寐以诱敌」。",
+  "verify": "\"假装闭眼睡觉，想从后面打洞偷袭\""
+ },
+ {
+  "id": "cnc_j037_q4",
+  "topicId": "cnc_j037",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "文末「禽兽之变诈几何哉？止增笑耳」的作用是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "补充说明狼的习性"
+   },
+   {
+    "key": "B",
+    "text": "交代故事来历"
+   },
+   {
+    "key": "C",
+    "text": "跳出故事发议论，点明讥笑狡黠终归失败的主旨"
+   },
+   {
+    "key": "D",
+    "text": "表示同情狼"
+   }
+  ],
+  "answer": "C",
+  "explanation": "这是《聊斋》常用的「异史氏曰」式收束：一事一议，寓意在议里说明。",
+  "verify": "\"跳出故事发议论，点明讥笑狡黠终归失败的主旨\""
+ },
+ {
+  "id": "cnc_j038_q1",
+  "topicId": "cnc_j038",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "写「与动物相处」这类文章，材料最该从哪里来？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "自己亲历过的一件具体的事"
+   },
+   {
+    "key": "B",
+    "text": "从别人作文里搬来的情节"
+   },
+   {
+    "key": "C",
+    "text": "纪录片里的镜头"
+   },
+   {
+    "key": "D",
+    "text": "广告里的画面"
+   }
+  ],
+  "answer": "A",
+  "explanation": "亲历才有细节：动作、声音、当时的想法，都在自己的记忆里。",
+  "verify": "\"自己亲历过的一件具体的事\""
+ },
+ {
+  "id": "cnc_j038_q2",
+  "topicId": "cnc_j038",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "要把「态度变化」写清楚，最好用什么办法？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "开头一次说完全文的情感"
+   },
+   {
+    "key": "B",
+    "text": "在事情的几个节点上分别写出当时的想法"
+   },
+   {
+    "key": "C",
+    "text": "只在结尾喊一句口号"
+   },
+   {
+    "key": "D",
+    "text": "全篇用形容词堆叠"
+   }
+  ],
+  "answer": "B",
+  "explanation": "把心理放在事件节点上，读者看得见变化；只在结尾抒情则显得突然。",
+  "verify": "\"在事情的几个节点上分别写出当时的想法\""
+ },
+ {
+  "id": "cnc_j038_q3",
+  "topicId": "cnc_j038",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "下面哪个细节最能把动物写活？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "说它很可爱"
+   },
+   {
+    "key": "B",
+    "text": "说它是我最好的朋友"
+   },
+   {
+    "key": "C",
+    "text": "写它特有的动作和声音，如「把头别到翅膀下」"
+   },
+   {
+    "key": "D",
+    "text": "说它价格很贵"
+   }
+  ],
+  "answer": "C",
+  "explanation": "特有的动作才有辨识度，能看出作者真的观察过。",
+  "verify": "\"写它特有的动作和声音，如「把头别到翅膀下」\""
+ },
+ {
+  "id": "cnc_j038_q4",
+  "topicId": "cnc_j038",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "写完后检查这篇文章是否跑题，最该问自己什么问题？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "字数够不够"
+   },
+   {
+    "key": "B",
+    "text": "成语多不多"
+   },
+   {
+    "key": "C",
+    "text": "开头够不够长"
+   },
+   {
+    "key": "D",
+    "text": "每一段是否与这件相处的事有关"
+   }
+  ],
+  "answer": "D",
+  "explanation": "围绕一件事删去无关的话，是本单元「思路要清晰」和「突出中心」两条要求在写作里的合流。",
+  "verify": "\"每一段是否与这件相处的事有关\""
+ },
+ {
+  "id": "cnc_j039_q1",
+  "topicId": "cnc_j039",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "《小圣施威降大圣》节选自哪部名著？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "《封神演义》"
+   },
+   {
+    "key": "B",
+    "text": "《西游记》"
+   },
+   {
+    "key": "C",
+    "text": "《水浒传》"
+   },
+   {
+    "key": "D",
+    "text": "《三国演义》"
+   }
+  ],
+  "answer": "B",
+  "explanation": "「小圣」指二郎神，「大圣」指孙悟空，这一段写两人斗法变化。",
+  "verify": "\"《西游记》\""
+ },
+ {
+  "id": "cnc_j039_q2",
+  "topicId": "cnc_j039",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "大圣变作麻雀，二郎神便变作什么来捉它？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "大鹚老"
+   },
+   {
+    "key": "B",
+    "text": "大海鹤"
+   },
+   {
+    "key": "C",
+    "text": "饿鹰"
+   },
+   {
+    "key": "D",
+    "text": "花鸨"
+   }
+  ],
+  "answer": "C",
+  "explanation": "文中一一相对：你变什么我就变什么来克你，斗变化的趣味就在这条克制链上。",
+  "verify": "\"饿鹰\""
+ },
+ {
+  "id": "cnc_j039_q3",
+  "topicId": "cnc_j039",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "大圣变作土地庙时露出的破绽是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "庙门朝西开"
+   },
+   {
+    "key": "B",
+    "text": "台上没有塑金身"
+   },
+   {
+    "key": "C",
+    "text": "庙前没有香火"
+   },
+   {
+    "key": "D",
+    "text": "尾巴不好收拾，竖在后面变作一根旗杆"
+   }
+  ],
+  "answer": "D",
+  "explanation": "旗杆本该立在庙前，却竖在庙后，这一笔不合常理，正是全段最诙谐的地方。",
+  "verify": "\"尾巴不好收拾，竖在后面变作一根旗杆\""
+ },
+ {
+  "id": "cnc_j039_q4",
+  "topicId": "cnc_j039",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "这一段主要靠什么推进情节？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "一连串「变化—被克—再变化」的想象"
+   },
+   {
+    "key": "B",
+    "text": "人物的长篇对话"
+   },
+   {
+    "key": "C",
+    "text": "环境的细致描写"
+   },
+   {
+    "key": "D",
+    "text": "倒叙与插叙"
+   }
+  ],
+  "answer": "A",
+  "explanation": "想象虽奇却一路有次序可寻，读来才有层出不穷的快感，这也是《西游记》最吸引人的写法之一。",
+  "verify": "\"一连串「变化—被克—再变化」的想象\""
+ },
+ {
+  "id": "cnc_j040_q1",
+  "topicId": "cnc_j040",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "《皇帝的新装》的作者是谁？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "格林兄弟"
+   },
+   {
+    "key": "B",
+    "text": "王尔德"
+   },
+   {
+    "key": "C",
+    "text": "安徒生"
+   },
+   {
+    "key": "D",
+    "text": "叶圣陶"
+   }
+  ],
+  "answer": "C",
+  "explanation": "这是丹麦作家安徒生的童话。",
+  "verify": "\"安徒生\""
+ },
+ {
+  "id": "cnc_j040_q2",
+  "topicId": "cnc_j040",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "骗子为什么说看不见衣服的人是愚蠢或不称职的？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "为了让衣服更值钱"
+   },
+   {
+    "key": "B",
+    "text": "为了考验皇帝的智慧"
+   },
+   {
+    "key": "C",
+    "text": "因为他们真有魔法"
+   },
+   {
+    "key": "D",
+    "text": "利用人的虚荣与怕被看不起的心理，让人不敢承认看不见"
+   }
+  ],
+  "answer": "D",
+  "explanation": "这个设定是全篇的机关：谁先承认看不见，谁就先承认自己愚蠢，于是人人都说看见了。",
+  "verify": "\"利用人的虚荣与怕被看不起的心理，让人不敢承认看不见\""
+ },
+ {
+  "id": "cnc_j040_q3",
+  "topicId": "cnc_j040",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "皇帝明知可能受骗，游行时仍把新衣穿完，为什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "他更怕被人知道自己看不见，宁可出丑也不肯认错"
+   },
+   {
+    "key": "B",
+    "text": "衣服确实漂亮"
+   },
+   {
+    "key": "C",
+    "text": "他想看看骗子是谁"
+   },
+   {
+    "key": "D",
+    "text": "他相信自己的眼睛"
+   }
+  ],
+  "answer": "A",
+  "explanation": "荒诞里写的是人情：越是要面子，越容易被谎言捆住。",
+  "verify": "\"他更怕被人知道自己看不见，宁可出丑也不肯认错\""
+ },
+ {
+  "id": "cnc_j040_q4",
+  "topicId": "cnc_j040",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "真相由一个小孩子说出，这样安排有什么好处？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "因为孩子眼神好"
+   },
+   {
+    "key": "B",
+    "text": "孩子还没有世故的顾忌，一句真话照出所有大人的虚伪"
+   },
+   {
+    "key": "C",
+    "text": "因为孩子认识骗子"
+   },
+   {
+    "key": "D",
+    "text": "只是为了让故事有转折"
+   }
+  ],
+  "answer": "B",
+  "explanation": "童真与成人世界的顾虑相对照，是这篇童话批判力量的所在。",
+  "verify": "\"孩子还没有世故的顾忌，一句真话照出所有大人的虚伪\""
+ },
+ {
+  "id": "cnc_j041_q1",
+  "topicId": "cnc_j041",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "《女娲造人》是根据古代神话改写的，整理者是谁？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "蒲松龄"
+   },
+   {
+    "key": "B",
+    "text": "许慎"
+   },
+   {
+    "key": "C",
+    "text": "郭沫若"
+   },
+   {
+    "key": "D",
+    "text": "袁珂"
+   }
+  ],
+  "answer": "D",
+  "explanation": "袁珂长期从事中国神话的整理与研究，这篇出自他的改写。",
+  "verify": "\"袁珂\""
+ },
+ {
+  "id": "cnc_j041_q2",
+  "topicId": "cnc_j041",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "女娲为什么要造人？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "天地间十分寂寞，想让世界有了生命，不再荒凉"
+   },
+   {
+    "key": "B",
+    "text": "为了有人耕田"
+   },
+   {
+    "key": "C",
+    "text": "为了管理山川"
+   },
+   {
+    "key": "D",
+    "text": "为了惩罚自己"
+   }
+  ],
+  "answer": "A",
+  "explanation": "神话的开端常出于一个朴素的愿望；「寂寞」二字让神有了人的心情。",
+  "verify": "\"天地间十分寂寞，想让世界有了生命，不再荒凉\""
+ },
+ {
+  "id": "cnc_j041_q3",
+  "topicId": "cnc_j041",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "从用手抟泥到用藤条洒泥浆，这一变化在故事里说明了什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "女娲的力气变大"
+   },
+   {
+    "key": "B",
+    "text": "造人的速度快多了，人间的差别也由此有了解释"
+   },
+   {
+    "key": "C",
+    "text": "藤条比泥更好用"
+   },
+   {
+    "key": "D",
+    "text": "女娲后悔自己造人"
+   }
+  ],
+  "answer": "B",
+  "explanation": "神话思维爱给现实找来历，这一段既写创造之难，也为后来的人间差别作解释。",
+  "verify": "\"造人的速度快多了，人间的差别也由此有了解释\""
+ },
+ {
+  "id": "cnc_j041_q4",
+  "topicId": "cnc_j041",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "这篇最突出的写作特点是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "严格的科学说明"
+   },
+   {
+    "key": "B",
+    "text": "冷静的历史考证"
+   },
+   {
+    "key": "C",
+    "text": "大胆而新奇的想象，把人类的来历写成一位母亲的创造"
+   },
+   {
+    "key": "D",
+    "text": "曲折的侦探情节"
+   }
+  ],
+  "answer": "C",
+  "explanation": "想象是神话的生命；造人的每个细节都出于人之常情的推想，所以读来亲切。",
+  "verify": "\"大胆而新奇的想象，把人类的来历写成一位母亲的创造\""
+ },
+ {
+  "id": "cnc_j042_q1",
+  "topicId": "cnc_j042",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "《赫耳墨斯和雕像者》出自哪部寓言集？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "《伊索寓言》"
+   },
+   {
+    "key": "B",
+    "text": "《庄子》"
+   },
+   {
+    "key": "C",
+    "text": "《聊斋志异》"
+   },
+   {
+    "key": "D",
+    "text": "《克雷洛夫寓言》"
+   }
+  ],
+  "answer": "A",
+  "explanation": "赫耳墨斯是希腊神话中商人的庇护神，这则寓言借他在雕像店的遭遇立意。",
+  "verify": "\"《伊索寓言》\""
+ },
+ {
+  "id": "cnc_j042_q2",
+  "topicId": "cnc_j042",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "赫耳墨斯先问宙斯像的价钱，用意是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "他想知道该买哪一尊"
+   },
+   {
+    "key": "B",
+    "text": "想通过比价知道自己会受到多大尊重"
+   },
+   {
+    "key": "C",
+    "text": "他要替宙斯估价"
+   },
+   {
+    "key": "D",
+    "text": "他担心宙斯卖不出去"
+   }
+  ],
+  "answer": "B",
+  "explanation": "三问的次序就是心理的次序：越问越自信，最后的落差也越大。",
+  "verify": "\"想通过比价知道自己会受到多大尊重\""
+ },
+ {
+  "id": "cnc_j042_q3",
+  "topicId": "cnc_j042",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "雕像者说赫耳墨斯像算饶头、白送，这句话为什么有力？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "当面骂了他一顿"
+   },
+   {
+    "key": "B",
+    "text": "夸他值得白送"
+   },
+   {
+    "key": "C",
+    "text": "不作评价，只用一句生意话把自命不凡的人贬到零"
+   },
+   {
+    "key": "D",
+    "text": "说明雕像都不值钱"
+   }
+  ],
+  "answer": "C",
+  "explanation": "寓言的分寸正在这里：让事实自己说话，讽刺便自然成立。",
+  "verify": "\"不作评价，只用一句生意话把自命不凡的人贬到零\""
+ },
+ {
+  "id": "cnc_j042_q4",
+  "topicId": "cnc_j042",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "这则寓言的寓意最贴近下面哪一句？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "勤能补拙"
+   },
+   {
+    "key": "B",
+    "text": "货比三家不吃亏"
+   },
+   {
+    "key": "C",
+    "text": "做买卖要诚实"
+   },
+   {
+    "key": "D",
+    "text": "妄自尊大的人，在别人眼里往往一文不值"
+   }
+  ],
+  "answer": "D",
+  "explanation": "故事「借神讽人」，讽刺的是自我评价与实际分量之间的落差。",
+  "verify": "\"妄自尊大的人，在别人眼里往往一文不值\""
+ },
+ {
+  "id": "cnc_j043_q1",
+  "topicId": "cnc_j043",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "蚊子战胜狮子靠的是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "比狮子更快的飞行"
+   },
+   {
+    "key": "B",
+    "text": "专咬狮子鼻子周围没有毛的地方"
+   },
+   {
+    "key": "C",
+    "text": "请来一群蚊子帮忙"
+   },
+   {
+    "key": "D",
+    "text": "一击就把对方刺倒"
+   }
+  ],
+  "answer": "B",
+  "explanation": "蚊子的胜法是避开对方的长处、攻其短处，属于以智取胜。",
+  "verify": "\"专咬狮子鼻子周围没有毛的地方\""
+ },
+ {
+  "id": "cnc_j043_q2",
+  "topicId": "cnc_j043",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "蚊子吹着喇叭飞走时的心情是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "十分疲惫"
+   },
+   {
+    "key": "B",
+    "text": "害怕后悔"
+   },
+   {
+    "key": "C",
+    "text": "得意忘形"
+   },
+   {
+    "key": "D",
+    "text": "毫不在意"
+   }
+  ],
+  "answer": "C",
+  "explanation": "胜利之后夸耀自己，恰好为下一句的失败作了铺垫。",
+  "verify": "\"得意忘形\""
+ },
+ {
+  "id": "cnc_j043_q3",
+  "topicId": "cnc_j043",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "蚊子最后败给了什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "蝙蝠"
+   },
+   {
+    "key": "B",
+    "text": "一只青蛙"
+   },
+   {
+    "key": "C",
+    "text": "一场大雨"
+   },
+   {
+    "key": "D",
+    "text": "蜘蛛网"
+   }
+  ],
+  "answer": "D",
+  "explanation": "它被正在结网的蜘蛛粘住，将要被吃掉时叹息，这是寓言的转折处。",
+  "verify": "\"蜘蛛网\""
+ },
+ {
+  "id": "cnc_j043_q4",
+  "topicId": "cnc_j043",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "这则寓言告诉我们什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "得了胜利也不要骄傲，否则会在小的对手面前栽跟头"
+   },
+   {
+    "key": "B",
+    "text": "弱小者总能胜利"
+   },
+   {
+    "key": "C",
+    "text": "不要与强者争斗"
+   },
+   {
+    "key": "D",
+    "text": "遇到危险要呼救"
+   }
+  ],
+  "answer": "A",
+  "explanation": "结构上的对照（胜强而败弱）就是寓意的落点：骄兵必败，不分对手大小。",
+  "verify": "\"得了胜利也不要骄傲，否则会在小的对手面前栽跟头\""
+ },
+ {
+  "id": "cnc_j044_q1",
+  "topicId": "cnc_j044",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "《穿井得一人》出自哪部书？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "《战国策》"
+   },
+   {
+    "key": "B",
+    "text": "《韩非子》"
+   },
+   {
+    "key": "C",
+    "text": "《吕氏春秋》"
+   },
+   {
+    "key": "D",
+    "text": "《世说新语》"
+   }
+  ],
+  "answer": "C",
+  "explanation": "《吕氏春秋》是战国末期吕不韦门客编纂的著作，这则出自《察传》。",
+  "verify": "\"《吕氏春秋》\""
+ },
+ {
+  "id": "cnc_j044_q2",
+  "topicId": "cnc_j044",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「丁氏穿井得一人」的真实意思是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "井里挖出一个人"
+   },
+   {
+    "key": "B",
+    "text": "家里多生了一个孩子"
+   },
+   {
+    "key": "C",
+    "text": "救起一个落水的人"
+   },
+   {
+    "key": "D",
+    "text": "打了井后不必再派人外出汲水，等于得到一个人的劳力"
+   }
+  ],
+  "answer": "D",
+  "explanation": "「得一人」是说得着一个人的使唤；传言听成从井里挖出人来，一句之差就传遍了国都。",
+  "verify": "\"打了井后不必再派人外出汲水，等于得到一个人的劳力\""
+ },
+ {
+  "id": "cnc_j044_q3",
+  "topicId": "cnc_j044",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "传言为什么能一直传到宋君那里？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "听的人不加查证，一路转述，越传越像真事"
+   },
+   {
+    "key": "B",
+    "text": "有人故意造谣"
+   },
+   {
+    "key": "C",
+    "text": "宋君自己亲眼看见"
+   },
+   {
+    "key": "D",
+    "text": "丁氏到处宣传"
+   }
+  ],
+  "answer": "A",
+  "explanation": "本文的教训是听传闻一定要考察实情：道听途说，不如不知。",
+  "verify": "\"听的人不加查证，一路转述，越传越像真事\""
+ },
+ {
+  "id": "cnc_j044_q4",
+  "topicId": "cnc_j044",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "「及其家穿井，告人曰」中的「及」是什么意思？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "和"
+   },
+   {
+    "key": "B",
+    "text": "等到"
+   },
+   {
+    "key": "C",
+    "text": "以及"
+   },
+   {
+    "key": "D",
+    "text": "趁着"
+   }
+  ],
+  "answer": "B",
+  "explanation": "「及」在这里表时间，指等到家里打了井。",
+  "verify": "\"等到\""
+ },
+ {
+  "id": "cnc_j045_q1",
+  "topicId": "cnc_j045",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "《杞人忧天》出自哪部书？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "《孟子》"
+   },
+   {
+    "key": "B",
+    "text": "《淮南子》"
+   },
+   {
+    "key": "C",
+    "text": "《庄子》"
+   },
+   {
+    "key": "D",
+    "text": "《列子》"
+   }
+  ],
+  "answer": "D",
+  "explanation": "这则寓言见于《列子·天瑞》，成语「杞人忧天」即由此而来。",
+  "verify": "\"《列子》\""
+ },
+ {
+  "id": "cnc_j045_q2",
+  "topicId": "cnc_j045",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "杞人最初忧愁的是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "担心天会塌、地会陷，自己无处安身"
+   },
+   {
+    "key": "B",
+    "text": "担心洪水"
+   },
+   {
+    "key": "C",
+    "text": "担心打仗"
+   },
+   {
+    "key": "D",
+    "text": "担心收成不好"
+   }
+  ],
+  "answer": "A",
+  "explanation": "「废寝食者」四字把这种忧虑写得夸张，也定下了全篇的调侃调子。",
+  "verify": "\"担心天会塌、地会陷，自己无处安身\""
+ },
+ {
+  "id": "cnc_j045_q3",
+  "topicId": "cnc_j045",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "开导者用什么道理来说明天不会崩坠？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "天是神撑着的"
+   },
+   {
+    "key": "B",
+    "text": "天是积聚的气体，无处没有气，不会塌下来"
+   },
+   {
+    "key": "C",
+    "text": "天很高所以落不下来"
+   },
+   {
+    "key": "D",
+    "text": "人有德就不怕天塌"
+   }
+  ],
+  "answer": "B",
+  "explanation": "他说天不过是气，日月星宿也只是气中有光耀者，这是古人朴素的自然观。",
+  "verify": "\"天是积聚的气体，无处没有气，不会塌下来\""
+ },
+ {
+  "id": "cnc_j045_q4",
+  "topicId": "cnc_j045",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "结尾两人都「舍然大喜」，这个收束有什么意味？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "说明杞人从此不再想事"
+   },
+   {
+    "key": "B",
+    "text": "表示问题彻底解决"
+   },
+   {
+    "key": "C",
+    "text": "开导者给出的是当时能懂的道理，两人都放了心，寓言的幽默也留在其中"
+   },
+   {
+    "key": "D",
+    "text": "批评开导者多管闲事"
+   }
+  ],
+  "answer": "C",
+  "explanation": "「舍然」是放下心来的样子；喜悦里带着善意的调侃，读来并不沉重。",
+  "verify": "\"开导者给出的是当时能懂的道理，两人都放了心，寓言的幽默也留在其中\""
+ },
+ {
+  "id": "cnc_j046_q1",
+  "topicId": "cnc_j046",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "关于联想与想象的区别，下面说法准确的是哪一项？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "联想是由一物想到另一物，想象可以造出未曾见过的新形象"
+   },
+   {
+    "key": "B",
+    "text": "两者完全一样"
+   },
+   {
+    "key": "C",
+    "text": "联想比想象更自由"
+   },
+   {
+    "key": "D",
+    "text": "想象不必有形象"
+   }
+  ],
+  "answer": "A",
+  "explanation": "联想靠事物之间的关联，想象可以在关联之外添补、创造细节。",
+  "verify": "\"联想是由一物想到另一物，想象可以造出未曾见过的新形象\""
+ },
+ {
+  "id": "cnc_j046_q2",
+  "topicId": "cnc_j046",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "要让想象「合情合理」，最重要的是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "越奇特越好"
+   },
+   {
+    "key": "B",
+    "text": "有一条生活或事理的线索可依，读者能顺着想下去"
+   },
+   {
+    "key": "C",
+    "text": "形象越多越好"
+   },
+   {
+    "key": "D",
+    "text": "篇幅越长越好"
+   }
+  ],
+  "answer": "B",
+  "explanation": "《小圣施威降大圣》的变化虽奇，却一路有「相克」的理路可寻；没有规则的想象只会让读者跟不上。",
+  "verify": "\"有一条生活或事理的线索可依，读者能顺着想下去\""
+ },
+ {
+  "id": "cnc_j046_q3",
+  "topicId": "cnc_j046",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "由「桥」展开联想，最不贴近的一项是哪一项？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "河对岸的人"
+   },
+   {
+    "key": "B",
+    "text": "连接与沟通"
+   },
+   {
+    "key": "C",
+    "text": "这座桥是哪一年通车的"
+   },
+   {
+    "key": "D",
+    "text": "通往未知世界"
+   }
+  ],
+  "answer": "C",
+  "explanation": "通车年份是要查资料才知道的事实，不是由事物关系生发出来的联想。",
+  "verify": "\"这座桥是哪一年通车的\""
+ },
+ {
+  "id": "cnc_j046_q4",
+  "topicId": "cnc_j046",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "同学写想象作文，通篇只是把不可能的事一遍遍说大，毛病在哪里？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "细节太多"
+   },
+   {
+    "key": "B",
+    "text": "开头太长"
+   },
+   {
+    "key": "C",
+    "text": "题目太小"
+   },
+   {
+    "key": "D",
+    "text": "只有奇特的设定，没有细节与情感的支撑"
+   }
+  ],
+  "answer": "D",
+  "explanation": "想象作文要靠具体的场景、动作与心理站住；只喊设定，读起来就是空转。",
+  "verify": "\"只有奇特的设定，没有细节与情感的支撑\""
+ },
+ {
+  "id": "cnc_j047_q1",
+  "topicId": "cnc_j047",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "《西游记》的作者一般认为是谁？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "罗贯中"
+   },
+   {
+    "key": "B",
+    "text": "吴承恩"
+   },
+   {
+    "key": "C",
+    "text": "施耐庵"
+   },
+   {
+    "key": "D",
+    "text": "蒲松龄"
+   }
+  ],
+  "answer": "B",
+  "explanation": "《西游记》是明代吴承恩所作的长篇神魔小说。",
+  "verify": "\"吴承恩\""
+ },
+ {
+  "id": "cnc_j047_q2",
+  "topicId": "cnc_j047",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "下面哪个情节不在《西游记》中？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "三打白骨精"
+   },
+   {
+    "key": "B",
+    "text": "大闹天宫"
+   },
+   {
+    "key": "C",
+    "text": "林冲风雪山神庙"
+   },
+   {
+    "key": "D",
+    "text": "三借芭蕉扇"
+   }
+  ],
+  "answer": "C",
+  "explanation": "风雪山神庙出自《水浒传》；其余三项都是《西游记》的著名情节。",
+  "verify": "\"林冲风雪山神庙\""
+ },
+ {
+  "id": "cnc_j047_q3",
+  "topicId": "cnc_j047",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "读这类长篇章回小说，遇到大量铺陈的诗词与反复的降魔场面，最合适的读法是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "每一页都要背下来"
+   },
+   {
+    "key": "B",
+    "text": "只读回目和目录"
+   },
+   {
+    "key": "C",
+    "text": "先读后一半，前面全部跳过"
+   },
+   {
+    "key": "D",
+    "text": "关键人物与重要情节精读，铺陈诗词与重复场面可以跳读"
+   }
+  ],
+  "answer": "D",
+  "explanation": "精读与跳读配合，既保住速度又抓住主干，这正是本册整本书阅读要练的方法。",
+  "verify": "\"关键人物与重要情节精读，铺陈诗词与重复场面可以跳读\""
+ },
+ {
+  "id": "cnc_j047_q4",
+  "topicId": "cnc_j047",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "孙悟空这一形象最突出的性格特点是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "机智勇敢、不畏权威，又有机动顽皮的一面"
+   },
+   {
+    "key": "B",
+    "text": "逆来顺受"
+   },
+   {
+    "key": "C",
+    "text": "唯利是图"
+   },
+   {
+    "key": "D",
+    "text": "多疑忌才"
+   }
+  ],
+  "answer": "A",
+  "explanation": "从大闹天宫到一路降魔，作者写的是不受束缚的反抗力与生命活力。",
+  "verify": "\"机智勇敢、不畏权威，又有机动顽皮的一面\""
+ },
+ {
+  "id": "cnc_j048_q1",
+  "topicId": "cnc_j048",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "《秋词·其一》的作者是谁？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "白居易"
+   },
+   {
+    "key": "B",
+    "text": "柳宗元"
+   },
+   {
+    "key": "C",
+    "text": "刘禹锡"
+   },
+   {
+    "key": "D",
+    "text": "杜牧"
+   }
+  ],
+  "answer": "C",
+  "explanation": "刘禹锡是中唐诗人，这组写秋天的绝句共两首，课本选其第一首。",
+  "verify": "\"刘禹锡\""
+ },
+ {
+  "id": "cnc_j048_q2",
+  "topicId": "cnc_j048",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「自古逢秋悲寂寥」的下一句是哪一句？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "晴空一鹤排云上"
+   },
+   {
+    "key": "B",
+    "text": "便引诗情到碧霄"
+   },
+   {
+    "key": "C",
+    "text": "霜叶红于二月花"
+   },
+   {
+    "key": "D",
+    "text": "我言秋日胜春朝"
+   }
+  ],
+  "answer": "D",
+  "explanation": "首句说前人悲秋，次句用「我言」翻案，一开口就立了不同的调子。",
+  "verify": "\"我言秋日胜春朝\""
+ },
+ {
+  "id": "cnc_j048_q3",
+  "topicId": "cnc_j048",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "「晴空一鹤排云上」中「排」字妙在哪里？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "写出白鹤推开云层直上之势，把秋天写得开阔有力"
+   },
+   {
+    "key": "B",
+    "text": "说明云很多"
+   },
+   {
+    "key": "C",
+    "text": "表示排成一排"
+   },
+   {
+    "key": "D",
+    "text": "指鹤成群结队"
+   }
+  ],
+  "answer": "A",
+  "explanation": "一个「排」字排除了萧瑟感，画面有了向上的力量，诗的豪情由此而来。",
+  "verify": "\"写出白鹤推开云层直上之势，把秋天写得开阔有力\""
+ },
+ {
+  "id": "cnc_j048_q4",
+  "topicId": "cnc_j048",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "这首诗与传统悲秋之作最大的不同是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "写的不是秋天"
+   },
+   {
+    "key": "B",
+    "text": "把秋天当作高远明净、令人振奋的季节来写"
+   },
+   {
+    "key": "C",
+    "text": "只写鹤不写人"
+   },
+   {
+    "key": "D",
+    "text": "结尾十分伤感"
+   }
+  ],
+  "answer": "B",
+  "explanation": "诗的立意正在这个反拨：不说悲凉，反说胜春，气势由情绪撑起。",
+  "verify": "\"把秋天当作高远明净、令人振奋的季节来写\""
+ },
+ {
+  "id": "cnc_j049_q1",
+  "topicId": "cnc_j049",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "《夜雨寄北》的作者是谁？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "杜牧"
+   },
+   {
+    "key": "B",
+    "text": "温庭筠"
+   },
+   {
+    "key": "C",
+    "text": "陆游"
+   },
+   {
+    "key": "D",
+    "text": "李商隐"
+   }
+  ],
+  "answer": "D",
+  "explanation": "这是晚唐李商隐寄给北方亲友（一说寄内）的诗。",
+  "verify": "\"李商隐\""
+ },
+ {
+  "id": "cnc_j049_q2",
+  "topicId": "cnc_j049",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「君问归期未有期」的下一句是哪一句？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "巴山夜雨涨秋池"
+   },
+   {
+    "key": "B",
+    "text": "何当共剪西窗烛"
+   },
+   {
+    "key": "C",
+    "text": "却话巴山夜雨时"
+   },
+   {
+    "key": "D",
+    "text": "千里江陵一日还"
+   }
+  ],
+  "answer": "A",
+  "explanation": "一句回答问题，一句写眼前景；秋池水涨，把思念写得很具体。",
+  "verify": "\"巴山夜雨涨秋池\""
+ },
+ {
+  "id": "cnc_j049_q3",
+  "topicId": "cnc_j049",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "「何当共剪西窗烛」中的「何当」是什么意思？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "为什么不"
+   },
+   {
+    "key": "B",
+    "text": "什么时候才能够"
+   },
+   {
+    "key": "C",
+    "text": "应当如何"
+   },
+   {
+    "key": "D",
+    "text": "正如今日"
+   }
+  ],
+  "answer": "B",
+  "explanation": "「何当」表期盼，全诗由眼前的孤雨跳到想象中的重逢。",
+  "verify": "\"什么时候才能够\""
+ },
+ {
+  "id": "cnc_j049_q4",
+  "topicId": "cnc_j049",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "诗中两次写「巴山夜雨」，这样写有什么好处？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "因为格律要求重复"
+   },
+   {
+    "key": "B",
+    "text": "为了凑足字数"
+   },
+   {
+    "key": "C",
+    "text": "把今夜的实景与将来追忆的情景叠在一起，思念的回环更有余味"
+   },
+   {
+    "key": "D",
+    "text": "只想强调雨下个不停"
+   }
+  ],
+  "answer": "C",
+  "explanation": "由今夜的雨设想将来谈起今夜，时间是回环的，这是此诗最被称道的结构。",
+  "verify": "\"把今夜的实景与将来追忆的情景叠在一起，思念的回环更有余味\""
+ },
+ {
+  "id": "cnc_j050_q1",
+  "topicId": "cnc_j050",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "《十一月四日风雨大作·其二》的作者是谁？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "陆游"
+   },
+   {
+    "key": "B",
+    "text": "辛弃疾"
+   },
+   {
+    "key": "C",
+    "text": "苏轼"
+   },
+   {
+    "key": "D",
+    "text": "范成大"
+   }
+  ],
+  "answer": "A",
+  "explanation": "写这首诗时陆游已六十八岁，罢官闲居故乡山阴。",
+  "verify": "\"陆游\""
+ },
+ {
+  "id": "cnc_j050_q2",
+  "topicId": "cnc_j050",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「僵卧孤村不自哀」的下一句是哪一句？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "夜阑卧听风吹雨"
+   },
+   {
+    "key": "B",
+    "text": "尚思为国戍轮台"
+   },
+   {
+    "key": "C",
+    "text": "铁马冰河入梦来"
+   },
+   {
+    "key": "D",
+    "text": "王师北定中原日"
+   }
+  ],
+  "answer": "B",
+  "explanation": "「不自哀」紧接「尚思」：年老闲置却仍想着为国守土，情感先立起来。",
+  "verify": "\"尚思为国戍轮台\""
+ },
+ {
+  "id": "cnc_j050_q3",
+  "topicId": "cnc_j050",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "「夜阑卧听风吹雨，铁马冰河入梦来」中风雨的作用是什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "说明天气很冷"
+   },
+   {
+    "key": "B",
+    "text": "预示明日有战事"
+   },
+   {
+    "key": "C",
+    "text": "现实的风雨声化作梦里的战场，把报国之志写进出梦"
+   },
+   {
+    "key": "D",
+    "text": "表示他整夜没睡"
+   }
+  ],
+  "answer": "C",
+  "explanation": "听雨而入梦是全诗的转折：身不能往，志在千军。",
+  "verify": "\"现实的风雨声化作梦里的战场，把报国之志写进出梦\""
+ },
+ {
+  "id": "cnc_j050_q4",
+  "topicId": "cnc_j050",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "这首诗的主旨最贴近下面哪一项？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "描写江南冬雨"
+   },
+   {
+    "key": "B",
+    "text": "感叹时光易逝"
+   },
+   {
+    "key": "C",
+    "text": "怀念旧日友人"
+   },
+   {
+    "key": "D",
+    "text": "年老闲居仍念念不忘为国效力"
+   }
+  ],
+  "answer": "D",
+  "explanation": "一腔收复之志在孤村风雨里燃烧，这是陆游晚年诗的常见主题。",
+  "verify": "\"年老闲居仍念念不忘为国效力\""
+ },
+ {
+  "id": "cnc_j051_q1",
+  "topicId": "cnc_j051",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "《潼关》的作者是谁？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "龚自珍"
+   },
+   {
+    "key": "B",
+    "text": "谭嗣同"
+   },
+   {
+    "key": "C",
+    "text": "梁启超"
+   },
+   {
+    "key": "D",
+    "text": "林则徐"
+   }
+  ],
+  "answer": "B",
+  "explanation": "这是维新志士谭嗣同少年时代经过潼关所作。",
+  "verify": "\"谭嗣同\""
+ },
+ {
+  "id": "cnc_j051_q2",
+  "topicId": "cnc_j051",
+  "difficulty": "basic",
+  "type": "choice",
+  "prompt": "「终古高云簇此城」中的「簇」字写出什么？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "城里人多"
+   },
+   {
+    "key": "B",
+    "text": "云散开了"
+   },
+   {
+    "key": "C",
+    "text": "高云聚拥在城关之上，显得城势雄峻"
+   },
+   {
+    "key": "D",
+    "text": "山特别高"
+   }
+  ],
+  "answer": "C",
+  "explanation": "一个「簇」字让云有了向心之势，潼关的孤高由这一笔立起。",
+  "verify": "\"高云聚拥在城关之上，显得城势雄峻\""
+ },
+ {
+  "id": "cnc_j051_q3",
+  "topicId": "cnc_j051",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "「河流大野犹嫌束」运用了什么修辞？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "比喻"
+   },
+   {
+    "key": "B",
+    "text": "夸张"
+   },
+   {
+    "key": "C",
+    "text": "对偶"
+   },
+   {
+    "key": "D",
+    "text": "拟人：黄河流到平野仍嫌受束缚"
+   }
+  ],
+  "answer": "D",
+  "explanation": "河还「嫌」被束住，其实是少年诗人自己不肯受束缚的心情投到了河上。",
+  "verify": "\"拟人：黄河流到平野仍嫌受束缚\""
+ },
+ {
+  "id": "cnc_j051_q4",
+  "topicId": "cnc_j051",
+  "difficulty": "standard",
+  "type": "choice",
+  "prompt": "这首诗的情调与一般登高之作有何不同？",
+  "choices": [
+   {
+    "key": "A",
+    "text": "不写衰飒之感，写的是冲决罗网的少年豪气"
+   },
+   {
+    "key": "B",
+    "text": "十分消沉"
+   },
+   {
+    "key": "C",
+    "text": "纯粹写景无情"
+   },
+   {
+    "key": "D",
+    "text": "只在怀古伤今"
+   }
+  ],
+  "answer": "A",
+  "explanation": "全诗以河山之壮写自己之志，情绪开阔向上，这是他少年作品的特点。",
+  "verify": "\"不写衰飒之感，写的是冲决罗网的少年豪气\""
  }
 ]

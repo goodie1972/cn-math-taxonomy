@@ -27316,5 +27316,485 @@
     "prerequisiteId": "cnd_j066",
     "strength": "hard",
     "reason": "回望成长、走向未来，要先处理升学与职业的现实选择。"
+  },
+  {
+    "topicId": "cnc_j001",
+    "prerequisiteId": "cnc_p493",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「词《卜算子·送鲍浩然之浙东》」，再学「字音字形：本册易错读写的字」。"
+  },
+  {
+    "topicId": "cnc_j004",
+    "prerequisiteId": "cnc_j003",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「阅读《济南的冬天》」，再学「阅读《雨的四季》」。"
+  },
+  {
+    "topicId": "cnc_j005",
+    "prerequisiteId": "cnc_j004",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「阅读《雨的四季》」，再学「古诗《观沧海》」。"
+  },
+  {
+    "topicId": "cnc_j009",
+    "prerequisiteId": "cnc_j008",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「古诗《天净沙·秋思》」，再学「写作：热爱写作，学会观察」。"
+  },
+  {
+    "topicId": "cnc_j010",
+    "prerequisiteId": "cnc_j009",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「写作：热爱写作，学会观察」，再学「阅读《秋天的怀念》」。"
+  },
+  {
+    "topicId": "cnc_j012",
+    "prerequisiteId": "cnc_j011",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「阅读《散步》」，再学「阅读《金色花》」。"
+  },
+  {
+    "topicId": "cnc_j014",
+    "prerequisiteId": "cnc_j013",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「阅读《荷叶·母亲》」，再学「文言文《咏雪》」。"
+  },
+  {
+    "topicId": "cnc_j016",
+    "prerequisiteId": "cnc_j015",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「文言文《陈太丘与友期行》」，再学「写作：学会记事」。"
+  },
+  {
+    "topicId": "cnc_j017",
+    "prerequisiteId": "cnc_j016",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「写作：学会记事」，再学「专题学习活动：有朋自远方来」。"
+  },
+  {
+    "topicId": "cnc_j018",
+    "prerequisiteId": "cnc_j017",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「专题学习活动：有朋自远方来」，再学「阅读《从百草园到三味书屋》」。"
+  },
+  {
+    "topicId": "cnc_j020",
+    "prerequisiteId": "cnc_j019",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「阅读《往事依依》」，再学「阅读《再塑生命的人》」。"
+  },
+  {
+    "topicId": "cnc_j021",
+    "prerequisiteId": "cnc_j020",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「阅读《再塑生命的人》」，再学「文言文《〈论语〉十二章》」。"
+  },
+  {
+    "topicId": "cnc_j022",
+    "prerequisiteId": "cnc_j021",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「文言文《〈论语〉十二章》」，再学「写作：如何突出中心」。"
+  },
+  {
+    "topicId": "cnc_j023",
+    "prerequisiteId": "cnc_j022",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「写作：如何突出中心」，再学「整本书阅读：《朝花夕拾》」。"
+  },
+  {
+    "topicId": "cnc_j024",
+    "prerequisiteId": "cnc_j023",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「整本书阅读：《朝花夕拾》」，再学「古诗《峨眉山月歌》」。"
+  },
+  {
+    "topicId": "cnc_j028",
+    "prerequisiteId": "cnc_j027",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「古诗《夜上受降城闻笛》」，再学「阅读《纪念白求恩》」。"
+  },
+  {
+    "topicId": "cnc_j029",
+    "prerequisiteId": "cnc_j028",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「阅读《纪念白求恩》」，再学「阅读《回忆我的母亲》」。"
+  },
+  {
+    "topicId": "cnc_j030",
+    "prerequisiteId": "cnc_j029",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「阅读《回忆我的母亲》」，再学「古诗《梅岭三章》」。"
+  },
+  {
+    "topicId": "cnc_j031",
+    "prerequisiteId": "cnc_j030",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「古诗《梅岭三章》」，再学「文言文《诫子书》」。"
+  },
+  {
+    "topicId": "cnc_j032",
+    "prerequisiteId": "cnc_j031",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「文言文《诫子书》」，再学「写作：思路要清晰」。"
+  },
+  {
+    "topicId": "cnc_j033",
+    "prerequisiteId": "cnc_j032",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「写作：思路要清晰」，再学「专题学习活动：少年正是读书时」。"
+  },
+  {
+    "topicId": "cnc_j034",
+    "prerequisiteId": "cnc_j033",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「专题学习活动：少年正是读书时」，再学「阅读《猫》」。"
+  },
+  {
+    "topicId": "cnc_j035",
+    "prerequisiteId": "cnc_j034",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「阅读《猫》」，再学「阅读《我的白鸽》」。"
+  },
+  {
+    "topicId": "cnc_j036",
+    "prerequisiteId": "cnc_j035",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「阅读《我的白鸽》」，再学「阅读《大雁归来》」。"
+  },
+  {
+    "topicId": "cnc_j037",
+    "prerequisiteId": "cnc_j036",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「阅读《大雁归来》」，再学「文言文《狼》」。"
+  },
+  {
+    "topicId": "cnc_j038",
+    "prerequisiteId": "cnc_j037",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「文言文《狼》」，再学「表达任务：记叙与动物的相处」。"
+  },
+  {
+    "topicId": "cnc_j039",
+    "prerequisiteId": "cnc_j038",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「表达任务：记叙与动物的相处」，再学「阅读《小圣施威降大圣》」。"
+  },
+  {
+    "topicId": "cnc_j040",
+    "prerequisiteId": "cnc_j039",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「阅读《小圣施威降大圣》」，再学「阅读《皇帝的新装》」。"
+  },
+  {
+    "topicId": "cnc_j041",
+    "prerequisiteId": "cnc_j040",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「阅读《皇帝的新装》」，再学「阅读《女娲造人》」。"
+  },
+  {
+    "topicId": "cnc_j042",
+    "prerequisiteId": "cnc_j041",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「阅读《女娲造人》」，再学「阅读《赫耳墨斯和雕像者》」。"
+  },
+  {
+    "topicId": "cnc_j043",
+    "prerequisiteId": "cnc_j042",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「阅读《赫耳墨斯和雕像者》」，再学「阅读《蚊子和狮子》」。"
+  },
+  {
+    "topicId": "cnc_j044",
+    "prerequisiteId": "cnc_j043",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「阅读《蚊子和狮子》」，再学「文言文《穿井得一人》」。"
+  },
+  {
+    "topicId": "cnc_j046",
+    "prerequisiteId": "cnc_j045",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「文言文《杞人忧天》」，再学「写作：发挥联想和想象」。"
+  },
+  {
+    "topicId": "cnc_j047",
+    "prerequisiteId": "cnc_j046",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「写作：发挥联想和想象」，再学「整本书阅读：《西游记》」。"
+  },
+  {
+    "topicId": "cnc_j048",
+    "prerequisiteId": "cnc_j047",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「整本书阅读：《西游记》」，再学「古诗《秋词·其一》」。"
+  },
+  {
+    "topicId": "cnc_j049",
+    "prerequisiteId": "cnc_j048",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「古诗《秋词·其一》」，再学「古诗《夜雨寄北》」。"
+  },
+  {
+    "topicId": "cnc_j050",
+    "prerequisiteId": "cnc_j049",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「古诗《夜雨寄北》」，再学「古诗《十一月四日风雨大作·其二》」。"
+  },
+  {
+    "topicId": "cnc_j051",
+    "prerequisiteId": "cnc_j050",
+    "strength": "soft",
+    "reason": "按统编教材的常见教学顺序，先学「古诗《十一月四日风雨大作·其二》」，再学「古诗《潼关》」。"
+  },
+  {
+    "topicId": "cnc_j002",
+    "prerequisiteId": "cnc_j001",
+    "strength": "hard",
+    "reason": "读《春》要先过本册读读写写：酿、巢、晕这些字的音形不认，句子就读不停。"
+  },
+  {
+    "topicId": "cnc_j005",
+    "prerequisiteId": "cnc_j001",
+    "strength": "hard",
+    "reason": "背《观沧海》要先写对「澹澹」「竦峙」「星汉」，这几个字最容易写错。"
+  },
+  {
+    "topicId": "cnc_j014",
+    "prerequisiteId": "cnc_j001",
+    "strength": "hard",
+    "reason": "读《咏雪》要先认识「骤」「拟」「奕」，字音不过关就分不清人物对话。"
+  },
+  {
+    "topicId": "cnc_j003",
+    "prerequisiteId": "cnc_j002",
+    "strength": "hard",
+    "reason": "先在读《春》时学过抓景物特征、调动多种感官，再按同一办法读济南的冬天。"
+  },
+  {
+    "topicId": "cnc_j004",
+    "prerequisiteId": "cnc_j002",
+    "strength": "hard",
+    "reason": "《雨的四季》仍是按景抒情，读法承接《春》里的比喻与拟人。"
+  },
+  {
+    "topicId": "cnc_j013",
+    "prerequisiteId": "cnc_j012",
+    "strength": "hard",
+    "reason": "两首散文诗放在一起：先读《金色花》的假想，再读由荷叶护莲生出的联想。"
+  },
+  {
+    "topicId": "cnc_j010",
+    "prerequisiteId": "cnc_p448",
+    "strength": "hard",
+    "reason": "先读过《少年闰土》里通过具体事例写人，再读《秋天的怀念》里通过细节写母亲。"
+  },
+  {
+    "topicId": "cnc_j011",
+    "prerequisiteId": "cnc_j010",
+    "strength": "hard",
+    "reason": "同是家庭小事：先读懂《秋天的怀念》的情感，再读《散步》里由分歧见出的责任。"
+  },
+  {
+    "topicId": "cnc_j029",
+    "prerequisiteId": "cnc_j010",
+    "strength": "hard",
+    "reason": "两篇都写母亲；先读懂《秋天的怀念》的细节，再读《回忆我的母亲》按时间组织材料。"
+  },
+  {
+    "topicId": "cnc_j018",
+    "prerequisiteId": "cnc_p448",
+    "strength": "hard",
+    "reason": "都是鲁迅笔下的童年；先读《少年闰土》，再读百草园与三味书屋的回忆。"
+  },
+  {
+    "topicId": "cnc_j019",
+    "prerequisiteId": "cnc_j018",
+    "strength": "hard",
+    "reason": "同为读书往事：先理清《从百草园到三味书屋》的两半，再读《往事依依》的几件事。"
+  },
+  {
+    "topicId": "cnc_j006",
+    "prerequisiteId": "cnc_j005",
+    "strength": "hard",
+    "reason": "同一组《古代诗歌四首》：先读四言的《观沧海》，再读五言律诗《次北固山下》。"
+  },
+  {
+    "topicId": "cnc_j007",
+    "prerequisiteId": "cnc_j006",
+    "strength": "hard",
+    "reason": "先会读律诗的两句一联，再读七言绝句，句读与情感落点都更集中。"
+  },
+  {
+    "topicId": "cnc_j008",
+    "prerequisiteId": "cnc_j007",
+    "strength": "hard",
+    "reason": "先熟读七绝，再读散曲小令，才分得清曲牌名「天净沙」与题目「秋思」。"
+  },
+  {
+    "topicId": "cnc_j024",
+    "prerequisiteId": "cnc_j007",
+    "strength": "hard",
+    "reason": "同为李白七绝：先学过寄愁心与明月，再读连用地名的峨眉山月。"
+  },
+  {
+    "topicId": "cnc_j025",
+    "prerequisiteId": "cnc_j024",
+    "strength": "hard",
+    "reason": "先读李白的七绝，再读杜甫的七绝，绝句的两句对照已经熟了。"
+  },
+  {
+    "topicId": "cnc_j026",
+    "prerequisiteId": "cnc_j025",
+    "strength": "hard",
+    "reason": "先读懂「落花时节」的双关，再读「遥怜故园菊」这一类借景寄意的写法。"
+  },
+  {
+    "topicId": "cnc_j027",
+    "prerequisiteId": "cnc_j026",
+    "strength": "hard",
+    "reason": "两首都写行旅夜中所感：先读重阳思故园，再读受降城闻笛。"
+  },
+  {
+    "topicId": "cnc_j048",
+    "prerequisiteId": "cnc_j008",
+    "strength": "hard",
+    "reason": "先读了写秋思的《天净沙·秋思》，再读翻案写秋高的《秋词》，对照才有效果。"
+  },
+  {
+    "topicId": "cnc_j049",
+    "prerequisiteId": "cnc_j007",
+    "strength": "hard",
+    "reason": "先学过把心绪托给明月，再读把今夜的雨留作来日谈资的写法。"
+  },
+  {
+    "topicId": "cnc_j050",
+    "prerequisiteId": "cnc_p339",
+    "strength": "hard",
+    "reason": "先背过陆游的《示儿》，再读他晚年的《十一月四日风雨大作》，报国之志是同一条线。"
+  },
+  {
+    "topicId": "cnc_j051",
+    "prerequisiteId": "cnc_j048",
+    "strength": "hard",
+    "reason": "先读借秋景言志的《秋词》，再读借河山之壮写少年意气的《潼关》。"
+  },
+  {
+    "topicId": "cnc_j014",
+    "prerequisiteId": "cnc_p481",
+    "strength": "hard",
+    "reason": "先在《学弈》里练过借助注释读懂浅易文言，再读《咏雪》里的人物应对。"
+  },
+  {
+    "topicId": "cnc_j015",
+    "prerequisiteId": "cnc_j014",
+    "strength": "hard",
+    "reason": "《世说新语》二则先短后长：先读咏雪，再读元方答客，文言词量再加一层。"
+  },
+  {
+    "topicId": "cnc_j021",
+    "prerequisiteId": "cnc_j015",
+    "strength": "hard",
+    "reason": "先会读记事的小短文，再读语录体的《论语》十二章，要开始积累常见文言实词。"
+  },
+  {
+    "topicId": "cnc_j031",
+    "prerequisiteId": "cnc_j021",
+    "strength": "hard",
+    "reason": "《诫子书》是说理的家书：先熟读《论语》的句式，才跟得上「静—俭—学—才—志」的推理。"
+  },
+  {
+    "topicId": "cnc_j044",
+    "prerequisiteId": "cnc_j021",
+    "strength": "hard",
+    "reason": "同是诸子文章：先读《论语》的短章，再读《穿井得一人》的叙事与传言。"
+  },
+  {
+    "topicId": "cnc_j045",
+    "prerequisiteId": "cnc_j044",
+    "strength": "hard",
+    "reason": "两则都出自子书：先读《穿井得一人》，再读《杞人忧天》里的对话与说理。"
+  },
+  {
+    "topicId": "cnc_j037",
+    "prerequisiteId": "cnc_j015",
+    "strength": "hard",
+    "reason": "先会读篇幅短的叙事文言，再读《狼》里一串「缀、止、备」的动作与结尾的议论。"
+  },
+  {
+    "topicId": "cnc_j009",
+    "prerequisiteId": "cnc_p483",
+    "strength": "hard",
+    "reason": "小学已练过围绕中心选择材料，初中的第一步是把材料换成一双会观察的眼睛。"
+  },
+  {
+    "topicId": "cnc_j016",
+    "prerequisiteId": "cnc_j009",
+    "strength": "hard",
+    "reason": "先学会观察、有东西可写，再学把事写清楚、不写成流水账。"
+  },
+  {
+    "topicId": "cnc_j022",
+    "prerequisiteId": "cnc_j016",
+    "strength": "hard",
+    "reason": "记事写通了顺，才谈得上把笔墨集中到中心上。"
+  },
+  {
+    "topicId": "cnc_j032",
+    "prerequisiteId": "cnc_j022",
+    "strength": "hard",
+    "reason": "中心定了才能排先后与详略：思路要清晰接在如何突出中心之后。"
+  },
+  {
+    "topicId": "cnc_j038",
+    "prerequisiteId": "cnc_j032",
+    "strength": "hard",
+    "reason": "本单元的写作任务要按一定顺序记叙一件事，先学过思路要清晰。"
+  },
+  {
+    "topicId": "cnc_j046",
+    "prerequisiteId": "cnc_j038",
+    "strength": "hard",
+    "reason": "先能把相处的事写清楚，再学在记叙里发挥联想和想象。"
+  },
+  {
+    "topicId": "cnc_j046",
+    "prerequisiteId": "cnc_j039",
+    "strength": "hard",
+    "reason": "《小圣施威降大圣》一路变化却有条理，是「想象要合情合理」最近的例子。"
+  },
+  {
+    "topicId": "cnc_j023",
+    "prerequisiteId": "cnc_j018",
+    "strength": "hard",
+    "reason": "《从百草园到三味书屋》就出自《朝花夕拾》，先读这一篇再读整本书。"
+  },
+  {
+    "topicId": "cnc_j023",
+    "prerequisiteId": "cnc_p462",
+    "strength": "hard",
+    "reason": "六年级读《鲁滨逊漂流记》练过的读整本书办法，这册用来读《朝花夕拾》。"
+  },
+  {
+    "topicId": "cnc_j047",
+    "prerequisiteId": "cnc_j039",
+    "strength": "hard",
+    "reason": "《小圣施威降大圣》节自《西游记》，先读选段再读整本书。"
+  },
+  {
+    "topicId": "cnc_j047",
+    "prerequisiteId": "cnc_p372",
+    "strength": "hard",
+    "reason": "先读过《草船借箭》这类名著片段，再来读整部《西游记》。"
+  },
+  {
+    "topicId": "cnc_j033",
+    "prerequisiteId": "cnc_p360",
+    "strength": "hard",
+    "reason": "《古人谈读书》里读过的读书态度，是「少年正是读书时」讨论和调查的底子。"
+  },
+  {
+    "topicId": "cnc_j034",
+    "prerequisiteId": "cnc_p300",
+    "strength": "hard",
+    "reason": "先读过老舍写的《猫》，再读郑振铎写的《猫》，两篇的着眼点完全不同。"
   }
 ]
