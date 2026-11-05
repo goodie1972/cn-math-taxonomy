@@ -1189,6 +1189,37 @@ test('物理题：每个知识点 ≥10 题且三档难度齐全，答案都能�
   assert.strictEqual(E.judgeQuestion({ id: 'y', type: 'numeric', answer: '15000', prompt: '' }, '15000Pa').verdict, 'correct');
 });
 
+test('选择题单字母输入：大写按编号、小写按文字、非编号字母按文字、大小写完全撞车时两种读法都放行', () => {
+  const article = { id: 't1', type: 'choice', answer: 'B', prompt: '', choices: [
+    { key: 'A', text: 'an' }, { key: 'B', text: 'a' }, { key: 'C', text: 'the' }, { key: 'D', text: '/' }] };
+  assert.strictEqual(E.judgeQuestion(article, 'B').verdict, 'correct', '编号');
+  assert.strictEqual(E.judgeQuestion(article, 'a').verdict, 'correct', '小写文字回显');
+  assert.strictEqual(E.judgeQuestion(article, 'A').verdict, 'wrong', '大写编号 A 是错项');
+  assert.strictEqual(E.judgeQuestion(article, 'an').verdict, 'wrong', '错项文字');
+
+  const letter = { id: 't2', type: 'choice', answer: 'A', prompt: '', choices: [
+    { key: 'A', text: 'M' }, { key: 'B', text: 'm' }, { key: 'C', text: 'N' }, { key: 'D', text: 'n' }] };
+  assert.strictEqual(E.judgeQuestion(letter, 'A').verdict, 'correct', '编号');
+  assert.strictEqual(E.judgeQuestion(letter, 'M').verdict, 'correct', '文字 M 不是本题编号');
+  assert.strictEqual(E.judgeQuestion(letter, 'm').verdict, 'wrong', '小写 m 是错项文字');
+  assert.strictEqual(E.judgeQuestion(letter, 'N').verdict, 'wrong', '文字 N 是错项');
+
+  const shift = { id: 't3', type: 'choice', answer: 'B', prompt: '', choices: [
+    { key: 'A', text: 'B' }, { key: 'B', text: 'C' }, { key: 'C', text: 'D' }, { key: 'D', text: 'A' }] };
+  assert.strictEqual(E.judgeQuestion(shift, 'B').verdict, 'correct', 'B 既是编号也是正确读法之一');
+  assert.strictEqual(E.judgeQuestion(shift, 'C').verdict, 'correct', '小写不到、大写 C 是正确项文字');
+  assert.strictEqual(E.judgeQuestion(shift, 'A').verdict, 'wrong', '两种读法都不在答案上');
+
+  // 全库：凡选项文字不是单个拉丁字母的选择题，按正确项文字作答必须判对
+  const bad = [];
+  questions.filter((q) => q.type === 'choice').forEach((q) => {
+    const right = (q.choices || []).find((c) => c.key === q.answer);
+    if (!right || /^[A-Za-z]$/.test(String(right.text).trim())) return;
+    if (E.judgeQuestion(q, right.text).verdict !== 'correct') bad.push(q.id);
+  });
+  assert.deepStrictEqual(bad, [], '按正确项文字作答判错的题：' + bad.slice(0, 8).join(','));
+});
+
 test('百分数题：percent 题接受 50 和 50%，不接受 0.5；不带 percent 的题行为不变', () => {
   const pq = questions.filter((q) => q.percent === true);
   assert.ok(pq.length >= 2, 'percent 题 ' + pq.length);

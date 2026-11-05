@@ -1002,20 +1002,30 @@
     if (!raw) return MANUAL_EMPTY;
     const choices = q.choices || [];
     const keys = choices.map(function (c) { return c.key; });
-    let letter = null;
+    // 单字母输入有两种读法：选项编号（界面显示的大写 A/B/C/D…）和选项文字（答案本身就是字母的题，
+    // 如「a」「M」「x」）。规则：小写且与某选项文字原样相同 → 按文字；大写且是有效编号 → 按编号；
+    // 字母不是本题任何编号（如 M、x）只能按文字；大写输入既撞编号又与某项文字完全一致时两种读法都放行。
     const m = /^[(（]?([A-Za-z])[)）.．、:：]?$/.exec(raw);
-    if (m) letter = m[1].toUpperCase();
-    else {
-      // 先按原文精确匹配（标点、大小写与空格都原样的选项），再归一匹配；
-      // 避免「fresh man」与「freshman」、「！」与「。」这类归一后重叠的选项把答案判错。
-      const hit = choices.find(function (c) { return String(c.text).trim() === raw; });
-      if (hit) letter = hit.key;
-      else {
-        const n = normalizeText(raw);
-        const hit2 = choices.find(function (c) { return normalizeText(c.text) === n; });
-        if (hit2) letter = hit2.key;
+    const exact = choices.find(function (c) { return String(c.text).trim() === raw; });
+    const textHit = exact ? exact.key : null;
+    const upper = m ? m[1].toUpperCase() : null;
+    const keyHit = upper && keys.indexOf(upper) >= 0 ? upper : null;
+    if (m && keyHit) {
+      if (textHit && raw === upper) {
+        return textHit === q.answer || keyHit === q.answer
+          ? { verdict: 'correct', reason: 'choice' } : { verdict: 'wrong', reason: 'choice' };
       }
+      if (textHit && raw !== upper) return { verdict: textHit === q.answer ? 'correct' : 'wrong', reason: 'choice' };
+      return { verdict: keyHit === q.answer ? 'correct' : 'wrong', reason: 'choice' };
     }
+    // 先按原文精确匹配（标点、大小写与空格都原样的选项），再归一匹配；
+    // 避免「fresh man」与「freshman」、「！」与「。」这类归一后重叠的选项把答案判错。
+    const letter = textHit || (function () {
+      const n = normalizeText(raw);
+      const hits = choices.filter(function (c) { return normalizeText(c.text) === n; });
+      // 归一后同时撞上多个选项（如标点选项「。」与「！」归一后都是空）：猜哪一项都不公平，转人工。
+      return hits.length === 1 ? hits[0].key : null;
+    })();
     if (!letter || keys.indexOf(letter) < 0) return { verdict: 'manual', reason: 'unrecognized' };
     return letter === q.answer ? { verdict: 'correct', reason: 'choice' } : { verdict: 'wrong', reason: 'choice' };
   }
