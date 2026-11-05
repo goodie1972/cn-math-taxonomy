@@ -1006,9 +1006,15 @@
     const m = /^[(（]?([A-Za-z])[)）.．、:：]?$/.exec(raw);
     if (m) letter = m[1].toUpperCase();
     else {
-      const n = normalizeText(raw);
-      const hit = choices.find(function (c) { return normalizeText(c.text) === n; });
+      // 先按原文精确匹配（标点、大小写与空格都原样的选项），再归一匹配；
+      // 避免「fresh man」与「freshman」、「！」与「。」这类归一后重叠的选项把答案判错。
+      const hit = choices.find(function (c) { return String(c.text).trim() === raw; });
       if (hit) letter = hit.key;
+      else {
+        const n = normalizeText(raw);
+        const hit2 = choices.find(function (c) { return normalizeText(c.text) === n; });
+        if (hit2) letter = hit2.key;
+      }
     }
     if (!letter || keys.indexOf(letter) < 0) return { verdict: 'manual', reason: 'unrecognized' };
     return letter === q.answer ? { verdict: 'correct', reason: 'choice' } : { verdict: 'wrong', reason: 'choice' };
