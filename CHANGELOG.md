@@ -1,5 +1,14 @@
 # 变更日志
 
+## 2026-11-06（305 点各补 1 道 challenge，题库 35662 → 35967）
+
+- 2026-11-06：**拓展档缺口全闭合，全库无 challenge 的知识点 305 → 0**。用户裁定「每点补 1 道 challenge（+305 题）」后，本轮一次性完成。批次构成：初中语文 8 批共 302 题（`chinese_junior_01`–`chinese_junior_08`，7×40 + 22，题型 272 choice + 30 short）、小学英语 1 题（`cne_p226`）、小学道法 2 题（`cnd_p153` / `cnd_p154`），共 305 题全部 `difficulty=challenge`。走 `qgen_lint → qgen_spread → qgen_merge` 流水线；`qgen_lint` 报 1 条 NEARDUP（`cnc_j159_q5` 与 `cnc_j101_q5` 同题干，改 j159 题干为「下面是同学整理「本册易错读写的字」时抄下的四行…」），随后 1 条 verify_questions 格式错误（`cnc_j164_q5` 题干以「同一」开头，改为「一篇写家乡庙会的文章…」）就地修掉，两个文件各 hits=1 后 `json.loads` 通过。
+- 2026-11-06：**写作规范**：语文题题干与解析里的拉丁字母连续 3 位以上一律改写成中文标点或汉字（选项里的 `「self 开解」` 之类的渗漏即时修掉）；选项里的引号、反斜杠改写成「」《》；`verify` 字段必须是「正确选项文字」的 `json.dumps(ensure_ascii=False)` 字面量；challenge 层级只考「写法 / 结构 / 比较 / 推断」，不再出套一层的死记题。`qgen_spread.py` 把占比超均值 1.3 倍的正确选项字母挪到最少的那个，本轮 305 道内 275 choice 的字母分布 A70 / B69 / C68 / D68（全库 A 6266 / B 6270 / C 6247 / D 6146，极差 124 ≈ 0.5%）。
+- 2026-11-06：**盲解复核 275 choice 全对**。`qgen_blind.py prepare` 出 305 道独立盲解表，拆 7 份紧凑表（语文 272 choice 打 7 份、英语 1、道法 2）；作者本人在 40 分钟窗口内独立作答 275 choice（short 30、self 7 按既往口径不入盲解），比对 `blind_mismatches.json` = **0 处不一致**。诚实口径：盲解由作者本人完成、非独立第三方，且「正确项几乎总是最详实的一条」使盲解偏易；结论里只作参考不作闸门。
+- 2026-11-06：**闸口全绿（复跑实测）**：`validate.py` VALIDATION PASSED、`verify_questions.py` VERIFICATION PASSED（auto_verified 30464 / mismatch 0 / unverifiable 5503）、`version_gate.py` `blocks=99 dangling=0 ext=0 below=0 dup=0`、`node tests/test_engine.js` 93 passed / 0 failed、`build_inventory.py` `no_challenge=0`、`no_bar=0`、`no_full=1253`（题量满档仍 1253 点，本轮未补题量、只补档位，题量满档缺口与「302 初中语文点无拓展档」是同一件事、已被 challenge 补齐闭合）。全库口径：**35967 题 / 3504 点 / 5233 边**，basic 20267 / standard 10865 / challenge 4835 / advanced 0，choice 24929 / numeric 5535 / short 5496 / self 7，字母 A6266 B6270 C6247 D6146，verify 覆盖 35938 / 35967 = **99.92%**（本轮 30 道新 short 里 29 道省略 verify，1 道 `cnc_j007_q5` 保留）。
+- 2026-11-06：**订正**：docs/questions.md 里「全库 100% 带 verify」的旧结论已过时，改为「35938 / 35967 = 99.92%」，把新 short 的 29 道缺 verify 如实列出（`cnc_j022_q5` 等 29 个 id）。「3 选项 314 / 4 选项 24340」订正为「314 / 24615」。
+- 2026-11-06：本地提交，未推送、未部署。待用户裁定：是否推 `git@github.com:goodie1972/cn-math-taxonomy.git` 当前 main。registry / 学制 / 302 初中语文无挑战题的遗留决策（本条把「302 无挑战」闭合为 0，其余两项仍在）。
+
 ## 2026-11-06（registry 增量挂载 9 真缺口 + 三维盘点工作簿可复跑重生成）
 
 - 2026-11-06：**9 个「省×年档×学科」真缺口逐格定性，5 格闭合、4 格判「不开设」**。按 `scripts/coverage_grid.py` 口径，挂载前 `covered=1510 / no_point=262`，挂载后 **`covered=1515 / no_point=257`**（`unregistered=1`、`blank=787` 不变）。闭合的 5 格全部走**增量挂载**（用户裁定不重跑 `gen_registry.py`／`apply_province_map.py`，脚本见 `_scratch/_reg_gap9.py`，幂等、带 `--dry`）：`hujiao54_junior.math` 借用池子八·九年级 **196** 点（287 点）、`hujiao_math.math` 借用高中数学 **271** 点（431 点，同一版本条目的英语已挂 259 个高中点、物理已挂 177 个，数学此前漏挂，故上海高中数学格一直是 `no_point`）、`cn_wuhan.science` 借用池子七·八年级 **76** 点（298 点）。另两格只改文字不改点：`cn_hukeji`（沪科技版）科学块的 `scope` 原写「1~9 年级（222 点）」而 `topicIds` 实际只到六年级，**属虚假声明，已订正**；`cn_huke`（沪科版）科学块同步改文字。
