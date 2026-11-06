@@ -7,7 +7,8 @@
 - 2026-11-06：**盲解复核 275 choice 全对**。`qgen_blind.py prepare` 出 305 道独立盲解表，拆 7 份紧凑表（语文 272 choice 打 7 份、英语 1、道法 2）；作者本人在 40 分钟窗口内独立作答 275 choice（short 30、self 7 按既往口径不入盲解），比对 `blind_mismatches.json` = **0 处不一致**。诚实口径：盲解由作者本人完成、非独立第三方，且「正确项几乎总是最详实的一条」使盲解偏易；结论里只作参考不作闸门。
 - 2026-11-06：**闸口全绿（复跑实测）**：`validate.py` VALIDATION PASSED、`verify_questions.py` VERIFICATION PASSED（auto_verified 30464 / mismatch 0 / unverifiable 5503）、`version_gate.py` `blocks=99 dangling=0 ext=0 below=0 dup=0`、`node tests/test_engine.js` 93 passed / 0 failed、`build_inventory.py` `no_challenge=0`、`no_bar=0`、`no_full=1253`（题量满档仍 1253 点，本轮未补题量、只补档位，题量满档缺口与「302 初中语文点无拓展档」是同一件事、已被 challenge 补齐闭合）。全库口径：**35967 题 / 3504 点 / 5233 边**，basic 20267 / standard 10865 / challenge 4835 / advanced 0，choice 24929 / numeric 5535 / short 5496 / self 7，字母 A6266 B6270 C6247 D6146，verify 覆盖 35938 / 35967 = **99.92%**（本轮 30 道新 short 里 29 道省略 verify，1 道 `cnc_j007_q5` 保留）。
 - 2026-11-06：**订正**：docs/questions.md 里「全库 100% 带 verify」的旧结论已过时，改为「35938 / 35967 = 99.92%」，把新 short 的 29 道缺 verify 如实列出（`cnc_j022_q5` 等 29 个 id）。「3 选项 314 / 4 选项 24340」订正为「314 / 24615」。
-- 2026-11-06：本地提交，未推送、未部署。待用户裁定：是否推 `git@github.com:goodie1972/cn-math-taxonomy.git` 当前 main。registry / 学制 / 302 初中语文无挑战题的遗留决策（本条把「302 无挑战」闭合为 0，其余两项仍在）。
+- 2026-11-06：**三项遗留决策落定（用户裁定）**。① 拓展档缺口按「每点补 1 道 challenge」执行完毕，「302 个初中语文点无挑战题」这条清单**视为闭合**，从结论报告第四节划掉；② registry 与学制**维持增量挂载、不做五四制年级偏移**——`gen_registry.py` / `apply_province_map.py` 继续不重跑，「池子年级＝该省年级」口径保持，偏移风险只在 `registry.meta.corrections` 与工作簿「读我·总览」声明，不编码进点级判定；③ 唯一仍未决的是「`_s32_cdup.py`（跨点真重复）与 `_s46_refined.py`（错挂屏）是否升格为常备闸门」。`docs/adversarial-audit-2026-11-06.md` 第四、六节同步改写为「决策状态」。
+- 2026-11-06：本地提交 `ac7a1c9`；随后按用户裁定推送远端 main。
 
 ## 2026-11-06（registry 增量挂载 9 真缺口 + 三维盘点工作簿可复跑重生成）
 
@@ -18,7 +19,7 @@
 - 2026-11-06：**一致性自检**。`知识点×版本` 的 ● 计数 **33730** ＝ registry 各块 `topicIds` 去外部点后的挂载总次 **33730**（两条独立路径对得上）；`矩阵·年级` 与 `矩阵·册` 的池子上限行各自合计 **3504**。
 - 2026-11-06：**订正（缺 `subject` 的点数 869 → 870）**。按 schema 分组数漏了「带 `root_reason` 的那 1 条」；实测 **870 / 3504 点无 `subject`，且全部是 `cnm_*` 数学点**——这正是上一轮把「数学池八·九年级」误判成空（A 类少算 3 格）的根因，工作簿「数据体检」第 1 项已写明：学科归属一律走 `gen_registry.subject_of()`，不许直接读 `t["subject"]`。
 - 2026-11-06：`scripts/version_gate.py` 从「import 即执行并写 `_scratch/version_gate.txt`」改为 `main()` + `__main__` 守卫，`bar_ok` 现在可被 `build_inventory.py` 安全复用（命令行行为不变，复跑仍 `blocks=99 dangling=0 ext=0 below=0 dup=0`）。全库口径不变：**35662 题 / 3504 点 / 5233 边**；四道闸门 `validate.py` PASSED、`verify_questions.py` PASSED、`version_gate.py` 全 0、`node tests/test_engine.js` **93 passed / 0 failed**。本地提交，未推送、未部署。
-- 2026-11-06：**下一步**（用户已裁定，尚未执行）：305 个无拓展档的知识点各补 1 道 `challenge`（35662 → 35967），走 `qgen_lint → qgen_merge --dry-run → verify_questions --file → 中心真合并 → validate + tests + 独立盲解` 流水线；补完后复跑 `scripts/build_inventory.py` 刷新快照。
+- 2026-11-06：**下一步**（用户已裁定，**已于同日执行**，见本节顶部条目）：305 个无拓展档的知识点各补 1 道 `challenge`（35662 → 35967），走 `qgen_lint → qgen_merge --dry-run → verify_questions --file → 中心真合并 → validate + tests + 独立盲解` 流水线；补完后复跑 `scripts/build_inventory.py` 刷新快照。
 
 ## 2026-11-06（对抗审核修复 C 续：题目↔知识点错挂 309 道 + 结论报告）
 
