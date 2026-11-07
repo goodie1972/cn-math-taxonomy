@@ -474,9 +474,10 @@ def sheet_health(ws, pool, reg, stats):
     empty_high = [SUBJ_CN[s] for s in SUBJECTS if not hs.get(s)]
     ws.append(["#", "现象", "实测", "影响", "处置"])
     for row in [
-        [1, "知识点缺 subject 字段", "%d / %d 点（全部 cnm_* 数学点均无）" % (no_subj, len(pool.topics)),
-         "凡按 t['subject'] 归学科的统计都会把数学整块漏掉（本盘点上一轮就误判过一次「数学池八年级为空」）",
-         "一律走 gen_registry.subject_of()：先看 subject，再按 id 前缀，最后才默认 math"],
+        [1, "知识点缺 subject 字段", "%d / %d 点" % (no_subj, len(pool.topics)),
+         "2026-11-07 已给 870 个 cnm_* 数学点补 subject=math；此前按 t['subject'] 归学科的统计会把数学整块漏掉"
+         "（本盘点曾因此误判「数学池八年级为空」）",
+         "仍一律走 gen_registry.subject_of()：先看 subject，再按 id 前缀，最后才默认 math"],
         [2, "高中册次编码各学科不一致", json.dumps(hs_by_subj, ensure_ascii=False),
          "数学用「高一/高二」承载必修（grade 10/11），英语·物理用「必修一~选必四」（grade 10~16）；"
          "同一 grade 在不同学科含义不同", "年级维度统计一律归「高中」年档；册维度看「矩阵·册」，两套口径不可混用"],
@@ -542,7 +543,8 @@ def sheet_readme(wb, pool, reg, stats, gap_rows, snapshot):
                               "其余版本按册键借用（origin=borrowed），章名与册序不代表该版真实目录。"],
         ["学制偏移未决", "五四制（上海等）六年级＝初中预备班，与六三制差一学年。本表沿用「池子年级＝该省年级」不作偏移，"
                       "故网格 covered 数偏乐观；是否编码偏移属未决决策，见 registry meta.corrections 与 docs/province_textbook_map.md:47-49。"],
-        ["数据缺陷", "869 点无 subject 字段（数学整块）；高中册次编码各学科不一致。见「数据体检」。"],
+        ["数据缺陷", "%d 点无 subject 字段（2026-11-07 已补齐 870 个数学点）；高中册次编码各学科不一致。见「数据体检」。"
+                     % sum(1 for t in pool.topics if not t.get("subject"))],
         ["", ""],
         ["判定档位（registry台账 / 版本覆盖缺口·册级）", ""],
     ]

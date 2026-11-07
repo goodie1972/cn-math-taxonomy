@@ -17,6 +17,7 @@
       "answer": "4"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.01",
@@ -43,6 +44,7 @@
       "answer": "4"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.02",
@@ -68,6 +70,7 @@
       "answer": "第1个"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.01",
@@ -93,6 +96,7 @@
       "answer": "3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.04",
@@ -118,6 +122,7 @@
       "answer": "0"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.01",
@@ -143,6 +148,7 @@
       "answer": "3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.04",
@@ -172,6 +178,7 @@
       "answer": "3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.04",
@@ -197,6 +204,7 @@
       "answer": "10"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.01",
@@ -222,6 +230,7 @@
       "answer": "8"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.02",
@@ -247,6 +256,7 @@
       "answer": "9"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.04",
@@ -276,6 +286,7 @@
       "answer": "7"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.04",
@@ -301,6 +312,7 @@
       "answer": "9"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.04",
@@ -326,6 +338,7 @@
       "answer": "6"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.04",
@@ -355,6 +368,7 @@
       "answer": "长方体"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.GG.01",
@@ -380,6 +394,7 @@
       "answer": "前面"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.IP.04",
@@ -405,6 +420,7 @@
       "answer": "20"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.01",
@@ -430,6 +446,7 @@
       "answer": "1"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.01",
@@ -455,6 +472,7 @@
       "answer": "15"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.04",
@@ -480,6 +498,7 @@
       "answer": "1和2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.04",
@@ -505,6 +524,7 @@
       "answer": "11"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.04",
@@ -530,6 +550,7 @@
       "answer": "11"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.04",
@@ -559,6 +580,7 @@
       "answer": "分类标准"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.IP.01",
@@ -588,6 +610,7 @@
       "answer": "三角形"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.GG.01",
@@ -613,6 +636,7 @@
       "answer": "三角形"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.GG.01",
@@ -638,6 +662,7 @@
       "answer": "3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.04",
@@ -663,6 +688,7 @@
       "answer": "6"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.04",
@@ -688,6 +714,7 @@
       "answer": "8"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.04",
@@ -717,6 +744,7 @@
       "answer": "6"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.01",
@@ -742,6 +770,7 @@
       "answer": "74"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.02",
@@ -767,6 +796,7 @@
       "answer": "50"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.04",
@@ -792,6 +822,7 @@
       "answer": "向十位进 1"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.04",
@@ -817,6 +848,7 @@
       "answer": "向十位借 1 当 10"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.04",
@@ -842,6 +874,7 @@
       "answer": "37"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.04",
@@ -867,6 +900,7 @@
       "answer": "43"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.04",
@@ -892,6 +926,7 @@
       "answer": "30"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.07",
@@ -930,7 +965,8 @@
         "confidence": "exact"
       }
     ],
-    "external": false
+    "external": false,
+    "subject": "math"
   },
   {
     "id": "cnm_p218",
@@ -959,7 +995,8 @@
         "confidence": "exact"
       }
     ],
-    "external": false
+    "external": false,
+    "subject": "math"
   },
   {
     "id": "cnm_p036",
@@ -979,6 +1016,7 @@
       "answer": "10角"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.IP.02",
@@ -1004,6 +1042,7 @@
       "answer": "分类标准"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.SP.01",
@@ -1033,6 +1072,7 @@
       "answer": "求几个相同加数的和"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.05",
@@ -1062,6 +1102,7 @@
       "answer": "12"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.05",
@@ -1087,6 +1128,7 @@
       "answer": "乘法"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.07",
@@ -1116,6 +1158,7 @@
       "answer": "先算乘除，再算加减"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.03",
@@ -1146,6 +1189,7 @@
       "answer": "把总数平均分成几份，求每一份或求能分成几份"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.05",
@@ -1175,6 +1219,7 @@
       "answer": "6"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.05",
@@ -1200,6 +1245,7 @@
       "answer": "24"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.05",
@@ -1229,6 +1275,7 @@
       "answer": "相反的方向"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.IP.04",
@@ -1254,6 +1301,7 @@
       "answer": "指甲盖的宽度大约是 1 厘米"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.GG.02",
@@ -1279,6 +1327,7 @@
       "answer": "100厘米"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.GG.02",
@@ -1304,6 +1353,7 @@
       "answer": "指甲盖的宽度大约是 1 厘米"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.IP.05",
@@ -1329,6 +1379,7 @@
       "answer": "56"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.05",
@@ -1354,6 +1405,7 @@
       "answer": "8"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.05",
@@ -1379,6 +1431,7 @@
       "answer": "1分"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.IP.03",
@@ -1405,6 +1458,7 @@
       "answer": "60分"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.IP.03",
@@ -1431,6 +1485,7 @@
       "answer": "15"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.IP.03",
@@ -1457,6 +1512,7 @@
       "answer": "余数比除数小"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.05",
@@ -1482,6 +1538,7 @@
       "answer": "3，2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.05",
@@ -1507,6 +1564,7 @@
       "answer": "4，3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.07",
@@ -1541,7 +1599,8 @@
         "confidence": "exact"
       }
     ],
-    "external": false
+    "external": false,
+    "subject": "math"
   },
   {
     "id": "cnm_p053",
@@ -1561,6 +1620,7 @@
       "answer": "1000"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.01",
@@ -1586,6 +1646,7 @@
       "answer": "1000"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.02",
@@ -1611,6 +1672,7 @@
       "answer": "23"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.01",
@@ -1636,6 +1698,7 @@
       "answer": "700"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.NA.01",
@@ -1665,6 +1728,7 @@
       "answer": "500"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.04",
@@ -1690,6 +1754,7 @@
       "answer": "很快知道大约是多少"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.NA.06",
@@ -1715,6 +1780,7 @@
       "answer": "359"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.NA.01",
@@ -1744,6 +1810,7 @@
       "answer": "522"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.04",
@@ -1778,7 +1845,8 @@
         "confidence": "exact"
       }
     ],
-    "external": false
+    "external": false,
+    "subject": "math"
   },
   {
     "id": "cnm_p060",
@@ -1798,6 +1866,7 @@
       "answer": "11"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.08",
@@ -1825,6 +1894,7 @@
       }
     ],
     "external": false,
+    "subject": "math",
     "diagnostic_question": {
       "question": "用 4 个同样的小正方体从左到右摆成一排，从正面看到的是什么样子？",
       "answer": "4 个正方形连成一排"
@@ -1851,6 +1921,7 @@
       }
     ],
     "external": false,
+    "subject": "math",
     "diagnostic_question": {
       "question": "把一个长方体纸盒沿棱剪开、展平，展开图一共有几个面？",
       "answer": "6"
@@ -1876,6 +1947,7 @@
       }
     ],
     "external": false,
+    "subject": "math",
     "diagnostic_question": {
       "question": "只有加减法的算式 36－8＋12，要从左往右算。结果是多少？",
       "answer": "40"
@@ -1899,6 +1971,7 @@
       "answer": "先算小括号里面的"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.04",
@@ -1924,6 +1997,7 @@
       "answer": "29"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.07",
@@ -1949,6 +2023,7 @@
       "answer": "30"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.GG.03",
@@ -1974,6 +2049,7 @@
       "answer": "50"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.GG.03",
@@ -1999,6 +2075,7 @@
       "answer": "1000米"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.GG.03",
@@ -2024,6 +2101,7 @@
       "answer": "1000克"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.IP.02",
@@ -2050,6 +2128,7 @@
       "answer": "1000千克"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.IP.02",
@@ -2082,6 +2161,7 @@
       }
     ],
     "external": false,
+    "subject": "math",
     "diagnostic_question": {
       "question": "曹冲先让大象上船、记下水痕，再往船上装石头，直到船沉到同一条水痕。为什么称石头就能知道大象有多重？",
       "answer": "石头和大象一样重"
@@ -2105,6 +2185,7 @@
       "answer": "48"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.NA.01",
@@ -2130,6 +2211,7 @@
       "answer": "120"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.NA.01",
@@ -2155,6 +2237,7 @@
       "answer": "用数字表示事物，方便区分"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.NA.05",
@@ -2181,6 +2264,7 @@
       "answer": "有两个端点，可以量出长度"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.GG.01",
@@ -2208,6 +2292,7 @@
       }
     ],
     "external": false,
+    "subject": "math",
     "diagnostic_question": {
       "question": "一个角有几条边？",
       "answer": "2"
@@ -2231,6 +2316,7 @@
       "answer": "直角比锐角大"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.GG.02",
@@ -2260,6 +2346,7 @@
       "answer": "把整体平均分成了几份"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.NA.02",
@@ -2287,6 +2374,7 @@
       }
     ],
     "external": false,
+    "subject": "math",
     "diagnostic_question": {
       "question": "把一个圆平均分成 4 份，涂了其中 3 份。涂色部分是这个圆的几分之几？",
       "answer": "3/4"
@@ -2312,6 +2400,7 @@
       }
     ],
     "external": false,
+    "subject": "math",
     "diagnostic_question": {
       "question": "3/7 和 2/7 哪个大？",
       "answer": "3/7"
@@ -2335,6 +2424,7 @@
       "answer": "3/5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.NA.02",
@@ -2360,6 +2450,7 @@
       "answer": "18"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.NA.08",
@@ -2390,6 +2481,7 @@
       "answer": "两个圈重叠的部分"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.NA.10",
@@ -2416,6 +2508,7 @@
       "answer": "按顺序一种一种地配"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.NA.10",
@@ -2444,6 +2537,7 @@
       }
     ],
     "external": false,
+    "subject": "math",
     "diagnostic_question": {
       "question": "电梯上下运动，属于哪一种运动现象？",
       "answer": "平移"
@@ -2467,6 +2561,7 @@
       "answer": "24"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.NA.01",
@@ -2492,6 +2587,7 @@
       "answer": "32"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.NA.03",
@@ -2523,6 +2619,7 @@
       }
     ],
     "external": false,
+    "subject": "math",
     "diagnostic_question": {
       "question": "五边形有几条边？",
       "answer": "5"
@@ -2546,6 +2643,7 @@
       "answer": "对边相等"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.GG.04",
@@ -2575,6 +2673,7 @@
       "answer": "图形一周边线的长度"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.GG.05",
@@ -2600,6 +2699,7 @@
       "answer": "面积单位"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.GG.05",
@@ -2625,6 +2725,7 @@
       "answer": "40"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.GG.05",
@@ -2650,6 +2751,7 @@
       "answer": "200"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.GG.03",
@@ -2675,6 +2777,7 @@
       "answer": "12"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.SP.01",
@@ -2701,6 +2804,7 @@
       "answer": "12个月"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.IP.01",
@@ -2726,6 +2830,7 @@
       "answer": "13"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.IP.01",
@@ -2751,6 +2856,7 @@
       "answer": "1"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.NA.02",
@@ -2776,6 +2882,7 @@
       "answer": "0.8"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.NA.02",
@@ -2801,6 +2908,7 @@
       "answer": "西南"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.GG.04",
@@ -2827,6 +2935,7 @@
       "answer": "1"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.NA.01",
@@ -2852,6 +2961,7 @@
       "answer": "23"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.NA.06",
@@ -2883,6 +2993,7 @@
       }
     ],
     "external": false,
+    "subject": "math",
     "diagnostic_question": {
       "question": "1 亿里面有几个一千万？",
       "answer": "10"
@@ -2906,6 +3017,7 @@
       "answer": "顶点"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.GG.02",
@@ -2933,6 +3045,7 @@
       }
     ],
     "external": false,
+    "subject": "math",
     "diagnostic_question": {
       "question": "1 个平角是多少度？",
       "answer": "180"
@@ -2956,6 +3069,7 @@
       "answer": "132"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.NA.01",
@@ -2981,6 +3095,7 @@
       "answer": "192"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.NA.08",
@@ -3006,6 +3121,7 @@
       "answer": "1353"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.NA.01",
@@ -3033,6 +3149,7 @@
       }
     ],
     "external": false,
+    "subject": "math",
     "diagnostic_question": {
       "question": "估算 49×21：把两个数看作 50 和 20，积大约是多少？",
       "answer": "1000"
@@ -3056,6 +3173,7 @@
       "answer": "48"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.NA.08",
@@ -3083,6 +3201,7 @@
       }
     ],
     "external": false,
+    "subject": "math",
     "diagnostic_question": {
       "question": "一班有男生 23 人、女生 21 人。一共有多少人？",
       "answer": "44"
@@ -3108,6 +3227,7 @@
       }
     ],
     "external": false,
+    "subject": "math",
     "diagnostic_question": {
       "question": "每支笔 6 元，买 12 支要多少元？",
       "answer": "72"
@@ -3131,6 +3251,7 @@
       "answer": "互相垂直"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.GG.01",
@@ -3156,6 +3277,7 @@
       "answer": "互相平行"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.GG.01",
@@ -3181,6 +3303,7 @@
       "answer": "对边平行且相等"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.GG.04",
@@ -3209,6 +3332,7 @@
       }
     ],
     "external": false,
+    "subject": "math",
     "diagnostic_question": {
       "question": "用直尺和三角板画平行线时，三角板应该怎样移动？",
       "answer": "沿着直尺平移"
@@ -3232,6 +3356,7 @@
       "answer": "数量的多少"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.SP.03",
@@ -3257,6 +3382,7 @@
       "answer": "可以同时比较两组数据"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.SP.03",
@@ -3285,6 +3411,7 @@
       }
     ],
     "external": false,
+    "subject": "math",
     "diagnostic_question": {
       "question": "从起点向东走 30 米，再继续向东走 45 米。这时离起点多少米？",
       "answer": "75"
@@ -3308,6 +3435,7 @@
       "answer": "假设全部是鸡，再调整"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.NA.10",
@@ -3334,6 +3462,7 @@
       "answer": "21"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.NA.03",
@@ -3359,6 +3488,7 @@
       "answer": "10"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.NA.03",
@@ -3384,6 +3514,7 @@
       "answer": "看到的形状可能不一样"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.GG.06",
@@ -3409,6 +3540,7 @@
       "answer": "100"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.NA.04",
@@ -3434,6 +3566,7 @@
       "answer": "100"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.NA.04",
@@ -3459,6 +3592,7 @@
       "answer": "250"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.NA.04",
@@ -3484,6 +3618,7 @@
       "answer": "495"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.NA.04",
@@ -3509,6 +3644,7 @@
       "answer": "0.1"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.NA.02",
@@ -3538,6 +3674,7 @@
       "answer": "3.5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.02",
@@ -3564,6 +3701,7 @@
       "answer": "12"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.02",
@@ -3590,6 +3728,7 @@
       "answer": "4"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.NA.06",
@@ -3616,6 +3755,7 @@
       "answer": "2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.GG.04",
@@ -3641,6 +3781,7 @@
       "answer": "大于第三边"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.GG.01",
@@ -3666,6 +3807,7 @@
       "answer": "180度"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.GG.01",
@@ -3691,6 +3833,7 @@
       "answer": "1.65"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.04",
@@ -3720,6 +3863,7 @@
       "answer": "6.4"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.NA.06",
@@ -3749,6 +3893,7 @@
       "answer": "对称轴"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.GG.08",
@@ -3778,6 +3923,7 @@
       "answer": "大小和形状都不变"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.GG.08",
@@ -3807,6 +3953,7 @@
       "answer": "一组数的平均水平"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.SP.05",
@@ -3832,6 +3979,7 @@
       "answer": "8"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.NA.01",
@@ -3857,6 +4005,7 @@
       "answer": "4"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.NA.01",
@@ -3888,6 +4037,7 @@
       }
     ],
     "external": false,
+    "subject": "math",
     "diagnostic_question": {
       "question": "只看从正面看到的形状，能不能一定确定组合体的样子？",
       "answer": "不一定能"
@@ -3911,6 +4061,7 @@
       "answer": "和小数因数的小数位数一样"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.04",
@@ -3936,6 +4087,7 @@
       "answer": "两个因数小数位数的和"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.04",
@@ -3961,6 +4113,7 @@
       "answer": "7.2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.04",
@@ -3990,6 +4143,7 @@
       "answer": "和被除数的小数点对齐"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.04",
@@ -4015,6 +4169,7 @@
       "answer": "把除数变成整数"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.04",
@@ -4040,6 +4195,7 @@
       "answer": "0.9"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.04",
@@ -4071,6 +4227,7 @@
       }
     ],
     "external": false,
+    "subject": "math",
     "diagnostic_question": {
       "question": "一个图形平移、旋转或作轴对称之后，大小和形状怎样？",
       "answer": "大小和形状都不变"
@@ -4094,6 +4251,7 @@
       "answer": "一个可以变化的数"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.07",
@@ -4123,6 +4281,7 @@
       "answer": "相等关系不变"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.05",
@@ -4148,6 +4307,7 @@
       "answer": "面积单位"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.GG.03",
@@ -4176,6 +4336,7 @@
       }
     ],
     "external": false,
+    "subject": "math",
     "diagnostic_question": {
       "question": "平行四边形的高是哪一种线段？",
       "answer": "从一边上一点到对边的垂直线段"
@@ -4199,6 +4360,7 @@
       "answer": "28"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.GG.03",
@@ -4224,6 +4386,7 @@
       "answer": "20"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.GG.03",
@@ -4249,6 +4412,7 @@
       "answer": "16"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.GG.03",
@@ -4274,6 +4438,7 @@
       "answer": "20"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.GG.03",
@@ -4301,6 +4466,7 @@
       }
     ],
     "external": false,
+    "subject": "math",
     "diagnostic_question": {
       "question": "正三角形每个内角是 60 度。围绕一个点拼正三角形，几个正好拼满一周？",
       "answer": "6"
@@ -4324,6 +4490,7 @@
       "answer": "一定会发生"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.SP.06",
@@ -4353,6 +4520,7 @@
       "answer": "两种结果的机会一样大"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.SP.07",
@@ -4378,6 +4546,7 @@
       "answer": "3.8"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.06",
@@ -4404,6 +4573,7 @@
       "answer": "2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.05",
@@ -4434,6 +4604,7 @@
       "answer": "23"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.05",
@@ -4460,6 +4631,7 @@
       "answer": "x＋18＝50"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.05",
@@ -4490,6 +4662,7 @@
       "answer": "棵数比间隔数多 1"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.06",
@@ -4516,6 +4689,7 @@
       "answer": "可能不一样"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.GG.06",
@@ -4541,6 +4715,7 @@
       "answer": "6"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.01",
@@ -4566,6 +4741,7 @@
       "answer": "0、2、4、6 或 8"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.01",
@@ -4591,6 +4767,7 @@
       "answer": "6"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.01",
@@ -4616,6 +4793,7 @@
       "answer": "0、2、4、6 或 8"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.01",
@@ -4642,6 +4820,7 @@
       "answer": "只有 1 和它本身"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.01",
@@ -4667,6 +4846,7 @@
       "answer": "6"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.01",
@@ -4693,6 +4873,7 @@
       "answer": "12"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.01",
@@ -4719,6 +4900,7 @@
       "answer": "6 个"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.GG.05",
@@ -4744,6 +4926,7 @@
       "answer": "94"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.GG.05",
@@ -4769,6 +4952,7 @@
       "answer": "体积单位"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.GG.04",
@@ -4794,6 +4978,7 @@
       "answer": "60"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.GG.05",
@@ -4823,6 +5008,7 @@
       "answer": "容器里面能容纳物体的体积"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.GG.04",
@@ -4848,6 +5034,7 @@
       "answer": "8"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.02",
@@ -4877,6 +5064,7 @@
       "answer": "真分数"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.02",
@@ -4903,6 +5091,7 @@
       "answer": "6"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.02",
@@ -4928,6 +5117,7 @@
       "answer": "3/4"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.02",
@@ -4953,6 +5143,7 @@
       "answer": "3/5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.02",
@@ -4979,6 +5170,7 @@
       "answer": "0.3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.02",
@@ -5004,6 +5196,7 @@
       "answer": "大小和形状都不变"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.GG.11",
@@ -5033,6 +5226,7 @@
       "answer": "6"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.04",
@@ -5059,6 +5253,7 @@
       "answer": "3/4"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.04",
@@ -5084,6 +5279,7 @@
       "answer": "1/2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.04",
@@ -5109,6 +5305,7 @@
       "answer": "数量的变化"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.SP.02",
@@ -5134,6 +5331,7 @@
       "answer": "分成三份来称"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.06",
@@ -5160,6 +5358,7 @@
       "answer": "先写列，再写行"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.GG.09",
@@ -5186,6 +5385,7 @@
       "answer": "从正北方向向东偏 30 度"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.GG.08",
@@ -5212,6 +5412,7 @@
       "answer": "北"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.GG.08",
@@ -5237,6 +5438,7 @@
       "answer": "6/7"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.04",
@@ -5262,6 +5464,7 @@
       "answer": "1/6"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.04",
@@ -5288,6 +5491,7 @@
       "answer": "5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.04",
@@ -5317,6 +5521,7 @@
       "answer": "2/5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.04",
@@ -5346,6 +5551,7 @@
       "answer": "3/2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.04",
@@ -5371,6 +5577,7 @@
       "answer": "16"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.04",
@@ -5400,6 +5607,7 @@
       "answer": "与正数意义相反的量"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.IP.01",
@@ -5425,6 +5633,7 @@
       "answer": "3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.IP.01",
@@ -5450,6 +5659,7 @@
       "answer": "距离都等于半径"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.GG.02",
@@ -5475,6 +5685,7 @@
       "answer": "3.14"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.GG.02",
@@ -5500,6 +5711,7 @@
       "answer": "12.56"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.GG.02",
@@ -5525,6 +5737,7 @@
       "answer": "157"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.GG.02",
@@ -5550,6 +5763,7 @@
       "answer": "12.56"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.GG.02",
@@ -5575,6 +5789,7 @@
       "answer": "两条半径和一段弧"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.GG.02",
@@ -5603,6 +5818,7 @@
       }
     ],
     "external": false,
+    "subject": "math",
     "diagnostic_question": {
       "question": "小明跳远三次的成绩是 3.2 米、3.5 米、3.4 米，取最好成绩。最好成绩是多少米？（用小数作答）",
       "answer": "3.5"
@@ -5626,6 +5842,7 @@
       "answer": "一个数是另一个数的百分之几"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.04",
@@ -5652,6 +5869,7 @@
       "answer": "0.35"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.02",
@@ -5678,6 +5896,7 @@
       "answer": "20"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.04",
@@ -5704,6 +5923,7 @@
       "answer": "25"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.08",
@@ -5730,6 +5950,7 @@
       "answer": "50"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.04",
@@ -5756,6 +5977,7 @@
       "answer": "原价的 80%"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.04",
@@ -5782,6 +6004,7 @@
       "answer": "6"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.04",
@@ -5808,6 +6031,7 @@
       "answer": "10"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.08",
@@ -5837,6 +6061,7 @@
       }
     ],
     "external": false,
+    "subject": "math",
     "diagnostic_question": {
       "question": "一个水龙头每天漏水 2 升，30 天一共漏水多少升？",
       "answer": "60"
@@ -5860,6 +6085,7 @@
       "answer": "1/2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.04",
@@ -5886,6 +6112,7 @@
       "answer": "2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.GG.05",
@@ -5912,6 +6139,7 @@
       "answer": "2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.06",
@@ -5938,6 +6166,7 @@
       "answer": "4/3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.04",
@@ -5964,6 +6193,7 @@
       "answer": "1/5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.04",
@@ -5990,6 +6220,7 @@
       "answer": "物体数比抽屉数多，必有一个抽屉至少放两个"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.06",
@@ -6016,6 +6247,7 @@
       "answer": "是完全相同的圆"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.GG.05",
@@ -6041,6 +6273,7 @@
       "answer": "62.8"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.GG.05",
@@ -6066,6 +6299,7 @@
       "answer": "两个底面和一个侧面"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.GG.05",
@@ -6091,6 +6325,7 @@
       "answer": "是一个圆"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.GG.05",
@@ -6117,6 +6352,7 @@
       "answer": "三分之一"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.GG.05",
@@ -6142,6 +6378,7 @@
       "answer": "比值"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.08",
@@ -6167,6 +6404,7 @@
       "answer": "3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.08",
@@ -6192,6 +6430,7 @@
       "answer": "12"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.08",
@@ -6217,6 +6456,7 @@
       "answer": "等于两项内项之积"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.08",
@@ -6242,6 +6482,7 @@
       "answer": "12"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.08",
@@ -6271,6 +6512,7 @@
       "answer": "图上距离与实际距离的比"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.GG.10",
@@ -6300,6 +6542,7 @@
       "answer": "6"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.GG.04",
@@ -6326,6 +6569,7 @@
       "answer": "比值一定"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.09",
@@ -6352,6 +6596,7 @@
       "answer": "乘积一定"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.09",
@@ -6378,6 +6623,7 @@
       "answer": "20"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.08",
@@ -6403,6 +6649,7 @@
       "answer": "3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.08",
@@ -6429,6 +6676,7 @@
       "answer": "13"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.04",
@@ -6460,6 +6708,7 @@
       "answer": "6"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.03",
@@ -6491,6 +6740,7 @@
       "answer": "9"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.07",
@@ -6522,6 +6772,7 @@
       "answer": "球"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.GG.01",
@@ -6548,6 +6799,7 @@
       "answer": "7块"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.GG.01",
@@ -6574,6 +6826,7 @@
       "answer": "5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.07",
@@ -6600,6 +6853,7 @@
       "answer": "35"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.01",
@@ -6626,6 +6880,7 @@
       "answer": "100"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.01",
@@ -6652,6 +6907,7 @@
       "answer": "10"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.07",
@@ -6683,6 +6939,7 @@
       "answer": "3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.IP.02",
@@ -6709,6 +6966,7 @@
       "answer": "逐层分类"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.SP.01",
@@ -6740,6 +6998,7 @@
       "answer": "10"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.05",
@@ -6771,6 +7030,7 @@
       "answer": "按每份几个来分，求能分成几份（包含）"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.03",
@@ -6802,6 +7062,7 @@
       "answer": "按分成几份来分，求每份几个（等分）"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.03",
@@ -6833,6 +7094,7 @@
       "answer": "线段"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.GG.02",
@@ -6864,6 +7126,7 @@
       "answer": "先估一估大约几米，再用尺量一量核对"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.GG.02",
@@ -6895,6 +7158,7 @@
       "answer": "向右"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.IP.04",
@@ -6921,6 +7185,7 @@
       "answer": "16"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.05",
@@ -6952,6 +7217,7 @@
       "answer": "10000"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.01",
@@ -6978,6 +7244,7 @@
       "answer": "5000"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.04",
@@ -7009,6 +7276,7 @@
       "answer": "不重复"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.NA.06",
@@ -7040,6 +7308,7 @@
       "answer": "4×3＝12"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.IP.06",
@@ -7071,6 +7340,7 @@
       "answer": "自己一天里做各件事用了多少时间"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:1.IP.03",
@@ -7102,6 +7372,7 @@
       "answer": "4"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.GG.06",
@@ -7128,6 +7399,7 @@
       "answer": "60"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.NA.01",
@@ -7154,6 +7426,7 @@
       "answer": "120"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.NA.01",
@@ -7185,6 +7458,7 @@
       "answer": "两脚分别对准一条线段的两个端点，再挪到另一条上比"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.GG.01",
@@ -7211,6 +7485,7 @@
       "answer": "1/2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.NA.02",
@@ -7237,6 +7512,7 @@
       "answer": "大约 1 千米"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.GG.03",
@@ -7268,6 +7544,7 @@
       "answer": "按班级、座位等规则用数字表示"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.NA.05",
@@ -7294,6 +7571,7 @@
       "answer": "轴对称"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.GG.05",
@@ -7320,6 +7598,7 @@
       "answer": "20"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.NA.01",
@@ -7346,6 +7625,7 @@
       "answer": "拼成后外边一圈的长度是新图形的周长"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.GG.02",
@@ -7372,6 +7652,7 @@
       "answer": "0.5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.NA.02",
@@ -7398,6 +7679,7 @@
       "answer": "这一年是平年还是闰年"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:2.IP.03",
@@ -7424,6 +7706,7 @@
       "answer": "各部分占总数的多少"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.SP.02",
@@ -7450,6 +7733,7 @@
       "answer": "25"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:3.NA.07",
@@ -7476,6 +7760,7 @@
       "answer": "-3 和 -1/2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.01",
@@ -7501,6 +7786,7 @@
       "answer": "向西走 3 m"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.01",
@@ -7527,6 +7813,7 @@
       "answer": "正数：3.5，7；0：0；负数：-2，-1/3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.01",
@@ -7553,6 +7840,7 @@
       "answer": "缺少单位长度"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.01",
@@ -7578,6 +7866,7 @@
       "answer": "2 更靠右"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.01",
@@ -7603,6 +7892,7 @@
       "answer": "7；-3/4；5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.02",
@@ -7628,6 +7918,7 @@
       "answer": "都等于 4"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.02",
@@ -7653,6 +7944,7 @@
       "answer": "x=3 或 x=-3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.02",
@@ -7678,6 +7970,7 @@
       "answer": "-2/3 > -3/4"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.01",
@@ -7703,6 +7996,7 @@
       "answer": "-3；-7"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.04",
@@ -7728,6 +8022,7 @@
       "answer": "10"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.04",
@@ -7753,6 +8048,7 @@
       "answer": "8；-9"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.04",
@@ -7778,6 +8074,7 @@
       "answer": "2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.04",
@@ -7803,6 +8100,7 @@
       "answer": "12；-10"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.04",
@@ -7828,6 +8126,7 @@
       "answer": "-6+8-3=-1"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.04",
@@ -7853,6 +8152,7 @@
       "answer": "-5/2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.04",
@@ -7879,6 +8179,7 @@
       "answer": "16"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.04",
@@ -7904,6 +8205,7 @@
       "answer": "5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.04",
@@ -7929,6 +8231,7 @@
       "answer": "(-3)³=-27；-3³=-27"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.03",
@@ -7954,6 +8257,7 @@
       "answer": "16；-1/8"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.03",
@@ -7983,6 +8287,7 @@
       "answer": "-7"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.04",
@@ -8008,6 +8313,7 @@
       "answer": "3.45×10⁶"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.17",
@@ -8033,6 +8339,7 @@
       "answer": "0.036，有 2 个有效数字"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.12",
@@ -8058,6 +8365,7 @@
       "answer": "5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.IP.02",
@@ -8084,6 +8392,7 @@
       "answer": "a+b=b+a"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.14",
@@ -8109,6 +8418,7 @@
       "answer": "3ab"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.14",
@@ -8134,6 +8444,7 @@
       "answer": "2x-5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.15",
@@ -8159,6 +8470,7 @@
       "answer": "如：水箱原有 100 L，每分钟流出 5 L，t 分钟后剩余水量"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.14",
@@ -8189,6 +8501,7 @@
       "answer": "2n+1"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.15",
@@ -8215,6 +8528,7 @@
       "answer": "14"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.16",
@@ -8240,6 +8554,7 @@
       "answer": "系数 -3，次数 3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.18",
@@ -8265,6 +8580,7 @@
       "answer": "3 项，次数 2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.18",
@@ -8290,6 +8606,7 @@
       "answer": "是"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.18",
@@ -8315,6 +8632,7 @@
       "answer": "2x²+x"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.18",
@@ -8340,6 +8658,7 @@
       "answer": "-2x+3y-1"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.18",
@@ -8365,6 +8684,7 @@
       "answer": "2x²+3x-1"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.18",
@@ -8390,6 +8710,7 @@
       "answer": "a²，值为 1"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.18",
@@ -8420,6 +8741,7 @@
       "answer": "4a+4"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.15",
@@ -8451,6 +8773,7 @@
       "answer": "是"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.23",
@@ -8476,6 +8799,7 @@
       "answer": "两边同除以 2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.24",
@@ -8501,6 +8825,7 @@
       "answer": "不是，未知数次数为 2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.24",
@@ -8527,6 +8852,7 @@
       "answer": "x=-4"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.24",
@@ -8552,6 +8878,7 @@
       "answer": "x=3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.24",
@@ -8577,6 +8904,7 @@
       "answer": "x=3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.24",
@@ -8602,6 +8930,7 @@
       "answer": "设该数为 x，3x-5=16，x=7"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.23",
@@ -8627,6 +8956,7 @@
       "answer": "4 天"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.23",
@@ -8652,6 +8982,7 @@
       "answer": "2 小时"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.23",
@@ -8677,6 +9008,7 @@
       "answer": "100 元"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.23",
@@ -8702,6 +9034,7 @@
       "answer": "200 分钟"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.23",
@@ -8727,6 +9060,7 @@
       "answer": "长方形"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.01",
@@ -8752,6 +9086,7 @@
       "answer": "共 11 种，每种有 6 个正方形"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.83",
@@ -8782,6 +9117,7 @@
       "answer": "圆锥"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.01",
@@ -8807,6 +9143,7 @@
       "answer": "直线"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.01",
@@ -8832,6 +9169,7 @@
       "answer": "两点确定一条直线"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.03",
@@ -8861,6 +9199,7 @@
       "answer": "4"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.02",
@@ -8886,6 +9225,7 @@
       "answer": "O"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.06",
@@ -8911,6 +9251,7 @@
       "answer": "35.5°"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.06",
@@ -8936,6 +9277,7 @@
       "answer": "40°"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.06",
@@ -8966,6 +9308,7 @@
       "answer": "40°；130°"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.08",
@@ -8991,6 +9334,7 @@
       "answer": "∠2=∠3，同角的余角相等"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.08",
@@ -9016,6 +9360,7 @@
       "answer": "200 m"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.IP.02",
@@ -9047,6 +9392,7 @@
       "answer": "110°"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.08",
@@ -9073,6 +9419,7 @@
       "answer": "50°"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.08",
@@ -9098,6 +9445,7 @@
       "answer": "一条且仅一条"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.09",
@@ -9127,6 +9475,7 @@
       "answer": "不可能，垂线段最短，至少 3 cm"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.12",
@@ -9156,6 +9505,7 @@
       "answer": "内错角"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.13",
@@ -9181,6 +9531,7 @@
       "answer": "a∥c"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.14",
@@ -9214,6 +9565,7 @@
       "answer": "a∥b"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.16",
@@ -9243,6 +9595,7 @@
       "answer": "70°"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.18",
@@ -9272,6 +9625,7 @@
       "answer": "70°"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.17",
@@ -9303,6 +9657,7 @@
       "answer": "假命题，如两个直角相等但不是对顶角"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.55",
@@ -9337,6 +9692,7 @@
       "answer": "平行（或共线）且相等"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.68",
@@ -9362,6 +9718,7 @@
       "answer": "把 A 向右数 3 格得到 A′"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.68",
@@ -9388,6 +9745,7 @@
       "answer": "±3；3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.09",
@@ -9413,6 +9771,7 @@
       "answer": "7；5；±1/2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.10",
@@ -9438,6 +9797,7 @@
       "answer": "-2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.09",
@@ -9467,6 +9827,7 @@
       "answer": "无理数"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.06",
@@ -9492,6 +9853,7 @@
       "answer": "3 和 4 之间，约 3.14"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.06",
@@ -9521,6 +9883,7 @@
       "answer": "3 与 4 之间"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.11",
@@ -9550,6 +9913,7 @@
       "answer": "3-2-(√2-1)=2-√2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.06",
@@ -9581,6 +9945,7 @@
       "answer": "不同"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.85",
@@ -9607,6 +9972,7 @@
       "answer": "从原点向左 2 单位，再向上 3 单位"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.85",
@@ -9632,6 +9998,7 @@
       "answer": "第三象限"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.85",
@@ -9657,6 +10024,7 @@
       "answer": "4"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.87",
@@ -9682,6 +10050,7 @@
       "answer": "可选择旗杆或校门等明显处，并标明单位"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.86",
@@ -9712,6 +10081,7 @@
       "answer": "(-2, 4)"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.90",
@@ -9741,6 +10111,7 @@
       "answer": "是，因为 2+2×1=4"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.23",
@@ -9772,6 +10143,7 @@
       "answer": "是"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.25",
@@ -9798,6 +10170,7 @@
       "answer": "x=3，y=6"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.25",
@@ -9823,6 +10196,7 @@
       "answer": "x=3，y=2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.25",
@@ -9848,6 +10222,7 @@
       "answer": "笔 2 元，本子 3 元"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.23",
@@ -9878,6 +10253,7 @@
       "answer": "大车 6 辆，小车 4 辆"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.23",
@@ -9908,6 +10284,7 @@
       "answer": "x=1，y=2，z=3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.26",
@@ -9933,6 +10310,7 @@
       "answer": "1，2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.31",
@@ -9958,6 +10336,7 @@
       "answer": "在 -1 处画实心点，向右画射线"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.32",
@@ -9983,6 +10362,7 @@
       "answer": "x<-3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.31",
@@ -10008,6 +10388,7 @@
       "answer": "x≤3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.32",
@@ -10033,6 +10414,7 @@
       "answer": "6 支"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.33",
@@ -10058,6 +10440,7 @@
       "answer": "1<x≤4"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.32",
@@ -10083,6 +10466,7 @@
       "answer": "书共 3x+8 本，最后一人分得 3x+8-5(x-1)=13-2x 本，故 1≤13-2x<5，解得 x=5 或 6"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.33",
@@ -10109,6 +10493,7 @@
       "answer": "10×(0.2-0.05)=1.5 kg"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.IP.01",
@@ -10139,6 +10524,7 @@
       "answer": "确定问题→收集数据→整理数据→用图表描述→分析数据→得出结论与建议"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.SP.02",
@@ -10164,6 +10550,7 @@
       "answer": "抽样调查"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.SP.01",
@@ -10189,6 +10576,7 @@
       "answer": "实验（做发芽实验并记录发芽粒数）"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.SP.02",
@@ -10219,6 +10607,7 @@
       "answer": "50"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.SP.08",
@@ -10249,6 +10638,7 @@
       "answer": "不能，样本不具代表性"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.SP.01",
@@ -10274,6 +10664,7 @@
       "answer": "把 50 个编号分别写在大小形状相同的纸签上，充分搅匀后随机抽出 5 张，对应编号的学生入样"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.SP.01",
@@ -10299,6 +10690,7 @@
       "answer": "约 540 人"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.SP.08",
@@ -10325,6 +10717,7 @@
       "answer": "折线图"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.SP.03",
@@ -10355,6 +10748,7 @@
       "answer": "篮球 4 人，足球 3 人，跑步 3 人，合计 10 人"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.SP.02",
@@ -10380,6 +10774,7 @@
       "answer": "2 月到 3 月，上升 20 mm"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.SP.03",
@@ -10410,6 +10805,7 @@
       "answer": "90°；总人数 120 人"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.SP.03",
@@ -10435,6 +10831,7 @@
       "answer": "纵轴没有从 0 开始（被截断），夸大了差异；实际上 51 只比 49 多约 4%"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.SP.03",
@@ -10466,6 +10863,7 @@
       "answer": "数落在各组内的个数"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.SP.07",
@@ -10491,6 +10889,7 @@
       "answer": "该组的频数"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.SP.07",
@@ -10516,6 +10915,7 @@
       "answer": "0.15、0.35、0.3、0.2（和为 1）"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.SP.07",
@@ -10547,6 +10947,7 @@
       "answer": "68%"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.SP.07",
@@ -10572,6 +10973,7 @@
       "answer": "随时间推移数值增大"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.SP.11",
@@ -10597,6 +10999,7 @@
       "answer": "曲线的最高点（峰值）"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.IP.01",
@@ -10622,6 +11025,7 @@
       "answer": "直角三角形"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.23",
@@ -10647,6 +11051,7 @@
       "answer": "1<x<7"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.25",
@@ -10672,6 +11077,7 @@
       "answer": "钝角所对边上的高在三角形内部，另外两条在外部"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.23",
@@ -10697,6 +11103,7 @@
       "answer": "相等"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.23",
@@ -10722,6 +11129,7 @@
       "answer": "30°"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.23",
@@ -10747,6 +11155,7 @@
       "answer": "70°"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.24",
@@ -10772,6 +11181,7 @@
       "answer": "55°"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.34",
@@ -10797,6 +11207,7 @@
       "answer": "110°"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.24",
@@ -10826,6 +11237,7 @@
       "answer": "已知、求证、证明"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.57",
@@ -10851,6 +11263,7 @@
       "answer": "三条中线的交点"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.IP.02",
@@ -10882,6 +11295,7 @@
       "answer": "D"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.26",
@@ -10907,6 +11321,7 @@
       "answer": "5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.26",
@@ -10932,6 +11347,7 @@
       "answer": "全等，SSS"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.29",
@@ -10957,6 +11373,7 @@
       "answer": "不一定，必须是夹角"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.27",
@@ -10982,6 +11399,7 @@
       "answer": "AAS"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.28",
@@ -11011,6 +11429,7 @@
       "answer": "因为是直角三角形，HL 是特例"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.36",
@@ -11036,6 +11455,7 @@
       "answer": "SSS（AB=AC，BD=CD，AD=AD）"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.57",
@@ -11067,6 +11487,7 @@
       "answer": "SSS"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.07",
@@ -11092,6 +11513,7 @@
       "answer": "3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.31",
@@ -11117,6 +11539,7 @@
       "answer": "是"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.31",
@@ -11142,7 +11565,19 @@
       "answer": "延长 AD 至 E 使 DE=AD，证 △ABD≌△ECD，再用三边关系"
     },
     "external": false,
-    "standards": []
+    "subject": "math",
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.57",
+        "confidence": "inferred",
+        "note": "课标无「辅助线与模型」条目，本点属章节综合拓展；就近挂证明的意义与综合法格式"
+      },
+      {
+        "id": "cms-2022:4.GG.27",
+        "confidence": "inferred",
+        "note": "倍长中线、截长补短等构造以 SAS 判定为落点，课标只列基本事实本身"
+      }
+    ]
   },
   {
     "id": "cnm_131",
@@ -11162,6 +11597,7 @@
       "answer": "3 条"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.60",
@@ -11191,6 +11627,7 @@
       "answer": "l 垂直平分 AA′"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.60",
@@ -11216,6 +11653,7 @@
       "answer": "5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.32",
@@ -11241,6 +11679,7 @@
       "answer": "交点到两端点距离相等，由判定可得"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.10",
@@ -11266,6 +11705,7 @@
       "answer": "过 A 作 l 的垂线，在另一侧截取等距点"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.61",
@@ -11291,6 +11731,7 @@
       "answer": "(-3,-2)"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.89",
@@ -11316,6 +11757,7 @@
       "answer": "70°"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.33",
@@ -11346,6 +11788,7 @@
       "answer": "AB=AC"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.33",
@@ -11371,6 +11814,7 @@
       "answer": "是"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.33",
@@ -11396,6 +11840,7 @@
       "answer": "5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.34",
@@ -11422,6 +11867,7 @@
       "answer": "作 A 关于 l 的对称点 A′，连 A′B 与 l 的交点即 P"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.IP.01",
@@ -11452,6 +11898,7 @@
       "answer": "x⁷"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.17",
@@ -11477,6 +11924,7 @@
       "answer": "a⁶；8b³"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.17",
@@ -11502,6 +11950,7 @@
       "answer": "-6a³b⁴"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.18",
@@ -11527,6 +11976,7 @@
       "answer": "6x²-2xy"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.18",
@@ -11552,6 +12002,7 @@
       "answer": "x²-x-6"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.18",
@@ -11577,6 +12028,7 @@
       "answer": "(100+3)(100-3)=9991"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.19",
@@ -11602,6 +12054,7 @@
       "answer": "4x²-12x+9"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.19",
@@ -11627,6 +12080,7 @@
       "answer": "(a+b)²-c²"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.19",
@@ -11652,6 +12106,7 @@
       "answer": "是"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.20",
@@ -11677,6 +12132,7 @@
       "answer": "(57+43)(57-43)=1400"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.20",
@@ -11708,6 +12164,7 @@
       "answer": "3ab(2a-3b)"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.20",
@@ -11733,6 +12190,7 @@
       "answer": "(2x+3)(2x-3)"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.20",
@@ -11758,6 +12216,7 @@
       "answer": "(x-3)²"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.20",
@@ -11783,6 +12242,7 @@
       "answer": "2x(x+2)(x-2)"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.20",
@@ -11808,6 +12268,7 @@
       "answer": "x≠2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.21",
@@ -11833,6 +12294,7 @@
       "answer": "a/b"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.21",
@@ -11858,6 +12320,7 @@
       "answer": "(x-1)/x"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.21",
@@ -11883,6 +12346,7 @@
       "answer": "(x+1)/[x(x+1)]，x/[x(x+1)]"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.21",
@@ -11908,6 +12372,7 @@
       "answer": "b/a"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.21",
@@ -11933,6 +12398,7 @@
       "answer": "2/(x²-1)"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.21",
@@ -11958,6 +12424,7 @@
       "answer": "x"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.21",
@@ -11988,6 +12455,7 @@
       "answer": "x⁵"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.17",
@@ -12013,6 +12481,7 @@
       "answer": "1/8；3.2×10⁻⁴"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.17",
@@ -12038,6 +12507,7 @@
       "answer": "去分母得 x+1=2，x=1，代入使分母为 0，是增根，原方程无解"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.24",
@@ -12068,6 +12538,7 @@
       "answer": "60/x=80/(x+2)，x=6"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.23",
@@ -12098,6 +12569,7 @@
       "answer": "x≥3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.13",
@@ -12123,6 +12595,7 @@
       "answer": "5；7"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.13",
@@ -12149,6 +12622,7 @@
       "answer": "4"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.13",
@@ -12174,6 +12648,7 @@
       "answer": "2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.13",
@@ -12199,6 +12674,7 @@
       "answer": "3√2；√2/2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.13",
@@ -12224,6 +12700,7 @@
       "answer": "4√3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.13",
@@ -12249,6 +12726,7 @@
       "answer": "7-2√3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.13",
@@ -12274,6 +12752,7 @@
       "answer": "10"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.35",
@@ -12299,6 +12778,7 @@
       "answer": "c²=4×(ab/2)+(b-a)²，化简得 a²+b²=c²"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.35",
@@ -12325,6 +12805,7 @@
       "answer": "12 m"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.35",
@@ -12350,6 +12831,7 @@
       "answer": "作直角边为 2 与 1 的直角三角形，以原点为圆心、斜边长为半径画弧交数轴于 √5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.35",
@@ -12381,6 +12863,7 @@
       "answer": "是，5²+12²=13²"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.35",
@@ -12406,6 +12889,7 @@
       "answer": "是，2+3=5，斜边为 √5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.35",
@@ -12431,6 +12915,7 @@
       "answer": "20 条"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.39",
@@ -12456,6 +12941,7 @@
       "answer": "1080°"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.39",
@@ -12481,6 +12967,7 @@
       "answer": "60°"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.39",
@@ -12506,6 +12993,7 @@
       "answer": "110°；3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.41",
@@ -12531,6 +13019,7 @@
       "answer": "是"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.41",
@@ -12556,6 +13045,7 @@
       "answer": "5，且 DE∥BC"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.44",
@@ -12581,6 +13071,7 @@
       "answer": "10"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.43",
@@ -12606,6 +13097,7 @@
       "answer": "5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.34",
@@ -12631,6 +13123,7 @@
       "answer": "矩形"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.43",
@@ -12656,6 +13149,7 @@
       "answer": "边长 5；面积 24"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.43",
@@ -12681,6 +13175,7 @@
       "answer": "菱形"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.43",
@@ -12706,6 +13201,7 @@
       "answer": "2√2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.43",
@@ -12735,7 +13231,19 @@
       "answer": "AF=5，DF=4，CF=1"
     },
     "external": false,
-    "standards": []
+    "subject": "math",
+    "standards": [
+      {
+        "id": "cms-2022:4.GG.43",
+        "confidence": "inferred",
+        "note": "课标无「折叠与动点」条目，本点属章节综合拓展；就近挂矩形菱形正方形的性质与判定"
+      },
+      {
+        "id": "cms-2022:4.GG.60",
+        "confidence": "inferred",
+        "note": "折叠即轴对称，对应点连线被对称轴垂直平分是列方程的依据"
+      }
+    ]
   },
   {
     "id": "cnm_193",
@@ -12755,6 +13263,7 @@
       "answer": "C、r 是变量，2π 是常量"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.34",
@@ -12780,6 +13289,7 @@
       "answer": "不是，一个 x（x>0）对应两个 y"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.34",
@@ -12805,6 +13315,7 @@
       "answer": "x≥-2 且 x≠1"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.36",
@@ -12830,6 +13341,7 @@
       "answer": "17"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.36",
@@ -12855,6 +13367,7 @@
       "answer": "(0,-1)、(1,1)"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.35",
@@ -12880,6 +13393,7 @@
       "answer": "直观看出具体数值，适合离散数据"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.34",
@@ -12909,6 +13423,7 @@
       "answer": "L=10+0.5m"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.37",
@@ -12938,6 +13453,7 @@
       "answer": "3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.40",
@@ -12963,6 +13479,7 @@
       "answer": "m≠1"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.39",
@@ -12988,6 +13505,7 @@
       "answer": "(0,4)，(2,0)"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.40",
@@ -13013,6 +13531,7 @@
       "answer": "y 随 x 增大而减小；经过一、二、四象限"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.40",
@@ -13038,6 +13557,7 @@
       "answer": "y=2x+3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.40",
@@ -13064,6 +13584,7 @@
       "answer": "y=2x+1"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.39",
@@ -13089,6 +13610,7 @@
       "answer": "相等，都是 3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.41",
@@ -13115,6 +13637,7 @@
       "answer": "x>2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.32",
@@ -13146,6 +13669,7 @@
       "answer": "(1,2)"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.41",
@@ -13171,6 +13695,7 @@
       "answer": "y=10+2(x-3)=2x+4"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.42",
@@ -13196,6 +13721,7 @@
       "answer": "变为原来的 2 倍"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.IP.01",
@@ -13221,6 +13747,7 @@
       "answer": "7"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.SP.04",
@@ -13246,6 +13773,7 @@
       "answer": "86 分"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.SP.04",
@@ -13271,6 +13799,7 @@
       "answer": "3；3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.SP.04",
@@ -13296,6 +13825,7 @@
       "answer": "中位数，平均数受极端值影响大"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.SP.04",
@@ -13325,6 +13855,7 @@
       "answer": "约 1000 小时"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.SP.08",
@@ -13350,6 +13881,7 @@
       "answer": "平均数 20，中位数 9；中位数更能代表一般水平，平均数被 65 拉高"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.SP.04",
@@ -13381,6 +13913,7 @@
       "answer": "极差 4；方差 8/3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.SP.05",
@@ -13406,6 +13939,7 @@
       "answer": "甲更稳定：两人平均数都是 8，甲方差 0.4 小于乙方差 1.6"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.SP.05",
@@ -13431,6 +13965,7 @@
       "answer": "甲机器（样本方差更小）"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.SP.08",
@@ -13456,6 +13991,7 @@
       "answer": "2.5 与 6.5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.SP.09",
@@ -13481,6 +14017,7 @@
       "answer": "15"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.SP.09",
@@ -13506,6 +14043,7 @@
       "answer": "每组组中值乘该组频数，求和后除以总频数"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.SP.07",
@@ -13537,6 +14075,7 @@
       "answer": "用平均数比较整体水平，用方差比较整齐程度"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.IP.01",
@@ -13567,6 +14106,7 @@
       "answer": "1，-5，6"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.27",
@@ -13593,6 +14133,7 @@
       "answer": "x=4 或 x=-2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.27",
@@ -13619,6 +14160,7 @@
       "answer": "(x-2)²=5，x=2±√5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.27",
@@ -13644,6 +14186,7 @@
       "answer": "x=(3±5)/4，即 x=2 或 x=-1/2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.27",
@@ -13669,6 +14212,7 @@
       "answer": "k<4"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.28",
@@ -13694,6 +14238,7 @@
       "answer": "x=2 或 x=3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.27",
@@ -13719,6 +14264,7 @@
       "answer": "因式分解法：3x(x-2)=0，x=0 或 2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.27",
@@ -13744,6 +14290,7 @@
       "answer": "100(1+x)²=144，x=20%"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.23",
@@ -13774,6 +14321,7 @@
       "answer": "设长 x，x(10-x)=24，长 6 cm，宽 4 cm"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.23",
@@ -13804,6 +14352,7 @@
       "answer": "5；6"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.29",
@@ -13829,6 +14378,7 @@
       "answer": "m≠2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.43",
@@ -13854,6 +14404,7 @@
       "answer": "开口向下，顶点 (0,0)，对称轴 y 轴"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.44",
@@ -13879,6 +14430,7 @@
       "answer": "顶点 (1,2)，对称轴 x=1，向右 1 个单位再向上 2 个单位"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.44",
@@ -13904,6 +14456,7 @@
       "answer": "y=(x-2)²-1"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.44",
@@ -13929,6 +14482,7 @@
       "answer": "y=x²-2x-3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.44",
@@ -13955,6 +14509,7 @@
       "answer": "(-1,0)，(3,0)"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.46",
@@ -13980,6 +14535,7 @@
       "answer": "y=-(x-2)²+5，最大值 5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.45",
@@ -14005,6 +14561,7 @@
       "answer": "y=(x-20)(100-2x)，x=35 时最大利润 450 元"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.45",
@@ -14034,6 +14591,7 @@
       "answer": "6"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.47",
@@ -14059,6 +14617,7 @@
       "answer": "二、四象限；每个象限内 y 随 x 增大而增大"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.48",
@@ -14084,6 +14643,7 @@
       "answer": "3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.48",
@@ -14110,6 +14670,7 @@
       "answer": "y=-6/x"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.47",
@@ -14135,6 +14696,7 @@
       "answer": "(2,2)，(-2,-2)"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.48",
@@ -14166,6 +14728,7 @@
       "answer": "y=12/x（x>0）"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.NA.49",
@@ -14191,6 +14754,7 @@
       "answer": "t=s/300"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.IP.01",
@@ -14216,6 +14780,7 @@
       "answer": "OA=OA′，∠AOA′=90°"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.64",
@@ -14241,6 +14806,7 @@
       "answer": "分别相等"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.64",
@@ -14266,6 +14832,7 @@
       "answer": "连 CA，作 ∠ACA′=90°，截取 CA′=CA"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.64",
@@ -14292,6 +14859,7 @@
       "answer": "把 △ADF 绕 A 旋转 90° 使 AD 与 AB 重合，证 △AEF≌△AEF′"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.64",
@@ -14318,6 +14886,7 @@
       "answer": "平行四边形、矩形、圆（任举三种）"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.65",
@@ -14343,6 +14912,7 @@
       "answer": "(-3,2)"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.65",
@@ -14369,6 +14939,7 @@
       "answer": "10（直径）"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.45",
@@ -14394,6 +14965,7 @@
       "answer": "3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.46",
@@ -14419,6 +14991,7 @@
       "answer": "弧相等，弦相等"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.45",
@@ -14450,6 +15023,7 @@
       "answer": "50°"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.47",
@@ -14475,6 +15049,7 @@
       "answer": "90°"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.47",
@@ -14500,6 +15075,7 @@
       "answer": "110°"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.47",
@@ -14525,6 +15101,7 @@
       "answer": "2π"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.53",
@@ -14550,6 +15127,7 @@
       "answer": "6π"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.53",
@@ -14575,6 +15153,7 @@
       "answer": "15π"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.83",
@@ -14606,6 +15185,7 @@
       "answer": "圆内"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.45",
@@ -14631,6 +15211,7 @@
       "answer": "相切"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.49",
@@ -14656,6 +15237,7 @@
       "answer": "连 OA，证 OA⊥l"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.49",
@@ -14681,6 +15263,7 @@
       "answer": "90°"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.49",
@@ -14706,6 +15289,7 @@
       "answer": "6"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.52",
@@ -14731,6 +15315,7 @@
       "answer": "1"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.48",
@@ -14760,6 +15345,7 @@
       "answer": "斜边中点"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.48",
@@ -14789,6 +15375,7 @@
       "answer": "2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.54",
@@ -14819,6 +15406,7 @@
       "answer": "边长 5 m 的正方形，面积 25 m²"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.IP.01",
@@ -14844,6 +15432,7 @@
       "answer": "5/3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.71",
@@ -14869,6 +15458,7 @@
       "answer": "6"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.73",
@@ -14894,6 +15484,7 @@
       "answer": "对应角相等，对应边成比例"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.72",
@@ -14919,6 +15510,7 @@
       "answer": "相似（AA）"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.74",
@@ -14944,6 +15536,7 @@
       "answer": "4:9"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.75",
@@ -14969,6 +15562,7 @@
       "answer": "△ADE∽△ABC（A 型）"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.74",
@@ -15000,6 +15594,7 @@
       "answer": "12 m"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.77",
@@ -15025,6 +15620,7 @@
       "answer": "1:4"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.76",
@@ -15055,6 +15651,7 @@
       "answer": "3/5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.78",
@@ -15080,6 +15677,7 @@
       "answer": "1/2；√2/2；√3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.78",
@@ -15109,6 +15707,7 @@
       "answer": "AB=8，AC=4√3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.80",
@@ -15134,6 +15733,7 @@
       "answer": "20√3 m"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.80",
@@ -15159,6 +15759,7 @@
       "answer": "5 m"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.80",
@@ -15184,6 +15785,7 @@
       "answer": "5×sin60°=5×√3/2≈4.3 m"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.IP.01",
@@ -15214,6 +15816,7 @@
       "answer": "平行投影光线平行，中心投影光线交于一点"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.81",
@@ -15239,6 +15842,7 @@
       "answer": "正投影"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.81",
@@ -15265,6 +15869,7 @@
       "answer": "主视图、左视图为矩形，俯视图为圆"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.GG.82",
@@ -15290,6 +15895,7 @@
       "answer": "35 m"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.IP.01",
@@ -15320,6 +15926,7 @@
       "answer": "不可能事件"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.SP.12",
@@ -15346,6 +15953,7 @@
       "answer": "红球＞白球＞黄球"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.SP.12",
@@ -15372,6 +15980,7 @@
       "answer": "3/5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.SP.12",
@@ -15397,6 +16006,7 @@
       "answer": "1.2 和 −0.1"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.SP.12",
@@ -15423,6 +16033,7 @@
       "answer": "不能，各点数出现的可能性不相等，不满足等可能"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.SP.12",
@@ -15449,6 +16060,7 @@
       "answer": "1/2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.SP.12",
@@ -15474,6 +16086,7 @@
       "answer": "1/4"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.SP.12",
@@ -15499,6 +16112,7 @@
       "answer": "公平，各 1/2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.SP.12",
@@ -15525,6 +16139,7 @@
       "answer": "(1) 4/9；(2) 1/3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.SP.12",
@@ -15551,6 +16166,7 @@
       "answer": "3/8"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.SP.12",
@@ -15577,6 +16193,7 @@
       "answer": "1/5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.SP.10",
@@ -15608,6 +16225,7 @@
       "answer": "约 0.5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.SP.13",
@@ -15633,6 +16251,7 @@
       "answer": "概率约 0.95；约 1900 粒"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.SP.13",
@@ -15658,6 +16277,7 @@
       "answer": "仍是 1/2，每次抛掷相互独立，之前的结果不改变概率"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.SP.12",
@@ -15689,6 +16309,7 @@
       "answer": "转盘 8 等分，4 份甲得分、4 份乙得分，双方概率均为 1/2；转 100 次，若两人获胜频率都接近 0.5 则基本公平"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2022:4.IP.02",
@@ -15720,6 +16341,7 @@
       "answer": "全体正整数"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PRE.01",
@@ -15745,6 +16367,7 @@
       "answer": "4"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PRE.01",
@@ -15771,6 +16394,7 @@
       "answer": "5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PRE.01",
@@ -15797,6 +16421,7 @@
       "answer": "3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PRE.01",
@@ -15823,6 +16448,7 @@
       "answer": "3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PRE.01",
@@ -15849,6 +16475,7 @@
       "answer": "4"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PRE.02",
@@ -15874,6 +16501,7 @@
       "answer": "7"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PRE.02",
@@ -15900,6 +16528,7 @@
       "answer": "2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PRE.03",
@@ -15925,6 +16554,7 @@
       "answer": "4"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PRE.03",
@@ -15951,6 +16581,7 @@
       "answer": "3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PRE.03",
@@ -15977,6 +16608,7 @@
       "answer": "7"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PRE.03",
@@ -16003,6 +16635,7 @@
       "answer": "充分不必要条件"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PRE.04",
@@ -16028,6 +16661,7 @@
       "answer": "充要条件"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PRE.04",
@@ -16054,6 +16688,7 @@
       "answer": "全称量词"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PRE.05",
@@ -16079,6 +16714,7 @@
       "answer": "存在一个实数不大于 0"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PRE.05",
@@ -16105,6 +16741,7 @@
       "answer": "不等关系"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PRE.06",
@@ -16130,6 +16767,7 @@
       "answer": "3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PRE.06",
@@ -16156,6 +16794,7 @@
       "answer": "1"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PRE.06",
@@ -16182,6 +16821,7 @@
       "answer": "-1"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PRE.06",
@@ -16208,6 +16848,7 @@
       "answer": "3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PRE.06",
@@ -16234,6 +16875,7 @@
       "answer": "13/2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PRE.07",
@@ -16259,6 +16901,7 @@
       "answer": "25"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PRE.07",
@@ -16285,6 +16928,7 @@
       "answer": "2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PRE.08",
@@ -16310,6 +16954,7 @@
       "answer": "0"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PRE.09",
@@ -16335,6 +16980,7 @@
       "answer": "1"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PRE.09",
@@ -16361,6 +17007,7 @@
       "answer": "8"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PRE.09",
@@ -16387,6 +17034,7 @@
       "answer": "每个 x 对应 x+1"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.01",
@@ -16412,6 +17060,7 @@
       "answer": "2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.02",
@@ -16437,6 +17086,7 @@
       "answer": "3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.02",
@@ -16463,6 +17113,7 @@
       "answer": "3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.02",
@@ -16489,6 +17140,7 @@
       "answer": "-1"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.02",
@@ -16515,6 +17167,7 @@
       "answer": "增函数"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.03",
@@ -16540,6 +17193,7 @@
       "answer": "9"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.03",
@@ -16566,6 +17220,7 @@
       "answer": "4"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.03",
@@ -16592,6 +17247,7 @@
       "answer": "偶函数"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.04",
@@ -16617,6 +17273,7 @@
       "answer": "7"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.04",
@@ -16643,6 +17300,7 @@
       "answer": "8"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.05",
@@ -16668,6 +17326,7 @@
       "answer": "24"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.11",
@@ -16694,6 +17353,7 @@
       "answer": "1/8"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.06",
@@ -16719,6 +17379,7 @@
       "answer": "128"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.06",
@@ -16745,6 +17406,7 @@
       "answer": "32"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.07",
@@ -16770,6 +17432,7 @@
       "answer": "增函数"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.07",
@@ -16796,6 +17459,7 @@
       "answer": "5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.08",
@@ -16821,6 +17485,7 @@
       "answer": "5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.08",
@@ -16847,6 +17512,7 @@
       "answer": "2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.08",
@@ -16873,6 +17539,7 @@
       "answer": "4"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.09",
@@ -16898,6 +17565,7 @@
       "answer": "增函数"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.09",
@@ -16924,6 +17592,7 @@
       "answer": "5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.09",
@@ -16950,6 +17619,7 @@
       "answer": "2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.10",
@@ -16975,6 +17645,7 @@
       "answer": "2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.10",
@@ -17001,6 +17672,7 @@
       "answer": "800"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.11",
@@ -17026,6 +17698,7 @@
       "answer": "50"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.11",
@@ -17052,6 +17725,7 @@
       "answer": "提出问题，收集数据，建立模型，求解并检验"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.MI.01",
@@ -17077,6 +17751,7 @@
       "answer": "32"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.MI.01",
@@ -17103,6 +17778,7 @@
       "answer": "正角"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.12",
@@ -17128,6 +17804,7 @@
       "answer": "40"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.12",
@@ -17154,6 +17831,7 @@
       "answer": "180"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.12",
@@ -17180,6 +17858,7 @@
       "answer": "30"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.12",
@@ -17206,6 +17885,7 @@
       "answer": "10"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.12",
@@ -17232,6 +17912,7 @@
       "answer": "1"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.13",
@@ -17257,6 +17938,7 @@
       "answer": "0"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.13",
@@ -17283,6 +17965,7 @@
       "answer": "1"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.14",
@@ -17308,6 +17991,7 @@
       "answer": "1"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.14",
@@ -17334,6 +18018,7 @@
       "answer": "sinα"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.14",
@@ -17360,6 +18045,7 @@
       "answer": "1/2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.14",
@@ -17386,6 +18072,7 @@
       "answer": "1"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.15",
@@ -17411,6 +18098,7 @@
       "answer": "增函数"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.15",
@@ -17437,6 +18125,7 @@
       "answer": "1"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.15",
@@ -17463,6 +18152,7 @@
       "answer": "0"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.15",
@@ -17489,6 +18179,7 @@
       "answer": "1/2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.16",
@@ -17514,6 +18205,7 @@
       "answer": "1"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.16",
@@ -17540,6 +18232,7 @@
       "answer": "1"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.16",
@@ -17566,6 +18259,7 @@
       "answer": "-1/2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.16",
@@ -17592,6 +18286,7 @@
       "answer": "3/2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.16",
@@ -17618,6 +18313,7 @@
       "answer": "2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.17",
@@ -17643,6 +18339,7 @@
       "answer": "2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.17",
@@ -17669,6 +18366,7 @@
       "answer": "3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.17",
@@ -17695,6 +18393,7 @@
       "answer": "18"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.17",
@@ -17721,6 +18420,7 @@
       "answer": "向量有方向，数量没有方向"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.01",
@@ -17746,6 +18446,7 @@
       "answer": "模相等并且方向相同"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.01",
@@ -17772,6 +18473,7 @@
       "answer": "4"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.02",
@@ -17797,6 +18499,7 @@
       "answer": "3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.02",
@@ -17823,6 +18526,7 @@
       "answer": "-6"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.02",
@@ -17849,6 +18553,7 @@
       "answer": "2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.02",
@@ -17875,6 +18580,7 @@
       "answer": "不共线"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.03",
@@ -17900,6 +18606,7 @@
       "answer": "3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.03",
@@ -17926,6 +18633,7 @@
       "answer": "5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.03",
@@ -17952,6 +18660,7 @@
       "answer": "11"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.04",
@@ -17977,6 +18686,7 @@
       "answer": "5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.04",
@@ -18003,6 +18713,7 @@
       "answer": "5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.04",
@@ -18029,6 +18740,7 @@
       "answer": "7"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.05",
@@ -18054,6 +18766,7 @@
       "answer": "4"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.05",
@@ -18080,6 +18793,7 @@
       "answer": "10"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.05",
@@ -18106,6 +18820,7 @@
       "answer": "13"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.05",
@@ -18132,6 +18847,7 @@
       "answer": "0"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.05",
@@ -18158,6 +18874,7 @@
       "answer": "5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.MI.02",
@@ -18183,6 +18900,7 @@
       "answer": "3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.06",
@@ -18208,6 +18926,7 @@
       "answer": "5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.06",
@@ -18234,6 +18953,7 @@
       "answer": "3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.06",
@@ -18260,6 +18980,7 @@
       "answer": "4"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.07",
@@ -18285,6 +19006,7 @@
       "answer": "5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.07",
@@ -18311,6 +19033,7 @@
       "answer": "2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.07",
@@ -18337,6 +19060,7 @@
       "answer": "2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.07",
@@ -18363,6 +19087,7 @@
       "answer": "-1"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.07",
@@ -18389,6 +19114,7 @@
       "answer": "8"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.08",
@@ -18414,6 +19140,7 @@
       "answer": "矩形绕它的一条边旋转一周"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.08",
@@ -18440,6 +19167,7 @@
       "answer": "2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.08",
@@ -18466,6 +19194,7 @@
       "answer": "6"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.08",
@@ -18492,6 +19221,7 @@
       "answer": "4"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.08",
@@ -18518,6 +19248,7 @@
       "answer": "54"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.09",
@@ -18543,6 +19274,7 @@
       "answer": "80"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.09",
@@ -18569,6 +19301,7 @@
       "answer": "8"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.09",
@@ -18595,6 +19328,7 @@
       "answer": "有且只有一个"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.10",
@@ -18620,6 +19354,7 @@
       "answer": "不同在任何一个平面内的两条直线"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.10",
@@ -18646,6 +19381,7 @@
       "answer": "在平面内、平行、相交，共三种"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.10",
@@ -18672,6 +19408,7 @@
       "answer": "a 与这个平面平行"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.11",
@@ -18697,6 +19434,7 @@
       "answer": "a 平行于 b"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.11",
@@ -18723,6 +19461,7 @@
       "answer": "α 平行于 β"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.11",
@@ -18749,6 +19488,7 @@
       "answer": "互相平行"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.11",
@@ -18775,6 +19515,7 @@
       "answer": "l 垂直于这个平面"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.12",
@@ -18800,6 +19541,7 @@
       "answer": "互相平行"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.12",
@@ -18826,6 +19568,7 @@
       "answer": "互相垂直"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.12",
@@ -18852,6 +19595,7 @@
       "answer": "抽样试验"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.01",
@@ -18877,6 +19621,7 @@
       "answer": "1/20"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.02",
@@ -18902,6 +19647,7 @@
       "answer": "4"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.02",
@@ -18928,6 +19674,7 @@
       "answer": "分层随机抽样"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.02",
@@ -18954,6 +19701,7 @@
       "answer": "10"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.03",
@@ -18979,6 +19727,7 @@
       "answer": "10"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.03",
@@ -19005,6 +19754,7 @@
       "answer": "5/2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.04",
@@ -19031,6 +19781,7 @@
       "answer": "5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.04",
@@ -19056,6 +19807,7 @@
       "answer": "4"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.04",
@@ -19082,6 +19834,7 @@
       "answer": "扇形图"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.04",
@@ -19108,6 +19861,7 @@
       "answer": "63"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.04",
@@ -19134,6 +19888,7 @@
       "answer": "4"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.05",
@@ -19159,6 +19914,7 @@
       "answer": "1"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.05",
@@ -19185,6 +19941,7 @@
       "answer": "5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.05",
@@ -19211,6 +19968,7 @@
       "answer": "5/14"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.06",
@@ -19236,6 +19994,7 @@
       "answer": "9/20"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.06",
@@ -19262,6 +20021,7 @@
       "answer": "一定"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.06",
@@ -19288,6 +20048,7 @@
       "answer": "1/6"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.07",
@@ -19313,6 +20074,7 @@
       "answer": "1/8"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.07",
@@ -19339,6 +20101,7 @@
       "answer": "1/5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.08",
@@ -19364,6 +20127,7 @@
       "answer": "8/25"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.08",
@@ -19390,6 +20154,7 @@
       "answer": "既有大小又有方向的量"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.13",
@@ -19416,6 +20181,7 @@
       "answer": "4"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.13",
@@ -19441,6 +20207,7 @@
       "answer": "4"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.13",
@@ -19466,6 +20233,7 @@
       "answer": "7"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.13",
@@ -19492,6 +20260,7 @@
       "answer": "2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.13",
@@ -19518,6 +20287,7 @@
       "answer": "3 个"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.14",
@@ -19543,6 +20313,7 @@
       "answer": "两两垂直"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.14",
@@ -19569,6 +20340,7 @@
       "answer": "5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.14",
@@ -19594,6 +20366,7 @@
       "answer": "3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.14",
@@ -19620,6 +20393,7 @@
       "answer": "5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.14",
@@ -19646,6 +20420,7 @@
       "answer": "7"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.14",
@@ -19672,6 +20447,7 @@
       "answer": "3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.15",
@@ -19697,6 +20473,7 @@
       "answer": "垂直"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.15",
@@ -19722,6 +20499,7 @@
       "answer": "0"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.15",
@@ -19748,6 +20526,7 @@
       "answer": "2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.15",
@@ -19774,6 +20553,7 @@
       "answer": "2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.15",
@@ -19800,6 +20580,7 @@
       "answer": "0"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.15",
@@ -19826,6 +20607,7 @@
       "answer": "0"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.15",
@@ -19852,6 +20634,7 @@
       "answer": "0"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.15",
@@ -19878,6 +20661,7 @@
       "answer": "1/3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.15",
@@ -19904,6 +20688,7 @@
       "answer": "0"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.15",
@@ -19930,6 +20715,7 @@
       "answer": "大于等于 0 度且小于 180 度"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.16",
@@ -19955,6 +20741,7 @@
       "answer": "倾斜角的正切"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.16",
@@ -19980,6 +20767,7 @@
       "answer": "2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.16",
@@ -20006,6 +20794,7 @@
       "answer": "平行"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.16",
@@ -20032,6 +20821,7 @@
       "answer": "-1"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.17",
@@ -20057,6 +20847,7 @@
       "answer": "3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.17",
@@ -20083,6 +20874,7 @@
       "answer": "2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.17",
@@ -20109,6 +20901,7 @@
       "answer": "3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.18",
@@ -20134,6 +20927,7 @@
       "answer": "5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.18",
@@ -20159,6 +20953,7 @@
       "answer": "2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.18",
@@ -20184,6 +20979,7 @@
       "answer": "2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.18",
@@ -20210,6 +21006,7 @@
       "answer": "5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.19",
@@ -20235,6 +21032,7 @@
       "answer": "3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.19",
@@ -20261,6 +21059,7 @@
       "answer": "5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.19",
@@ -20287,6 +21086,7 @@
       "answer": "3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.20",
@@ -20312,6 +21112,7 @@
       "answer": "8"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.20",
@@ -20338,6 +21139,7 @@
       "answer": "2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.20",
@@ -20364,6 +21166,7 @@
       "answer": "6"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.20",
@@ -20390,6 +21193,7 @@
       "answer": "和等于一个大于焦距的常数"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.21",
@@ -20415,6 +21219,7 @@
       "answer": "5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.21",
@@ -20440,6 +21245,7 @@
       "answer": "3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.21",
@@ -20466,6 +21272,7 @@
       "answer": "10"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.21",
@@ -20492,6 +21299,7 @@
       "answer": "10"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.21",
@@ -20518,6 +21326,7 @@
       "answer": "差的绝对值"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.22",
@@ -20543,6 +21352,7 @@
       "answer": "3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.22",
@@ -20569,6 +21379,7 @@
       "answer": "5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.22",
@@ -20595,6 +21406,7 @@
       "answer": "4/3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.22",
@@ -20621,6 +21433,7 @@
       "answer": "到焦点的距离和到准线的距离"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.23",
@@ -20646,6 +21459,7 @@
       "answer": "2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.23",
@@ -20672,6 +21486,7 @@
       "answer": "-2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.23",
@@ -20698,6 +21513,7 @@
       "answer": "4"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.23",
@@ -20724,6 +21540,7 @@
       "answer": "2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.GA.21",
@@ -20750,6 +21567,7 @@
       "answer": "数列讲究顺序，数集不讲究顺序"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.18",
@@ -20775,6 +21593,7 @@
       "answer": "9"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.18",
@@ -20801,6 +21620,7 @@
       "answer": "11"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.18",
@@ -20827,6 +21647,7 @@
       "answer": "7"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.18",
@@ -20853,6 +21674,7 @@
       "answer": "4"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.19",
@@ -20878,6 +21700,7 @@
       "answer": "23"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.19",
@@ -20903,6 +21726,7 @@
       "answer": "8"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.19",
@@ -20929,6 +21753,7 @@
       "answer": "78"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.19",
@@ -20954,6 +21779,7 @@
       "answer": "4"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.19",
@@ -20980,6 +21806,7 @@
       "answer": "30"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.19",
@@ -21006,6 +21833,7 @@
       "answer": "3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.20",
@@ -21031,6 +21859,7 @@
       "answer": "54"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.20",
@@ -21056,6 +21885,7 @@
       "answer": "4"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.20",
@@ -21082,6 +21912,7 @@
       "answer": "80"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.20",
@@ -21107,6 +21938,7 @@
       "answer": "2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.20",
@@ -21133,6 +21965,7 @@
       "answer": "24"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.20",
@@ -21159,6 +21992,7 @@
       "answer": "验证起始的正整数成立"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.21",
@@ -21185,6 +22019,7 @@
       "answer": "15"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.21",
@@ -21210,6 +22045,7 @@
       "answer": "4"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.22",
@@ -21235,6 +22071,7 @@
       "answer": "9/2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.22",
@@ -21261,6 +22098,7 @@
       "answer": "6"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.22",
@@ -21286,6 +22124,7 @@
       "answer": "9"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.22",
@@ -21312,6 +22151,7 @@
       "answer": "2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.22",
@@ -21338,6 +22178,7 @@
       "answer": "-1"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.22",
@@ -21364,6 +22205,7 @@
       "answer": "12"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.23",
@@ -21389,6 +22231,7 @@
       "answer": "5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.23",
@@ -21415,6 +22258,7 @@
       "answer": "12"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.23",
@@ -21441,6 +22285,7 @@
       "answer": "-2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.24",
@@ -21466,6 +22311,7 @@
       "answer": "2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.24",
@@ -21492,6 +22338,7 @@
       "answer": "2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.24",
@@ -21518,6 +22365,7 @@
       "answer": "3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.24",
@@ -21544,6 +22392,7 @@
       "answer": "25"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.25",
@@ -21569,6 +22418,7 @@
       "answer": "-3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.FUN.24",
@@ -21595,6 +22445,7 @@
       "answer": "5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.09",
@@ -21620,6 +22471,7 @@
       "answer": "12"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.09",
@@ -21645,6 +22497,7 @@
       "answer": "20"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.09",
@@ -21671,6 +22524,7 @@
       "answer": "从 4 名同学中选 2 名排成先后顺序"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.10",
@@ -21696,6 +22550,7 @@
       "answer": "30"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.10",
@@ -21721,6 +22576,7 @@
       "answer": "120"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.10",
@@ -21747,6 +22603,7 @@
       "answer": "从 4 名同学中选 2 名参加会议，不计先后"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.10",
@@ -21772,6 +22629,7 @@
       "answer": "15"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.10",
@@ -21797,6 +22655,7 @@
       "answer": "56"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.10",
@@ -21823,6 +22682,7 @@
       "answer": "20"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.10",
@@ -21849,6 +22709,7 @@
       "answer": "3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.11",
@@ -21874,6 +22735,7 @@
       "answer": "10"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.11",
@@ -21899,6 +22761,7 @@
       "answer": "16"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.11",
@@ -21925,6 +22788,7 @@
       "answer": "10"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.MI.04",
@@ -21950,6 +22814,7 @@
       "answer": "1/2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.12",
@@ -21975,6 +22840,7 @@
       "answer": "1/6"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.12",
@@ -22000,6 +22866,7 @@
       "answer": "1/2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.12",
@@ -22025,6 +22892,7 @@
       "answer": "3/7"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.12",
@@ -22050,6 +22918,7 @@
       "answer": "1/3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.12",
@@ -22076,6 +22945,7 @@
       "answer": "6"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.13",
@@ -22101,6 +22971,7 @@
       "answer": "1/6"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.13",
@@ -22126,6 +22997,7 @@
       "answer": "3/4"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.13",
@@ -22152,6 +23024,7 @@
       "answer": "5/3"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.14",
@@ -22177,6 +23050,7 @@
       "answer": "1/4"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.14",
@@ -22202,6 +23076,7 @@
       "answer": "4/5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.15",
@@ -22227,6 +23102,7 @@
       "answer": "3/8"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.15",
@@ -22252,6 +23128,7 @@
       "answer": "2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.15",
@@ -22277,6 +23154,7 @@
       "answer": "1/2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.15",
@@ -22302,6 +23180,7 @@
       "answer": "6/5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.15",
@@ -22328,6 +23207,7 @@
       "answer": "5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.16",
@@ -22353,6 +23233,7 @@
       "answer": "1"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.16",
@@ -22379,6 +23260,7 @@
       "answer": "正相关"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.17",
@@ -22405,6 +23287,7 @@
       "answer": "4"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.17",
@@ -22430,6 +23313,7 @@
       "answer": "3/5"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.17",
@@ -22455,6 +23339,7 @@
       "answer": "响应变量等于一次函数再加上随机误差"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.18",
@@ -22480,6 +23365,7 @@
       "answer": "2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.18",
@@ -22505,6 +23391,7 @@
       "answer": "2"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.18",
@@ -22530,6 +23417,7 @@
       "answer": "7"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.18",
@@ -22555,6 +23443,7 @@
       "answer": "30"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.19",
@@ -22581,6 +23470,7 @@
       "answer": "假设两个分类变量相互独立"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.19",
@@ -22606,6 +23496,7 @@
       "answer": "18"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.PS.19",
@@ -22632,6 +23523,7 @@
       "answer": "17"
     },
     "external": false,
+    "subject": "math",
     "standards": [
       {
         "id": "cms-2017:H.MI.03",

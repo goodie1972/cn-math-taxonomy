@@ -1,5 +1,13 @@
 # 变更日志
 
+## 2026-11-07（三项字段缺口补齐：subject 870 / standards 2 / verify 29）
+
+- 2026-11-07：**870 个 `cnm_*` 数学点补 `subject:"math"`**，键序与其它学科一致（插在 `external` 之后）。落盘前逐点比对 `gen_registry.subject_of()`：**3504/3504 结果不变**，所以 registry 挂载、网格判定、册级台账一个数都没动。这个字段缺失正是此前误判「数学池八年级为空」的根因。
+- 2026-11-07：**2 个综合拓展点补 `standards`**：`cnm_130`（全等三角形的常见辅助线与模型）挂 `4.GG.57` + `4.GG.27`，`cnm_192`（四边形中的折叠与动点）挂 `4.GG.43` + `4.GG.60`，四条全部 `confidence:"inferred"` 并带 `note` 说明「课标无该条目，属章节综合拓展，就近挂」。课标里确实没有「辅助线模型」「折叠动点」这类条目，**不冒充 exact**。`STRICT_STANDARDS=1` 下正式知识点 standards 非空 **3504 / 3504 = 100%**（此前 3502）。
+- 2026-11-07：**29 道 short 补 `verify`（照旧例＝answer 原文），并订正一个口径错误**。查明 `verify_questions.py:276` **只对 numeric / choice 求值**，short 的 verify 从不被核验；全库 5496 道 short 的 verify **全部等于 answer 原文**（零信息复制），`diagnose/app.js` 也不读这个字段。所以「带 verify 100%」不等于「机验 100%」——真正机验的仍是 **30464 道 numeric + choice**。用户裁定照旧例补齐求字段统一，文档同时把这条讲清（`docs/questions.md` 格式表、全库现状、局限三处）。
+- 2026-11-07：`scripts/build_inventory.py` 两处硬编码过期文字改为实算：「读我·总览」原写死「869 点无 subject」（数字本身也是错的，实测 870）、「数据体检」原写死「全部 cnm_* 数学点均无」。工作簿重生成后两行均显示 **0 点**。
+- 2026-11-07：**闸门全绿**：`validate.py` PASSED（严格课标模式）、`verify_questions.py` PASSED（auto_verified 30464 / mismatch 0 / unverifiable 5503）、`version_gate.py` `blocks=99 dangling=0 ext=0 below=0 dup=0`、`node tests/test_engine.js` **93 passed / 0 failed**、`build_inventory.py` `covered=1515 no_point=257 unregistered=1 blank=787`、`no_bar=0 no_full=1253 no_challenge=0` —— 与补字段前完全一致。**题量 35967、题面、难度、挂载一处未动**，本轮只补元数据字段。
+
 ## 2026-11-07（题量容量问题记档，补题执行推迟）
 
 - 2026-11-07：**新需求记档**：用户要求「一次出 3 题、10 次不重样」⇒ 30 题/点，题型受限点下限 15 题。实测**远未满足**：≥30 题仅 **46 点（1.3%）**、≥15 题 **395 点（11.3%）**，每点平均 10.26 题（basic 5.78 / standard 3.10 / challenge 1.38）。

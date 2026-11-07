@@ -21,7 +21,7 @@
 | `hideChoiceText` | 否 | 仅选择题，且为 `true`。每个选项都有 `figure` 时，页面只显示图形、不显示选项名称（名称仍留在 `text` 里，用来判分和显示参考答案）。用于「下面哪一个是长方体」这类题，避免名称直接泄题 |
 | `accept` | 否 | short（也可用于 numeric）的等价答案列表 |
 | `explanation` | 是 | 1–3 句中文解析，答题后显示 |
-| `verify` | 否 | 一个 Python 表达式字符串，用于机器核验 `answer`（见下） |
+| `verify` | 否 | 一个 Python 表达式字符串，用于机器核验 `answer`（见下）。**只对 numeric / choice 求值**；short 沿例写 `answer` 原文，不被核验 |
 | `unordered` | 否 | numeric 且多个答案顺序无关时为 `true`（如方程的两个根）；没有这个字段的多答案题按顺序比较 |
 | `fixed_from_source` | 否 | 迁移 `diagnostic_question` 时补充了条件（原题有歧义）才有，写明原因。目前 3 题：`cnm_061_q1`、`cnm_070_q1`、`cnm_253_q1` |
 
@@ -45,19 +45,26 @@
 - 按 type：numeric 5535，choice 24929，short 5496，self 7；**numeric + choice 占 84.7%**（30464 道）。
 - 按 difficulty：basic 20267，standard 10865，challenge 4835，`advanced` 0。
 - 每知识点题数：最少 4、最多 60、平均 10.26，**无 challenge 的知识点 0 个**（本轮补 305 道后全 3504 点均含 challenge）。
-- 自动核验：`verify_questions.py` 全库 **auto_verified 30464，mismatch 0**，unverifiable 5503（short 5496 + self 7）。带 `verify` 字段的题 35938 / 35967 = **99.92%**（本轮新写的 30 道 short 题里 29 道未带 verify，1 道带）。
+- 自动核验：`verify_questions.py` 全库 **auto_verified 30464，mismatch 0**，unverifiable 5503（short 5496 + self 7）。带 `verify` 字段的题 **35967 / 35967 = 100%**（2026-11-07 补齐最后 29 道 short）。**但这个 100% 不是质量指标**：脚本只对 numeric / choice 求值（`verify_questions.py:276`），short 的 `verify` 从不被核验，且全库 5496 道 short 的 verify 全部等于 `answer` 原文（纯复制，零信息），`diagnose/app.js` 也不读这个字段。真正机验过的只有 **30464 道 numeric + choice**。
 - 选择题正确选项分布：A 6266，B 6270，C 6247，D 6146（24929 道，极差 124 道 ≈ 0.5 个百分点）。3 选项 314 道、4 选项 24615 道。
 - 带配图（内联 SVG）的题 243 道。
 - 重复题：按「题干 + 选项文字 / 答案」**完全相同的组 0 组 / 多余 0 条**。
 
-### 这一轮做了什么（305 点各补 1 道 challenge，2026-11-06）
+### 这一轮做了什么（三项字段缺口补齐，2026-11-07）
+
+1. **870 个数学点补 `subject`**：全部 `cnm_*` 点此前无 `subject` 字段，靠 `gen_registry.subject_of()` 的前缀兜底才没出错（盘点曾因此误判「数学池八年级为空」）。现按其它学科的键序补 `subject:"math"`（插在 `external` 之后），并**逐点比对 `subject_of()` 结果 3504/3504 不变**。`build_inventory.py` 里两处硬编码的过期文字（总览写死「869 点无 subject」、体检写死「全部 cnm_* 均无」）改为实算。
+2. **2 个点补 `standards`**：`cnm_130`（全等三角形的常见辅助线与模型）、`cnm_192`（四边形中的折叠与动点）都是章节综合拓展点，课标没有对应条目。按 `cnm_126` 的先例挂 **`confidence:"inferred"` + `note`**（GG.57 证明格式 / GG.27 SAS；GG.43 矩形菱形正方形 / GG.60 折叠即轴对称），不冒充 exact。`STRICT_STANDARDS=1` 下正式知识点 standards 非空 **3504 / 3504 = 100%**。
+3. **29 道 short 补 `verify`**：按用户裁定照旧例写成 `answer` 原文，字段覆盖 100%。**同时订正口径**：`verify_questions.py:276` 只对 numeric / choice 求值，short 的 verify 从不被核验，全库 5496 道 short 的 verify 全部是 answer 的复制，`diagnose/app.js` 也不读它——所以「100% 带 verify」**不代表多验了 29 道**，真正机验的仍是 30464 道。
+4. **闸门全绿**：`validate.py` PASSED（`STRICT_STANDARDS=1`）、`verify_questions.py` PASSED（auto_verified 30464 / mismatch 0 / unverifiable 5503）、`version_gate.py` `blocks=99 dangling=0 ext=0 below=0 dup=0`、`node tests/test_engine.js` 93 passed / 0 failed、`build_inventory.py` 重生成（网格 covered 1515 / no_point 257、`no_bar=0 no_full=1253 no_challenge=0`，与补字段前完全一致）。**题量、题面、难度、挂载一处未动**，只补元数据字段。
+
+### 上一轮做了什么（305 点各补 1 道 challenge，2026-11-06）
 
 1. **背景**：`build_inventory.py` 的「拓展档缺口」表在挂载 302 初中语文点时列出了 305 个无 challenge 的知识点；用户裁定「每点补 1 道 challenge（+305 题）」，本轮一次性闭合。全库 challenge 档从 4530 → **4835**，题库从 35662 → **35967**。
 2. **批次构成**：8 个碎片文件走 `qgen_lint → qgen_spread → qgen_merge` 流水线 —— 初中语文 8 批（`chinese_junior_01` ~ `chinese_junior_08`，7 批各 40 + 1 批 22，共 302 题）、小学英语 1 题（`cne_p226`）、小学道法 2 题（`cnd_p153` / `cnd_p154`）。题型 275 choice + 30 short，全部 `difficulty=challenge`，`answer` 按 `qgen_spread.py` 铺平（正确选项全库 A/B/C/D 各 ≈ 1/4，本轮 305 道内 70/69/68/68）。
-3. **写作规范**：语文题题干与解析里的拉丁字母连续 3 位以上一律替换为中文标点或汉字；选项文字里的引号、反斜杠改写成「」《》；`verify` 字段必须是「正确选项文字」的 `json.dumps(ensure_ascii=False)` 字面量，机器可验证；short 题在 30 道里 29 道省略 `verify`（短答案机器核验意义有限），`cnc_j007_q5` 例外保留 verify；challenge 层级只考「写法 / 结构 / 比较 / 推断」，不再出套一层的死记题。
+3. **写作规范**：语文题题干与解析里的拉丁字母连续 3 位以上一律替换为中文标点或汉字；选项文字里的引号、反斜杠改写成「」《》；`verify` 字段必须是「正确选项文字」的 `json.dumps(ensure_ascii=False)` 字面量，机器可验证；short 题在 30 道里 29 道当时省略 `verify`（短答案机器核验意义有限），`cnc_j007_q5` 例外保留 verify（**2026-11-07 已按旧例把这 29 道补齐，见上一节**）；challenge 层级只考「写法 / 结构 / 比较 / 推断」，不再出套一层的死记题。
 4. **盲解复核**：`qgen_blind.py prepare` 出的 305 道独立盲解表拆成 7 份紧凑表（每份 40 行）供作者本人在 40 分钟窗口内独立作答，275 choice 全部作答、30 short 与 7 self 按既往口径不入盲解（short 是开放简答、self 是自评）。比对结果 `blind_mismatches.json` = **0 处不一致**（275 道全对）。诚实口径：盲解由作者本人完成，非独立第三方；且「正确项几乎总是最详实的一条」这一构造特征使盲解偏易。
 5. **闸门全绿**：`validate.py` VALIDATION PASSED、`verify_questions.py` VERIFICATION PASSED（auto_verified 30464 / mismatch 0 / unverifiable 5503）、`version_gate.py` `blocks=99 dangling=0 ext=0 below=0 dup=0`、`node tests/test_engine.js` 93 passed / 0 failed、`build_inventory.py` `no_challenge=0`。
-6. **同步修订**：CHANGELOG、本文件的「全库现状」「局限」两节均按 35967 / 99.92% verify 覆盖 / 314+24615 选项 / 243 图 重新校准；旧文里「全库 100% 带 verify」的结论已过时，实际 35938 / 35967 = 99.92%。本地提交，未推送。
+6. **同步修订**：CHANGELOG、本文件的「全库现状」「局限」两节均按 35967 / 314+24615 选项 / 243 图 重新校准；当时实测「带 verify」为 35938 / 35967 = 99.92%（**已于 2026-11-07 补齐至 100%，但该字段对 short 不被求值，见上一节第 3 条**）。本地提交，未推送。
 
 ### 上一轮做了什么（对抗审核修复 C：转义塌缩止血 + verify 重同步 + 解析字母）
 
@@ -152,7 +159,7 @@ numeric 和 choice 题可以带 `verify` 表达式，脚本在**受限环境**�
 ## 局限
 
 - **没有教师审核**；独立复核的解题者与出题者是同一模型家族，如果对某个知识点有共同的误解，这种错误两边都不会暴露。「0 处答案错误」说明没有发现分歧，不是「保证无错」。
-- 全库 **35938 / 35967 = 99.92% 带 `verify`**（本轮新增 30 道 short 里 29 道未写 verify）：numeric + choice 30464 道全部机验通过（mismatch 0），short 5496 + self 7 道只能规范化匹配或自评。**verify 覆盖不等于内容正确**——`verify` 是出题者自己写的，算法本身写错时答案与 verify 会一起错；这类残余只能靠人工抽查和独立盲解。
+- 全库 **35967 / 35967 = 100% 带 `verify`**（2026-11-07 补齐最后 29 道 short），但**只有 numeric + choice 30464 道真正被机验**（mismatch 0）：`verify_questions.py:276` 对 short / self 一律不求值，且 5496 道 short 的 `verify` 全部等于 `answer` 原文，是零信息的复制，`diagnose/app.js` 也不读这个字段。**verify 覆盖既不等于机验覆盖，更不等于内容正确**——`verify` 是出题者自己写的，算法本身写错时答案与 verify 会一起错；这类残余只能靠人工抽查和独立盲解。
 - 题干纯文字，不能画图：几何题用文字描述条件，没有图形题、作图题、证明题（证明思路类用 choice 或 `self`）。
 - **选择题干扰项**只对应「典型错误」的猜测，没有真实学生数据校准；难度标注（basic / standard / challenge）是出题者的主观判断，同一难度内也没有区分度数据。
 - 每个知识点 4–60 题（平均 10.26）：正好 4 题的点有 279 个，重测几次后仍会重复。**订正（2026-11-07）**：此前这里写「诊断工具优先出没出过的题，出完才重复」，不准确——`diagnose/engine.js:237-278` 是**难度优先于「没出过」**，避让只在同难度档内生效。全对路径每轮吃 1 standard + 2 challenge，所以不重样轮次＝`min(standard, challenge//2)`；实测 **≥3 轮的知识点 0 个**，2544 个点只有 1 道 challenge，第 2 次测评必重复，补 basic 无效。按用户新口径（3 题/次 × 10 次 = 30 题/点，受限点 15 题）现在**远未满足**：≥30 题仅 46 点、≥15 题 395 点。完整问题记档、缺口量化与推迟中的解决方案见 [question-capacity-plan.md](question-capacity-plan.md)，数字复跑 `scripts/capacity_gap.py`。
