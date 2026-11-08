@@ -2,10 +2,15 @@
 
 - 记档日期：2026-11-07
 - 数据快照：`data/questions.json` 35967 题 · `data/topics.json` 3504 点（与 `reports/三维盘点_教材版本x学科x年级.xlsx` 2026-11-06 快照同源）
+- **口径已分裂（2026-11-08，读前必看）**：本文档全部数字是**家长端 `diagnose/` 口径**——confirm=3、全题型、40 题/点。孩子端 `/play/` 的设计规格已定案为 **confirm 开放 5、只派 choice + numeric、60 题/点**，那是另一套数，**不能引用本文的 106,749 / 176,829**。孩子端基线复跑 `scripts/play_capacity.py`，规格见 [superpowers/specs/2026-11-08-child-play-ui-design.md](superpowers/specs/2026-11-08-child-play-ui-design.md)。
+- **快照已过期（2026-11-08）**：错挂疑点摘除 826 道、回捞误报 37 道、补 2 道闸门题后，题库为 **35143 题**（不是 35967）。本文下方表格仍是 35967 的历史快照，**复工时必须先复跑 `capacity_gap.py` 刷新**，不要手抄。孩子端当前实测缺口 **181351** 道（basic 20225 / standard 25502 / challenge 135624），终态 210240 题。
 - 状态：**问题与方案已定，补题执行推迟**。用户裁定：体量过大，等 UI 与应用逻辑搞清楚后再来完善。本文档是复工时的唯一入口。
 - 复算命令（所有数字可复跑，勿手抄）：
   ```bash
+  # 家长端 diagnose/：confirm=3、全题型
   PYTHONIOENCODING=utf-8 python scripts/capacity_gap.py --out _scratch/capacity_gap.txt --json _scratch/capacity_rows.json
+  # 孩子端 /play/：confirm=5、只算 choice+numeric
+  PYTHONIOENCODING=utf-8 python scripts/play_capacity.py --confirm 5 --out _scratch/play_capacity.txt --json _scratch/play_capacity_rows.json
   ```
 
 ## 一、需求原话与推导
