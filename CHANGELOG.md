@@ -1,5 +1,30 @@
 # 变更日志
 
+## 2026-11-09 — 孩子端 /play/ 自动派题 UI + 题库分片
+
+- **新增 `/play/`**：系统按教材顺序自动派 5 个知识点，只出 choice / numeric，四屏（首页 / 答题 / 反馈 / 完成），
+  触摸目标 ≥64px，无导航栏、无广告 banner、无倒计时、不显示诊断术语。引擎 `diagnose/engine.js` **一行未改**。
+- **档案扩展**：`subjects[学科] = { edition, volume, confirm }`，confirm 开放 2 / 3 / 5（默认 3）。
+  备份 `version` 升 2，version 1 仍可导入；旧档案无 `subjects` 时孩子端出「请家长先设置教材」卡片。
+- **数据分片**：`scripts/build_bank_shards.py` 产出 `data/bank/` 共 225 个文件（8 学科骨架 + 117 册题库 + 99 版本×学科顺序表 + manifest），
+  全部进 git，静态托管直接可用。真源四文件只读不写。
+- **懒加载**：骨架按学科整取，题库按册懒取。3504 个点全部有 `diagnostic_question`，`E.buildGraph` 会给未加载册的点塞
+  `type:'legacy'` 兜底题、`isTestable` 恒真，所以钩子拦的是 `nextItem` 的**返回值**而不是「bank 是否非空」——
+  否则孩子会被派到兜底题。循环用「已取册集合 / 已确认无可出题点集合只增不减」保证终止，不用固定轮次上限（先修闭包实测最多跨 20 册）。
+- **家长诊断页**：`loadData()` 改走同一套分片，整包 `data/questions.json`（compact 16.95 MB）不再下载，
+  单学科最大 3.84 MB。按学科整取全部册而不是按选择器挑册——`loadData` 只在初始化跑一次，选择器变化不重载数据。
+  其余逻辑、整章浏览、筛查模式一行未动。
+- **实测数字**（2026-11-09，`scripts/shard_budget.py` 与浏览器实测）：
+  分片 117 册、顺序表 99 个、buildId `56df0b21e47f`。
+  骨架最大 **chinese 900.9 KB（gzip 162.2 KB）**；最大册分片 **physics 必修一 360.3 KB / gzip 61.2 KB**；
+  单学科首屏（manifest + 骨架 + 顺序表 + 最坏册）math 七上 **合计 1.11 MB / gzip 0.20 MB**；
+  孩子端首屏（首页→第一题）浏览器 390×844 实测 **1.72 MB**（未压缩）。
+  先修闭包 `scripts/prereq_closure.py`：整册闭包最多 **21 册 / 795 点**、chinese 九下 **18 册 / 1599 点**、
+  5 目标闭包中位 **7 册 / 57 点**（扩池后数字，spec §2 的 17 册/751 点与 9 册/134 点为扩池前旧快照）。
+- **测试**：新增 `test_bank_shards.js` / `test_play_data.js` / `test_play.js` / `test_diagnose_load.js` / `test_play_browser.js`（390×844 实测黄金路径 + 全部边界）。
+  `tests/test_children_browser.js` 补上 Windows Chrome 候选路径（此前本机根本跑不起来）。
+- **离线**：`sw.js` v5 → v6，SHELL 加 play/ 与两个新 assets，DATA 加 manifest。`data/questions.json` 保留（home.js / explore 仍在用）。
+
 ## 2026-11-08（错挂疑点摘除 826 + 回捞误报 37 + 补 2 道闸门题，题库 35967 → 35143）
 
 - 2026-11-08：**前提订正——863 是 n-gram 疑点，不是已证实的错题**。用户要求「把 863 道错题先删掉，等接下来一起补」，执行前先把这个前提说清；用户裁定「全删，但存证据待后续恢复」。筛查固化为 `scripts/mismount_review.py`（2–3 gram、词表取 name/title/description/summary/chapter、只看 `_q11+`、同学科候选、`own ≤ 2 且 best ≥ own+6`），复跑 **863 / 7430**，与 `_scratch` 旧值一致。

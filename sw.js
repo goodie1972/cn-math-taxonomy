@@ -3,7 +3,7 @@
  * 改了 SHELL 或 DATA 列表、或数据结构变了，就把 VERSION 加一。 */
 'use strict';
 
-var VERSION = 'v5';
+var VERSION = 'v6';
 var CACHE = 'cnm-pwa-' + VERSION;
 var SCOPE = self.registration.scope;
 
@@ -22,12 +22,19 @@ var SHELL = [
   'children/children.css',
   'children/page.js',
   'children/history.js',
+  'play/',
+  'play/app.js',
+  'play/dispatch.js',
+  'play/session.js',
+  'play/style.css',
   'assets/site.css',
   'assets/explore.css',
   'assets/home.js',
   'assets/stats-config.js',
   'assets/stats.js',
   'assets/children.js',
+  'assets/play-data.js',
+  'assets/figure.js',
   'assets/blindspots.js',
   'assets/pwa.js',
   'assets/pwa.css',
@@ -45,8 +52,11 @@ var DATA = [
   'data/topics.json',
   'data/dependencies.json',
   'data/cn-curriculum-standards.json',
+  // questions.json 仍被 assets/home.js 与 explore/app.js 整包使用；diagnose 与 play 已改走 data/bank/ 分片。
+  // 分片本身不在 DATA 里预缓存：117 册全预取会把安装流量放大，运行时由 staleWhileRevalidate 按需缓存。
   'data/questions.json',
-  'data/id-aliases.json'
+  'data/id-aliases.json',
+  'data/bank/manifest.json'
 ];
 
 function abs(path) { return new URL(path, SCOPE).href; }

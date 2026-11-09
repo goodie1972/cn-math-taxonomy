@@ -109,3 +109,21 @@ python3 -m http.server 8000   # localhost 下 service worker 也能注册
 ```
 
 打开 http://localhost:8000/ ，DevTools → Application 里看 Manifest 和 Service Workers；勾选 Offline 后刷新，知识图谱、诊断、档案都应能打开。安卓提示要在 https（或 localhost）并满足 Chrome 的可安装条件才会触发；iOS 的引导需要用 Safari 或 iPhone UA 查看。
+
+## 孩子端 /play/ 的不重样记忆（设备级）
+
+孩子端把「已经出过的题」记在 `localStorage` 的 `cnmPlay.seen.v1.<孩子 id>` 里，按孩子分开。
+家长诊断页用的是另一个键 `cnmDiagnose.seen.v1`，两者**不合并**——合并会让家长的精细检查消耗孩子的题。
+「先跳过」的知识点记在 `cnmPlay.skipped.v1.<孩子 id>.<学科>`，排到本册末尾，本册其他点取尽后才放回。
+
+边界：
+
+- 全部保存在**当前设备的当前浏览器**里，不上传、没有账号、不做云同步。
+- 清除浏览器数据、换设备、换浏览器 → 记忆归零，题目会重新出。换设备前请在档案页「导出全部档案」，
+  但**备份只含档案与诊断记录，不含 seen / skipped**，所以不重样进度无法随备份迁移。
+- 隐私模式 / 存储被禁用 → 首页给家长提示；本次会话内引擎仍保证不重复出题，跨会话记忆失效。
+- 同一设备上两个孩子各自独立，互不消耗对方的题。
+
+离线缓存：`sw.js` 的 SHELL 含 `play/` 全部文件，DATA 含 `data/bank/manifest.json`；
+骨架与册分片在第一次访问时由 staleWhileRevalidate 缓存，之后断网可用。
+分片 URL 带 `?v=<buildId>`，真源变化 → buildId 变化 → 浏览器与 CDN 自动取新片。

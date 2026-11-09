@@ -287,9 +287,11 @@ confirm 敏感性（仅可机判、第 2 项执行后）：confirm=2 → 缺口 
 | --- | --- | --- |
 | 删 863 影响 + 摘除/恢复 | `_s183_drop_impact.py` | **已提升 → `scripts/mismount_review.py`**（2026-11-08，含 `--apply` / `--regrade` / `--restore[=verdict]`） |
 | 可机判容量 | `_s188_capacity_auto.py` | **已提升 → `scripts/play_capacity.py`**（2026-11-08，`--confirm` / `--all-types` / `--json`） |
-| 分片体积 | `_s185_shard.py` | 待第 1 项实现时提升 |
-| 先修闭包 | `_s190_closure.py` / `_s192_clo5.py` | 待第 1 项实现时提升 |
-| 骨架体积 | `_s191_skeleton.py` | 待第 1 项实现时提升 |
+| 分片体积 | `_s185_shard.py` | **已提升 → `scripts/shard_budget.py`**（改读实际产物，口径与线上一致） |
+| 先修闭包 | `_s190_closure.py` / `_s192_clo5.py` | **原临时脚本已随 `_scratch` 清理消失，按 §2 口径重写为 `scripts/prereq_closure.py`** |
+| 骨架体积 | `_s191_skeleton.py` | **已并入 `scripts/shard_budget.py`** |
+
+实现与原 spec 的 11 处偏差及理由见 `docs/superpowers/plans/2026-11-09-child-play-ui.md` 的「与 spec 的偏差与理由」。
 
 ## 11. 明确不做
 
