@@ -77,18 +77,7 @@
     if (Array.isArray(c)) { c.forEach(function (x) { append(el, x); }); return; }
     el.append(c.nodeType ? c : document.createTextNode(String(c)));
   }
-  function figureEl(svg) {
-    if (typeof svg !== 'string' || svg.indexOf('<svg') !== 0) return null;
-    if (/<\s*script|foreignObject|<\s*image\b|https?:\/\//i.test(svg.replace('xmlns="http://www.w3.org/2000/svg"', ''))) return null;
-    const wrap = h('div', { class: 'q-figure' });
-    wrap.innerHTML = svg;
-    const node = wrap.querySelector('svg');
-    if (!node) return null;
-    node.setAttribute('role', 'img');
-    node.setAttribute('aria-hidden', 'true');
-    node.setAttribute('focusable', 'false');
-    return wrap;
-  }
+  function figureEl(svg) { return window.CnmFigure ? window.CnmFigure.el(svg, 'q-figure') : null; }
   function sessionKey() {
     if (subject === 'english') return LS_SESSION_EN;
     if (subject === 'physics') return LS_SESSION_PHY;

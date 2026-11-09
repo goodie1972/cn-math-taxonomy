@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>今天练一练</title>
+<meta name="theme-color" content="#0f6e62">
+<meta name="robots" content="noindex">
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="apple-touch-icon" href="../assets/icons/apple-touch-icon.png">
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="page-play">
+<main class="play" id="root" aria-live="polite"></main>
+<script src="../diagnose/engine.js"></script>
+<script src="../assets/children.js"></script>
+<script src="../assets/figure.js"></script>
+<script src="../assets/play-data.js"></script>
+<script src="dispatch.js"></script>
+<script src="session.js"></script>
+<script src="app.js"></script>
+<script>
+/* 只注册 Service Worker，不引入 assets/pwa.js——它会往孩子端注入「添加到桌面」banner。 */
+if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost' || location.hostname === '127.0.0.1')) {
+  window.addEventListener('load', function () { navigator.serviceWorker.register('../sw.js', { scope: '../' }).catch(function () {}); });
+}
+</script>
+</body>
+</html>

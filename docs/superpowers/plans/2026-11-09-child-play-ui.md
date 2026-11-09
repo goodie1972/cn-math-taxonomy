@@ -1526,14 +1526,25 @@ async function atest(name, fn) {
     assert.deepEqual(rebuilt.answers, ctx.session.answers);
     assert.deepEqual(rebuilt.stack, ctx.session.stack);
     assert.deepEqual(rebuilt.status, ctx.session.status);
+    // 作答记录里每次答错对应的「那一题」（引擎在作答时刻 pickQuestion 得到的 qid），
+    // 与会话实际经历的题一一对应 —— 这是可复现的最小不变式。
+    const servedBeforeAnswer = asked.slice(0, ctx.session.answers.length);
+    const recordedQids = ctx.session.answers.map(a => a.qid);
+    assert.deepEqual(recordedQids, servedBeforeAnswer, '引擎对两次答错记录的确认题，必须等于会话实际经历的题');
+    // replay / createSession 都必须吃完整的 ctx.opts（含 avoid），否则挑题会漂移。
+    const rebuilt = E.replay(ctx.graph, ctx.session.targets, ctx.session.answers, ctx.opts);
+    assert.deepEqual(rebuilt.answers, ctx.session.answers);
+    assert.deepEqual(rebuilt.stack, ctx.session.stack);
+    assert.deepEqual(rebuilt.status, ctx.session.status);
     const replayed = [];
     let s2 = E.createSession(ctx.graph, ctx.session.targets, ctx.opts);
-    for (const a of ctx.session.answers) {
-      const it = E.nextItem(ctx.graph, s2);
-      if (it) replayed.push(it.question.id);
+    for (let i = 0; i < ctx.session.answers.length; i++) {
+      const cur = E.nextItem(ctx.graph, s2);
+      if (cur) replayed.push(cur.question.id);
+      const a = ctx.session.answers[i];
       s2 = E.applyAnswer(ctx.graph, s2, a.id, a.result, { text: a.text });
     }
-    assert.deepEqual(replayed, asked, '重建后必须出同样的题');
+    assert.deepEqual(replayed, servedBeforeAnswer, '重建后必须出同样的题');
   });
 
   await atest('已加载册里只有 short 的点：清空 bank 让引擎跳过，不派兜底题、不死循环', async () => {
