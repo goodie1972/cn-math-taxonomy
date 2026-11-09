@@ -22,6 +22,88 @@
   var pendingPreview = null;
   var fileRequest = 0;
   var editing = null;
+  var SUBJECT_LABEL = { math: '数学', chinese: '语文', english: '英语', physics: '物理', science: '科学', morality: '道德与法治', history: '历史', geography: '地理' };
+  var subjectRows = document.getElementById('subject-rows');
+  var bankManifest = null;
+  var subjectForm = {};
+
+  function fillOptions(sel, items, placeholder) {
+    sel.textContent = '';
+    if (placeholder) { var o = el('option', null, placeholder); o.value = ''; sel.appendChild(o); }
+    items.forEach(function (x) {
+      var o = el('option', null, x.label);
+      o.value = x.value;
+      sel.appendChild(o);
+    });
+  }
+  function buildSubjectRows() {
+    subjectRows.textContent = '';
+    subjectForm = {};
+    CC.SUBJECTS.forEach(function (s) {
+      var row = el('div', 'subject-row');
+      row.appendChild(el('span', 'subject-name', SUBJECT_LABEL[s]));
+      var ed = el('select'); ed.id = 'sub-edition-' + s; ed.setAttribute('aria-label', SUBJECT_LABEL[s] + '教材版本');
+      var vol = el('select'); vol.id = 'sub-volume-' + s; vol.setAttribute('aria-label', SUBJECT_LABEL[s] + '册次');
+      var cf = el('select'); cf.id = 'sub-confirm-' + s; cf.setAttribute('aria-label', SUBJECT_LABEL[s] + '确认题数');
+      fillOptions(ed, [], '不设置');
+      fillOptions(vol, [], '先选版本');
+      fillOptions(cf, CC.CONFIRM_CHOICES.map(function (n) { return { value: String(n), label: '连续答对 ' + n + ' 道' }; }));
+      cf.value = '3';
+      ed.addEventListener('change', function () { fillVolumes(s); });
+      row.appendChild(ed); row.appendChild(vol); row.appendChild(cf);
+      subjectRows.appendChild(row);
+      subjectForm[s] = { edition: ed, volume: vol, confirm: cf };
+    });
+  }
+  function fillEditions() {
+    CC.SUBJECTS.forEach(function (s) {
+      var eds = bankManifest ? Object.keys(bankManifest.editions).filter(function (id) {
+        return !!bankManifest.editions[id].subjects[s];
+      }).map(function (id) { return { value: id, label: bankManifest.editions[id].label }; }) : [];
+      var keep = subjectForm[s].edition.value;
+      fillOptions(subjectForm[s].edition, eds, '不设置');
+      if (eds.some(function (x) { return x.value === keep; })) subjectForm[s].edition.value = keep;
+      fillVolumes(s);
+    });
+  }
+  function fillVolumes(s) {
+    var id = subjectForm[s].edition.value;
+    var entry = id && bankManifest && bankManifest.editions[id] && bankManifest.editions[id].subjects[s];
+    var vols = entry ? entry.volumes : [];
+    var keep = subjectForm[s].volume.value;
+    fillOptions(subjectForm[s].volume, vols.map(function (v) { return { value: v, label: v }; }), vols.length ? '请选择册次' : '先选版本');
+    if (vols.indexOf(keep) >= 0) subjectForm[s].volume.value = keep;
+  }
+  function readSubjects() {
+    var out = {};
+    CC.SUBJECTS.forEach(function (s) {
+      var f = subjectForm[s];
+      if (!f.edition.value || !f.volume.value) return;
+      out[s] = { edition: f.edition.value, volume: f.volume.value, confirm: Number(f.confirm.value) };
+    });
+    return out;
+  }
+  function writeSubjects(subjects) {
+    var subs = subjects || {};
+    CC.SUBJECTS.forEach(function (s) {
+      var f = subjectForm[s], v = subs[s];
+      f.edition.value = v ? v.edition : '';
+      fillVolumes(s);
+      f.volume.value = v ? v.volume : '';
+      f.confirm.value = String(v && v.confirm ? v.confirm : 3);
+    });
+  }
+  buildSubjectRows();
+  fetch('../data/bank/manifest.json').then(function (r) {
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    return r.json();
+  }).then(function (m) {
+    bankManifest = m;
+    fillEditions();
+    if (editing) writeSubjects((CC.get(editing) || {}).subjects);
+  }).catch(function () {
+    document.getElementById('subject-note').textContent = '教材清单加载失败，请刷新页面后再设置学科教材。';
+  });
 
   function el(tag, cls, text) {
     var n = document.createElement(tag);
@@ -48,6 +130,13 @@
     back.appendChild(a);
     back.hidden = false;
   }
+  if (params.get('from') === 'play') {
+    var backPlay = document.getElementById('back');
+    var aPlay = el('a', null, '← 回到孩子端');
+    aPlay.href = '../play/' + (params.get('subject') ? '?subject=' + encodeURIComponent(params.get('subject')) : '');
+    backPlay.appendChild(aPlay);
+    backPlay.hidden = false;
+  }
 
   function showError(msg) { errBox.textContent = msg || ''; errBox.hidden = !msg; }
 
@@ -56,6 +145,7 @@
     nameIn.value = '';
     gradeSel.value = '';
     bookSel.value = CC.TEXTBOOKS[0];
+    writeSubjects({});
     formTitle.textContent = '添加孩子';
     submitBtn.textContent = '添加孩子';
     cancelBtn.hidden = true;
@@ -67,6 +157,7 @@
     nameIn.value = c.name;
     gradeSel.value = c.grade;
     bookSel.value = c.textbook;
+    writeSubjects(c.subjects);
     formTitle.textContent = '修改「' + c.name + '」的信息';
     submitBtn.textContent = '保存修改';
     cancelBtn.hidden = false;
@@ -142,7 +233,7 @@
 
   form.addEventListener('submit', function (e) {
     e.preventDefault();
-    var f = { name: nameIn.value, grade: gradeSel.value, textbook: bookSel.value };
+    var f = { name: nameIn.value, grade: gradeSel.value, textbook: bookSel.value, subjects: readSubjects() };
     var res = editing ? CC.update(editing, f) : CC.add(f);
     if (!res.ok) { showError(res.error); return; }
     if (!editing && window.cnmTrack) window.cnmTrack('child_added');

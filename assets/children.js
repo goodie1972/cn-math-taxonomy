@@ -9,6 +9,10 @@
   var MAX_BACKUP_BYTES = 10 * 1024 * 1024;
   var GRADES = ['一年级', '二年级', '三年级', '四年级', '五年级', '六年级', '七年级', '八年级', '九年级', '高一', '高二', '高三'];
   var TEXTBOOKS = ['人教版', '北师大版', '苏教版', '沪教版', '外研版', '译林版', '其他'];
+  var SUBJECTS = ['math', 'chinese', 'english', 'physics', 'science', 'morality', 'history', 'geography'];
+  // 与 diagnose/engine.js 的 CONFIRM_CHOICES 同值；档案页不加载引擎，由 tests/test_children.js 锁住一致性。
+  var CONFIRM_CHOICES = [2, 3, 5];
+  var MAX_VOLUME_LEN = 16;
 
   function read(k, fallback) {
     try { var v = JSON.parse(localStorage.getItem(k)); return v == null ? fallback : v; } catch (e) { return fallback; }
@@ -39,11 +43,26 @@
     return write(KEY, s);
   }
 
+  function cleanSubjects(raw) {
+    var out = {};
+    if (!raw || typeof raw !== 'object' || Array.isArray(raw)) return out;
+    SUBJECTS.forEach(function (s) {
+      if (!Object.prototype.hasOwnProperty.call(raw, s)) return;
+      var v = raw[s];
+      if (!v || typeof v !== 'object' || Array.isArray(v)) return;
+      var edition = typeof v.edition === 'string' ? v.edition.trim() : '';
+      var volume = typeof v.volume === 'string' ? v.volume.trim() : '';
+      if (!edition || !volume || volume.length > MAX_VOLUME_LEN) return;
+      var c = Math.floor(Number(v.confirm));
+      out[s] = { edition: edition, volume: volume, confirm: CONFIRM_CHOICES.indexOf(c) >= 0 ? c : 3 };
+    });
+    return out;
+  }
   function clean(f) {
     var name = String(f && f.name || '').replace(/\s+/g, ' ').trim();
     var grade = GRADES.indexOf(f && f.grade) >= 0 ? f.grade : '';
     var textbook = TEXTBOOKS.indexOf(f && f.textbook) >= 0 ? f.textbook : TEXTBOOKS[0];
-    return { name: name, grade: grade, textbook: textbook };
+    return { name: name, grade: grade, textbook: textbook, subjects: cleanSubjects(f && f.subjects) };
   }
   function check(s, f, selfId) {
     if (!f.name) return '请填写孩子的昵称。';
@@ -60,7 +79,7 @@
     if (s.children.length >= MAX_CHILDREN) return { ok: false, error: '最多可以建 ' + MAX_CHILDREN + ' 个孩子。' };
     var err = check(s, f, null);
     if (err) return { ok: false, error: err };
-    var child = { id: newId(), name: f.name, grade: f.grade, textbook: f.textbook, createdAt: new Date().toISOString() };
+    var child = { id: newId(), name: f.name, grade: f.grade, textbook: f.textbook, subjects: f.subjects, createdAt: new Date().toISOString() };
     s.children.push(child);
     if (!s.current) s.current = child.id;
     if (!write(KEY, s)) return { ok: false, error: '浏览器不允许保存数据（可能是隐私模式），档案无法保存。' };
@@ -76,6 +95,20 @@
     s.children[i] = Object.assign({}, s.children[i], f);
     write(KEY, s);
     return { ok: true, child: s.children[i] };
+  }
+  /* 册末衔接回写：只改一个学科的册次，不走 clean()，避免表单字段不全时抹掉已有设置。 */
+  function setVolume(childId, subject, volume) {
+    if (SUBJECTS.indexOf(subject) < 0 || typeof volume !== 'string' || !volume.trim() || volume.length > MAX_VOLUME_LEN) return false;
+    var s = state();
+    var i = s.children.map(function (c) { return c.id; }).indexOf(childId);
+    if (i < 0) return false;
+    var c = s.children[i];
+    var subs = c.subjects || {};
+    if (!Object.prototype.hasOwnProperty.call(subs, subject)) return false;
+    var next = Object.assign({}, subs);
+    next[subject] = Object.assign({}, subs[subject], { volume: volume });
+    s.children[i] = Object.assign({}, c, { subjects: next });
+    return write(KEY, s);
   }
   function remove(id) {
     var s = state();
@@ -168,7 +201,7 @@
     if (!profiles.children.length) throw new Error('还没有可导出的孩子档案。');
     return {
       format: 'cn-math-taxonomy.children',
-      version: 1,
+      version: 2,
       exportedAt: new Date().toISOString(),
       profiles: profiles,
       records: history
@@ -202,6 +235,16 @@
           GRADES.indexOf(c.grade) < 0 || TEXTBOOKS.indexOf(c.textbook) < 0 || !validDate(c.createdAt)) {
         throw new Error('孩子资料不完整、ID 重复，或年级和教材版本不正确。');
       }
+      if (own(c, 'subjects')) {
+        if (!isObject(c.subjects)) throw new Error('孩子的学科教材设置不正确。');
+        Object.keys(c.subjects).forEach(function (s) {
+          var v = c.subjects[s];
+          if (SUBJECTS.indexOf(s) < 0 || !isObject(v) ||
+              typeof v.edition !== 'string' || !validId(v.edition) ||
+              typeof v.volume !== 'string' || !v.volume.trim() || v.volume.length > MAX_VOLUME_LEN ||
+              CONFIRM_CHOICES.indexOf(v.confirm) < 0) throw new Error('孩子的学科教材设置不正确。');
+        });
+      }
       ids.add(c.id);
     });
     if (profiles.current !== null && !ids.has(profiles.current)) throw new Error('当前孩子不在备份档案中。');
@@ -230,7 +273,7 @@
   }
   function checkBackup(backup) {
     if (!isObject(backup) || backup.format !== 'cn-math-taxonomy.children') throw new Error('请选择本站导出的档案备份文件。');
-    if (backup.version !== 1) throw new Error('暂不支持这个备份版本。');
+    if (backup.version !== 1 && backup.version !== 2) throw new Error('暂不支持这个备份版本。');
     if (!validDate(backup.exportedAt)) throw new Error('备份导出时间不正确。');
     checkArchive(backup.profiles, backup.records, false);
     checkSafeKeys(backup);
@@ -326,9 +369,9 @@
   }
 
   window.CnmChildren = {
-    GRADES: GRADES, TEXTBOOKS: TEXTBOOKS, MAX_CHILDREN: MAX_CHILDREN,
+    GRADES: GRADES, TEXTBOOKS: TEXTBOOKS, SUBJECTS: SUBJECTS, CONFIRM_CHOICES: CONFIRM_CHOICES.slice(), MAX_CHILDREN: MAX_CHILDREN,
     list: list, get: get, current: current, setCurrent: setCurrent,
-    add: add, update: update, remove: remove,
+    add: add, update: update, remove: remove, setVolume: setVolume,
     recordsOf: recordsOf, saveRecord: saveRecord, hasRecord: hasRecord, moveRecord: moveRecord, removeRecord: removeRecord,
     latestStatus: latestStatus, exportBackup: exportBackup,
     MAX_BACKUP_BYTES: MAX_BACKUP_BYTES, parseBackup: parseBackup, previewImport: previewImport, importBackup: importBackup

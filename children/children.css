@@ -94,3 +94,9 @@ main.kids { width: min(760px, 100%); margin: 0 auto; padding: 20px 16px 56px; }
 .wk-chapter { margin: 14px 0 18px; }
 .wk-chapter-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 12px; margin-bottom: 4px; }
 .wk-chapter-title { margin: 0; font-size: 1.02rem; }
+
+.kid-subjects { border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 10px 12px; margin: 12px 0; }
+.kid-subjects legend { font-weight: 600; padding: 0 4px; }
+.subject-row { display: grid; grid-template-columns: 5.5em 1fr 1fr 1fr; gap: 6px; align-items: center; margin: 6px 0; }
+.subject-name { font-size: 0.95em; }
+@media (max-width: 700px) { .subject-row { grid-template-columns: 1fr 1fr; } .subject-name { grid-column: 1 / -1; } }

@@ -73,6 +73,12 @@
       <label for="f-book">教材版本</label>
       <select id="f-book"></select>
       <p class="muted small" id="book-note">图谱的知识点和章节按人教版编排。选其他版本也能用，章节名称可能和手上的教材略有不同。</p>
+      <fieldset class="kid-subjects" id="subject-settings">
+        <legend>学科教材（孩子端自动派题用）</legend>
+        <p class="muted small">不设置的学科，孩子端会提示「请家长先设置教材」。年级和上面的教材版本照旧保留，这里选的是精确版本与册次。</p>
+        <div id="subject-rows"></div>
+        <p class="muted small" id="subject-note">确认题数：连续答对几道才算「学会」。选 5 更稳，但每个知识点要练更多题。</p>
+      </fieldset>
       <p class="err" id="f-error" role="alert" hidden></p>
       <div class="form-actions">
         <button type="submit" class="primary" id="f-submit">添加孩子</button>

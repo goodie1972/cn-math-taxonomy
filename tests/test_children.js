@@ -63,7 +63,7 @@ test('导出包含全部孩子、当前孩子和四学科完整历史，并带�
   const before = Date.now();
   const backup = exported(api);
   assert.equal(backup.format, 'cn-math-taxonomy.children');
-  assert.equal(backup.version, 1);
+  assert.equal(backup.version, 2);
   assert.ok(Date.parse(backup.exportedAt) >= before && Date.parse(backup.exportedAt) <= Date.now());
   assert.deepStrictEqual(backup.profiles, profiles);
   assert.deepStrictEqual(backup.records, records);
@@ -345,7 +345,7 @@ test('回滚也失败时明确提示恢复失败，不报告成功或数据未�
 test('拒绝错误文件、未知版本、重复 ID 和无归属记录', () => {
   const cases = [
     data => { data.format = 'diagnosis'; },
-    data => { data.version = 2; },
+    data => { data.version = 3; },
     data => { data.profiles.v = 2; },
     data => { data.exportedAt = 'bad'; },
     data => { data.profiles.children[1].id = data.profiles.children[0].id; },
@@ -407,6 +407,96 @@ test('地理学科的诊断记录可以备份和恢复', () => {
   const { api, storage } = load();
   importInto(api, api.parseBackup(JSON.stringify(data)));
   assert.ok(stored(storage, RECORD_KEY)['child-b'].some((r) => r.subject === 'geography'));
+});
+
+test('CONFIRM_CHOICES 与引擎的取值集合逐元素相等（两处各写一份，靠这条防漂移）', () => {
+  const E = require('../diagnose/engine.js');
+  const { api } = load();
+  // 两边数组来自不同 realm（vm 上下文 vs 主 realm），deepStrictEqual 会因 prototype 不同误报，
+  // 所以按 JSON 值比较。
+  assert.strictEqual(JSON.stringify(api.CONFIRM_CHOICES), JSON.stringify(E.CONFIRM_CHOICES));
+  assert.strictEqual(JSON.stringify(api.SUBJECTS), JSON.stringify(['math', 'chinese', 'english', 'physics', 'science', 'morality', 'history', 'geography']));
+});
+
+test('add / update 保存 subjects，非法学科与非法 confirm 被丢弃或夹回默认', () => {
+  const { api } = load();
+  const subjects = {
+    math: { edition: 'cn_renjiao', volume: '三上', confirm: 5 },
+    chinese: { edition: 'cn_tongbian', volume: '七年级上册', confirm: 9 },
+    english: { edition: '', volume: '三上', confirm: 3 },
+    physics: { edition: 'cn_renjiao', volume: '', confirm: 3 },
+    不存在的学科: { edition: 'cn_renjiao', volume: '三上', confirm: 3 },
+    __proto__: { edition: 'x', volume: 'y', confirm: 3 }
+  };
+  const added = api.add({ name: '小满', grade: '三年级', textbook: '人教版', subjects });
+  assert.equal(added.ok, true);
+  // 档案对象在 vm realm 生成，与主 realm 字面量 deepStrictEqual 会因 prototype 不同误报，按 JSON 值比较。
+  assert.strictEqual(JSON.stringify(added.child.subjects), JSON.stringify({
+    math: { edition: 'cn_renjiao', volume: '三上', confirm: 5 },
+    chinese: { edition: 'cn_tongbian', volume: '七年级上册', confirm: 3 }
+  }));
+  assert.equal({}.polluted, undefined);
+  const up = api.update(added.child.id, { name: '小满', grade: '四年级', textbook: '人教版', subjects: { math: { edition: 'cn_beishida', volume: '四上', confirm: 2 } } });
+  assert.equal(up.ok, true);
+  assert.strictEqual(JSON.stringify(up.child.subjects), JSON.stringify({ math: { edition: 'cn_beishida', volume: '四上', confirm: 2 } }));
+  assert.equal(up.child.grade, '四年级');
+});
+
+test('旧档案没有 subjects 也能读、能导出、能校验', () => {
+  const { api } = load(fixture());
+  assert.equal(api.current().subjects, undefined);
+  assert.equal(exported(api).version, 2);
+  assert.deepStrictEqual(exported(api).profiles, profiles);
+});
+
+test('setVolume 只改当前学科的册，不动其他学科和其他字段', () => {
+  const { api } = load();
+  const c = api.add({ name: '小满', grade: '三年级', textbook: '人教版', subjects: {
+    math: { edition: 'cn_renjiao', volume: '三上', confirm: 5 },
+    chinese: { edition: 'cn_tongbian', volume: '三上', confirm: 3 }
+  } }).child;
+  assert.equal(api.setVolume(c.id, 'math', '三下'), true);
+  assert.strictEqual(JSON.stringify(api.get(c.id).subjects.math), JSON.stringify({ edition: 'cn_renjiao', volume: '三下', confirm: 5 }));
+  assert.strictEqual(JSON.stringify(api.get(c.id).subjects.chinese), JSON.stringify({ edition: 'cn_tongbian', volume: '三上', confirm: 3 }));
+  assert.equal(api.get(c.id).grade, '三年级');
+  assert.equal(api.setVolume(c.id, 'english', '三上'), false);
+  assert.equal(api.setVolume(c.id, 'math', ''), false);
+  assert.equal(api.setVolume('不存在', 'math', '三下'), false);
+});
+
+test('version 1 备份仍可导入，version 3 被拒', () => {
+  const { api } = load(fixture());
+  const v1 = exported(api);
+  v1.version = 1;
+  delete v1.profiles.children[0].subjects;
+  assert.equal(api.parseBackup(JSON.stringify(v1)).version, 1);
+  const { api: empty } = load();
+  const preview = empty.previewImport(JSON.parse(JSON.stringify(v1)));
+  assert.equal(preview.addedChildren, 2);
+  empty.importBackup(JSON.parse(JSON.stringify(v1)), preview.token);
+  assert.equal(empty.list().length, 2);
+  const bad = exported(api);
+  bad.version = 3;
+  assert.throws(() => api.parseBackup(JSON.stringify(bad)), /暂不支持这个备份版本/);
+});
+
+test('备份里的 subjects 形状非法时整份拒绝，且不写存储', () => {
+  const cases = [
+    c => { c.subjects = 'wrong'; },
+    c => { c.subjects = { math: { edition: 'cn_renjiao', volume: '三上', confirm: 4 } }; },
+    c => { c.subjects = { math: { edition: '', volume: '三上', confirm: 3 } }; },
+    c => { c.subjects = { math: { edition: 'cn_renjiao', volume: '', confirm: 3 } }; },
+    c => { c.subjects = { math: { edition: 'cn_renjiao', volume: '三上'.repeat(20), confirm: 3 } }; },
+    c => { c.subjects = { 不存在的学科: { edition: 'cn_renjiao', volume: '三上', confirm: 3 } }; },
+    c => { c.subjects = { math: null }; }
+  ];
+  for (const mutate of cases) {
+    const { api, writes } = load(fixture());
+    const data = backup();
+    mutate(data.profiles.children[0]);
+    assert.throws(() => api.parseBackup(JSON.stringify(data)));
+    assert.deepStrictEqual(writes, []);
+  }
 });
 
 console.log('\n' + passed + ' passed, 0 failed');

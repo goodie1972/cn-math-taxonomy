@@ -857,7 +857,9 @@ git commit -m "feat(play): 分片加载器（骨架整取 + 册懒取 + legacy �
 test('CONFIRM_CHOICES 与引擎的取值集合逐元素相等（两处各写一份，靠这条防漂移）', () => {
   const E = require('../diagnose/engine.js');
   const { api } = load();
-  assert.deepStrictEqual(api.CONFIRM_CHOICES, E.CONFIRM_CHOICES);
+  // 两边数组来自不同 realm（vm 上下文 vs 主 realm），deepStrictEqual 会因 prototype 不同误报，
+  // 所以按 JSON 值比较。
+  assert.strictEqual(JSON.stringify(api.CONFIRM_CHOICES), JSON.stringify(E.CONFIRM_CHOICES));
   assert.deepStrictEqual(api.SUBJECTS, ['math', 'chinese', 'english', 'physics', 'science', 'morality', 'history', 'geography']);
 });
 

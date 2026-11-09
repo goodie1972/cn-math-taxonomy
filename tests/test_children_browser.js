@@ -56,7 +56,12 @@ const server = http.createServer((req, res) => {
 let chrome, source, target, browser;
 (async () => {
   await new Promise((resolve, reject) => { server.once('error', reject); server.listen(0, '127.0.0.1', resolve); });
-  const chromePath = [process.env.CHROME, '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', '/usr/bin/google-chrome', '/usr/bin/chromium', '/usr/bin/chromium-browser'].find(p => p && fs.existsSync(p));
+  const chromePath = [process.env.CHROME,
+    'C:/Program Files/Google/Chrome/Application/chrome.exe',
+    'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe',
+    (process.env.LOCALAPPDATA || '') + '/Google/Chrome/Application/chrome.exe',
+    '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', '/usr/bin/google-chrome', '/usr/bin/chromium', '/usr/bin/chromium-browser'
+  ].find(p => p && fs.existsSync(p));
   if (!chromePath) throw new Error('找不到 Chrome/Chromium，请设置 CHROME 环境变量');
   chrome = spawn(chromePath, [
     '--headless=new', '--no-sandbox', '--disable-gpu', '--no-first-run', '--no-default-browser-check',
@@ -195,7 +200,7 @@ let chrome, source, target, browser;
   assert.ok(await target.eval('document.getElementById("import-error").textContent.includes("原有档案和记录未改变")'));
   assert.deepStrictEqual(await snapshot(target),merged);
   await target.eval('Storage.prototype.setItem=window.__originalSet');
-  for(const [name,text] of [['broken.json','{broken'],['version.json',JSON.stringify({...backup,version:2})],['large.json',' '.repeat(10*1024*1024+1)]]){
+  for(const [name,text] of [['broken.json','{broken'],['version.json',JSON.stringify({...backup,version:3})],['large.json',' '.repeat(10*1024*1024+1)]]){
     const bad=path.join(out,name); fs.writeFileSync(bad,text); await choose(target,bad);
     await until(()=>target.eval('!document.getElementById("import-error").hidden'),'invalid file error');
     assert.deepStrictEqual(await snapshot(target),merged);
