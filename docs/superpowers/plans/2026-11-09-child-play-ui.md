@@ -567,7 +567,9 @@ function disk(calls, missing) {
     return JSON.parse(fs.readFileSync(path.join(ROOT, rel), 'utf8'));
   };
 }
-const make = (calls, missing) => PD.create({ base: '', fetchJson: disk(calls, missing) });
+// manifest 里的 file 字段相对 data/bank/，所以 base 必须带上这一段，
+// 注入的磁盘 fetch 才能用 path.join(ROOT, rel) 命中真实文件。
+const make = (calls, missing) => PD.create({ base: 'data/bank/', fetchJson: disk(calls, missing) });
 
 (async () => {
   await atest('manifest / 骨架 / 分片 / 顺序表各自只取一次，并发共享同一个请求', async () => {
@@ -665,9 +667,10 @@ const make = (calls, missing) => PD.create({ base: '', fetchJson: disk(calls, mi
   await atest('失败的请求不被缓存，重试会重新取', async () => {
     const calls = [];
     let fail = true;
-    const d = PD.create({ base: '', fetchJson: async url => {
+    const d = PD.create({ base: 'data/bank/', fetchJson: async url => {
       calls.push(url);
-      if (fail) throw new Error(url + ' → HTTP 500');
+      // 只让骨架失败：manifest 必须先成功，否则测不到「失败后重试」这条路径。
+      if (fail && url.indexOf('graph/math.json') >= 0) throw new Error(url + ' → HTTP 500');
       return JSON.parse(fs.readFileSync(path.join(ROOT, url.split('?')[0]), 'utf8'));
     } });
     await d.loadManifest();
@@ -675,7 +678,7 @@ const make = (calls, missing) => PD.create({ base: '', fetchJson: disk(calls, mi
     fail = false;
     const g = await d.loadGraph('math');
     assert.ok(g.topics.length > 0);
-    assert.equal(calls.filter(u => u.indexOf('graph/math.json') === 0).length, 2);
+    assert.equal(calls.filter(u => u.indexOf('data/bank/graph/math.json') === 0).length, 2);
   });
 
   console.log('\n' + passed + ' passed, ' + failed + ' failed');
