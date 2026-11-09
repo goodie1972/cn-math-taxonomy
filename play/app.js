@@ -17,6 +17,15 @@
   function markSeen(id, qid) { if (!qid || !id) return; var v = seenList(id); if (v.indexOf(qid) < 0) { v.push(qid); lsSet(seenKey(id), v); } }
   function skipKey(id, s) { return 'cnmPlay.skipped.v1.' + id + '.' + s; }
   function skippedList(id, s) { var v = lsGet(skipKey(id, s)); return Array.isArray(v) ? v : []; }
+  function addSkipped(id, s, tid) {
+    if (!id || !tid) return;
+    var v = skippedList(id, s);
+    if (v.indexOf(tid) < 0) { v.push(tid); lsSet(skipKey(id, s), v); }
+  }
+  function probeStorage() {
+    try { localStorage.setItem('cnmPlay.probe', '1'); localStorage.removeItem('cnmPlay.probe'); return true; }
+    catch (e) { return false; }
+  }
   function newSeed() { return Math.random().toString(36).slice(2, 10); }
   function show(node) {
     if (st.timer) { clearTimeout(st.timer); st.timer = null; }
@@ -106,6 +115,17 @@
     wrap.appendChild(b);
   }
 
+  /* 跳过：引擎没有「摘掉一个目标」的接口，手改 session 会破坏 replay 确定性（plan D10）。
+   * 所以记入本册末尾队列 → 把已作答部分写进记录（被跳过的点没作答，不进任何列表）→ 回首页。
+   * 其余目标仍是 unknown，下次派题按教材顺序自然还在队列里，没有问题被丢掉。 */
+  function skipTopic() {
+    if (st.busy || !st.ctx || !st.ctx.item) return;
+    addSkipped(st.childId, st.subject, st.ctx.item.topicId);
+    saveProgress();
+    st.ctx = null;
+    renderHome();
+  }
+
   async function renderHome() {
     var child = CC.current();
     st.childId = child ? child.id : null;
@@ -113,6 +133,9 @@
     if (!child) { setupCard(box, '还没有孩子档案', '请家长先建一份档案，选好教材再开始。'); show(box); return; }
     box.appendChild(childSwitcher());
     box.appendChild(subjectTabs());
+    if (!st.storageOk) {
+      box.appendChild(el('p', 'play-warn', '这个浏览器不让保存数据（可能是隐私模式）。这次练习里不会重复出题，但关掉页面后练过哪些题就记不住了，请家长用普通窗口打开。'));
+    }
     st.cfg = (child.subjects || {})[st.subject] || null;
     if (!st.cfg) {
       setupCard(box, '请家长先设置教材', '告诉爸爸妈妈：在档案里选好「' + LABEL[st.subject] + '」的教材版本、册次和确认题数。');
@@ -187,6 +210,9 @@
       card.appendChild(input); card.appendChild(submit);
     }
     box.appendChild(card);
+    var skip = el('button', 'play-skip', '先跳过'); skip.type = 'button';
+    skip.addEventListener('click', skipTopic);
+    box.appendChild(skip);
     show(box);
     if (input) input.focus();
   }
@@ -274,6 +300,7 @@
 
   async function boot() {
     renderLoading();
+    st.storageOk = probeStorage();
     try { await PD.loadManifest(); }
     catch (e) { renderError('加载失败，请检查网络', boot); return; }
     var cur = CC.current();
@@ -283,6 +310,6 @@
     renderHome();
   }
 
-  window.__play = { state: st, boot: boot, start: start, commit: commit, retryNext: retryNext, renderHome: renderHome };
+  window.__play = { state: st, data: PD, boot: boot, start: start, commit: commit, retryNext: retryNext, renderHome: renderHome, skipTopic: skipTopic };
   boot();
 })();

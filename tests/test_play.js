@@ -288,6 +288,48 @@ async function atest(name, fn) {
     assert.equal(ctx.session.answers.length, 2, '重试不得追加作答');
   });
 
+  await atest('跳过键按 childId × subject 分开，去重追加，不与诊断页 seen 合并', async () => {
+    const store = new Map();
+    const localStorage = {
+      getItem: k => (store.has(k) ? store.get(k) : null),
+      setItem: (k, v) => store.set(k, v),
+      removeItem: k => store.delete(k)
+    };
+    function lsGet(k) { try { return JSON.parse(localStorage.getItem(k)); } catch (e) { return null; } }
+    function lsSet(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); return true; } catch (e) { return false; } }
+    const skipKey = (id, s) => 'cnmPlay.skipped.v1.' + id + '.' + s;
+    const seenKey = id => 'cnmPlay.seen.v1.' + id;
+    function addSkipped(id, s, tid) { const v = lsGet(skipKey(id, s)) || []; if (v.indexOf(tid) < 0) { v.push(tid); lsSet(skipKey(id, s), v); } }
+    addSkipped('c1', 'math', 't2'); addSkipped('c1', 'math', 't2'); addSkipped('c1', 'math', 't4');
+    addSkipped('c2', 'math', 't9'); addSkipped('c1', 'chinese', 't7');
+    assert.deepEqual(lsGet(skipKey('c1', 'math')), ['t2', 't4']);
+    assert.deepEqual(lsGet(skipKey('c2', 'math')), ['t9']);
+    assert.deepEqual(lsGet(skipKey('c1', 'chinese')), ['t7']);
+    lsSet(seenKey('c1'), ['q1']);
+    lsSet('cnmDiagnose.seen.v1', ['q2']);
+    assert.deepEqual(lsGet(seenKey('c1')), ['q1'], '孩子端 seen 独立');
+    assert.deepEqual(lsGet('cnmDiagnose.seen.v1'), ['q2'], '家长端 seen 不被合并');
+    const r = D.pickTargets({ topicIds: ['t1', 't2', 't3', 't4', 't5'], volumeOf: () => '三上', volume: '三上', status: {}, skipped: lsGet(skipKey('c1', 'math')), count: 5 });
+    assert.deepEqual(r.targets, ['t1', 't3', 't5']);
+    assert.deepEqual(r.deferred, ['t2', 't4']);
+  });
+
+  await atest('隐私模式：存储写入抛错时静默降级，会话内仍不重复', async () => {
+    const localStorage = { getItem: () => { throw new Error('denied'); }, setItem: () => { throw new Error('QuotaExceededError'); }, removeItem: () => {} };
+    function lsGet(k) { try { return JSON.parse(localStorage.getItem(k)); } catch (e) { return null; } }
+    function lsSet(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); return true; } catch (e) { return false; } }
+    assert.equal(lsGet('cnmPlay.seen.v1.c1'), null);
+    assert.equal(lsSet('cnmPlay.seen.v1.c1', ['q1']), false);
+    const topics = [mkTopic('p', '一上')];
+    const qs = [mkQ('p_q11', 'p', 'standard'), mkQ('p_q12', 'p', 'challenge'), mkQ('p_q13', 'p', 'challenge'), mkQ('p_q14', 'p', 'challenge')];
+    const data = fakeData({ p: '一上' }, { '一上': qs }, topics, []);
+    const ctx = S.create(Object.assign({ data }, opts5, { avoid: lsGet('cnmPlay.seen.v1.c1') || [] }));
+    await S.open(ctx, ['p']);
+    const asked = [];
+    while (ctx.item) { asked.push(ctx.item.question.id); await S.answer(ctx, 'correct', 'A'); }
+    assert.equal(new Set(asked).size, asked.length, '引擎的 attempts 保证会话内不重复，与存储无关');
+  });
+
   console.log('\n' + passed + ' passed, ' + failed + ' failed');
   process.exit(failed ? 1 : 0);
 })();
