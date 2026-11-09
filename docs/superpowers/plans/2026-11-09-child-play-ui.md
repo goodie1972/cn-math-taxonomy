@@ -2899,11 +2899,12 @@ async function run(subject) {
     assert.equal(D.topics.length, manifest.subjects.chinese.topics);
     assert.equal(D.graph.hasBank, true);
   });
-  await test('english：九年级全册 与 九全 归一后不产生重复分片', async () => {
+  await test('english：全部分片各取一次，无重复请求', async () => {
     const { D, calls } = await run('english');
     const shardCalls = calls.filter(u => u.includes('data/bank/questions/english/'));
-    assert.equal(new Set(shardCalls).size, shardCalls.length);
-    assert.ok(shardCalls.some(u => u.includes('九年级全册.json')));
+    assert.equal(new Set(shardCalls).size, shardCalls.length, '同一分片不重复请求');
+    const manifest = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/bank/manifest.json'), 'utf8'));
+    manifest.subjects.english.volumes.forEach(v => assert.ok(shardCalls.some(u => u.includes('data/bank/questions/english/' + v + '.json')), '缺册 ' + v));
     assert.equal(D.graph.hasBank, true);
   });
   await test('?edition= 仍被采纳，选择器逻辑不受影响', async () => {

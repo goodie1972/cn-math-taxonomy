@@ -242,31 +242,28 @@
 
   /* ------------------------------------------------------------ 数据 */
   async function loadData() {
-    const urls = ['../data/topics.json', '../data/dependencies.json', '../data/cn-curriculum-standards.json', '../data/id-aliases.json'];
+    const data = CnmPlayData.create({ base: '../data/bank/' });
+    const urls = ['../data/cn-curriculum-standards.json', '../data/id-aliases.json'];
     const rs = await Promise.all(urls.map(function (u) { return fetch(u); }));
     rs.forEach(function (r, i) { if (!r.ok) throw new Error(urls[i] + ' → HTTP ' + r.status); });
     const js = await Promise.all(rs.map(function (r) { return r.json(); }));
-    // 题库可选：缺失（404）或损坏时回退到 topics.json 的 diagnostic_question
-    let questions = null;
-    try {
-      const qr = await fetch('../data/questions.json');
-      if (qr.ok) questions = await qr.json();
-    } catch (e) { questions = null; }
-    const topics = js[0].filter(function (t) { return E.subjectOf(t) === subject; });
-    const allow = {};
-    topics.forEach(function (t) { allow[t.id] = true; });
-    const deps = js[1].filter(function (d) { return allow[d.topicId] && allow[d.prerequisiteId]; });
-    if (questions) questions = questions.filter(function (q) { return allow[q.topicId]; });
+    await data.loadManifest();
+    const skeleton = await data.loadGraph(subject);
+    // 按学科整取全部册：loadData 只在初始化跑一次，选择器变化不重载数据，
+    // 按当前选择器挑册会让之后每次切换都选到空图（plan D4）。整包 16.95 MB → 单学科最大 3.84 MB。
+    const volumes = data.volumesOf(subject);
+    for (const v of volumes) await data.loadQuestions(subject, v);
+    const topics = skeleton.topics;
+    const deps = skeleton.deps;
     const stdById = {};
-    js[2].items.forEach(function (x) { stdById[x.id] = x; });
-    const graph = E.buildGraph(topics, deps, questions);
-    // 版本/教材注册表（可选）：缺失时静默降级为空
+    js[0].items.forEach(function (x) { stdById[x.id] = x; });
+    const graph = data.buildGraphFor(subject, volumes, null);   // null = 不过滤题型，家长端仍能用 short/self
     let editions = { versions: [] };
     try {
       const er = await fetch('../data/editions/registry.json');
       if (er.ok) editions = await er.json();
     } catch (e) { editions = { versions: [] }; }
-    D = { topics: topics, deps: deps, stdById: stdById, graph: graph, tree: buildTree(topics), aliases: (js[3] && js[3].aliases) || {}, editions: editions };
+    D = { topics: topics, deps: deps, stdById: stdById, graph: graph, tree: buildTree(topics), aliases: (js[1] && js[1].aliases) || {}, editions: editions };
     const eq = new URLSearchParams(location.search).get('edition');
     if (eq && editions.versions && editions.versions.some(function (v) { return v.id === eq; })) editionSel = eq;
   }
