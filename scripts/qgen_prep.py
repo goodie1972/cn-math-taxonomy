@@ -2,7 +2,7 @@
 """把「孩子端 60 题/点」的缺口切成批次文件，供批量补题。
 
 目标口径（2026-11-11 定案）：confirm=5、只派 choice + numeric、10 次出题不重样
-=> 每个知识点 basic 10 / standard 10 / challenge 40 = 60 题。
+=> 每个知识点 basic 18 / standard 10 / challenge 12 = 40 题（满足 5:3:2 ~ 3:4:3 比例，challenge ≤ 40%）
 
 批次按学科 + 学段切，每片不超过 CHUNK 个点；每片带上该点的 description /
 mastery_criteria / 已有题干全文（不截断），让补出来的题不重复情境。
@@ -16,7 +16,7 @@ import collections
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "_scratch", "qgen", "batch")
 CHUNK = 40
-TARGET = {"basic": 10, "standard": 10, "challenge": 40}
+TARGET = {"basic": 18, "standard": 10, "challenge": 12}
 GRADE_CN = {1: "一", 2: "二", 3: "三", 4: "四", 5: "五", 6: "六", 7: "七", 8: "八", 9: "九"}
 
 

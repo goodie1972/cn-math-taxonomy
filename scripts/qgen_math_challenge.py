@@ -3,7 +3,7 @@
 
 口径：
 - confirm=5、只派 choice + numeric、10 轮不重样
-- 每个知识点 challenge 40 题 (basic 10 / standard 10 / challenge 40)
+- 每个知识点 40 题 (basic 45% / standard 25% / challenge 30%)，满足 5:3:2 ~ 3:4:3 比例
 - 类型：只给 choice 和 numeric，不给 short
 - 基于 topics.json 的 description / mastery_criteria 解析核心概念
 
@@ -28,7 +28,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "_scratch", "qgen", "batch")
 TOPNS_PATH = os.path.join(ROOT, "data", "topics.json")
 
-TARGET = {"basic": 10, "standard": 10, "challenge": 40}
+TARGET = {"basic": 18, "standard": 10, "challenge": 12}
 
 
 def classify_topic(topic: dict) -> str:
@@ -1171,9 +1171,9 @@ def create_math_batch_templates():
                     "description": t.get('description'),
                     "mastery_criteria": t.get('mastery_criteria'),
                     "need": {
-                        "basic": 10,
+                        "basic": 18,
                         "standard": 10,
-                        "challenge": 40
+                        "challenge": 12
                     }
                 })
 
@@ -1194,7 +1194,7 @@ def main():
     os.makedirs(OUT, exist_ok=True)
 
     if args.topic:
-        qs = generate_for_topic(args.topic, need_basic=10, need_standard=10, need_challenge=40)
+        qs = generate_for_topic(args.topic, need_basic=18, need_standard=10, need_challenge=12)
         out_file = os.path.join(OUT, f"{args.topic}.json")
         json.dump(qs, io.open(out_file, 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
         print(f"Written {len(qs)} questions to {out_file}")
@@ -1211,7 +1211,7 @@ def main():
         questions = []
         for t in math_topics:
             tid = t['id']
-            qs = generate_for_topic(tid, need_basic=10, need_standard=10, need_challenge=40)
+            qs = generate_for_topic(tid, need_basic=18, need_standard=10, need_challenge=12)
             questions.extend(qs)
             print(f"Generated {len(qs)} for {tid}")
         out_file = os.path.join(OUT, "math_all.json")
@@ -1220,6 +1220,7 @@ def main():
         return
 
     if args.batch:
+        # manifest.json 位于 batch/ 目录
         manifest_path = os.path.join(OUT, "manifest.json")
         if not os.path.exists(manifest_path):
             print("No manifest found. Run qgen_prep.py first.")
@@ -1230,29 +1231,42 @@ def main():
             if entry.get('subject') != 'math':
                 continue
             batch_file = entry['file']
+            # batch 文件位于 batch/ 目录，输出到 out/ 目录
             batch_path = os.path.join(OUT, batch_file)
+            output_dir = os.path.join(ROOT, "_scratch", "qgen", "out")
+            output_path = os.path.join(output_dir, batch_file)
 
-            # Read template batch file
+            # 检查是否是 topic 模板（包含 topicId 的 item）
             if not os.path.exists(batch_path):
-                print(f"No template found: {batch_file}")
+                print(f"No batch file found: {batch_path}")
                 continue
 
-            topics = json.load(io.open(TOPNS_PATH, encoding='utf-8'))
             batch_data = json.load(io.open(batch_path, encoding='utf-8'))
+            if not isinstance(batch_data, list) or len(batch_data) == 0:
+                continue
+            # 检查是否是模板文件（第一项有 need 字段）
+            if 'topicId' not in batch_data[0]:
+                print(f"Skipping {batch_file}: already contains questions")
+                continue
 
             questions = []
             for t in batch_data:
                 tid = t["topicId"]
-                need_challenge = t["need"].get("challenge", 0)
-                need_basic = t["need"].get("basic", 0)
-                need_standard = t["need"].get("standard", 0)
+                need_dict = t.get('need', {})
+                if isinstance(need_dict, dict):
+                    need_challenge = need_dict.get("challenge", 0)
+                    need_basic = need_dict.get("basic", 0)
+                    need_standard = need_dict.get("standard", 0)
+                else:
+                    continue
 
                 qs = generate_for_topic(tid, need_basic, need_standard, need_challenge)
                 questions.extend(qs)
 
             if questions:
-                json.dump(questions, io.open(batch_path, 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
-                print(f"Written {len(questions)} questions to {batch_file}")
+                os.makedirs(output_dir, exist_ok=True)
+                json.dump(questions, io.open(output_path, 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
+                print(f"Written {len(questions)} questions to {output_path}")
 
 
 if __name__ == "__main__":
