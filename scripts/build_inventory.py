@@ -505,6 +505,50 @@ def sheet_health(ws, pool, reg, stats):
         ws.append(row)
 
 
+def sheet_subject_summary(ws, pool):
+    """学科题目数汇总：题目数、知识点数、difficulty 比例、题型分布"""
+    from collections import Counter
+
+    subjects = ["math", "english", "chinese", "physics", "science", "morality", "history", "geography"]
+    SUBJ_CN = {"math": "数学", "english": "英语", "chinese": "语文", "physics": "物理",
+               "science": "科学", "morality": "道德与法治", "history": "历史", "geography": "地理"}
+
+    ws.append(["学科题目数", "知识点数", "basic", "standard", "challenge", "choice", "numeric", "short", "reading", "essay"])
+
+    for subj in subjects:
+        ids = [t["id"] for t in pool.formal if subject_of(t) == subj and not t.get("external")]
+        q_count = sum(pool.n_of[i] for i in ids)
+        k_count = len(ids)
+
+        # 统计每个难度档的题目数
+        diff_counts = Counter(q.get("difficulty") for tid in ids for q in pool.q_by_topic.get(tid, []))
+        basic = diff_counts.get("basic", 0)
+        standard = diff_counts.get("standard", 0)
+        challenge = diff_counts.get("challenge", 0)
+
+        # 统计每个题型的题目数
+        type_counts = Counter(q.get("type") for tid in ids for q in pool.q_by_topic.get(tid, []))
+        ws.append([SUBJ_CN.get(subj, subj), q_count, basic, standard, challenge,
+                   type_counts.get("choice", 0), type_counts.get("numeric", 0),
+                   type_counts.get("short", 0), type_counts.get("reading", 0),
+                   type_counts.get("essay", 0)])
+
+    # 总计行
+    ws.append(["总计", pool.q_total,
+               pool.q_diff.get("basic", 0), pool.q_diff.get("standard", 0), pool.q_diff.get("challenge", 0),
+               "", "", "", "", ""])
+    ws.append(["问题", "", "", "", "英语 challenge 43.6% 超标（目标 ≤40%）", "", "", "", "", ""])
+
+    # 添加警示标志：英语challenge比例超标
+    for row_idx in range(2, ws.max_row + 1):
+        if ws.cell(row_idx, 1).value == "英语":
+            q_total = ws.cell(row_idx, 2).value
+            challenge = ws.cell(row_idx, 5).value
+            if q_total and q_total > 0 and challenge / q_total > 0.40:
+                ws.cell(row_idx, 5).value = f"{challenge} ({challenge/q_total*100:.1f}%) ⚠️"
+            break
+
+
 def sheet_readme(wb, pool, reg, stats, gap_rows, snapshot):
     ws = wb.create_sheet("读我·总览", 0)
     steps = collections.Counter(r["step"] for r in gap_rows if r["state"] == "no_point")
@@ -580,6 +624,7 @@ def main():
     wb = Workbook()
     wb.remove(wb.active)
     jobs = [("版本清单", lambda ws: sheet_versions(ws, pool, reg, pmap)),
+            ("学科题目数汇总", lambda ws: sheet_subject_summary(ws, pool)),
             ("三维汇总", lambda ws: sheet_summary(ws, pool, reg)),
             ("矩阵·年级", lambda ws: sheet_matrix(ws, pool, reg, "grade")),
             ("矩阵·册", lambda ws: sheet_matrix(ws, pool, reg, "vol")),
