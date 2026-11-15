@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-11-15T15:39:36",
+  "source": "data/questions.json",
+  "total_questions": 89458,
+  "by_type": {
+    "choice": 37308,
+    "numeric": 35834,
+    "short": 15545,
+    "reading": 514,
+    "essay": 257
+  },
+  "format_errors": [],
+  "auto_verified": 73069,
+  "mismatch": 73,
+  "unverifiable": 16316,
+  "unverifiable_by_type": {
+    "short": 15545,
+    "reading": 514,
+    "essay": 257
+  },
+  "numeric_choice_total": 73142,
+  "numeric_choice_auto_verified_share": 0.999
+}
