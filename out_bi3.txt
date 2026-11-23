@@ -1,0 +1,5 @@
+points=3504 formal=3504 questions=143371 versions=51 blocks=99
+grid cells=2560 covered=1515 no_point=257 unregistered=1 blank=787
+gap no_point A1=0 A2=4 B=253 | sheets=19
+no_bar=0 no_full=278 no_challenge=0
+written C:\Users\Bobo\WorkBuddy\2026-11-01-10-05-32\cn-math-taxonomy\reports\三维盘点_教材版本x学科x年级.xlsx
