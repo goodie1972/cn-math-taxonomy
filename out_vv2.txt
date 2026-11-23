@@ -1,0 +1,4 @@
+题目 142859 道；numeric+choice 90328 道
+auto_verified 90328　mismatch 0　unverifiable 52531（short 52531）
+报告：data\verification_report.json
+VERIFICATION PASSED
