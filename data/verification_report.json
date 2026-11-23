@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T17:38:59",
+  "generated_at": "2026-11-23T17:46:55",
   "source": "data\\questions.json",
   "total_questions": 142859,
   "by_type": {
@@ -8,24 +8,15 @@
     "numeric": 29663
   },
   "format_errors": [],
-  "auto_verified": 90327,
-  "mismatch": 1,
+  "auto_verified": 90328,
+  "mismatch": 0,
   "unverifiable": 52531,
   "unverifiable_by_type": {
     "short": 52531
   },
   "numeric_choice_total": 90328,
   "numeric_choice_auto_verified_share": 1.0,
-  "mismatches": [
-    {
-      "id": "cns_p018_q4",
-      "type": "choice",
-      "answer": "C",
-      "verify": "\"A\"",
-      "verify_result": "'A'",
-      "detail": "verify 得 'A'，但正确选项 C 的文字是 '一个选项'"
-    }
-  ],
+  "mismatches": [],
   "unverifiable_ids": [
     "cnc_j001_q24",
     "cnc_j001_q25",
