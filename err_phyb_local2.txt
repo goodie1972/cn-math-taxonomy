@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "C:\Users\Bobo\WorkBuddy\2026-11-01-10-05-32\cn-math-taxonomy\scripts\phy_build.py", line 228, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "C:\Users\Bobo\WorkBuddy\2026-11-01-10-05-32\cn-math-taxonomy\scripts\phy_build.py", line 212, in main
+    dump("questions.json", out_qs)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Bobo\WorkBuddy\2026-11-01-10-05-32\cn-math-taxonomy\scripts\phy_build.py", line 54, in dump
+    with open(os.path.join(ROOT, "data", name), "w", encoding="utf-8") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument: 'C:\\Users\\Bobo\\WorkBuddy\\2026-11-01-10-05-32\\cn-math-taxonomy\\data\\questions.json'
