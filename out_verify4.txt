@@ -1,0 +1,4 @@
+题目 141245 道；numeric+choice 88714 道
+auto_verified 88714　mismatch 0　unverifiable 52531（essay 5210，reading 11064，self 3028，short 33229）
+报告：data\verification_report.json
+VERIFICATION PASSED

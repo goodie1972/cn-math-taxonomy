@@ -1,0 +1,3 @@
+scanned_q11plus=108948 suspects=3704 held=5 removable=3699 total=141245 after=137546
+newly_broken_pairs=0 distinct_topics=0 emptied=0
+(dry run; pass --apply to remove and merge evidence)

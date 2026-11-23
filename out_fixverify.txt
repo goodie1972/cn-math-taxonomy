@@ -1,0 +1,4 @@
+Fixed choice verify: 37260
+Fixed numeric verify: 0
+Already OK: 69306
+Saved 141245 questions to C:\Users\Bobo\WorkBuddy\2026-11-01-10-05-32\cn-math-taxonomy\data\questions.json

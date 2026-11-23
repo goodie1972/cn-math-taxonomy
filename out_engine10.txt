@@ -1,0 +1,122 @@
+小型手造图（每个知识点只有一道题——回退模式：答错即薄弱）
+  ok   祖先子图：目标 + 全部祖先（含外部节点），不含无关点
+  ok   拓扑序：每个先修都排在依赖它的点之前
+  ok   先修按 hard 优先、再 soft
+  ok   第一题问目标本身
+  ok   答对：该点及所有祖先（含外部）视为掌握并跳过
+  ok   答错：回溯先修，hard 先于 soft，深度优先
+  ok   答错后首个追问是 hard 先修，soft 排最后
+  ok   「不会」(skip) 与答错等效
+  ok   已判定的点不重复问；共享先修只问一次
+  ok   题量上限生效，剩余标为未测
+  ok   limit 默认 16，limit=1 只问目标
+  ok   根因：薄弱且先修中没有薄弱点；路径为拓扑序且不含已掌握
+  ok   多个根因：路径含根因到目标之间所有未掌握点，拓扑序
+  ok   外部（小学）节点不出题；根因的外部先修单独标出
+  ok   多目标：离目标最近的先问；答对一个即覆盖其余祖先目标
+  ok   多目标：互不相关的目标都会被问到
+  ok   直接作答的判定不会被推断覆盖
+  ok   applyAnswer 不修改入参；replay 与逐步作答一致
+  ok   路径图布局：先修在上层，边不跨回
+两题判定
+  ok   题库：isTestable 看题库；有题库时 hasBank 为 true，回退模式为 false
+  ok   confirm=1：第一题答对 → 掌握，并推断祖先掌握；只问 1 题
+  ok   默认 confirm=3：连续答对 3 题才掌握；只对 1 题不算掌握、继续出题
+  ok   confirm=3 但题库只有 2 题：答对 2 题即掌握
+  ok   confirm 非法值回退到默认 3；可选 2/3/5
+  ok   第一题错 → 再出第二题（同一知识点），此时还没有结论、不回溯
+  ok   错 + 错 → 薄弱，并向先修回溯（P1、P2 依次，再深入 R）
+  ok   错 + 对 → 不稳（shaky），且不向先修回溯
+  ok   不稳的先修若同时被别处判为薄弱，路径含它及其后代
+  ok   第一题优先 standard；答对再出 challenge；答错再出 basic
+  ok   种子固定时选题确定；不同种子能得到不同选题
+  ok   已出题避让：优先出没出过的题，全出过也不会卡住
+  ok   题量上限按“题”计：2 题一个知识点；只答错第一题就到上限 → 暂按薄弱，标为未复测
+  ok   同一知识点只有一道题时：答错直接薄弱（无第二题）
+  ok   applyAnswer 不修改入参（含 attempts）；答题记录带 qid 与用户答案
+  FAIL 判题（按题型）：choice 比字母，也接受选项文字；numeric 数值等价；short 精确匹配 + accept；self 自评
+       AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+       + actual - expected
+       
+       + 'correct'
+  ok   PRNG：mulberry32 相同种子相同序列，输出在 [0,1)
+答案规范化与判题
+  ok   规范化：全角转半角、去空格、中文标点、度
+  ok   分数与小数等价："１/２" vs "0.5"
+  ok   角度："90 度" vs "90°"
+  ok   多个答案顺序无关："-3 和 -1/2" vs "-1/2，-3"
+  ok   带变量名的答案：x=… 可省略变量名，但 x、y 不能互换
+  ok   单位：别名等价，缺省单位放行，不同单位判错
+  ok   坐标等有括号的多值答案
+  ok   无法可靠解析的答案（文字、代数式）：只在完全相同时判对，否则交给用户自评
+  ok   判题不抛异常：奇怪输入
+真实数据
+  ok   数据可加载：小学 284 + 初中 315 + 高中必修 143 + 选择性必修 128，没有外部节点；课标含第一学段
+  ok   英语：小学 197、初中 180–260、高中 220–320，不与数学连边，非起点都有先修；整册按学科分开
+  ok   真实数据：祖先集合与独立 BFS 一致（全部知识点）
+  ok   真实数据：先修子图不含外部节点，初中目标能回到小学，拓扑序合法
+  ok   旧 id 别名：cnm_ext_* 已不在图中，resolveTargets 跳到小学正式知识点
+  ok   真实数据：cnm_221（配方法）——首问目标；答错后 hard 先修在前
+  ok   真实数据：答对目标即跳过全部祖先
+  ok   真实数据：一致的学生 + 无限题量 => 薄弱集合与根因精确还原
+  ok   真实数据：题量上限（8/12/20）永远不被突破，且仍满足根因/路径定义
+  ok   真实数据：什么都不会的学生，在上限处停下，未测节点被标出
+  ok   真实数据：整章作为目标——会的学生只需问“最末端”的目标
+  ok   真实数据：replay 与 JSON 往返得到相同会话
+  ok   真实数据：路径图布局——所有边方向一致，节点不丢
+  ok   真实数据：诊断题答案能被自己的判题器接受（判对率检查）
+  ok   真实数据：章节名可解析
+题库数据
+  FAIL 题库：每个正式知识点至少 3 题；id 唯一且格式正确；外部节点无题；含 basic 与 standard
+       AssertionError [ERR_ASSERTION]: 重复 id cnp_h001_q1
+           at C:\Users\Bobo\WorkBuddy\2026-11-01-10-05-32\cn-math-taxonomy\tests\test_engine.js:990:12
+           at Array.forEach (<anonymous>)
+           at C:\Users\Bobo\WorkBuddy\2026-11-01-10-05-32\cn-math-taxonomy\tests\test_engine.js:989:13
+  ok   题库：type / difficulty 合法；必填字段非空；numeric + choice 占 60% 以上
+  ok   题库：带 figure 的题是可解析的内联 SVG，不引用外网；图形选项不把名称写进图
+  ok   题库：choice 题有 3–4 个选项、key 不重复、answer 是某个选项的 key
+  ok   题库：numeric 题的 answer 能被解析为数（整数/小数/分数/负数，多个答案用「，」分隔）
+  ok   英语题：自包含、不引用课标或上一题，答案能被判对
+  ok   物理：人教版八上 28、八下 24、九全 40，只在物理内部连边，mathLinks 指向数学，整册按学科分开
+  FAIL 高中物理：必修一 27、必修二 25、必修三 37、选必一 28、选必二 26、选必三 34，先修只连物理且不指向更晚的册，整册按学科分开
+       AssertionError [ERR_ASSERTION]: cnp_h001 缺 challenge 难度
+           at C:\Users\Bobo\WorkBuddy\2026-11-01-10-05-32\cn-math-taxonomy\tests\test_engine.js:1162:14
+           at Array.forEach (<anonymous>)
+           at C:\Users\Bobo\WorkBuddy\2026-11-01-10-05-32\cn-math-taxonomy\tests\test_engine.js:1161:40
+  FAIL 物理题：每个知识点 ≥10 题且三档难度齐全，答案都能被判对
+       AssertionError [ERR_ASSERTION]: cnp_h001 缺 challenge 难度
+           at C:\Users\Bobo\WorkBuddy\2026-11-01-10-05-32\cn-math-taxonomy\tests\test_engine.js:1179:14
+           at Array.forEach (<anonymous>)
+           at C:\Users\Bobo\WorkBuddy\2026-11-01-10-05-32\cn-math-taxonomy\tests\test_engine.js:1178:40
+  ok   选择题单字母输入：大写按编号、小写按文字、非编号字母按文字、大小写完全撞车时两种读法都放行
+  ok   百分数题：percent 题接受 50 和 50%，不接受 0.5；不带 percent 的题行为不变
+  ok   题库：q1 由 diagnostic_question 迁移（题干以原题开头，或标注了 fixed_from_source）
+  FAIL 题库：判题器接受每道题自己的参考答案（self 一律自评）
+       AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+       + actual - expected
+       
+       + [
+  ok   带题库的图：每个正式知识点可测、外部节点不可测；hasBank 为 true
+带题库的真实诊断
+  ok   小学回溯：答错初中「正数与负数」会问到小学，学习路径按年级从低到高
+  ok   带题库：一致的学生 + 无限题量 => 薄弱集合与根因精确还原；会的 confirm 题、不会的 2 题
+  ok   带题库：任何一个知识点“第一题错、第二题对” => 不稳、只问 2 题、不回溯先修、进学习路径
+  ok   带题库：混合学生（会 / 不稳 / 不会）——会的点最多 confirm 题，其余最多 2 题；状态与学生一致
+  ok   带题库：题量上限（8/16/30）按题计、永不突破；未复测的点标出
+  ok   带题库：种子固定 => 整个诊断的出题序列确定；换种子序列会变；重放一致
+  ok   带题库：重测时避开已出过的题（avoid 里的题尽量不再出）
+整年级 / 整册筛查
+  ok   gradeTargets：一年级 = 一上 + 一下，七上只含七上；写法不对返回 null
+  ok   筛查会话：范围 = 目标本身，默认题量上限 SCREEN_LIMIT；普通会话不受影响
+  ok   筛查：题量不超过上限（一年级 / 七年级 / 七上；全错、全对、混合的学生）
+  ok   筛查：全对的学生只需很少几题（答对即推断先修）；一年级默认上限内能问完
+  ok   筛查：到上限没测到的点标「未测」，且题量 = 上限
+  ok   筛查：回溯只在本范围内——薄弱点范围外的先修不被问，且列在 outOfScopePrereqs
+  ok   筛查：一致的学生、题量不限 => 薄弱集合恰好等于他不会的点（范围内）
+  ok   筛查：同一种子 => 出题序列完全相同；replay 重建一致；换种子序列会变
+  ok   按章汇总：分组正确、数量与汇总一致、薄弱章在前、可复现
+  ok   按章汇总：七上共 6 章；还没作答的会话所有点都算未测，章按教材顺序
+  ok   筛查：路径图只画有问题的点（不把整个年级都画上）
+  ok   普通整章 / 单点诊断不受影响：不带 mode 的会话仍回溯到小学
+
+88 passed, 5 failed

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\Bobo\WorkBuddy\2026-11-01-10-05-32\cn-math-taxonomy\scripts\add_figure_questions.py", line 51, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\Bobo\WorkBuddy\2026-11-01-10-05-32\cn-math-taxonomy\scripts\add_figure_questions.py", line 44, in main
+    with open(QUESTIONS_PATH, "w", encoding="utf-8") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument: 'C:\\Users\\Bobo\\WorkBuddy\\2026-11-01-10-05-32\\cn-math-taxonomy\\data\\questions.json'

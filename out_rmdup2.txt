@@ -1,0 +1,4 @@
+Total questions before: 142859
+Removed duplicates: 984
+Total after: 141875
+Saved 141875 questions

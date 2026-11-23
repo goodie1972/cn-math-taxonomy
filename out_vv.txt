@@ -1,0 +1,5 @@
+题目 142859 道；numeric+choice 90328 道
+auto_verified 90327　mismatch 1　unverifiable 52531（short 52531）
+  MISMATCH cns_p018_q4 answer='C' verify='"A"' → verify 得 'A'，但正确选项 C 的文字是 '一个选项'
+报告：data\verification_report.json
+VERIFICATION FAILED

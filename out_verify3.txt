@@ -1,0 +1,65 @@
+题目 141245 道；numeric+choice 88714 道
+auto_verified 88246　mismatch 468　unverifiable 52531（essay 5210，reading 11064，self 3028，short 33229）
+  MISMATCH cns_p101_q12 answer='18.64' verify="'18.64'" → 按顺序比较：answer 466/25 ≠ verify 18.64
+  MISMATCH cns_p180_q13 answer='37.82' verify="'37.82'" → 按顺序比较：answer 1891/50 ≠ verify 37.82
+  MISMATCH cns_p044_q10 answer='158.02' verify="'158.02'" → 按顺序比较：answer 7901/50 ≠ verify 158.02
+  MISMATCH cns_p041_q11 answer='106.44' verify="'106.44'" → 按顺序比较：answer 2661/25 ≠ verify 106.44
+  MISMATCH cns_p073_q11 answer='79.93' verify="'79.93'" → 按顺序比较：answer 7993/100 ≠ verify 79.93
+  MISMATCH cns_j074_q5 answer='8' verify="'8'" → 按顺序比较：answer 8 ≠ verify 8
+  MISMATCH cns_p171_q14 answer='85.53' verify="'85.53'" → 按顺序比较：answer 8553/100 ≠ verify 85.53
+  MISMATCH cns_j091_q5 answer='54' verify="'54'" → 按顺序比较：answer 54 ≠ verify 54
+  MISMATCH cns_p001_q15 answer='17' verify="'17'" → 按顺序比较：answer 17 ≠ verify 17
+  MISMATCH cns_j108_q5 answer='55.5' verify="'55.5'" → 按顺序比较：answer 111/2 ≠ verify 55.5
+  MISMATCH cns_p189_q14 answer='54' verify="'54'" → 按顺序比较：answer 54 ≠ verify 54
+  MISMATCH cns_j029_q5 answer='1.35' verify="'1.35'" → 按顺序比较：answer 27/20 ≠ verify 1.35
+  MISMATCH cns_j047_q5 answer='78.03' verify="'78.03'" → 按顺序比较：answer 7803/100 ≠ verify 78.03
+  MISMATCH cns_j022_q5 answer='4.51' verify="'4.51'" → 按顺序比较：answer 451/100 ≠ verify 4.51
+  MISMATCH cns_p111_q11 answer='63.89' verify="'63.89'" → 按顺序比较：answer 6389/100 ≠ verify 63.89
+  MISMATCH cns_p213_q14 answer='53.04' verify="'53.04'" → 按顺序比较：answer 1326/25 ≠ verify 53.04
+  MISMATCH cns_p100_q11 answer='71.71' verify="'71.71'" → 按顺序比较：answer 7171/100 ≠ verify 71.71
+  MISMATCH cns_p111_q12 answer='9.62' verify="'9.62'" → 按顺序比较：answer 481/50 ≠ verify 9.62
+  MISMATCH cns_j127_q5 answer='55' verify="'55'" → 按顺序比较：answer 55 ≠ verify 55
+  MISMATCH cns_j100_q5 answer='80' verify="'80'" → 按顺序比较：answer 80 ≠ verify 80
+  MISMATCH cns_p207_q14 answer='35.27' verify="'35.27'" → 按顺序比较：answer 3527/100 ≠ verify 35.27
+  MISMATCH cns_j085_q5 answer='39.85' verify="'39.85'" → 按顺序比较：answer 797/20 ≠ verify 39.85
+  MISMATCH cns_p126_q11 answer='59' verify="'59'" → 按顺序比较：answer 59 ≠ verify 59
+  MISMATCH cns_j054_q5 answer='57.92' verify="'57.92'" → 按顺序比较：answer 1448/25 ≠ verify 57.92
+  MISMATCH cns_p078_q13 answer='50' verify="'50'" → 按顺序比较：answer 50 ≠ verify 50
+  MISMATCH cns_p190_q13 answer='69.3' verify="'69.3'" → 按顺序比较：answer 693/10 ≠ verify 69.3
+  MISMATCH cns_p216_q17 answer='9.56' verify="'9.56'" → 按顺序比较：answer 239/25 ≠ verify 9.56
+  MISMATCH cns_p025_q12 answer='129' verify="'129'" → 按顺序比较：answer 129 ≠ verify 129
+  MISMATCH cns_p113_q11 answer='30.26' verify="'30.26'" → 按顺序比较：answer 1513/50 ≠ verify 30.26
+  MISMATCH cns_j007_q5 answer='86.14' verify="'86.14'" → 按顺序比较：answer 4307/50 ≠ verify 86.14
+  MISMATCH cns_p183_q13 answer='6.57' verify="'6.57'" → 按顺序比较：answer 657/100 ≠ verify 6.57
+  MISMATCH cns_p220_q16 answer='66.73' verify="'66.73'" → 按顺序比较：answer 6673/100 ≠ verify 66.73
+  MISMATCH cns_p212_q13 answer='3.99' verify="'3.99'" → 按顺序比较：answer 399/100 ≠ verify 3.99
+  MISMATCH cns_p199_q14 answer='1.54' verify="'1.54'" → 按顺序比较：answer 77/50 ≠ verify 1.54
+  MISMATCH cns_p201_q14 answer='39.2' verify="'39.2'" → 按顺序比较：answer 196/5 ≠ verify 39.2
+  MISMATCH cns_p161_q12 answer='10' verify="'10'" → 按顺序比较：answer 10 ≠ verify 10
+  MISMATCH cns_j039_q5 answer='115.38' verify="'115.38'" → 按顺序比较：answer 5769/50 ≠ verify 115.38
+  MISMATCH cns_j062_q5 answer='78' verify="'78'" → 按顺序比较：answer 78 ≠ verify 78
+  MISMATCH cns_j088_q5 answer='6.28' verify="'6.28'" → 按顺序比较：answer 157/25 ≠ verify 6.28
+  MISMATCH cns_j032_q5 answer='176.92' verify="'176.92'" → 按顺序比较：answer 4423/25 ≠ verify 176.92
+  MISMATCH cns_j032_q6 answer='99.84' verify="'99.84'" → 按顺序比较：answer 2496/25 ≠ verify 99.84
+  MISMATCH cns_p192_q12 answer='76.25' verify="'76.25'" → 按顺序比较：answer 305/4 ≠ verify 76.25
+  MISMATCH cns_j129_q5 answer='40.99' verify="'40.99'" → 按顺序比较：answer 4099/100 ≠ verify 40.99
+  MISMATCH cns_p123_q12 answer='57.33' verify="'57.33'" → 按顺序比较：answer 5733/100 ≠ verify 57.33
+  MISMATCH cns_j036_q5 answer='151.07' verify="'151.07'" → 按顺序比较：answer 15107/100 ≠ verify 151.07
+  MISMATCH cns_p071_q11 answer='74.73' verify="'74.73'" → 按顺序比较：answer 7473/100 ≠ verify 74.73
+  MISMATCH cns_p098_q11 answer='130.22' verify="'130.22'" → 按顺序比较：answer 6511/50 ≠ verify 130.22
+  MISMATCH cns_j014_q5 answer='136.93' verify="'136.93'" → 按顺序比较：answer 13693/100 ≠ verify 136.93
+  MISMATCH cns_p015_q12 answer='79.37' verify="'79.37'" → 按顺序比较：answer 7937/100 ≠ verify 79.37
+  MISMATCH cns_p123_q13 answer='42.61' verify="'42.61'" → 按顺序比较：answer 4261/100 ≠ verify 42.61
+  MISMATCH cns_j017_q5 answer='1.21' verify="'1.21'" → 按顺序比较：answer 121/100 ≠ verify 1.21
+  MISMATCH cns_j022_q6 answer='93' verify="'93'" → 按顺序比较：answer 93 ≠ verify 93
+  MISMATCH cns_p136_q13 answer='1' verify="'1'" → 按顺序比较：answer 1 ≠ verify 1
+  MISMATCH cns_p012_q14 answer='90' verify="'90'" → 按顺序比较：answer 90 ≠ verify 90
+  MISMATCH cns_j024_q5 answer='70.11' verify="'70.11'" → 按顺序比较：answer 7011/100 ≠ verify 70.11
+  MISMATCH cns_p182_q13 answer='102.94' verify="'102.94'" → 按顺序比较：answer 5147/50 ≠ verify 102.94
+  MISMATCH cns_j084_q5 answer='57.04' verify="'57.04'" → 按顺序比较：answer 1426/25 ≠ verify 57.04
+  MISMATCH cns_p103_q12 answer='1.16' verify="'1.16'" → 按顺序比较：answer 29/25 ≠ verify 1.16
+  MISMATCH cns_p039_q11 answer='2' verify="'2'" → 按顺序比较：answer 2 ≠ verify 2
+  MISMATCH cns_j020_q5 answer='101.57' verify="'101.57'" → 按顺序比较：answer 10157/100 ≠ verify 101.57
+  ……另有 408 处
+报告：data\verification_report.json
+VERIFICATION FAILED
